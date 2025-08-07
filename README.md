@@ -1,97 +1,182 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Chat App - React Native Monorepo
 
-# Getting Started
+A full-stack React Native chat application with AI-powered responses using Google Gemini 2.5 Flash Lite and Supabase for data persistence.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Architecture
 
-## Step 1: Start Metro
+- **Frontend**: React Native with TypeScript
+- **Backend**: Python FastAPI server
+- **Database**: Supabase (PostgreSQL)
+- **AI Integration**: Google Gemini 2.5 Flash Lite (via LiteLLM)
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Prerequisites
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- Node.js 18+ (for React Native)
+- Python 3.11+
+- uv (Python package manager)
+- Xcode 15+ (for iOS development)
+- CocoaPods
+- Supabase account (optional)
+- Google API key (for Gemini AI Studio)
 
-```sh
-# Using npm
-npm start
+## Setup Instructions
 
-# OR using Yarn
-yarn start
+### 1. Environment Configuration
+
+Create environment files:
+
+**Frontend (.env)**:
+```
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+BACKEND_URL=http://localhost:3001
 ```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+**Backend (backend/.env)**:
+```
+GOOGLE_API_KEY=your_google_api_key
+PORT=3001
 ```
 
-### iOS
+### 2. Supabase Setup
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+1. Create a new Supabase project at https://supabase.com
+2. Run the SQL migration to create the messages table:
+   - Go to SQL Editor in Supabase dashboard
+   - Copy contents from `supabase_setup.sql`
+   - Execute the SQL
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+### 3. Install Dependencies
 
-```sh
-bundle install
+```bash
+# Install root dependencies
+npm install
+
+# Setup Python backend
+cd backend
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+uv pip install -e .
+cd ..
+
+# Install iOS dependencies
+cd ios
+pod install
+cd ..
 ```
 
-Then, and every time you update your native dependencies, run:
+### 4. Running the Application
 
-```sh
-bundle exec pod install
+#### Start Backend Server
+```bash
+cd backend
+source .venv/bin/activate
+uvicorn app.main:app --reload --host 0.0.0.0 --port 3001
+```
+The backend will run on http://localhost:3001
+
+#### Run iOS App (Development)
+```bash
+# In a new terminal
+npx react-native run-ios
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+Or open in Xcode:
+```bash
+open ios/TempChatApp.xcworkspace
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+### 5. Building IPA for Distribution
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+To create an IPA file for distribution:
 
-## Step 3: Modify your app
+```bash
+./scripts/build-ios.sh
+```
 
-Now that you have successfully run the app, let's make changes!
+**Note**: Before building, update the following in the build script:
+- Team ID in `scripts/build-ios.sh`
+- Signing certificates in Xcode project settings
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+The IPA will be generated in `build_output/TempChatApp.ipa`
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## Project Structure
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+```
+.
+├── App.tsx                 # Main React Native entry
+├── src/                    # React Native source code
+│   ├── components/         # UI components
+│   ├── screens/           # Screen components
+│   ├── services/          # API services
+│   └── types/             # TypeScript types
+├── backend/               # Python FastAPI backend
+│   ├── app/
+│   │   └── main.py       # FastAPI application
+│   ├── .venv/            # Python virtual environment
+│   └── pyproject.toml    # Python dependencies
+├── ios/                   # iOS project files
+├── android/               # Android project files
+└── scripts/               # Build scripts
+```
 
-## Congratulations! :tada:
+## Troubleshooting
 
-You've successfully run and modified your React Native App. :partying_face:
+### iOS Build Issues
 
-### Now what?
+1. Clean build folder:
+```bash
+cd ios
+xcodebuild clean
+cd ..
+```
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+2. Clear Metro cache:
+```bash
+npx react-native start --reset-cache
+```
 
-# Troubleshooting
+3. Reinstall pods:
+```bash
+cd ios
+pod deintegrate
+pod install
+cd ..
+```
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+### Backend Connection Issues
 
-# Learn More
+1. Ensure backend is running on port 3001
+2. For physical device testing, update `BACKEND_URL` to your machine's IP address
 
-To learn more about React Native, take a look at the following resources:
+## Development Tips
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- Use `npx react-native log-ios` to view iOS logs
+- Backend logs are visible in the terminal running `uvicorn`
+- Supabase provides real-time database monitoring in the dashboard
+
+## Security Notes
+
+- Never commit `.env` file to version control
+- Rotate API keys regularly
+- Use environment-specific configurations for production
+
+## Deployment
+
+### Backend (Google Cloud Run)
+```bash
+cd backend
+export GOOGLE_API_KEY=your_api_key_here
+./deploy.sh
+```
+Your backend will be at: `https://doogy-api-xxxxx-uc.a.run.app`
+
+### iOS App
+Build IPA in Xcode:
+1. Open `ios/TempChatApp.xcworkspace`
+2. Product → Archive
+3. Distribute App → Custom → Export
+
+## License
+
+MIT

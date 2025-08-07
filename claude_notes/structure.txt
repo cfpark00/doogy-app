@@ -1,0 +1,93 @@
+Project Structure - Doogy App
+============================
+
+/Users/cfpark00/dog/
+├── App.tsx                         # React Native entry point
+├── CLAUDE.md                       # AI assistant guidelines
+├── README.md                       # Project documentation
+├── Gemfile                        # Ruby dependencies for iOS
+├── .env                           # Frontend environment variables
+├── .env.example                   # Frontend env template
+├── .gitignore                     # Git ignore rules
+├── .eslintrc.js                  # ESLint configuration
+├── .prettierrc.js                # Prettier configuration
+├── .watchmanconfig               # Watchman configuration
+├── app.json                      # React Native app configuration
+├── index.js                      # React Native entry point
+│
+├── backend/                       # Python FastAPI backend
+│   ├── app/
+│   │   ├── __init__.py
+│   │   └── main.py               # FastAPI application
+│   ├── .venv/                    # Python virtual environment
+│   ├── .env                      # Backend environment variables
+│   ├── .env.example              # Backend env template
+│   ├── .gcloudignore            # Files to ignore for Cloud Run
+│   ├── Dockerfile                # Container configuration
+│   ├── deploy.sh                 # Cloud Run deployment script
+│   ├── pyproject.toml           # Python dependencies (uv)
+│   ├── requirements.txt         # Python dependencies (pip)
+│   ├── run.sh                   # Local run script
+│   └── README.md                # Backend deployment docs
+│
+├── src/                          # React Native source
+│   ├── components/
+│   │   ├── ChatInput.tsx
+│   │   └── MessageBubble.tsx
+│   ├── screens/
+│   │   └── ChatScreen.tsx
+│   ├── services/
+│   │   ├── chatService.ts       # API communication
+│   │   └── supabase.ts          # Supabase client
+│   ├── types/
+│   │   └── index.ts
+│   ├── config/
+│   │   └── env.d.ts             # TypeScript env types
+│   └── utils/                   # (empty)
+│
+├── ios/                          # iOS native code
+│   ├── TempChatApp.xcworkspace/
+│   ├── TempChatApp.xcodeproj/
+│   ├── TempChatApp/
+│   ├── Pods/                     # CocoaPods dependencies
+│   ├── Podfile
+│   ├── Podfile.lock
+│   └── scripts/
+│       └── build-ios.sh         # IPA build script
+│
+├── android/                      # Android native code
+│   ├── app/
+│   ├── gradle/
+│   └── build.gradle
+│
+├── __tests__/                    # Test files
+│   └── App.test.tsx
+│
+├── supabase/                     # Database configuration
+│   └── migrations/
+│       ├── 001_initial_schema.sql
+│       └── README.md
+│
+├── scratch/                      # Test scripts
+│   └── test_gemini.py
+│
+├── claude_notes/                 # AI session logs
+│   └── logs/
+│       └── 2025-08-07/
+│           └── 1028_fullstack_setup.md
+│
+├── node_modules/                 # NPM dependencies
+├── package.json                  # NPM configuration
+├── package-lock.json
+├── babel.config.js              # Babel configuration
+├── metro.config.js              # Metro bundler config
+├── tsconfig.json                # TypeScript config
+└── jest.config.js               # Jest test config
+
+Key Technologies:
+- Frontend: React Native + TypeScript
+- Backend: Python FastAPI + LiteLLM
+- AI: Google Gemini 2.5 Flash Lite
+- Database: Supabase (PostgreSQL)
+- Deployment: Google Cloud Run
+- Package Managers: npm (frontend), uv (backend)

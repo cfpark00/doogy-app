@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.git/
+.gitignore
+README.md
+run.sh
+pyproject.toml
