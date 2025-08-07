@@ -13,8 +13,8 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Configuration
-PROJECT_NAME="TempChatApp"
-SCHEME_NAME="TempChatApp"
+PROJECT_NAME="Doogy"
+SCHEME_NAME="Doogy"
 WORKSPACE_PATH="ios/${PROJECT_NAME}.xcworkspace"
 BUILD_DIR="ios/build"
 OUTPUT_DIR="build_output"

@@ -1,4 +1,4 @@
-package com.tempchatapp
+package com.doogy
 
 import android.app.Application
 import com.facebook.react.PackageList

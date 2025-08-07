@@ -1,4 +1,4 @@
-# Chat App - React Native Monorepo
+# Doogy - React Native Chat App
 
 A full-stack React Native chat application with AI-powered responses using Google Gemini 2.5 Flash Lite and Supabase for data persistence.
 
@@ -83,7 +83,7 @@ npx react-native run-ios
 
 Or open in Xcode:
 ```bash
-open ios/TempChatApp.xcworkspace
+open ios/Doogy.xcworkspace
 ```
 
 ### 5. Building IPA for Distribution
@@ -98,7 +98,7 @@ To create an IPA file for distribution:
 - Team ID in `scripts/build-ios.sh`
 - Signing certificates in Xcode project settings
 
-The IPA will be generated in `build_output/TempChatApp.ipa`
+The IPA will be generated in `build_output/Doogy.ipa`
 
 ## Project Structure
 
@@ -173,7 +173,7 @@ Your backend will be at: `https://doogy-api-xxxxx-uc.a.run.app`
 
 ### iOS App
 Build IPA in Xcode:
-1. Open `ios/TempChatApp.xcworkspace`
+1. Open `ios/Doogy.xcworkspace`
 2. Product → Archive
 3. Distribute App → Custom → Export
 
