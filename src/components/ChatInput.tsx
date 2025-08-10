@@ -8,6 +8,7 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
+import {theme} from '../theme';
 
 interface ChatInputProps {
   onSendMessage: (message: string) => void;
@@ -37,7 +38,7 @@ export const ChatInput: React.FC<ChatInputProps> = ({
           value={message}
           onChangeText={setMessage}
           placeholder="Type a message..."
-          placeholderTextColor="#999"
+          placeholderTextColor={theme.colors.textPlaceholder}
           multiline
           maxHeight={100}
           editable={!disabled}
@@ -56,37 +57,38 @@ export const ChatInput: React.FC<ChatInputProps> = ({
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    backgroundColor: '#FFFFFF',
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: theme.spacing.sm + 4,
+    backgroundColor: theme.colors.background,
     borderTopWidth: 1,
-    borderTopColor: '#E0E0E0',
+    borderTopColor: theme.colors.border,
   },
   input: {
     flex: 1,
     minHeight: 40,
     maxHeight: 100,
-    paddingHorizontal: 16,
+    paddingHorizontal: theme.spacing.md,
     paddingVertical: 10,
-    backgroundColor: '#F5F5F5',
-    borderRadius: 20,
-    fontSize: 16,
-    marginRight: 8,
+    backgroundColor: theme.colors.inputBackground,
+    borderRadius: theme.borderRadius.xl,
+    fontSize: theme.fontSize.md,
+    marginRight: theme.spacing.sm,
+    color: theme.colors.textPrimary,
   },
   sendButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 20,
+    paddingHorizontal: theme.spacing.lg - 4,
     paddingVertical: 10,
-    backgroundColor: '#007AFF',
-    borderRadius: 20,
+    backgroundColor: theme.colors.primary,
+    borderRadius: theme.borderRadius.xl,
   },
   disabledButton: {
     opacity: 0.5,
   },
   sendButtonText: {
-    color: '#FFFFFF',
-    fontSize: 16,
-    fontWeight: '600',
+    color: theme.colors.textOnPrimary,
+    fontSize: theme.fontSize.md,
+    fontWeight: theme.fontWeight.semibold,
   },
 });

@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {Message} from '../types';
+import {theme} from '../theme';
 
 interface MessageBubbleProps {
   message: Message;
@@ -30,8 +31,8 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({message}) => {
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 16,
-    paddingVertical: 4,
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: theme.spacing.xs,
   },
   userContainer: {
     alignItems: 'flex-end',
@@ -41,24 +42,26 @@ const styles = StyleSheet.create({
   },
   bubble: {
     maxWidth: '80%',
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    borderRadius: 18,
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: theme.spacing.sm + 4,
+    borderRadius: theme.borderRadius.lg + 2,
   },
   userBubble: {
-    backgroundColor: '#007AFF',
+    backgroundColor: theme.colors.primary,
   },
   assistantBubble: {
-    backgroundColor: '#F0F0F0',
+    backgroundColor: theme.colors.white,
+    borderWidth: 1,
+    borderColor: theme.colors.primary,
   },
   text: {
-    fontSize: 16,
+    fontSize: theme.fontSize.md,
     lineHeight: 20,
   },
   userText: {
-    color: '#FFFFFF',
+    color: theme.colors.white,
   },
   assistantText: {
-    color: '#000000',
+    color: theme.colors.textPrimary,
   },
 });
