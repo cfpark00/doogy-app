@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		224B3807689B339D0BC41FA8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		5057FFA93ECD58EA919A3ACB /* libPods-Doogy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BA6667CF61CA68330A5C94 /* libPods-Doogy.a */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E024DC4CE1C8FF1B3BE6790C /* libPods-Doogy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF9580D233ECE9B844B76CA /* libPods-Doogy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,12 +19,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Doogy/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Doogy/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Doogy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		1EFC42E210B0657DCF92B739 /* Pods-Doogy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doogy.debug.xcconfig"; path = "Target Support Files/Pods-Doogy/Pods-Doogy.debug.xcconfig"; sourceTree = "<group>"; };
-		2CF9580D233ECE9B844B76CA /* libPods-Doogy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Doogy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0FD6B4EE4BA180F374016C /* Pods-Doogy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doogy.release.xcconfig"; path = "Target Support Files/Pods-Doogy/Pods-Doogy.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Doogy/AppDelegate.swift; sourceTree = "<group>"; };
+		7BF514888DDAE328D216F12C /* Pods-Doogy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doogy.debug.xcconfig"; path = "Target Support Files/Pods-Doogy/Pods-Doogy.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Doogy/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4BA6667CF61CA68330A5C94 /* libPods-Doogy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Doogy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FB452A0F9D4D03E6E3836229 /* Pods-Doogy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doogy.release.xcconfig"; path = "Target Support Files/Pods-Doogy/Pods-Doogy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E024DC4CE1C8FF1B3BE6790C /* libPods-Doogy.a in Frameworks */,
+				5057FFA93ECD58EA919A3ACB /* libPods-Doogy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2CF9580D233ECE9B844B76CA /* libPods-Doogy.a */,
+				B4BA6667CF61CA68330A5C94 /* libPods-Doogy.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1EFC42E210B0657DCF92B739 /* Pods-Doogy.debug.xcconfig */,
-				FB452A0F9D4D03E6E3836229 /* Pods-Doogy.release.xcconfig */,
+				7BF514888DDAE328D216F12C /* Pods-Doogy.debug.xcconfig */,
+				4A0FD6B4EE4BA180F374016C /* Pods-Doogy.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,13 +105,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Doogy" */;
 			buildPhases = (
-				52BFC76B387D2004D8BA9934 /* [CP] Check Pods Manifest.lock */,
+				A6230DF498588E1FF9EF0AEB /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				26B83F5B37D2540C80DF1D6C /* [CP] Embed Pods Frameworks */,
-				BBDC3BEE3FEABE45BA8687AD /* [CP] Copy Pods Resources */,
+				30ADD7F641404715150DE98A /* [CP] Embed Pods Frameworks */,
+				BCE0D4E995F6B271175D0449 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +183,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		26B83F5B37D2540C80DF1D6C /* [CP] Embed Pods Frameworks */ = {
+		30ADD7F641404715150DE98A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,7 +200,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doogy/Pods-Doogy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		52BFC76B387D2004D8BA9934 /* [CP] Check Pods Manifest.lock */ = {
+		A6230DF498588E1FF9EF0AEB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +222,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BBDC3BEE3FEABE45BA8687AD /* [CP] Copy Pods Resources */ = {
+		BCE0D4E995F6B271175D0449 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,11 +255,11 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EFC42E210B0657DCF92B739 /* Pods-Doogy.debug.xcconfig */;
+			baseConfigurationReference = 7BF514888DDAE328D216F12C /* Pods-Doogy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SKKFTT5TG6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Doogy/Info.plist;
@@ -284,11 +284,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB452A0F9D4D03E6E3836229 /* Pods-Doogy.release.xcconfig */;
+			baseConfigurationReference = 4A0FD6B4EE4BA180F374016C /* Pods-Doogy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SKKFTT5TG6;
 				INFOPLIST_FILE = Doogy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
