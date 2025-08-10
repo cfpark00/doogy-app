@@ -37,6 +37,8 @@ CREATE TABLE profiles (
     display_name TEXT,
     avatar_url TEXT,
     onboarded BOOLEAN DEFAULT FALSE,
+    dog_ownership_status TEXT CHECK (dog_ownership_status IN ('owner', 'looking', 'none')),
+    dog_count INTEGER DEFAULT 0,
     preferences JSONB DEFAULT '{}',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()

@@ -17,50 +17,48 @@ import {useAuth} from '../contexts/AuthContext';
 import {supabase} from '../lib/supabase';
 import Icon from 'react-native-vector-icons/Feather';
 
+type DogOwnershipStatus = 'owner' | 'looking' | 'none';
+
+interface DogData {
+  name: string;
+  breed: string;
+  age: string;
+  weight: string;
+  trainingLevel: string;
+}
+
 export function OnboardingScreen() {
   const {completeOnboarding, signOut, user} = useAuth();
   const insets = useSafeAreaInsets();
+  
+  // Step tracking
   const [currentStep, setCurrentStep] = useState(0);
-  const [dogData, setDogData] = useState({
+  const [ownershipStatus, setOwnershipStatus] = useState<DogOwnershipStatus | null>(null);
+  const [dogCount, setDogCount] = useState<number | null>(null);
+  const [currentDogIndex, setCurrentDogIndex] = useState(0);
+  const [dogsData, setDogsData] = useState<DogData[]>([{
     name: '',
     breed: '',
     age: '',
     weight: '',
     trainingLevel: 'beginner',
-  });
+  }]);
+  
   const [isLoading, setIsLoading] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
 
-  const steps = [
-    {
-      title: "What's your dog's name?",
-      subtitle: "We'll use this throughout the app",
-      field: 'name',
-      placeholder: 'Enter your dog\'s name',
-      keyboardType: 'default' as const,
-    },
-    {
-      title: "What breed is your dog?",
-      subtitle: "This helps us provide better care tips",
-      field: 'breed',
-      placeholder: 'e.g., Golden Retriever, Mixed breed',
-      keyboardType: 'default' as const,
-    },
-    {
-      title: "How old is your dog?",
-      subtitle: "Age helps us tailor training advice",
-      field: 'age',
-      placeholder: 'Age in years',
-      keyboardType: 'numeric' as const,
-    },
-    {
-      title: "What's your dog's weight?",
-      subtitle: "This helps with feeding and exercise recommendations",
-      field: 'weight',
-      placeholder: 'Weight in kg',
-      keyboardType: 'numeric' as const,
-    },
-  ];
+  // Calculate total steps based on ownership status
+  const getTotalSteps = () => {
+    if (ownershipStatus === 'owner' && dogCount) {
+      // 1 (ownership) + 1 (count) + (5 steps per dog * number of dogs)
+      return 2 + (5 * dogCount);
+    } else if (ownershipStatus === 'looking') {
+      return 2; // Just ownership + looking confirmation
+    } else if (ownershipStatus === 'none') {
+      return 1; // Just ownership
+    }
+    return 1; // Default to first step
+  };
 
   const trainingLevels = [
     {id: 'beginner', label: 'Beginner', desc: 'Just starting with basic commands'},
@@ -70,15 +68,34 @@ export function OnboardingScreen() {
   ];
 
   const handleNext = () => {
-    const currentField = steps[currentStep]?.field;
-    if (currentField && !dogData[currentField as keyof typeof dogData].trim()) {
-      Alert.alert('Required Field', 'Please fill in this field to continue.');
+    // Validation for each step type
+    if (currentStep === 0 && !ownershipStatus) {
+      Alert.alert('Required', 'Please select an option to continue.');
+      return;
+    }
+    
+    if (currentStep === 1 && ownershipStatus === 'owner' && !dogCount) {
+      Alert.alert('Required', 'Please enter the number of dogs you have.');
       return;
     }
 
-    if (currentStep < steps.length) {
-      setCurrentStep(currentStep + 1);
+    // Validate dog data fields
+    if (ownershipStatus === 'owner' && dogCount && currentStep >= 2) {
+      const dogStepIndex = (currentStep - 2) % 5;
+      const dogIndex = Math.floor((currentStep - 2) / 5);
+      const currentDog = dogsData[dogIndex];
+      
+      if (dogStepIndex < 4) { // Name, breed, age, weight steps
+        const fields = ['name', 'breed', 'age', 'weight'];
+        const field = fields[dogStepIndex];
+        if (currentDog && !currentDog[field as keyof DogData].trim()) {
+          Alert.alert('Required Field', 'Please fill in this field to continue.');
+          return;
+        }
+      }
     }
+
+    setCurrentStep(currentStep + 1);
   };
 
   const handleBack = () => {
@@ -88,15 +105,46 @@ export function OnboardingScreen() {
   };
 
   const handleComplete = async () => {
-    if (!dogData.name.trim()) {
-      Alert.alert('Required', 'Please enter your dog\'s name.');
-      return;
-    }
-
     setIsLoading(true);
     try {
-      // TODO: Save dog data to database
-      console.log('Dog data:', dogData);
+      // Save all data to database
+      if (user?.id) {
+        // Update profile with ownership status
+        const {error: profileError} = await supabase
+          .from('profiles')
+          .update({
+            dog_ownership_status: ownershipStatus,
+            dog_count: dogCount || 0,
+            onboarded: true,
+            preferences: {
+              dogs: ownershipStatus === 'owner' ? dogsData.slice(0, dogCount || 0) : []
+            }
+          })
+          .eq('id', user.id);
+        
+        if (profileError) throw profileError;
+
+        // If user has dogs, save them to the dogs table
+        if (ownershipStatus === 'owner' && dogCount) {
+          for (let i = 0; i < dogCount; i++) {
+            const dog = dogsData[i];
+            const {error: dogError} = await supabase
+              .from('dogs')
+              .insert({
+                user_id: user.id,
+                name: dog.name,
+                breed: dog.breed,
+                age: parseInt(dog.age) || null,
+                weight: parseFloat(dog.weight) || null,
+                training_level: dog.trainingLevel,
+              });
+            
+            if (dogError) {
+              console.error('Error saving dog:', dogError);
+            }
+          }
+        }
+      }
       
       // Mark user as onboarded
       await completeOnboarding();
@@ -108,26 +156,40 @@ export function OnboardingScreen() {
     }
   };
 
-  const updateDogData = async (field: string, value: string) => {
-    const newData = {...dogData, [field]: value};
-    setDogData(newData);
+  const updateDogData = (dogIndex: number, field: string, value: string) => {
+    const newDogsData = [...dogsData];
+    if (!newDogsData[dogIndex]) {
+      newDogsData[dogIndex] = {
+        name: '',
+        breed: '',
+        age: '',
+        weight: '',
+        trainingLevel: 'beginner',
+      };
+    }
+    newDogsData[dogIndex] = {
+      ...newDogsData[dogIndex],
+      [field]: value,
+    };
+    setDogsData(newDogsData);
     
     // Auto-save to database
-    await saveDogDataToDb(newData);
+    saveDogDataToDb();
   };
 
-  const saveDogDataToDb = async (data: typeof dogData) => {
+  const saveDogDataToDb = async () => {
     if (!user?.id) return;
     
     setIsSaving(true);
     try {
-      // Save to profiles preferences field for now
       const {error} = await supabase
         .from('profiles')
         .update({
           preferences: {
-            ...data,
-            onboarding_step: currentStep
+            onboarding_step: currentStep,
+            ownership_status: ownershipStatus,
+            dog_count: dogCount,
+            dogs: dogsData,
           }
         })
         .eq('id', user.id);
@@ -148,25 +210,24 @@ export function OnboardingScreen() {
     try {
       const {data, error} = await supabase
         .from('profiles')
-        .select('preferences')
+        .select('preferences, dog_ownership_status, dog_count')
         .eq('id', user.id)
-        .single();
+        .maybeSingle();
       
-      if (error || !data?.preferences) return;
+      if (error || !data) return;
+      
+      if (data.dog_ownership_status) {
+        setOwnershipStatus(data.dog_ownership_status as DogOwnershipStatus);
+        setDogCount(data.dog_count);
+      }
       
       const savedData = data.preferences as any;
-      if (savedData.name || savedData.breed || savedData.age || savedData.weight) {
-        setDogData({
-          name: savedData.name || '',
-          breed: savedData.breed || '',
-          age: savedData.age || '',
-          weight: savedData.weight || '',
-          trainingLevel: savedData.trainingLevel || 'beginner',
-        });
-        
-        // Resume from saved step
+      if (savedData) {
         if (savedData.onboarding_step !== undefined) {
-          setCurrentStep(Math.min(savedData.onboarding_step, steps.length));
+          setCurrentStep(savedData.onboarding_step);
+        }
+        if (savedData.dogs && Array.isArray(savedData.dogs)) {
+          setDogsData(savedData.dogs);
         }
       }
     } catch (error) {
@@ -189,66 +250,315 @@ export function OnboardingScreen() {
     loadOnboardingProgress();
   }, [user?.id]);
 
+  useEffect(() => {
+    saveDogDataToDb();
+  }, [ownershipStatus, dogCount, currentStep]);
+
   const renderStep = () => {
-    if (currentStep < steps.length) {
-      const step = steps[currentStep];
+    // Step 0: Dog ownership question
+    if (currentStep === 0) {
       return (
         <View style={styles.stepContainer}>
-          <Text style={styles.stepTitle}>{step.title}</Text>
-          <Text style={styles.stepSubtitle}>{step.subtitle}</Text>
+          <Text style={styles.stepTitle}>Do you have a dog?</Text>
+          <Text style={styles.stepSubtitle}>Let's personalize your experience</Text>
           
-          <TextInput
-            style={styles.input}
-            placeholder={step.placeholder}
-            placeholderTextColor={theme.colors.textPlaceholder}
-            value={dogData[step.field as keyof typeof dogData]}
-            onChangeText={(value) => updateDogData(step.field, value)}
-            keyboardType={step.keyboardType}
-            autoFocus
-          />
-        </View>
-      );
-    }
-
-    // Training level step
-    return (
-      <View style={styles.stepContainer}>
-        <Text style={styles.stepTitle}>Training Level</Text>
-        <Text style={styles.stepSubtitle}>How experienced is your dog with training?</Text>
-        
-        <View style={styles.optionsContainer}>
-          {trainingLevels.map((level) => (
+          <View style={styles.optionsContainer}>
             <TouchableOpacity
-              key={level.id}
               style={[
                 styles.optionItem,
-                dogData.trainingLevel === level.id && styles.optionItemSelected,
+                ownershipStatus === 'owner' && styles.optionItemSelected,
               ]}
-              onPress={() => updateDogData('trainingLevel', level.id)}
+              onPress={() => setOwnershipStatus('owner')}
             >
               <View style={styles.optionContent}>
                 <Text style={[
                   styles.optionLabel,
-                  dogData.trainingLevel === level.id && styles.optionLabelSelected,
+                  ownershipStatus === 'owner' && styles.optionLabelSelected,
                 ]}>
-                  {level.label}
+                  Yes, I have a dog
                 </Text>
                 <Text style={[
                   styles.optionDesc,
-                  dogData.trainingLevel === level.id && styles.optionDescSelected,
+                  ownershipStatus === 'owner' && styles.optionDescSelected,
                 ]}>
-                  {level.desc}
+                  I'm a proud dog parent
                 </Text>
               </View>
-              {dogData.trainingLevel === level.id && (
+              {ownershipStatus === 'owner' && (
                 <Icon name="check" size={20} color={theme.colors.white} />
               )}
             </TouchableOpacity>
-          ))}
+
+            <TouchableOpacity
+              style={[
+                styles.optionItem,
+                ownershipStatus === 'looking' && styles.optionItemSelected,
+              ]}
+              onPress={() => setOwnershipStatus('looking')}
+            >
+              <View style={styles.optionContent}>
+                <Text style={[
+                  styles.optionLabel,
+                  ownershipStatus === 'looking' && styles.optionLabelSelected,
+                ]}>
+                  Not yet, but looking
+                </Text>
+                <Text style={[
+                  styles.optionDesc,
+                  ownershipStatus === 'looking' && styles.optionDescSelected,
+                ]}>
+                  I'm planning to get a dog soon
+                </Text>
+              </View>
+              {ownershipStatus === 'looking' && (
+                <Icon name="check" size={20} color={theme.colors.white} />
+              )}
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[
+                styles.optionItem,
+                ownershipStatus === 'none' && styles.optionItemSelected,
+              ]}
+              onPress={() => setOwnershipStatus('none')}
+            >
+              <View style={styles.optionContent}>
+                <Text style={[
+                  styles.optionLabel,
+                  ownershipStatus === 'none' && styles.optionLabelSelected,
+                ]}>
+                  Just exploring
+                </Text>
+                <Text style={[
+                  styles.optionDesc,
+                  ownershipStatus === 'none' && styles.optionDescSelected,
+                ]}>
+                  I'm here to learn about dogs
+                </Text>
+              </View>
+              {ownershipStatus === 'none' && (
+                <Icon name="check" size={20} color={theme.colors.white} />
+              )}
+            </TouchableOpacity>
+          </View>
         </View>
-      </View>
-    );
+      );
+    }
+
+    // Step 1: How many dogs (only if owner)
+    if (currentStep === 1 && ownershipStatus === 'owner') {
+      return (
+        <View style={styles.stepContainer}>
+          <Text style={styles.stepTitle}>How many dogs do you have?</Text>
+          <Text style={styles.stepSubtitle}>We'll set up a profile for each one</Text>
+          
+          <TextInput
+            style={styles.input}
+            placeholder="Number of dogs"
+            placeholderTextColor={theme.colors.textPlaceholder}
+            value={dogCount?.toString() || ''}
+            onChangeText={(value) => {
+              const num = parseInt(value);
+              if (!isNaN(num) && num > 0 && num <= 10) {
+                setDogCount(num);
+                // Initialize dogs data array
+                const newDogsData = [...dogsData];
+                for (let i = 0; i < num; i++) {
+                  if (!newDogsData[i]) {
+                    newDogsData[i] = {
+                      name: '',
+                      breed: '',
+                      age: '',
+                      weight: '',
+                      trainingLevel: 'beginner',
+                    };
+                  }
+                }
+                setDogsData(newDogsData);
+              } else if (value === '') {
+                setDogCount(null);
+              }
+            }}
+            keyboardType="numeric"
+            autoFocus
+            maxLength={2}
+          />
+          {dogCount && dogCount > 1 && (
+            <Text style={styles.helperText}>
+              Great! Let's set up profiles for all {dogCount} dogs
+            </Text>
+          )}
+        </View>
+      );
+    }
+
+    // Step 1: Looking for a dog message
+    if (currentStep === 1 && ownershipStatus === 'looking') {
+      return (
+        <View style={styles.stepContainer}>
+          <Icon name="search" size={60} color={theme.colors.primary} style={styles.iconLarge} />
+          <Text style={styles.stepTitle}>Exciting times ahead!</Text>
+          <Text style={styles.stepSubtitle}>
+            We'll help you prepare for your future furry friend with tips on choosing the right breed, 
+            training basics, and everything you need to know before bringing a dog home.
+          </Text>
+        </View>
+      );
+    }
+
+    // Dog profile steps (only if owner with dogs)
+    if (ownershipStatus === 'owner' && dogCount && currentStep >= 2) {
+      const dogStepIndex = (currentStep - 2) % 5;
+      const dogIndex = Math.floor((currentStep - 2) / 5);
+      const currentDog = dogsData[dogIndex] || {
+        name: '',
+        breed: '',
+        age: '',
+        weight: '',
+        trainingLevel: 'beginner',
+      };
+
+      const dogLabel = dogCount > 1 ? `Dog ${dogIndex + 1} of ${dogCount}` : 'Your dog';
+
+      // Dog name
+      if (dogStepIndex === 0) {
+        return (
+          <View style={styles.stepContainer}>
+            {dogCount > 1 && (
+              <Text style={styles.dogCounter}>{dogLabel}</Text>
+            )}
+            <Text style={styles.stepTitle}>What's your dog's name?</Text>
+            <Text style={styles.stepSubtitle}>We'll use this throughout the app</Text>
+            
+            <TextInput
+              style={styles.input}
+              placeholder="Enter your dog's name"
+              placeholderTextColor={theme.colors.textPlaceholder}
+              value={currentDog.name}
+              onChangeText={(value) => updateDogData(dogIndex, 'name', value)}
+              autoFocus
+            />
+          </View>
+        );
+      }
+
+      // Dog breed
+      if (dogStepIndex === 1) {
+        return (
+          <View style={styles.stepContainer}>
+            {dogCount > 1 && (
+              <Text style={styles.dogCounter}>{dogLabel}: {currentDog.name}</Text>
+            )}
+            <Text style={styles.stepTitle}>What breed is {currentDog.name || 'your dog'}?</Text>
+            <Text style={styles.stepSubtitle}>This helps us provide better care tips</Text>
+            
+            <TextInput
+              style={styles.input}
+              placeholder="e.g., Golden Retriever, Mixed breed"
+              placeholderTextColor={theme.colors.textPlaceholder}
+              value={currentDog.breed}
+              onChangeText={(value) => updateDogData(dogIndex, 'breed', value)}
+              autoFocus
+            />
+          </View>
+        );
+      }
+
+      // Dog age
+      if (dogStepIndex === 2) {
+        return (
+          <View style={styles.stepContainer}>
+            {dogCount > 1 && (
+              <Text style={styles.dogCounter}>{dogLabel}: {currentDog.name}</Text>
+            )}
+            <Text style={styles.stepTitle}>How old is {currentDog.name || 'your dog'}?</Text>
+            <Text style={styles.stepSubtitle}>Age helps us tailor training advice</Text>
+            
+            <TextInput
+              style={styles.input}
+              placeholder="Age in years"
+              placeholderTextColor={theme.colors.textPlaceholder}
+              value={currentDog.age}
+              onChangeText={(value) => updateDogData(dogIndex, 'age', value)}
+              keyboardType="numeric"
+              autoFocus
+            />
+          </View>
+        );
+      }
+
+      // Dog weight
+      if (dogStepIndex === 3) {
+        return (
+          <View style={styles.stepContainer}>
+            {dogCount > 1 && (
+              <Text style={styles.dogCounter}>{dogLabel}: {currentDog.name}</Text>
+            )}
+            <Text style={styles.stepTitle}>What's {currentDog.name || 'your dog'}'s weight?</Text>
+            <Text style={styles.stepSubtitle}>This helps with feeding and exercise recommendations</Text>
+            
+            <TextInput
+              style={styles.input}
+              placeholder="Weight in kg"
+              placeholderTextColor={theme.colors.textPlaceholder}
+              value={currentDog.weight}
+              onChangeText={(value) => updateDogData(dogIndex, 'weight', value)}
+              keyboardType="numeric"
+              autoFocus
+            />
+          </View>
+        );
+      }
+
+      // Training level
+      if (dogStepIndex === 4) {
+        return (
+          <View style={styles.stepContainer}>
+            {dogCount > 1 && (
+              <Text style={styles.dogCounter}>{dogLabel}: {currentDog.name}</Text>
+            )}
+            <Text style={styles.stepTitle}>Training Level</Text>
+            <Text style={styles.stepSubtitle}>How experienced is {currentDog.name || 'your dog'} with training?</Text>
+            
+            <View style={styles.optionsContainer}>
+              {trainingLevels.map((level) => (
+                <TouchableOpacity
+                  key={level.id}
+                  style={[
+                    styles.optionItem,
+                    currentDog.trainingLevel === level.id && styles.optionItemSelected,
+                  ]}
+                  onPress={() => updateDogData(dogIndex, 'trainingLevel', level.id)}
+                >
+                  <View style={styles.optionContent}>
+                    <Text style={[
+                      styles.optionLabel,
+                      currentDog.trainingLevel === level.id && styles.optionLabelSelected,
+                    ]}>
+                      {level.label}
+                    </Text>
+                    <Text style={[
+                      styles.optionDesc,
+                      currentDog.trainingLevel === level.id && styles.optionDescSelected,
+                    ]}>
+                      {level.desc}
+                    </Text>
+                  </View>
+                  {currentDog.trainingLevel === level.id && (
+                    <Icon name="check" size={20} color={theme.colors.white} />
+                  )}
+                </TouchableOpacity>
+              ))}
+            </View>
+          </View>
+        );
+      }
+    }
+
+    return null;
   };
+
+  const isLastStep = currentStep >= getTotalSteps() - 1;
 
   return (
     <>
@@ -270,7 +580,7 @@ export function OnboardingScreen() {
             <View style={styles.titleContainer}>
               <Text style={styles.title}>Welcome to Doogy!</Text>
               <Text style={styles.subtitle}>
-                Let's get to know your furry friend
+                Let's get started with a few questions
               </Text>
             </View>
 
@@ -280,13 +590,13 @@ export function OnboardingScreen() {
                 <View 
                   style={[
                     styles.progressFill, 
-                    {width: `${((currentStep + 1) / (steps.length + 1)) * 100}%`}
+                    {width: `${((currentStep + 1) / Math.max(getTotalSteps(), 1)) * 100}%`}
                   ]} 
                 />
               </View>
               <View style={styles.progressInfo}>
                 <Text style={styles.progressText}>
-                  {currentStep + 1} of {steps.length + 1}
+                  Step {currentStep + 1} of {getTotalSteps()}
                 </Text>
                 {isSaving && (
                   <Text style={styles.savingText}>Saving...</Text>
@@ -316,7 +626,7 @@ export function OnboardingScreen() {
               
               <View style={styles.buttonSpacer} />
               
-              {currentStep < steps.length ? (
+              {!isLastStep ? (
                 <TouchableOpacity style={styles.nextButton} onPress={handleNext}>
                   <Text style={styles.nextButtonText}>Next</Text>
                   <Icon name="arrow-right" size={20} color={theme.colors.white} />
@@ -473,8 +783,25 @@ const styles = StyleSheet.create({
     width: '100%',
     ...theme.shadows.sm,
   },
+  helperText: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.textSecondary,
+    marginTop: theme.spacing.md,
+    textAlign: 'center',
+  },
+  dogCounter: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.primary,
+    fontWeight: theme.fontWeight.semibold,
+    marginBottom: theme.spacing.md,
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+  },
+  iconLarge: {
+    marginBottom: theme.spacing.lg,
+  },
 
-  // Options (Training Level)
+  // Options
   optionsContainer: {
     width: '100%',
     gap: theme.spacing.md,
