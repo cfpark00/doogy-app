@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from 'react';
 import {NavigationContainer, NavigationContainerRef} from '@react-navigation/native';
-import {createStackNavigator, CardStyleInterpolators, TransitionPresets} from '@react-navigation/stack';
+import {createStackNavigator} from '@react-navigation/stack';
 import {HomeScreen} from './src/screens/HomeScreen';
 import {LoginScreen} from './src/screens/LoginScreen';
 import {OnboardingScreen} from './src/screens/OnboardingScreen';

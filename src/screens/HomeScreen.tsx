@@ -23,7 +23,6 @@ import {MessageBubble} from '../components/MessageBubble';
 import {chatService} from '../services/chatService';
 import {useAuth} from '../contexts/AuthContext';
 import Icon from 'react-native-vector-icons/Feather';
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
 const {height: screenHeight} = Dimensions.get('window');
 const MIN_TOP_HEIGHT = 60; // Minimum height for collapsed top section
