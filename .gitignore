@@ -103,3 +103,5 @@ env/
 # Environment files
 backend/.env
 .env
+ios/.env
+ios/Doogy/Config.xcconfig

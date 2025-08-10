@@ -111,13 +111,26 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
         .from('profiles')
         .select('onboarded')
         .eq('id', userId)
-        .single();
+        .maybeSingle();
       
       if (error) {
         console.error('Error checking onboarding status:', error);
         setIsOnboarded(false);
+      } else if (!data) {
+        // Profile doesn't exist yet, create it
+        const {error: insertError} = await supabase
+          .from('profiles')
+          .insert({
+            id: userId,
+            onboarded: false
+          });
+        
+        if (insertError) {
+          console.error('Error creating profile:', insertError);
+        }
+        setIsOnboarded(false);
       } else {
-        setIsOnboarded(data?.onboarded || false);
+        setIsOnboarded(data.onboarded || false);
       }
     } catch (error) {
       console.error('Error checking onboarding status:', error);

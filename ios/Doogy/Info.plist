@@ -73,8 +73,8 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<!-- Your reversed iOS Client ID -->
-				<string>com.googleusercontent.apps.843121479562-m9nh8astne3v6jhau51brtr154f4c605</string>
+				<!-- Your reversed iOS Client ID - Set via build script -->
+				<string>$(GOOGLE_IOS_REVERSED_CLIENT_ID)</string>
 			</array>
 		</dict>
 	</array>
