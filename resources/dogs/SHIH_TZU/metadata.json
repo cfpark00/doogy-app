@@ -1,0 +1,28 @@
+{
+  "breed_id": "SHIH_TZU",
+  "breed_name": "SHIH TZU (208)",
+  "breed_number": 208,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/208g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/SHIH_TZU.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SHIH-TZU-208.html",
+  "fci_standard": "208g09",
+  "breed_name_clean": "SHIH TZU",
+  "pdf_language": "English",
+  "common_display_name": "Shih Tzu",
+  "alt_names": [
+    "Shih Tzu Dog",
+    "Shih Tzu Puppy",
+    "Shih Tzu for Sale",
+    "Shih Tzu Price",
+    "Shih Tzu Grooming",
+    "Shih Tzu Temperament",
+    "Shih Tzu Lifespan",
+    "Shih Tzu Training",
+    "Shih Tzu History",
+    "Shih Tzu Characteristics"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:04"
+}

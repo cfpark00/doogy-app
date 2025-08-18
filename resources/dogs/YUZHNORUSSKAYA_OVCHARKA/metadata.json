@@ -1,0 +1,28 @@
+{
+  "breed_id": "YUZHNORUSSKAYA_OVCHARKA",
+  "breed_name": "YUZHNORUSSKAYA OVCHARKA (326) (SOUTH RUSSIAN SHEPHERD DOG)",
+  "breed_number": 326,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/326g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/YUZHNORUSSKAYA_OVCHARKA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SOUTH-RUSSIAN-SHEPHERD-DOG-326.html",
+  "fci_standard": "326g01",
+  "breed_name_alternative": "SOUTH RUSSIAN SHEPHERD DOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "South Russian Ovcharka",
+  "alt_names": [
+    "South Russian Shepherd",
+    "Yuzhak",
+    "Russian Sheepdog",
+    "Caucasian Shepherd Dog (incorrect but sometimes used)",
+    "South Russian Sheepdog",
+    "Yuzhnorusskaya Ovcharka",
+    "Yuzhnorusskaya Ovtcharka",
+    "South Russian Shepherd Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:51"
+}

@@ -1,0 +1,24 @@
+{
+  "breed_id": "DEUTSCHER_JAGDTERRIER",
+  "breed_name": "DEUTSCHER JAGDTERRIER (103) (GERMAN HUNTING TERRIER)",
+  "breed_number": 103,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/103g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/DEUTSCHER_JAGDTERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GERMAN-HUNTING-TERRIER-103.html",
+  "fci_standard": "103g03",
+  "breed_name_alternative": "GERMAN HUNTING TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Jagdterrier",
+  "alt_names": [
+    "German Hunting Terrier",
+    "Deutscher Jagdterrier",
+    "Jagd",
+    "German Terrier",
+    "Hunting Terrier",
+    "DJT"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:30"
+}

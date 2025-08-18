@@ -1,0 +1,28 @@
+{
+  "breed_id": "SCHNAUZER",
+  "breed_name": "SCHNAUZER (182)",
+  "breed_number": 182,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/182g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/SCHNAUZER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SCHNAUZER-182.html",
+  "fci_standard": "182g02",
+  "breed_name_clean": "SCHNAUZER",
+  "pdf_language": "English",
+  "common_display_name": "Schnauzer",
+  "alt_names": [
+    "Miniature Schnauzer",
+    "Standard Schnauzer",
+    "Giant Schnauzer",
+    "Schnauzer Dog",
+    "Schnauzer Breed",
+    "Schnauzers",
+    "Schnauzer Puppy",
+    "Schnauzer Mix",
+    "Schnauzer Grooming",
+    "Schnauzer Temperament"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:39:14"
+}

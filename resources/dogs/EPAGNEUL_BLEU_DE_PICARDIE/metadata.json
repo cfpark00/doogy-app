@@ -1,0 +1,23 @@
+{
+  "breed_id": "EPAGNEUL_BLEU_DE_PICARDIE",
+  "breed_name": "EPAGNEUL BLEU DE PICARDIE (106) (BLUE PICARDY SPANIEL)",
+  "breed_number": 106,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/106g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/EPAGNEUL_BLEU_DE_PICARDIE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BLUE-PICARDY-SPANIEL-106.html",
+  "fci_standard": "106g07",
+  "breed_name_alternative": "BLUE PICARDY SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Picardy Spaniel",
+  "alt_names": [
+    "Epagneul Bleu de Picardie",
+    "Picardy Blue Spaniel",
+    "Bleu de Picardie",
+    "Picardy Blue",
+    "French Spaniel Blue"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:40"
+}

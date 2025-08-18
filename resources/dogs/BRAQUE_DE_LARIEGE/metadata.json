@@ -1,0 +1,24 @@
+{
+  "breed_id": "BRAQUE_DE_LARIEGE",
+  "breed_name": "BRAQUE DE L'ARIÈGE (177) (ARIEGE POINTING DOG)",
+  "breed_number": 177,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/177g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/BRAQUE_DE_LARIEGE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ARIEGE-POINTING-DOG-177.html",
+  "fci_standard": "177g07",
+  "breed_name_alternative": "ARIEGE POINTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Ariégeois Pointer",
+  "alt_names": [
+    "Braque de l'Ariège",
+    "Ariège Pointer",
+    "Braque Ariégeois",
+    "Ariège",
+    "French Pointer",
+    "Braque de l'Ariège Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:49"
+}

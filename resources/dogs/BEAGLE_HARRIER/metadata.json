@@ -1,0 +1,25 @@
+{
+  "breed_id": "BEAGLE_HARRIER",
+  "breed_name": "BEAGLE-HARRIER (290) (BEAGLE HARRIER)",
+  "breed_number": 290,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/290g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BEAGLE_HARRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BEAGLE-HARRIER-290.html",
+  "fci_standard": "290g06",
+  "breed_name_alternative": "BEAGLE HARRIER",
+  "pdf_language": "English",
+  "common_display_name": "Beagle-Harrier",
+  "alt_names": [
+    "Beagle Harrier",
+    "Beagle Harrier Dog",
+    "French Beagle-Harrier",
+    "Chien Courant Beagle-Harrier",
+    "Beagle",
+    "Harrier",
+    "French Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:53"
+}

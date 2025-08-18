@@ -1,0 +1,24 @@
+{
+  "breed_id": "OTTERHOUND",
+  "breed_name": "OTTERHOUND (294)",
+  "breed_number": 294,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/294g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/OTTERHOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/OTTERHOUND-294.html",
+  "fci_standard": "294g06",
+  "breed_name_clean": "OTTERHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Otterhound",
+  "alt_names": [
+    "Otter Hound",
+    "Otterhound Dog",
+    "Old English Otterhound",
+    "English Otterhound",
+    "O.H.",
+    "Otterdog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:36"
+}

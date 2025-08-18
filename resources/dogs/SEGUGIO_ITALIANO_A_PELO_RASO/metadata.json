@@ -1,0 +1,26 @@
+{
+  "breed_id": "SEGUGIO_ITALIANO_A_PELO_RASO",
+  "breed_name": "SEGUGIO ITALIANO A PELO RASO (337) (ITALIAN SHORT-HAIRED SEGUGIO)",
+  "breed_number": 337,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/337g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SEGUGIO_ITALIANO_A_PELO_RASO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ITALIAN-SHORT-HAIRED-SEGUGIO-337.html",
+  "fci_standard": "337g06",
+  "breed_name_alternative": "ITALIAN SHORT-HAIRED SEGUGIO",
+  "pdf_language": "English",
+  "common_display_name": "Italian Hound",
+  "alt_names": [
+    "Segugio Italiano",
+    "Italian Rough-haired Hound",
+    "Italian Pointer",
+    "Segugio Italiano a Pelo Forte",
+    "Italian Hunting Dog",
+    "Italian Sighthound",
+    "Italian Scent Hound",
+    "Italian Hare Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:39:44"
+}

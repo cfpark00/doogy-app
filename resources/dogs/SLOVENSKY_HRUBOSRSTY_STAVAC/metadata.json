@@ -1,0 +1,24 @@
+{
+  "breed_id": "SLOVENSKY_HRUBOSRSTY_STAVAC",
+  "breed_name": "SLOVENSKÝ HRUBOSRSTÝ STAVAC (OHAR) (320) (WIREHAIRED SLOVAKIAN POINTER)",
+  "breed_number": 320,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/320g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/SLOVENSKY_HRUBOSRSTY_STAVAC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WIREHAIRED-SLOVAKIAN-POINTER-320.html",
+  "fci_standard": "320g07",
+  "breed_name_alternative": "WIREHAIRED SLOVAKIAN POINTER",
+  "pdf_language": "English",
+  "common_display_name": "Slovak Rough-haired Pointer",
+  "alt_names": [
+    "Slovenský hrubosrstý stavač",
+    "Slovak Wirehaired Pointer",
+    "Slovak Pointer",
+    "Stavac",
+    "Slovakian Rough-haired Pointer",
+    "Slovakian Wirehaired Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:34"
+}

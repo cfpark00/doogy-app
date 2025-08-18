@@ -1,0 +1,25 @@
+{
+  "breed_id": "ZWERGPINSCHER",
+  "breed_name": "ZWERGPINSCHER (185) (MINIATURE PINSCHER)",
+  "breed_number": 185,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/185g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/ZWERGPINSCHER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MINIATURE-PINSCHER-185.html",
+  "fci_standard": "185g02",
+  "breed_name_alternative": "MINIATURE PINSCHER",
+  "pdf_language": "English",
+  "common_display_name": "Miniature Pinscher",
+  "alt_names": [
+    "Zwergpinscher",
+    "Min Pin",
+    "Zwerg",
+    "Miniature Pinscher Dog",
+    "German Pinscher Miniature",
+    "Zwerg Pinscher",
+    "Toy Pinscher"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:44:01"
+}

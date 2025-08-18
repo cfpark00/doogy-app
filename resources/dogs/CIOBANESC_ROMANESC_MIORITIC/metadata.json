@@ -1,0 +1,28 @@
+{
+  "breed_id": "CIOBANESC_ROMANESC_MIORITIC",
+  "breed_name": "CIOBANESC ROMÂNESC MIORITIC (349) (ROMANIAN MIORITIC SHEPHERD DOG)",
+  "breed_number": 349,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/349g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CIOBANESC_ROMANESC_MIORITIC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ROMANIAN-MIORITIC-SHEPHERD-DOG-349.html",
+  "fci_standard": "349g01",
+  "breed_name_alternative": "ROMANIAN MIORITIC SHEPHERD DOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Mioritic",
+  "alt_names": [
+    "Romanian Mioritic Shepherd Dog",
+    "Ciobănesc Românesc Mioritic",
+    "Romanian Shepherd Dog",
+    "Mioritic Shepherd",
+    "Romanian Mountain Dog",
+    "Mioritic Sheepdog",
+    "Romanian Mioritic",
+    "Mioritic Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:19"
+}

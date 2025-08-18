@@ -1,0 +1,25 @@
+{
+  "breed_id": "SUOMENPYSTYKORVA",
+  "breed_name": "SUOMENPYSTYKORVA (49) (FINNISH SPITZ)",
+  "breed_number": 49,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/049g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/SUOMENPYSTYKORVA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FINNISH-SPITZ-49.html",
+  "fci_standard": "049g05",
+  "breed_name_alternative": "FINNISH SPITZ",
+  "pdf_language": "English",
+  "common_display_name": "Finnish Spitz",
+  "alt_names": [
+    "Suomenpystykorva",
+    "Finsk Spets",
+    "Finnish Barking Dog",
+    "Lapponian Dog",
+    "Finsk Vorstehhund",
+    "Suomi",
+    "Pystykorva"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:39"
+}

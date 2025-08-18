@@ -1,0 +1,24 @@
+{
+  "breed_id": "ANGLO_FRANCAIS_DE_PETITE_VENERIE",
+  "breed_name": "ANGLO-FRANÇAIS DE PETITE VENERIE (325) (MEDIUM-SIZED ANGLO-FRENCH HOUND)",
+  "breed_number": 325,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/325g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/ANGLO_FRANCAIS_DE_PETITE_VENERIE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MEDIUM-SIZED-ANGLO-FRENCH-HOUND-325.html",
+  "fci_standard": "325g06",
+  "breed_name_alternative": "MEDIUM-SIZED ANGLO-FRENCH HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Anglo-French Pointer",
+  "alt_names": [
+    "Anglo-French Hound",
+    "French Pointer",
+    "Anglo-Français de Petite Vénerie",
+    "Petite Vénerie",
+    "Anglo-French Hunting Dog",
+    "French Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:16:28"
+}

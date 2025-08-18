@@ -1,0 +1,26 @@
+{
+  "breed_id": "PETIT_BASSET_GRIFFON_VENDEEN",
+  "breed_name": "PETIT BASSET GRIFFON VENDEEN (67)",
+  "breed_number": 67,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/067g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/PETIT_BASSET_GRIFFON_VENDEEN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PETIT-BASSET-GRIFFON-VENDEEN-67.html",
+  "fci_standard": "067g06",
+  "breed_name_clean": "PETIT BASSET GRIFFON VENDEEN",
+  "pdf_language": "English",
+  "common_display_name": "Vendee",
+  "alt_names": [
+    "Petit Basset Griffon Vendeen",
+    "PBGV",
+    "Little Vendee Basset",
+    "Griffon Vendeen",
+    "Basset Griffon Vendeen",
+    "Petit Basset Griffon",
+    "Vendeen Basset",
+    "Little Griffon Vendeen"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:16"
+}

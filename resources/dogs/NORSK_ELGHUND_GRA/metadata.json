@@ -1,0 +1,25 @@
+{
+  "breed_id": "NORSK_ELGHUND_GRA",
+  "breed_name": "NORSK ELGHUND GRÅ (242) (NORWEGIAN ELKHOUND GREY)",
+  "breed_number": 242,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/242g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/NORSK_ELGHUND_GRA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html",
+  "fci_standard": "242g05",
+  "breed_name_alternative": "NORWEGIAN ELKHOUND GREY",
+  "pdf_language": "English",
+  "common_display_name": "Norwegian Elkhound",
+  "alt_names": [
+    "Grey Norwegian Elkhound",
+    "Norsk Elghund Grå",
+    "Elkhound",
+    "Norwegian Moose Dog",
+    "Moose Dog",
+    "Gray Elkhound",
+    "Norsk Elghund"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:57"
+}

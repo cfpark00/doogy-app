@@ -1,0 +1,25 @@
+{
+  "breed_id": "CIMARRON_URUGUAYO",
+  "breed_name": "CIMARRÓN URUGUAYO (353)",
+  "breed_number": 353,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/353g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/CIMARRON_URUGUAYO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CIMARRON-URUGUAYO-353.html",
+  "fci_standard": "353g02",
+  "breed_name_clean": "CIMARRÓN URUGUAYO",
+  "pdf_language": "English",
+  "common_display_name": "Cimarrón",
+  "alt_names": [
+    "Cimarron Uruguayo",
+    "Perro Cimarrón",
+    "Uruguayan Cimarrón",
+    "Uruguayan Bulldog",
+    "Cimarrón Dog",
+    "Uruguayan Mastiff",
+    "Cimarrón de Uruguay"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:04"
+}

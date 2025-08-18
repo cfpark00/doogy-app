@@ -1,0 +1,28 @@
+{
+  "breed_id": "RIESENSCHNAUZER",
+  "breed_name": "RIESENSCHNAUZER (181) (GIANT SCHNAUZER)",
+  "breed_number": 181,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/181g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/RIESENSCHNAUZER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GIANT-SCHNAUZER-181.html",
+  "fci_standard": "181g02",
+  "breed_name_alternative": "GIANT SCHNAUZER",
+  "pdf_language": "English",
+  "common_display_name": "Giant Schnauzer",
+  "alt_names": [
+    "Riesenschnauzer",
+    "Giant Schnauzer Dog",
+    "Giant Schnauzer Puppy",
+    "Giant Schnauzer For Sale",
+    "Giant Schnauzer Temperament",
+    "Giant Schnauzer Training",
+    "Giant Schnauzer Breeders",
+    "Giant Schnauzer Price",
+    "Giant Schnauzer Lifespan",
+    "Giant Schnauzer Grooming"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:07"
+}

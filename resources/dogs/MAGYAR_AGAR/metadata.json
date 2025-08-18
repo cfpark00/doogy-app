@@ -1,0 +1,26 @@
+{
+  "breed_id": "MAGYAR_AGAR",
+  "breed_name": "MAGYAR AGAR (240) (HUNGARIAN GREYHOUND)",
+  "breed_number": 240,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/240g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/MAGYAR_AGAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HUNGARIAN-GREYHOUND-240.html",
+  "fci_standard": "240g10",
+  "breed_name_alternative": "HUNGARIAN GREYHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Hungarian Greyhound",
+  "alt_names": [
+    "Magyar Agar",
+    "Hungarian Greyhound Dog",
+    "Hungarian Sighthound",
+    "Agar",
+    "Hungarian Hound",
+    "Magyar Agar Greyhound",
+    "Hungarian Dog",
+    "Hungarian Racer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:33"
+}

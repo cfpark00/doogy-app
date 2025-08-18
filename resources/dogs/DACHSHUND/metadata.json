@@ -1,0 +1,28 @@
+{
+  "breed_id": "DACHSHUND",
+  "breed_name": "DACHSHUND (148)",
+  "breed_number": 148,
+  "group": "group4",
+  "group_number": 4,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/148g04-en.pdf",
+  "pdf_local_path": "data/pdfs/group4/DACHSHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DACHSHUND-148.html",
+  "fci_standard": "148g04",
+  "breed_name_clean": "DACHSHUND",
+  "pdf_language": "English",
+  "common_display_name": "Dachshund",
+  "alt_names": [
+    "Doxie",
+    "Wiener Dog",
+    "Sausage Dog",
+    "Doxiepoo",
+    "Dachshund Dog",
+    "Dachshund Puppy",
+    "Miniature Dachshund",
+    "Standard Dachshund",
+    "Teckel",
+    "Badger Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:59"
+}

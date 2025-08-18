@@ -1,0 +1,26 @@
+{
+  "breed_id": "WEST_HIGHLAND_WHITE_TERRIER",
+  "breed_name": "WEST HIGHLAND WHITE TERRIER (85)",
+  "breed_number": 85,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/085g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/WEST_HIGHLAND_WHITE_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WEST-HIGHLAND-WHITE-TERRIER-85.html",
+  "fci_standard": "085g03",
+  "breed_name_clean": "WEST HIGHLAND WHITE TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Westie",
+  "alt_names": [
+    "West Highland White Terrier",
+    "West Highland",
+    "West Highland Terrier",
+    "Westie Terrier",
+    "White Westie",
+    "Scottish Terrier",
+    "Scotty Terrier",
+    "Terrier Blanco"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:26"
+}

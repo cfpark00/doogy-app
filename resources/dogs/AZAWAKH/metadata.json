@@ -1,0 +1,24 @@
+{
+  "breed_id": "AZAWAKH",
+  "breed_name": "AZAWAKH (307)",
+  "breed_number": 307,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/307g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/AZAWAKH.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AZAWAKH-307.html",
+  "fci_standard": "307g10",
+  "breed_name_clean": "AZAWAKH",
+  "pdf_language": "English",
+  "common_display_name": "Azawakh",
+  "alt_names": [
+    "Tuareg Azawakh",
+    "African Greyhound",
+    "Berber Greyhound",
+    "Azawakh Hound",
+    "Sahara Greyhound",
+    "Azawak"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:08"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "BARBET",
+  "breed_name": "BARBET (105) (FRENCH WATER DOG)",
+  "breed_number": 105,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/105g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/BARBET.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FRENCH-WATER-DOG-105.html",
+  "fci_standard": "105g08",
+  "breed_name_alternative": "FRENCH WATER DOG",
+  "pdf_language": "English",
+  "common_display_name": "Barbet",
+  "alt_names": [
+    "French Water Dog",
+    "Chien d'Eau Français",
+    "Barbet Dog",
+    "French Barbet",
+    "Water Barbet",
+    "Barbet Retriever",
+    "Chien d'eau"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:13"
+}

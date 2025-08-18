@@ -1,0 +1,28 @@
+{
+  "breed_id": "CANE_DA_PASTORE_MAREMMANO_ABRUZZESE",
+  "breed_name": "CANE DA PASTORE MAREMMANO-ABRUZZESE (201) (MAREMMA AND THE ABRUZZES SHEEPDOG)",
+  "breed_number": 201,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/201g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CANE_DA_PASTORE_MAREMMANO_ABRUZZESE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MAREMMA-AND-THE-ABRUZZES-SHEEPDOG-201.html",
+  "fci_standard": "201g01",
+  "breed_name_alternative": "MAREMMA AND THE ABRUZZES SHEEPDOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Maremma Sheepdog",
+  "alt_names": [
+    "Maremma",
+    "Maremmano",
+    "Abruzzese",
+    "Cane da Pastore Maremmano-Abruzzese",
+    "Maremma Sheepdog Abruzzese",
+    "Italian Maremma",
+    "Abruzzese Sheepdog",
+    "Maremmano-Abruzzese"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:04"
+}

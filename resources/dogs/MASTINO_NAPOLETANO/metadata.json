@@ -1,0 +1,25 @@
+{
+  "breed_id": "MASTINO_NAPOLETANO",
+  "breed_name": "MASTINO NAPOLETANO (197) (NEAPOLITAN MASTIFF)",
+  "breed_number": 197,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/197g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/MASTINO_NAPOLETANO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NEAPOLITAN-MASTIFF-197.html",
+  "fci_standard": "197g02",
+  "breed_name_alternative": "NEAPOLITAN MASTIFF",
+  "pdf_language": "English",
+  "common_display_name": "Neapolitan Mastiff",
+  "alt_names": [
+    "Mastino",
+    "Neapolitan Mastino",
+    "Italian Mastiff",
+    "Mastino Napoletano Dog",
+    "Napolitan Mastiff",
+    "Mastino Napoletano",
+    "Mastiff Napoletano"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:53"
+}

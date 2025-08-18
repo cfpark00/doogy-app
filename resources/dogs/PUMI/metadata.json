@@ -1,0 +1,26 @@
+{
+  "breed_id": "PUMI",
+  "breed_name": "PUMI (56)",
+  "breed_number": 56,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/056g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/PUMI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PUMI-56.html",
+  "fci_standard": "056g01",
+  "breed_name_clean": "PUMI",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Pumi",
+  "alt_names": [
+    "Hungarian Pumi",
+    "Pumi Dog",
+    "Hungarian Herding Dog",
+    "Pumi Terrier",
+    "Kopó",
+    "Farkaskutya"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:46"
+}

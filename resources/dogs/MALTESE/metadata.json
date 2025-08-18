@@ -1,0 +1,26 @@
+{
+  "breed_id": "MALTESE",
+  "breed_name": "MALTESE (65)",
+  "breed_number": 65,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/065g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/MALTESE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MALTESE-65.html",
+  "fci_standard": "065g09",
+  "breed_name_clean": "MALTESE",
+  "pdf_language": "English",
+  "common_display_name": "Maltese",
+  "alt_names": [
+    "Maltese Dog",
+    "Maltese Terrier",
+    "Maltese Lion Dog",
+    "Maltese Toy Dog",
+    "Malt",
+    "Maltie",
+    "Melita",
+    "Canis Melitaeus"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:38"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "BOUVIER_DES_ARDENNES",
+  "breed_name": "BOUVIER DES ARDENNES (171)",
+  "breed_number": 171,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/171g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section2_cattledogs/BOUVIER_DES_ARDENNES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BOUVIER-DES-ARDENNES-171.html",
+  "fci_standard": "171g01",
+  "breed_name_clean": "BOUVIER DES ARDENNES",
+  "section": "Cattledogs",
+  "section_number": 2,
+  "pdf_language": "English",
+  "common_display_name": "Bouvier",
+  "alt_names": [
+    "Bouvier des Ardennes",
+    "Ardennes Bouvier",
+    "Belgian Bouvier",
+    "Bouvier",
+    "Bouvier des Flandres"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:24"
+}

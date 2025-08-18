@@ -1,0 +1,25 @@
+{
+  "breed_id": "BULL_TERRIER",
+  "breed_name": "BULL TERRIER (11)",
+  "breed_number": 11,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/011g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/BULL_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BULL-TERRIER-11.html",
+  "fci_standard": "011g03",
+  "breed_name_clean": "BULL TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Bull Terrier",
+  "alt_names": [
+    "Bully",
+    "Miniature Bull Terrier",
+    "Staffy Bull",
+    "Bull Terrier Miniature",
+    "English Bull Terrier",
+    "Bully Terrier",
+    "BT"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:34"
+}

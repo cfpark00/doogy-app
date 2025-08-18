@@ -1,0 +1,26 @@
+{
+  "breed_id": "AKITA",
+  "breed_name": "AKITA (255)",
+  "breed_number": 255,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/255g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/AKITA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AKITA-255.html",
+  "fci_standard": "255g05",
+  "breed_name_clean": "AKITA",
+  "pdf_language": "English",
+  "common_display_name": "Akita",
+  "alt_names": [
+    "Akita Inu",
+    "Japanese Akita",
+    "American Akita",
+    "Great Japanese Dog",
+    "Akita Ken",
+    "Inu",
+    "Akita Dog",
+    "Akita Inu (Japanese)"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:15:48"
+}

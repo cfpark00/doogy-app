@@ -1,0 +1,26 @@
+{
+  "breed_id": "GRAND_GRIFFON_VENDEEN",
+  "breed_name": "GRAND GRIFFON VENDEEN (282)",
+  "breed_number": 282,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/282g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GRAND_GRIFFON_VENDEEN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GRAND-GRIFFON-VENDEEN-282.html",
+  "fci_standard": "282g06",
+  "breed_name_clean": "GRAND GRIFFON VENDEEN",
+  "pdf_language": "English",
+  "common_display_name": "Grand Griffon Vendéen",
+  "alt_names": [
+    "Grand Griffon",
+    "Vendéen",
+    "French Griffon",
+    "Vendeen Griffon",
+    "Grand Griffon Vendeen",
+    "Chien de grande vènerie du midi",
+    "GRIFFON VENDEEN",
+    "Grand Griffon Vendéen Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:00"
+}

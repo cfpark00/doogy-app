@@ -1,0 +1,25 @@
+{
+  "breed_id": "COTON_DE_TULEAR",
+  "breed_name": "COTON DE TULEAR (283)",
+  "breed_number": 283,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/283g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/COTON_DE_TULEAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/COTON-DE-TULEAR-283.html",
+  "fci_standard": "283g09",
+  "breed_name_clean": "COTON DE TULEAR",
+  "pdf_language": "English",
+  "common_display_name": "Coton",
+  "alt_names": [
+    "Coton de Tulear",
+    "Coton du Madagascar",
+    "Madagascar Dog",
+    "Cotton Dog",
+    "Coton",
+    "Coton de Tuléar",
+    "Coton du Tulear"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:44"
+}

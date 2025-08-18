@@ -1,0 +1,25 @@
+{
+  "breed_id": "ENGLISH_TOY_TERRIER",
+  "breed_name": "ENGLISH TOY TERRIER (13) (ENGLISH TOY TERRIER (BLACK &TAN))",
+  "breed_number": 13,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/013g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/ENGLISH_TOY_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ENGLISH-TOY-TERRIER-BLACK-TAN-13.html",
+  "fci_standard": "013g03",
+  "breed_name_alternative": "ENGLISH TOY TERRIER (BLACK &TAN",
+  "pdf_language": "English",
+  "common_display_name": "English Toy Terrier",
+  "alt_names": [
+    "Black and Tan Terrier",
+    "Toy Black and Tan Terrier",
+    "ETTer",
+    "English Toy",
+    "Toy Terrier",
+    "Black and Tan Toy Terrier",
+    "Miniature Black and Tan Terrier"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:30"
+}

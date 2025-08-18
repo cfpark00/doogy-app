@@ -1,0 +1,26 @@
+{
+  "breed_id": "WELSH_CORGI_PEMBROKE",
+  "breed_name": "WELSH CORGI (PEMBROKE) (39)",
+  "breed_number": 39,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/039g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section2_cattledogs/WELSH_CORGI_PEMBROKE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WELSH-CORGI-PEMBROKE-39.html",
+  "fci_standard": "039g01",
+  "breed_name_clean": "WELSH CORGI (PEMBROKE)",
+  "section": "Cattledogs",
+  "section_number": 2,
+  "pdf_language": "English",
+  "common_display_name": "Corgi",
+  "alt_names": [
+    "Pembroke Welsh Corgi",
+    "Welsh Corgi Pembroke",
+    "PWC",
+    "Pembroke",
+    "Welsh Corgi",
+    "Cardigan Corgi"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:06"
+}

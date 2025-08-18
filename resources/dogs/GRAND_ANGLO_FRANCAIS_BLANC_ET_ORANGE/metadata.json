@@ -1,0 +1,25 @@
+{
+  "breed_id": "GRAND_ANGLO_FRANCAIS_BLANC_ET_ORANGE",
+  "breed_name": "GRAND ANGLO-FRANÇAIS BLANC ET ORANGE (324) (GREAT ANGLO-FRENCH WHITE & ORANGE HOUND)",
+  "breed_number": 324,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/324g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GRAND_ANGLO_FRANCAIS_BLANC_ET_ORANGE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREAT-ANGLO-FRENCH-WHITE-ORANGE-HOUND-324.html",
+  "fci_standard": "324g06",
+  "breed_name_alternative": "GREAT ANGLO-FRENCH WHITE & ORANGE HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Grand Anglo-Français Blanc et Orange",
+  "alt_names": [
+    "Great Anglo-French White and Orange Hound",
+    "Anglo-French Tricolor Hound (White and Orange)",
+    "Grand Anglo-Français Tricolore (Blanc et Orange)",
+    "French White and Orange Hound",
+    "Anglo-French White and Orange",
+    "Blanc et Orange",
+    "GAFBO"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:39"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "CANADIAN_ESKIMO_DOG",
+  "breed_name": "CANADIAN ESKIMO DOG (211)",
+  "breed_number": 211,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/211g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/CANADIAN_ESKIMO_DOG.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CANADIAN-ESKIMO-DOG-211.html",
+  "fci_standard": "211g05",
+  "breed_name_clean": "CANADIAN ESKIMO DOG",
+  "pdf_language": "English",
+  "common_display_name": "Canadian Eskimo Dog",
+  "alt_names": [
+    "Canadian Inuit Dog",
+    "Inuit Dog",
+    "Qimmiq",
+    "Greenland Dog",
+    "Eskimo Dog",
+    "Canadian Husky",
+    "Inuit Qimmit",
+    "Northern Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:49"
+}

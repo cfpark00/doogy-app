@@ -1,0 +1,26 @@
+{
+  "breed_id": "GRAND_ANGLO_FRANCAIS_BLANC_ET_NOIR",
+  "breed_name": "GRAND ANGLO-FRANÇAIS BLANC ET NOIR (323) (GREAT ANGLO-FRENCH WHITE AND BLACK HOUND)",
+  "breed_number": 323,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/323g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GRAND_ANGLO_FRANCAIS_BLANC_ET_NOIR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREAT-ANGLO-FRENCH-WHITE-AND-BLACK-HOUND-323.html",
+  "fci_standard": "323g06",
+  "breed_name_alternative": "GREAT ANGLO-FRENCH WHITE AND BLACK HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Grand Anglo-Français Blanc et Noir",
+  "alt_names": [
+    "Great Anglo-French White and Black Hound",
+    "Anglo-French Hound",
+    "Grand Anglo-Français",
+    "French White and Black Hound",
+    "Grand Anglo-Français Blanc et Noir Hound",
+    "Anglo-French White and Black",
+    "Grand Anglo-Français Blanc et Noir Dog",
+    "French Hound White and Black"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:34"
+}

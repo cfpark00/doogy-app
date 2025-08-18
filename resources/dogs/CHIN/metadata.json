@@ -1,0 +1,25 @@
+{
+  "breed_id": "CHIN",
+  "breed_name": "CHIN (206) (JAPANESE CHIN)",
+  "breed_number": 206,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/206g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/CHIN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/JAPANESE-CHIN-206.html",
+  "fci_standard": "206g09",
+  "breed_name_alternative": "JAPANESE CHIN",
+  "pdf_language": "English",
+  "common_display_name": "Chin",
+  "alt_names": [
+    "Japanese Chin",
+    "Chin-Chin",
+    "Japanese Spaniel",
+    "Chin Chin Dog",
+    "Japanese Toy Dog",
+    "Chin-chin",
+    "Japanese Pug"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:22:49"
+}

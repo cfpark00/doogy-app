@@ -1,0 +1,26 @@
+{
+  "breed_id": "KAI",
+  "breed_name": "KAI (317)",
+  "breed_number": 317,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/317g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/KAI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KAI-317.html",
+  "fci_standard": "317g05",
+  "breed_name_clean": "KAI",
+  "pdf_language": "English",
+  "common_display_name": "Kai",
+  "alt_names": [
+    "Kai Ken",
+    "Japanese Kai",
+    "Kai Inu",
+    "Tiger Dog",
+    "Mikado Dog",
+    "Kai Ken Aigoo",
+    "Japanese Tiger Dog",
+    "Kai Ken Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:54"
+}

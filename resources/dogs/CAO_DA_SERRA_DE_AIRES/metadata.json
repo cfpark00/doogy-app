@@ -1,0 +1,28 @@
+{
+  "breed_id": "CAO_DA_SERRA_DE_AIRES",
+  "breed_name": "CÃO DA SERRA DE AIRES (93) (PORTUGUESE SHEEPDOG)",
+  "breed_number": 93,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/093g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CAO_DA_SERRA_DE_AIRES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PORTUGUESE-SHEEPDOG-93.html",
+  "fci_standard": "093g01",
+  "breed_name_alternative": "PORTUGUESE SHEEPDOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Portuguese Sheepdog",
+  "alt_names": [
+    "Cão da Serra de Aires",
+    "Serra de Aires Dog",
+    "Portuguese Cattle Dog",
+    "Aires Shepherd",
+    "Portuguese Mountain Dog",
+    "Cão da Serra",
+    "Pastor Português da Serra de Aires",
+    "Portuguese Shepherd Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:19"
+}

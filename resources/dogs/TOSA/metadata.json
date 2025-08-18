@@ -1,0 +1,25 @@
+{
+  "breed_id": "TOSA",
+  "breed_name": "TOSA (260)",
+  "breed_number": 260,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/260g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/TOSA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/TOSA-260.html",
+  "fci_standard": "260g02",
+  "breed_name_clean": "TOSA",
+  "pdf_language": "English",
+  "common_display_name": "Tosa",
+  "alt_names": [
+    "Tosa Inu",
+    "Japanese Mastiff",
+    "Great Japanese Dog",
+    "Japanese Fighting Dog",
+    "Tosa Ken",
+    "Nihon Tosa Inu",
+    "Tosa Token"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:35"
+}

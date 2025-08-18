@@ -1,0 +1,28 @@
+{
+  "breed_id": "WELSH_CORGI",
+  "breed_name": "WELSH CORGI (CARDIGAN) (38)",
+  "breed_number": 38,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/038g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section2_cattledogs/WELSH_CORGI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WELSH-CORGI-CARDIGAN-38.html",
+  "fci_standard": "038g01",
+  "breed_name_clean": "WELSH CORGI (CARDIGAN)",
+  "section": "Cattledogs",
+  "section_number": 2,
+  "pdf_language": "English",
+  "common_display_name": "Cardigan Welsh Corgi",
+  "alt_names": [
+    "Cardigan Corgi",
+    "Cardigan",
+    "Welsh Corgi Cardigan",
+    "Corgi Cardigan",
+    "Cardigan Welsh",
+    "Cardigan Welsh Sheepdog",
+    "Ci Corgi",
+    "Cardigan Welsh Cattle Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:00"
+}

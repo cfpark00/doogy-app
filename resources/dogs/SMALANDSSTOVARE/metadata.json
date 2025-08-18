@@ -1,0 +1,26 @@
+{
+  "breed_id": "SMALANDSSTOVARE",
+  "breed_name": "SMÅLANDSSTÖVARE (129)",
+  "breed_number": 129,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/129g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SMALANDSSTOVARE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SMALANDSSTOVARE-129.html",
+  "fci_standard": "129g06",
+  "breed_name_clean": "SMÅLANDSSTÖVARE",
+  "pdf_language": "English",
+  "common_display_name": "Smålandsstövare",
+  "alt_names": [
+    "Småland Hound",
+    "Smoland Hound",
+    "Swedish Foxhound",
+    "Smålandsstövare dog",
+    "Smålandstövare",
+    "Smålandsstövare hound",
+    "Swedish Hound",
+    "Smolandstövare"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:44"
+}

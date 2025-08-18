@@ -1,0 +1,26 @@
+{
+  "breed_id": "BEARDED_COLLIE",
+  "breed_name": "BEARDED COLLIE (271)",
+  "breed_number": 271,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/271g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/BEARDED_COLLIE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BEARDED-COLLIE-271.html",
+  "fci_standard": "271g01",
+  "breed_name_clean": "BEARDED COLLIE",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Bearded Collie",
+  "alt_names": [
+    "Beardie",
+    "Old Scotch Collie",
+    "Hairy Collie",
+    "Highland Collie",
+    "Scotch Collie",
+    "Bearded Sheepdog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:58"
+}

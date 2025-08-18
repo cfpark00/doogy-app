@@ -1,0 +1,26 @@
+{
+  "breed_id": "HELLINIKOS_ICHNILATIS",
+  "breed_name": "HELLINIKOS ICHNILATIS (214) (HELLENIC HOUND)",
+  "breed_number": 214,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/214g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/HELLINIKOS_ICHNILATIS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HELLENIC-HOUND-214.html",
+  "fci_standard": "214g06",
+  "breed_name_alternative": "HELLENIC HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Hellenic Hound",
+  "alt_names": [
+    "Greek Hound",
+    "Hellinikos Ichnilatis",
+    "Hellenikos Ichnilatis",
+    "Greek Scent Hound",
+    "Hellenic Scent Hound",
+    "Greek Tracking Dog",
+    "Hellenic Tracking Dog",
+    "Hellenic Scent Hound Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:15"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "CANICHE",
+  "breed_name": "CANICHE (172) (POODLE)",
+  "breed_number": 172,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/172g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/CANICHE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/POODLE-172.html",
+  "fci_standard": "172g09",
+  "breed_name_alternative": "POODLE",
+  "pdf_language": "English",
+  "common_display_name": "Poodle",
+  "alt_names": [
+    "Standard Poodle",
+    "Miniature Poodle",
+    "Toy Poodle",
+    "Caniche",
+    "French Poodle",
+    "Pudle",
+    "Pudel",
+    "Poodle Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:09"
+}

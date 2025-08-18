@@ -1,0 +1,27 @@
+{
+  "breed_id": "GOLDEN_RETRIEVER",
+  "breed_name": "GOLDEN RETRIEVER (111)",
+  "breed_number": 111,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/111g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/GOLDEN_RETRIEVER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GOLDEN-RETRIEVER-111.html",
+  "fci_standard": "111g08",
+  "breed_name_clean": "GOLDEN RETRIEVER",
+  "pdf_language": "English",
+  "common_display_name": "Golden Retriever",
+  "alt_names": [
+    "Golden",
+    "Goldie",
+    "Retriever",
+    "Golden Retriever Dog",
+    "Golden Retriever Puppy",
+    "Golden Retriever for Sale",
+    "Golden Retriever Temperament",
+    "Golden Retriever Training",
+    "Golden Retriever Breed"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:14"
+}

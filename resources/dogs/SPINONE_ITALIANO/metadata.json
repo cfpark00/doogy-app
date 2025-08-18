@@ -1,0 +1,25 @@
+{
+  "breed_id": "SPINONE_ITALIANO",
+  "breed_name": "SPINONE ITALIANO (165) (ITALIAN SPINONE)",
+  "breed_number": 165,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/165g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/SPINONE_ITALIANO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ITALIAN-SPINONE-165.html",
+  "fci_standard": "165g07",
+  "breed_name_alternative": "ITALIAN SPINONE",
+  "pdf_language": "English",
+  "common_display_name": "Spinone",
+  "alt_names": [
+    "Spinone Italiano",
+    "Italian Spinone",
+    "Spino",
+    "Italian Griffon",
+    "Spinone Hunter",
+    "Italian Pointer",
+    "Wirehaired Italian Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:49"
+}

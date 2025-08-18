@@ -1,0 +1,25 @@
+{
+  "breed_id": "TIBETAN_SPANIEL",
+  "breed_name": "TIBETAN SPANIEL (231)",
+  "breed_number": 231,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/231g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/TIBETAN_SPANIEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/TIBETAN-SPANIEL-231.html",
+  "fci_standard": "231g09",
+  "breed_name_clean": "TIBETAN SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Tibetan Spaniel",
+  "alt_names": [
+    "Tibbie",
+    "Tibetan Lion Dog",
+    "Tibetan Temple Dog",
+    "Little Lion Dog",
+    "Tsang Apso",
+    "Bhote Apso",
+    "Himalayan Apso"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:14"
+}

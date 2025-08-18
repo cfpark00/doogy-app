@@ -1,0 +1,25 @@
+{
+  "breed_id": "SIBERIAN_HUSKY",
+  "breed_name": "SIBERIAN HUSKY (270)",
+  "breed_number": 270,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/270g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/SIBERIAN_HUSKY.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SIBERIAN-HUSKY-270.html",
+  "fci_standard": "270g05",
+  "breed_name_clean": "SIBERIAN HUSKY",
+  "pdf_language": "English",
+  "common_display_name": "Husky",
+  "alt_names": [
+    "Siberian Husky Dog",
+    "Husky Dog",
+    "Siberian",
+    "Arctic Husky",
+    "Northern Husky",
+    "Sibe",
+    "Husky Wolf"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:14"
+}

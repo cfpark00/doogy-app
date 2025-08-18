@@ -1,0 +1,28 @@
+{
+  "breed_id": "GORDON_SETTER",
+  "breed_name": "GORDON SETTER (6)",
+  "breed_number": 6,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/006g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/GORDON_SETTER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GORDON-SETTER-6.html",
+  "fci_standard": "006g07",
+  "breed_name_clean": "GORDON SETTER",
+  "pdf_language": "English",
+  "common_display_name": "Gordon Setter",
+  "alt_names": [
+    "Gordon",
+    "Black and Tan Setter",
+    "Gordons",
+    "Setter Gordon",
+    "Gordon Setter Dog",
+    "Gordon Setter Puppy",
+    "Gordon Setter For Sale",
+    "Gordon Setter Temperament",
+    "Gordon Setter Training",
+    "Gordon Setter Characteristics"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:24"
+}

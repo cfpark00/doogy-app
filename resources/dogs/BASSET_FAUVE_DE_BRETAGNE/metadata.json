@@ -1,0 +1,25 @@
+{
+  "breed_id": "BASSET_FAUVE_DE_BRETAGNE",
+  "breed_name": "BASSET FAUVE DE BRETAGNE (36)",
+  "breed_number": 36,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/036g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BASSET_FAUVE_DE_BRETAGNE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BASSET-FAUVE-DE-BRETAGNE-36.html",
+  "fci_standard": "036g06",
+  "breed_name_clean": "BASSET FAUVE DE BRETAGNE",
+  "pdf_language": "English",
+  "common_display_name": "Basset Fauve de Bretagne",
+  "alt_names": [
+    "Fauve de Bretagne",
+    "Brittany Basset",
+    "Little Fawn Brittany",
+    "Fauve Basset",
+    "Basset Fauve",
+    "Fauve",
+    "Brittany Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:33"
+}

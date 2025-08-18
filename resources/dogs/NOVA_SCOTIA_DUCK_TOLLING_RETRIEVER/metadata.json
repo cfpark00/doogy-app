@@ -1,0 +1,26 @@
+{
+  "breed_id": "NOVA_SCOTIA_DUCK_TOLLING_RETRIEVER",
+  "breed_name": "NOVA SCOTIA DUCK TOLLING RETRIEVER (312)",
+  "breed_number": 312,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/312g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/NOVA_SCOTIA_DUCK_TOLLING_RETRIEVER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html",
+  "fci_standard": "312g08",
+  "breed_name_clean": "NOVA SCOTIA DUCK TOLLING RETRIEVER",
+  "pdf_language": "English",
+  "common_display_name": "Toller",
+  "alt_names": [
+    "Nova Scotia Duck Tolling Retriever",
+    "Tolling Retriever",
+    "Little Red Dog",
+    "NSDTR",
+    "Nova Scotia Retriever",
+    "Toller Retriever",
+    "Duck Toller",
+    "Tollers"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:16"
+}

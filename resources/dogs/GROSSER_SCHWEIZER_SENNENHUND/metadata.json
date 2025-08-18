@@ -1,0 +1,26 @@
+{
+  "breed_id": "GROSSER_SCHWEIZER_SENNENHUND",
+  "breed_name": "GROSSER SCHWEIZER SENNENHUND (58) (GREAT SWISS MOUNTAIN DOG)",
+  "breed_number": 58,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/058g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/GROSSER_SCHWEIZER_SENNENHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREAT-SWISS-MOUNTAIN-DOG-58.html",
+  "fci_standard": "058g02",
+  "breed_name_alternative": "GREAT SWISS MOUNTAIN DOG",
+  "pdf_language": "English",
+  "common_display_name": "Greater Swiss Mountain Dog",
+  "alt_names": [
+    "Grosser Schweizer Sennenhund",
+    "Swissy",
+    "Greater Swiss",
+    "Swiss Mountain Dog",
+    "GSS",
+    "Swissy Dog",
+    "Greater Swissy",
+    "Grosser Swissy"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:50"
+}

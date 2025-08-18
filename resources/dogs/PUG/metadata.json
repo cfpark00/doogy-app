@@ -1,0 +1,26 @@
+{
+  "breed_id": "PUG",
+  "breed_name": "PUG (253)",
+  "breed_number": 253,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/253g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/PUG.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PUG-253.html",
+  "fci_standard": "253g09",
+  "breed_name_clean": "PUG",
+  "pdf_language": "English",
+  "common_display_name": "Pug",
+  "alt_names": [
+    "Pug Dog",
+    "Mops",
+    "Pugs",
+    "Puggy",
+    "Puglet",
+    "Puggy Dog",
+    "Pug Dog Breed",
+    "Chinese Pug"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:36"
+}

@@ -1,0 +1,24 @@
+{
+  "breed_id": "KRASKI_OVCAR",
+  "breed_name": "KRASKI OVCAR (278) (KARST SHEPHERD DOG)",
+  "breed_number": 278,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/278g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/KRASKI_OVCAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KARST-SHEPHERD-DOG-278.html",
+  "fci_standard": "278g02",
+  "breed_name_alternative": "KARST SHEPHERD DOG",
+  "pdf_language": "English",
+  "common_display_name": "Krasniy Ovchar",
+  "alt_names": [
+    "Krasniy Ovcharka",
+    "Russian Shepherd",
+    "Krasny Ovcharka",
+    "Krasnoyarsky Ovcharka",
+    "Krasnoyarsk Shepherd",
+    "Krasnoyarsk Ovcharka"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:44"
+}

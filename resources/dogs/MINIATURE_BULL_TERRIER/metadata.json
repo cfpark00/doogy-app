@@ -1,0 +1,25 @@
+{
+  "breed_id": "MINIATURE_BULL_TERRIER",
+  "breed_name": "MINIATURE BULL TERRIER (359)",
+  "breed_number": 359,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/359g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/MINIATURE_BULL_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MINIATURE-BULL-TERRIER-359.html",
+  "fci_standard": "359g03",
+  "breed_name_clean": "MINIATURE BULL TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Miniature Bull Terrier",
+  "alt_names": [
+    "Min Bull",
+    "Mini Bull",
+    "Miniature Bull",
+    "Bull Terrier Miniature",
+    "Bull Terrier Mini",
+    "BT",
+    "Miniature Bullterrier"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:08"
+}

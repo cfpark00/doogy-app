@@ -1,0 +1,25 @@
+{
+  "breed_id": "AMERICAN_WATER_SPANIEL",
+  "breed_name": "AMERICAN WATER SPANIEL (301)",
+  "breed_number": 301,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/301g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/AMERICAN_WATER_SPANIEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AMERICAN-WATER-SPANIEL-301.html",
+  "fci_standard": "301g08",
+  "breed_name_clean": "AMERICAN WATER SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "American Water Spaniel",
+  "alt_names": [
+    "AWS",
+    "American Water",
+    "Wisconsin Water Dog",
+    "Fox Squirrel Dog",
+    "Little Brown Dog",
+    "Brown Dog",
+    "Water Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:16:23"
+}

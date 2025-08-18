@@ -1,0 +1,25 @@
+{
+  "breed_id": "ISLENSKUR_FJARHUNDUR",
+  "breed_name": "ÍSLENSKUR FJÁRHUNDUR (289) (ICELANDIC SHEEPDOG)",
+  "breed_number": 289,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/289g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/ISLENSKUR_FJARHUNDUR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ICELANDIC-SHEEPDOG-289.html",
+  "fci_standard": "289g05",
+  "breed_name_alternative": "ICELANDIC SHEEPDOG",
+  "pdf_language": "English",
+  "common_display_name": "Icelandic Sheepdog",
+  "alt_names": [
+    "Icelandic Shepherd Dog",
+    "Íslenskur Fjárhundur",
+    "Icelandic Spitz",
+    "Icelandic Farm Dog",
+    "Fjallhundur",
+    "Icelandic Herding Dog",
+    "Viking Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:25"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "JACK_RUSSELL_TERRIER",
+  "breed_name": "JACK RUSSELL TERRIER (345)",
+  "breed_number": 345,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/345g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/JACK_RUSSELL_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/JACK-RUSSELL-TERRIER-345.html",
+  "fci_standard": "345g03",
+  "breed_name_clean": "JACK RUSSELL TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Jack Russell Terrier",
+  "alt_names": [
+    "Jack Russell",
+    "JRT",
+    "Jack",
+    "Parson Russell Terrier",
+    "Russell Terrier",
+    "Jack Russell Terrier Dog",
+    "Jack Russell Terrier Puppy"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:39"
+}

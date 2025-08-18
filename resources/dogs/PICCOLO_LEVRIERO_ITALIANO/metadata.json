@@ -1,0 +1,26 @@
+{
+  "breed_id": "PICCOLO_LEVRIERO_ITALIANO",
+  "breed_name": "PICCOLO LEVRIERO ITALIANO (200) (ITALIAN SIGHTHOUND)",
+  "breed_number": 200,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/200g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/PICCOLO_LEVRIERO_ITALIANO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html",
+  "fci_standard": "200g10",
+  "breed_name_alternative": "ITALIAN SIGHTHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Italian Greyhound",
+  "alt_names": [
+    "Piccolo Levriero Italiano",
+    "IG",
+    "Italian Greyhound Dog",
+    "Little Italian Greyhound",
+    "Miniature Greyhound",
+    "Levriero Italiano",
+    "Italian Whippet",
+    "Grecian Greyhound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:41"
+}

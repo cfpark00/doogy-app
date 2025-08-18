@@ -1,0 +1,27 @@
+{
+  "breed_id": "BERGER_DE_BRIE",
+  "breed_name": "BERGER DE BRIE (113) (BRIARD)",
+  "breed_number": 113,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/113g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/BERGER_DE_BRIE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BRIARD-113.html",
+  "fci_standard": "113g01",
+  "breed_name_alternative": "BRIARD",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Briard",
+  "alt_names": [
+    "Berger de Brie",
+    "Briard Sheepdog",
+    "Brie Shepherd",
+    "French Briard",
+    "Chien de Berger de Brie",
+    "Berger Français de Brie",
+    "Brie Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:18:18"
+}

@@ -1,0 +1,27 @@
+{
+  "breed_id": "AMERICAN_STAFFORDSHIRE_TERRIER",
+  "breed_name": "AMERICAN STAFFORDSHIRE TERRIER (286)",
+  "breed_number": 286,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/286g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/AMERICAN_STAFFORDSHIRE_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AMERICAN-STAFFORDSHIRE-TERRIER-286.html",
+  "fci_standard": "286g03",
+  "breed_name_clean": "AMERICAN STAFFORDSHIRE TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Amstaff",
+  "alt_names": [
+    "American Staffordshire Terrier",
+    "Staffy",
+    "Amstaff Terrier",
+    "Staffordshire Terrier",
+    "American Staffy",
+    "Blue Amstaff",
+    "Pitbull Terrier",
+    "Pit Bull",
+    "Am Staff"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:16:18"
+}

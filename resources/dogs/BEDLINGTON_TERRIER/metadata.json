@@ -1,0 +1,26 @@
+{
+  "breed_id": "BEDLINGTON_TERRIER",
+  "breed_name": "BEDLINGTON TERRIER (9)",
+  "breed_number": 9,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/009g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/BEDLINGTON_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BEDLINGTON-TERRIER-9.html",
+  "fci_standard": "009g03",
+  "breed_name_clean": "BEDLINGTON TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Bedlington Terrier",
+  "alt_names": [
+    "Bedlington",
+    "Lamb Dog",
+    "Dandie Dinmont Terrier",
+    "Rothbury Terrier",
+    "Beddy",
+    "Bedlington Terrier Dog",
+    "Bedlington Terrier Puppy",
+    "Bedlington Terrier Breed"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:18:03"
+}

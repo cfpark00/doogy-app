@@ -1,0 +1,25 @@
+{
+  "breed_id": "ISTARSKI_KRATKODLAKI_GONIC",
+  "breed_name": "ISTARSKI KRATKODLAKI GONIC (151) (ISTRIAN SHORT-HAIRED HOUND)",
+  "breed_number": 151,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/151g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/ISTARSKI_KRATKODLAKI_GONIC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ISTRIAN-SHORT-HAIRED-HOUND-151.html",
+  "fci_standard": "151g06",
+  "breed_name_alternative": "ISTRIAN SHORT-HAIRED HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Istrian Hound",
+  "alt_names": [
+    "Istrian Short-haired Hound",
+    "Istarski Kratkodlaki Gonic",
+    "Croatian Hound",
+    "Istrian Pointer",
+    "Short-haired Istrian Hound",
+    "Istrien Kurzhaariger Laufhund",
+    "Istrian Gonic"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:29"
+}

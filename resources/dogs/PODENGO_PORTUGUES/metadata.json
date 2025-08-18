@@ -1,0 +1,26 @@
+{
+  "breed_id": "PODENGO_PORTUGUES",
+  "breed_name": "PODENGO PORTUGUÊS (94) (PORTUGUESE WARREN HOUND-PORTUGUESE PODENGO)",
+  "breed_number": 94,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/094g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/PODENGO_PORTUGUES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PORTUGUESE-WARREN-HOUND-PORTUGUESE-PODENGO-94.html",
+  "fci_standard": "094g05",
+  "breed_name_alternative": "PORTUGUESE WARREN HOUND-PORTUGUESE PODENGO",
+  "pdf_language": "English",
+  "common_display_name": "Podengo",
+  "alt_names": [
+    "Portuguese Podengo",
+    "Podengo Português",
+    "Portuguese Warren Hound",
+    "Podengo Pequeno",
+    "Podengo Medio",
+    "Podengo Grande",
+    "Portuguese Hound",
+    "Portuguese Rabbit Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:56"
+}

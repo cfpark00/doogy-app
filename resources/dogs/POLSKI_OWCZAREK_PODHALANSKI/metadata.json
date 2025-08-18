@@ -1,0 +1,27 @@
+{
+  "breed_id": "POLSKI_OWCZAREK_PODHALANSKI",
+  "breed_name": "POLSKI OWCZAREK PODHALANSKI (252) (POLISH TATRA SHEPHERD)",
+  "breed_number": 252,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/252g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/POLSKI_OWCZAREK_PODHALANSKI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/POLISH-TATRA-SHEPHERD-252.html",
+  "fci_standard": "252g01",
+  "breed_name_alternative": "POLISH TATRA SHEPHERD",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Podhalan",
+  "alt_names": [
+    "Polish Tatra Sheepdog",
+    "Tatra Shepherd Dog",
+    "Polish Mountain Dog",
+    "Tatra Mountain Dog",
+    "Podhalanski Owczarek",
+    "Polish Sheepdog",
+    "Tatra Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:11"
+}

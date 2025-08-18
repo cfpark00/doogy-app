@@ -1,0 +1,23 @@
+{
+  "breed_id": "STAFFORDSHIRE_BULL_TERRIER",
+  "breed_name": "STAFFORDSHIRE BULL TERRIER (76)",
+  "breed_number": 76,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/076g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/STAFFORDSHIRE_BULL_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/STAFFORDSHIRE-BULL-TERRIER-76.html",
+  "fci_standard": "076g03",
+  "breed_name_clean": "STAFFORDSHIRE BULL TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Staffordshire Bull Terrier",
+  "alt_names": [
+    "Staffy",
+    "Staffie",
+    "Stafford",
+    "Staffordshire Terrier",
+    "AmStaff"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:14"
+}

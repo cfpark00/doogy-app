@@ -1,0 +1,25 @@
+{
+  "breed_id": "CURLY_COATED_RETRIEVER",
+  "breed_name": "CURLY COATED RETRIEVER (110)",
+  "breed_number": 110,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/110g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/CURLY_COATED_RETRIEVER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CURLY-COATED-RETRIEVER-110.html",
+  "fci_standard": "110g08",
+  "breed_name_clean": "CURLY COATED RETRIEVER",
+  "pdf_language": "English",
+  "common_display_name": "Curly Coated Retriever",
+  "alt_names": [
+    "Curly",
+    "Curlycoat",
+    "Curly Coated",
+    "Curly Retriever",
+    "CC Retriever",
+    "English Curly Coated Retriever",
+    "Curly-Coated Retriever"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:54"
+}

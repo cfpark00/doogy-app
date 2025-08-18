@@ -1,0 +1,28 @@
+{
+  "breed_id": "CHIEN_DE_BERGER_DES_PYRENEES_A_FACE_RASE",
+  "breed_name": "CHIEN DE BERGER DES PYRENEES A FACE RASE (138) (PYRENEAN SHEEPDOG - SMOOTH FACED)",
+  "breed_number": 138,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/138g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CHIEN_DE_BERGER_DES_PYRENEES_A_FACE_RASE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PYRENEAN-SHEEPDOG-SMOOTH-FACED-138.html",
+  "fci_standard": "138g01",
+  "breed_name_alternative": "PYRENEAN SHEEPDOG - SMOOTH FACED",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Pyrenean Shepherd",
+  "alt_names": [
+    "Pyrenean Sheepdog",
+    "Chien de Berger des Pyrénées",
+    "Berger des Pyrénées",
+    "Pyrenean Shepherd Dog",
+    "Petite Pyrénées",
+    "Pyr Shep",
+    "Pyrenean",
+    "Berger des Pyrenees a face rase"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:22:24"
+}

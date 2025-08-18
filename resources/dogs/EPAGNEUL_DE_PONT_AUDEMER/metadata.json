@@ -1,0 +1,24 @@
+{
+  "breed_id": "EPAGNEUL_DE_PONT_AUDEMER",
+  "breed_name": "EPAGNEUL DE PONT-AUDEMER (114) (PONT-AUDEMER SPANIEL)",
+  "breed_number": 114,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/114g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/EPAGNEUL_DE_PONT_AUDEMER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PONT-AUDEMER-SPANIEL-114.html",
+  "fci_standard": "114g07",
+  "breed_name_alternative": "PONT-AUDEMER SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Pont Audemer Spaniel",
+  "alt_names": [
+    "Epagneul de Pont Audemer",
+    "Pont-Audemer Spaniel",
+    "French Spaniel Pont Audemer",
+    "Pont Audemer Gun Dog",
+    "Pont Audemer Water Spaniel",
+    "French Water Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:50"
+}

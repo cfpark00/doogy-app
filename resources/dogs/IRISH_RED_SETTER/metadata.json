@@ -1,0 +1,26 @@
+{
+  "breed_id": "IRISH_RED_SETTER",
+  "breed_name": "IRISH RED SETTER (120)",
+  "breed_number": 120,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/120g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/IRISH_RED_SETTER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/IRISH-RED-SETTER-120.html",
+  "fci_standard": "120g07",
+  "breed_name_clean": "IRISH RED SETTER",
+  "pdf_language": "English",
+  "common_display_name": "Setter",
+  "alt_names": [
+    "Irish Setter",
+    "Red Setter",
+    "Setter (Irish)",
+    "Irish Red",
+    "Gadhar Rúadh",
+    "Old Red",
+    "Irish",
+    "Setter"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:00"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "BOULEDOGUE_FRANCAIS",
+  "breed_name": "BOULEDOGUE FRANÇAIS (101) (FRENCH BULLDOG)",
+  "breed_number": 101,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/BOULEDOGUE_FRANCAIS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FRENCH-BULLDOG-101.html",
+  "fci_standard": "101g09",
+  "breed_name_alternative": "FRENCH BULLDOG",
+  "pdf_language": "English",
+  "common_display_name": "French Bulldog",
+  "alt_names": [
+    "Frenchie",
+    "French Bulldog Terrier",
+    "Bouledogue Français",
+    "Boubou",
+    "Frog Dog",
+    "Frenchie Bulldog",
+    "Bulldog Français"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:19"
+}

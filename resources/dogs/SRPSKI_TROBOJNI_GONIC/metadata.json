@@ -1,0 +1,25 @@
+{
+  "breed_id": "SRPSKI_TROBOJNI_GONIC",
+  "breed_name": "SRPSKI TROBOJNI GONIC (229) (SERBIAN TRICOLOUR HOUND)",
+  "breed_number": 229,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/229g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SRPSKI_TROBOJNI_GONIC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SERBIAN-TRICOLOUR-HOUND-229.html",
+  "fci_standard": "229g06",
+  "breed_name_alternative": "SERBIAN TRICOLOUR HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Serbian Hound",
+  "alt_names": [
+    "Srpski Trobojni Gonič",
+    "Serbian Tricolor Hound",
+    "Balkan Hound",
+    "Yugoslav Tricolour Hound",
+    "Serbian Tricolor",
+    "Trobojni Gonič",
+    "Serbian Tricolour Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:04"
+}

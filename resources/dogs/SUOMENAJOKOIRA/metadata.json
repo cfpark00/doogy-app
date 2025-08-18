@@ -1,0 +1,23 @@
+{
+  "breed_id": "SUOMENAJOKOIRA",
+  "breed_name": "SUOMENAJOKOIRA (51) (FINNISH HOUND)",
+  "breed_number": 51,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/051g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SUOMENAJOKOIRA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FINNISH-HOUND-51.html",
+  "fci_standard": "051g06",
+  "breed_name_alternative": "FINNISH HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Finnish Hound",
+  "alt_names": [
+    "Suomenajokoira",
+    "Finnish Scent Hound",
+    "Finnish Harrier",
+    "Suomi Hound",
+    "Finnish Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:29"
+}

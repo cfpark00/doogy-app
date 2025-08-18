@@ -1,0 +1,24 @@
+{
+  "breed_id": "BOSANSKI_OSTRODLAKI_GONIC_BARAK",
+  "breed_name": "BOSANSKI OSTRODLAKI GONIC-BARAK (155) (BOSNIAN BROKEN-HAIRED HOUND - CALLED BARAK)",
+  "breed_number": 155,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/155g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BOSANSKI_OSTRODLAKI_GONIC_BARAK.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BOSNIAN-BROKEN-HAIRED-HOUND-CALLED-BARAK-155.html",
+  "fci_standard": "155g06",
+  "breed_name_alternative": "BOSNIAN BROKEN-HAIRED HOUND - CALLED BARAK",
+  "pdf_language": "English",
+  "common_display_name": "Bosnian Rough-haired Hound",
+  "alt_names": [
+    "Bosanski Oštrodlaki Gonič",
+    "Bosnian Barak",
+    "Bosnian Hound",
+    "Bosnian Rough Hound",
+    "Barak Hound",
+    "Oštrodlaki Gonič"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:08"
+}

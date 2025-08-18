@@ -1,0 +1,24 @@
+{
+  "breed_id": "NORSK_ELGHUND_SORT",
+  "breed_name": "NORSK ELGHUND SORT (268) (NORWEGIAN ELKHOUND BLACK)",
+  "breed_number": 268,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/268g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/NORSK_ELGHUND_SORT.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-BLACK-268.html",
+  "fci_standard": "268g05",
+  "breed_name_alternative": "NORWEGIAN ELKHOUND BLACK",
+  "pdf_language": "English",
+  "common_display_name": "Elkhound",
+  "alt_names": [
+    "Norwegian Elkhound Black",
+    "Black Norwegian Elkhound",
+    "Norsk Elghund Svart",
+    "Black Elkhound",
+    "Norwegian Moose Dog Black",
+    "Norsk Elghund Sort"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:02"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "KAVKAZSKAIA_OVTCHARKA",
+  "breed_name": "KAVKAZSKAÏA OVTCHARKA (328) (CAUCASIAN SHEPHERD DOG)",
+  "breed_number": 328,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/328g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/KAVKAZSKAIA_OVTCHARKA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CAUCASIAN-SHEPHERD-DOG-328.html",
+  "fci_standard": "328g02",
+  "breed_name_alternative": "CAUCASIAN SHEPHERD DOG",
+  "pdf_language": "English",
+  "common_display_name": "Caucasian Shepherd Dog",
+  "alt_names": [
+    "Caucasian Ovcharka",
+    "Kavkazskaya Ovcharka",
+    "Caucasian Mountain Dog",
+    "Ovcharka",
+    "Caucasian Sheepdog",
+    "Kavkaz Ovtcharka",
+    "Caucasus Shepherd Dog",
+    "Kavkazskaya Volkodav"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:09"
+}

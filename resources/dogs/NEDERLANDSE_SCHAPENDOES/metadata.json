@@ -1,0 +1,27 @@
+{
+  "breed_id": "NEDERLANDSE_SCHAPENDOES",
+  "breed_name": "NEDERLANDSE SCHAPENDOES (313) (DUTCH SCHAPENDOES)",
+  "breed_number": 313,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/313g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/NEDERLANDSE_SCHAPENDOES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DUTCH-SCHAPENDOES-313.html",
+  "fci_standard": "313g01",
+  "breed_name_alternative": "DUTCH SCHAPENDOES",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Dutch Sheepdog",
+  "alt_names": [
+    "Nederlandse Schapendoes",
+    "Schapendoes",
+    "Dutch Sheep Dog",
+    "Duitse Schapendoes",
+    "Dutch Shepherd Dog",
+    "Schapendoes Dog",
+    "Nederlandse Sheepdog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:22"
+}

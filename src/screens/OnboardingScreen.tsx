@@ -45,7 +45,6 @@ export function OnboardingScreen() {
   }]);
   
   const [isLoading, setIsLoading] = useState(false);
-  const [isSaving, setIsSaving] = useState(false);
 
   // Calculate total steps based on ownership status
   const getTotalSteps = () => {
@@ -65,6 +64,8 @@ export function OnboardingScreen() {
     {id: 'intermediate', label: 'Intermediate', desc: 'Knows sit, stay, come'},
     {id: 'advanced', label: 'Advanced', desc: 'Follows complex commands'},
     {id: 'expert', label: 'Expert', desc: 'Professional training level'},
+    {id: 'masterclass', label: 'Master Class', desc: 'Competition level training'},
+    {id: 'professional', label: 'Professional', desc: 'Service dog level training'},
   ];
 
   const handleNext = () => {
@@ -74,24 +75,27 @@ export function OnboardingScreen() {
       return;
     }
     
+    // Special case: if user selected "Just exploring", complete onboarding immediately
+    if (currentStep === 0 && ownershipStatus === 'none') {
+      handleComplete();
+      return;
+    }
+    
     if (currentStep === 1 && ownershipStatus === 'owner' && !dogCount) {
       Alert.alert('Required', 'Please enter the number of dogs you have.');
       return;
     }
 
-    // Validate dog data fields
+    // Validate dog data fields - only name is required
     if (ownershipStatus === 'owner' && dogCount && currentStep >= 2) {
       const dogStepIndex = (currentStep - 2) % 5;
       const dogIndex = Math.floor((currentStep - 2) / 5);
       const currentDog = dogsData[dogIndex];
       
-      if (dogStepIndex < 4) { // Name, breed, age, weight steps
-        const fields = ['name', 'breed', 'age', 'weight'];
-        const field = fields[dogStepIndex];
-        if (currentDog && !currentDog[field as keyof DogData].trim()) {
-          Alert.alert('Required Field', 'Please fill in this field to continue.');
-          return;
-        }
+      // Only validate name field (step 0 of each dog)
+      if (dogStepIndex === 0 && currentDog && !currentDog.name.trim()) {
+        Alert.alert('Required Field', 'Please enter your dog\'s name to continue.');
+        return;
       }
     }
 
@@ -172,35 +176,31 @@ export function OnboardingScreen() {
       [field]: value,
     };
     setDogsData(newDogsData);
-    
-    // Auto-save to database
-    saveDogDataToDb();
   };
 
-  const saveDogDataToDb = async () => {
+  const saveProgress = async () => {
     if (!user?.id) return;
     
-    setIsSaving(true);
     try {
+      const progressData = {
+        onboarding_step: currentStep,
+        dogs: dogsData,
+      };
+      
       const {error} = await supabase
         .from('profiles')
         .update({
-          preferences: {
-            onboarding_step: currentStep,
-            ownership_status: ownershipStatus,
-            dog_count: dogCount,
-            dogs: dogsData,
-          }
+          dog_ownership_status: ownershipStatus,
+          dog_count: dogCount || 0,
+          preferences: progressData,
         })
         .eq('id', user.id);
       
       if (error) {
-        console.error('Error saving onboarding data:', error);
+        console.error('Error saving progress:', error);
       }
     } catch (error) {
-      console.error('Error saving onboarding data:', error);
-    } finally {
-      setIsSaving(false);
+      console.error('Error saving progress:', error);
     }
   };
 
@@ -250,11 +250,16 @@ export function OnboardingScreen() {
     loadOnboardingProgress();
   }, [user?.id]);
 
+  // Save progress whenever key state changes
   useEffect(() => {
-    saveDogDataToDb();
-  }, [ownershipStatus, dogCount, currentStep]);
+    if (user?.id && (ownershipStatus !== null || currentStep > 0)) {
+      saveProgress();
+    }
+  }, [currentStep, ownershipStatus, dogCount, dogsData]);
 
   const renderStep = () => {
+    console.log('Rendering step:', currentStep, 'ownershipStatus:', ownershipStatus, 'dogCount:', dogCount);
+    
     // Step 0: Dog ownership question
     if (currentStep === 0) {
       return (
@@ -352,37 +357,45 @@ export function OnboardingScreen() {
           <Text style={styles.stepTitle}>How many dogs do you have?</Text>
           <Text style={styles.stepSubtitle}>We'll set up a profile for each one</Text>
           
-          <TextInput
-            style={styles.input}
-            placeholder="Number of dogs"
-            placeholderTextColor={theme.colors.textPlaceholder}
-            value={dogCount?.toString() || ''}
-            onChangeText={(value) => {
-              const num = parseInt(value);
-              if (!isNaN(num) && num > 0 && num <= 10) {
-                setDogCount(num);
-                // Initialize dogs data array
-                const newDogsData = [...dogsData];
-                for (let i = 0; i < num; i++) {
-                  if (!newDogsData[i]) {
-                    newDogsData[i] = {
-                      name: '',
-                      breed: '',
-                      age: '',
-                      weight: '',
-                      trainingLevel: 'beginner',
-                    };
-                  }
-                }
-                setDogsData(newDogsData);
-              } else if (value === '') {
-                setDogCount(null);
-              }
-            }}
-            keyboardType="numeric"
-            autoFocus
-            maxLength={2}
-          />
+          <View style={styles.dogCountGrid}>
+            {[1, 2, 3, '4+'].map((count) => {
+              const isSelected = dogCount === count || (count === '4+' && dogCount && dogCount >= 4);
+              return (
+                <TouchableOpacity
+                  key={count}
+                  style={[
+                    styles.dogCountButton,
+                    isSelected && styles.dogCountButtonSelected,
+                  ]}
+                  onPress={() => {
+                    const num = count === '4+' ? 4 : count as number;
+                    setDogCount(num);
+                    // Initialize dogs data array
+                    const newDogsData = [...dogsData];
+                    for (let i = 0; i < num; i++) {
+                      if (!newDogsData[i]) {
+                        newDogsData[i] = {
+                          name: '',
+                          breed: '',
+                          age: '',
+                          weight: '',
+                          trainingLevel: 'beginner',
+                        };
+                      }
+                    }
+                    setDogsData(newDogsData);
+                  }}
+                >
+                  <Text style={[
+                    styles.dogCountButtonText,
+                    isSelected && styles.dogCountButtonTextSelected,
+                  ]}>
+                    {count}
+                  </Text>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
           {dogCount && dogCount > 1 && (
             <Text style={styles.helperText}>
               Great! Let's set up profiles for all {dogCount} dogs
@@ -558,7 +571,28 @@ export function OnboardingScreen() {
     return null;
   };
 
-  const isLastStep = currentStep >= getTotalSteps() - 1;
+  // Don't show "Get Started" until we've collected all necessary info
+  const isLastStep = () => {
+    // First step - just selecting ownership status, never show "Get Started"
+    if (currentStep === 0) {
+      return false;
+    }
+    
+    if (ownershipStatus === 'owner') {
+      // For owners, we need to collect dog info
+      if (!dogCount) return false; // Still need to ask how many dogs
+      // Check if we're on the last step of the last dog
+      return currentStep >= getTotalSteps() - 1;
+    } else if (ownershipStatus === 'looking') {
+      // For looking, step 1 (the encouragement message) is the last step
+      return currentStep >= 1;
+    } else if (ownershipStatus === 'none') {
+      // For "just exploring", there's no step 1, so this shouldn't happen
+      // but if it does, they can complete
+      return true;
+    }
+    return false;
+  };
 
   return (
     <>
@@ -567,84 +601,77 @@ export function OnboardingScreen() {
       
       {/* Bottom SafeAreaView - Cream background for content and home indicator */}
       <SafeAreaView style={styles.container}>
-        <KeyboardAvoidingView 
-          style={styles.keyboardContainer}
-          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        >
-          {/* Header with Cancel Button */}
-          <View style={styles.headerSection}>
-            <TouchableOpacity style={styles.cancelButton} onPress={handleCancel}>
-              <Text style={styles.cancelButtonText}>Change Account</Text>
-            </TouchableOpacity>
-            
-            <View style={styles.titleContainer}>
-              <Text style={styles.title}>Welcome to Doogy!</Text>
-              <Text style={styles.subtitle}>
-                Let's get started with a few questions
+        {/* Header with Cancel Button */}
+        <View style={styles.headerSection}>
+          <TouchableOpacity style={styles.cancelButton} onPress={handleCancel}>
+            <Text style={styles.cancelButtonText}>Change Account</Text>
+          </TouchableOpacity>
+          
+          <View style={styles.titleContainer}>
+            <Text style={styles.title}>Welcome to Doogy!</Text>
+            <Text style={styles.subtitle}>
+              Let's get started with a few questions
+            </Text>
+          </View>
+
+          {/* Progress Bar */}
+          <View style={styles.progressSection}>
+            <View style={styles.progressBar}>
+              <View 
+                style={[
+                  styles.progressFill, 
+                  {width: `${((currentStep + 1) / Math.max(getTotalSteps(), 1)) * 100}%`}
+                ]} 
+              />
+            </View>
+            <View style={styles.progressInfo}>
+              <Text style={styles.progressText}>
+                Step {currentStep + 1} of {getTotalSteps()}
               </Text>
             </View>
-
-            {/* Progress Bar */}
-            <View style={styles.progressSection}>
-              <View style={styles.progressBar}>
-                <View 
-                  style={[
-                    styles.progressFill, 
-                    {width: `${((currentStep + 1) / Math.max(getTotalSteps(), 1)) * 100}%`}
-                  ]} 
-                />
-              </View>
-              <View style={styles.progressInfo}>
-                <Text style={styles.progressText}>
-                  Step {currentStep + 1} of {getTotalSteps()}
-                </Text>
-                {isSaving && (
-                  <Text style={styles.savingText}>Saving...</Text>
-                )}
-              </View>
-            </View>
           </View>
+        </View>
 
-          {/* Content Area */}
-          <View style={styles.contentSection}>
-            <ScrollView 
-              style={styles.contentScroll} 
-              showsVerticalScrollIndicator={false}
-              contentContainerStyle={styles.scrollContent}
+        {/* Content Area - ScrollView without wrapper */}
+        <ScrollView 
+          style={styles.contentSection}
+          showsVerticalScrollIndicator={true}
+          contentContainerStyle={styles.scrollContent}
+          keyboardShouldPersistTaps="handled"
+          bounces={true}
+          alwaysBounceVertical={true}
+        >
+          {renderStep()}
+        </ScrollView>
+
+        {/* Navigation Buttons */}
+        <View style={styles.navigationSection}>
+          {currentStep > 0 && (
+            <TouchableOpacity style={styles.backButton} onPress={handleBack}>
+              <Icon name="arrow-left" size={20} color={theme.colors.primary} />
+              <Text style={styles.backButtonText}>Back</Text>
+            </TouchableOpacity>
+          )}
+          
+          <View style={styles.buttonSpacer} />
+          
+          {!isLastStep() ? (
+            <TouchableOpacity style={styles.nextButton} onPress={handleNext}>
+              <Text style={styles.nextButtonText}>Next</Text>
+              <Icon name="arrow-right" size={20} color={theme.colors.white} />
+            </TouchableOpacity>
+          ) : (
+            <TouchableOpacity 
+              style={[styles.nextButton, isLoading && styles.nextButtonDisabled]} 
+              onPress={handleComplete}
+              disabled={isLoading}
             >
-              {renderStep()}
-            </ScrollView>
-
-            {/* Navigation Buttons */}
-            <View style={styles.navigationSection}>
-              {currentStep > 0 && (
-                <TouchableOpacity style={styles.backButton} onPress={handleBack}>
-                  <Icon name="arrow-left" size={20} color={theme.colors.primary} />
-                  <Text style={styles.backButtonText}>Back</Text>
-                </TouchableOpacity>
-              )}
-              
-              <View style={styles.buttonSpacer} />
-              
-              {!isLastStep ? (
-                <TouchableOpacity style={styles.nextButton} onPress={handleNext}>
-                  <Text style={styles.nextButtonText}>Next</Text>
-                  <Icon name="arrow-right" size={20} color={theme.colors.white} />
-                </TouchableOpacity>
-              ) : (
-                <TouchableOpacity 
-                  style={[styles.nextButton, isLoading && styles.nextButtonDisabled]} 
-                  onPress={handleComplete}
-                  disabled={isLoading}
-                >
-                  <Text style={styles.nextButtonText}>
-                    {isLoading ? 'Setting up...' : 'Get Started'}
-                  </Text>
-                </TouchableOpacity>
-              )}
-            </View>
-          </View>
-        </KeyboardAvoidingView>
+              <Text style={styles.nextButtonText}>
+                {isLoading ? 'Setting up...' : 'Get Started'}
+              </Text>
+            </TouchableOpacity>
+          )}
+        </View>
       </SafeAreaView>
     </>
   );
@@ -731,12 +758,6 @@ const styles = StyleSheet.create({
     color: theme.colors.white,
     opacity: 0.8,
   },
-  savingText: {
-    fontSize: theme.fontSize.xs,
-    color: theme.colors.white,
-    opacity: 0.6,
-    fontStyle: 'italic',
-  },
 
   // Content Section (Cream background)
   contentSection: {
@@ -745,13 +766,10 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: theme.borderRadius.xl,
     borderTopRightRadius: theme.borderRadius.xl,
     marginTop: -theme.spacing.xl, // Negative margin to overlap golden section
-    paddingTop: theme.spacing.xl, // Add padding back for content spacing
-  },
-  contentScroll: {
-    flex: 1,
   },
   scrollContent: {
     padding: theme.spacing.lg,
+    paddingBottom: theme.spacing.xxl * 2,
   },
   
   // Step Content
@@ -806,12 +824,44 @@ const styles = StyleSheet.create({
     width: '100%',
     gap: theme.spacing.md,
   },
+  dogCountGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    maxWidth: 280,
+    alignSelf: 'center',
+    gap: theme.spacing.md,
+  },
+  dogCountButton: {
+    width: '47%',
+    aspectRatio: 1,
+    backgroundColor: theme.colors.white,
+    borderRadius: theme.borderRadius.md,
+    justifyContent: 'center',
+    alignItems: 'center',
+    ...theme.shadows.sm,
+  },
+  dogCountButtonSelected: {
+    backgroundColor: theme.colors.primary,
+  },
+  dogCountButtonText: {
+    fontSize: 32,
+    fontWeight: theme.fontWeight.bold,
+    color: theme.colors.textPrimary,
+  },
+  dogCountButtonTextSelected: {
+    color: theme.colors.white,
+  },
   optionItem: {
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: theme.colors.white,
     borderRadius: theme.borderRadius.md,
     padding: theme.spacing.md,
+    marginBottom: theme.spacing.sm,
+    minHeight: 72,
     ...theme.shadows.sm,
   },
   optionItemSelected: {
@@ -843,7 +893,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: theme.spacing.lg,
     paddingVertical: theme.spacing.lg,
+    paddingBottom: theme.spacing.xl,
     backgroundColor: theme.colors.surface,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(0,0,0,0.05)',
   },
   backButton: {
     flexDirection: 'row',

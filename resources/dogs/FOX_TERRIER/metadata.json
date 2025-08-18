@@ -1,0 +1,25 @@
+{
+  "breed_id": "FOX_TERRIER",
+  "breed_name": "FOX TERRIER (SMOOTH) (12)",
+  "breed_number": 12,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/012g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/FOX_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FOX-TERRIER-SMOOTH-12.html",
+  "fci_standard": "012g03",
+  "breed_name_clean": "FOX TERRIER (SMOOTH)",
+  "pdf_language": "English",
+  "common_display_name": "Fox Terrier",
+  "alt_names": [
+    "Smooth Fox Terrier",
+    "Smoothcoat Fox Terrier",
+    "English Fox Terrier",
+    "Wire Fox Terrier",
+    "Foxie",
+    "Vixen Terrier",
+    "Terrier Fox"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:34"
+}

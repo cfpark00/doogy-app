@@ -1,0 +1,26 @@
+{
+  "breed_id": "GREYHOUND",
+  "breed_name": "GREYHOUND (158)",
+  "breed_number": 158,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/158g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/GREYHOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREYHOUND-158.html",
+  "fci_standard": "158g10",
+  "breed_name_clean": "GREYHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Greyhound",
+  "alt_names": [
+    "Greyhound Dog",
+    "English Greyhound",
+    "Whippet",
+    "Lurcher",
+    "Gazzetta",
+    "Galgo",
+    "Irish Greyhound",
+    "Speed Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:04"
+}

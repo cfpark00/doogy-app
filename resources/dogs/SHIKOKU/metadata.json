@@ -1,0 +1,25 @@
+{
+  "breed_id": "SHIKOKU",
+  "breed_name": "SHIKOKU (319)",
+  "breed_number": 319,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/319g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/SHIKOKU.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SHIKOKU-319.html",
+  "fci_standard": "319g05",
+  "breed_name_clean": "SHIKOKU",
+  "pdf_language": "English",
+  "common_display_name": "Shikoku",
+  "alt_names": [
+    "Shikoku-inu",
+    "Shikoku Ken",
+    "Japanese Shikoku",
+    "Shikoku Dog",
+    "Dogo Shikoku",
+    "Shikoku Inu",
+    "Shikoku Ken"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:09"
+}

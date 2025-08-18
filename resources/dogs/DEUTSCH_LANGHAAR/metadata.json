@@ -1,0 +1,24 @@
+{
+  "breed_id": "DEUTSCH_LANGHAAR",
+  "breed_name": "DEUTSCH LANGHAAR (117)",
+  "breed_number": 117,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/117g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/DEUTSCH_LANGHAAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DEUTSCH-LANGHAAR-117.html",
+  "fci_standard": "117g07",
+  "breed_name_clean": "DEUTSCH LANGHAAR",
+  "pdf_language": "English",
+  "common_display_name": "Deutsch Langhaar",
+  "alt_names": [
+    "German Longhaired Pointer",
+    "DL",
+    "Deutsch Langhaar Pointer",
+    "German Longhair",
+    "Longhaired German Pointer",
+    "Deutsch-Langhaar"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:14"
+}

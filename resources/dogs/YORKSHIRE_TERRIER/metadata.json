@@ -1,0 +1,26 @@
+{
+  "breed_id": "YORKSHIRE_TERRIER",
+  "breed_name": "YORKSHIRE TERRIER (86)",
+  "breed_number": 86,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/086g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/YORKSHIRE_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/YORKSHIRE-TERRIER-86.html",
+  "fci_standard": "086g03",
+  "breed_name_clean": "YORKSHIRE TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Yorkie",
+  "alt_names": [
+    "Yorkshire Terrier",
+    "Yorky",
+    "Yorkie Terrier",
+    "Silky Terrier",
+    "Toy Terrier",
+    "Broken-Haired Scotch Terrier",
+    "Scotch Terrier",
+    "Yorkshire Terrier Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:46"
+}

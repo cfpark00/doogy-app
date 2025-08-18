@@ -1,0 +1,23 @@
+{
+  "breed_id": "EPAGNEUL_PICARD",
+  "breed_name": "EPAGNEUL PICARD (108) (PICARDY SPANIEL)",
+  "breed_number": 108,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/108g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/EPAGNEUL_PICARD.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PICARDY-SPANIEL-108.html",
+  "fci_standard": "108g07",
+  "breed_name_alternative": "PICARDY SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Picardy Spaniel",
+  "alt_names": [
+    "Epagneul Picard",
+    "Picardy",
+    "Chien d'Oysel Picard",
+    "Picardy Pointer",
+    "Picard Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:05"
+}

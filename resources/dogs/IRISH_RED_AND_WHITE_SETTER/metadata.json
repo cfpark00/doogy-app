@@ -1,0 +1,25 @@
+{
+  "breed_id": "IRISH_RED_AND_WHITE_SETTER",
+  "breed_name": "IRISH RED AND WHITE SETTER (330)",
+  "breed_number": 330,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/330g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/IRISH_RED_AND_WHITE_SETTER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/IRISH-RED-AND-WHITE-SETTER-330.html",
+  "fci_standard": "330g07",
+  "breed_name_clean": "IRISH RED AND WHITE SETTER",
+  "pdf_language": "English",
+  "common_display_name": "Irish Setter",
+  "alt_names": [
+    "Irish Red and White Setter",
+    "Red and White Setter",
+    "Irish Setter (Red and White)",
+    "Irish Red Setter",
+    "Red Setter",
+    "Irish Red Setter dog",
+    "Setters (Irish Red and White)"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:55"
+}

@@ -1,0 +1,27 @@
+{
+  "breed_id": "XOLOITZCUINTLE",
+  "breed_name": "XOLOITZCUINTLE (234)",
+  "breed_number": 234,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/234g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/XOLOITZCUINTLE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/XOLOITZCUINTLE-234.html",
+  "fci_standard": "234g05",
+  "breed_name_clean": "XOLOITZCUINTLE",
+  "pdf_language": "English",
+  "common_display_name": "Xolo",
+  "alt_names": [
+    "Xoloitzcuintli",
+    "Mexican Hairless Dog",
+    "Mexican Dog",
+    "Itzcuintli",
+    "Xoloitzcuintle",
+    "Mexican Hairless",
+    "Xoloitzcuintli Dog",
+    "Perro sin pelo Mexicano",
+    "Xoloitzcuintli Mexican Hairless Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:41"
+}

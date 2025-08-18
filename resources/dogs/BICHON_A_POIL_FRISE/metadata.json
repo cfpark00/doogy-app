@@ -1,0 +1,26 @@
+{
+  "breed_id": "BICHON_A_POIL_FRISE",
+  "breed_name": "BICHON A POIL FRISE (215) (BICHON FRISE)",
+  "breed_number": 215,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/215g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/BICHON_A_POIL_FRISE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BICHON-FRISE-215.html",
+  "fci_standard": "215g09",
+  "breed_name_alternative": "BICHON FRISE",
+  "pdf_language": "English",
+  "common_display_name": "Bichon",
+  "alt_names": [
+    "Bichon Frise",
+    "Bichon Frise Dog",
+    "Frizzy Bichon",
+    "Little White Dog",
+    "Cloud Dog",
+    "Cotton Ball Dog",
+    "Bichon Frisé",
+    "Havanese Bichon"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:18:33"
+}

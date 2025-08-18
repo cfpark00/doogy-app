@@ -1,0 +1,26 @@
+{
+  "breed_id": "PERRO_DOGO_MALLORQUIN",
+  "breed_name": "PERRO DOGO MALLORQUÍN (249) (MAJORCA MASTIFF)",
+  "breed_number": 249,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/249g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/PERRO_DOGO_MALLORQUIN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MAJORCA-MASTIFF-249.html",
+  "fci_standard": "249g02",
+  "breed_name_alternative": "MAJORCA MASTIFF",
+  "pdf_language": "English",
+  "common_display_name": "Ca de Bou",
+  "alt_names": [
+    "Mallorcan Bulldog",
+    "Perro de Presa Mallorquin",
+    "Perro Dogo Mallorquin",
+    "Baleares Bulldog",
+    "Ca de Bou Mallorquin",
+    "Mallorquin Fighting Dog",
+    "Dogo Mallorquin",
+    "Presa Mallorquin"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:06"
+}

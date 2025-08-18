@@ -1,0 +1,25 @@
+{
+  "breed_id": "DOGO_ARGENTINO",
+  "breed_name": "DOGO ARGENTINO (292)",
+  "breed_number": 292,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/292g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/DOGO_ARGENTINO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DOGO-ARGENTINO-292.html",
+  "fci_standard": "292g02",
+  "breed_name_clean": "DOGO ARGENTINO",
+  "pdf_language": "English",
+  "common_display_name": "Dogo",
+  "alt_names": [
+    "Dogo Argentino",
+    "Argentine Dogo",
+    "Argentine Mastiff",
+    "Dogo Argentino Mastiff",
+    "Dogo",
+    "Argentinian Mastiff",
+    "Cordoba Fighting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:30"
+}

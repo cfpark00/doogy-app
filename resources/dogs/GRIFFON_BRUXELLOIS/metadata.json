@@ -1,0 +1,26 @@
+{
+  "breed_id": "GRIFFON_BRUXELLOIS",
+  "breed_name": "GRIFFON BRUXELLOIS (80)",
+  "breed_number": 80,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/080g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/GRIFFON_BRUXELLOIS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GRIFFON-BRUXELLOIS-80.html",
+  "fci_standard": "080g09",
+  "breed_name_clean": "GRIFFON BRUXELLOIS",
+  "pdf_language": "English",
+  "common_display_name": "Brussels Griffon",
+  "alt_names": [
+    "Griffon Bruxellois",
+    "Belgian Griffon",
+    "Petit Griffon Belge",
+    "Bruxellois",
+    "Griffon",
+    "Brabancon",
+    "Chien Griffon Bruxellois",
+    "Griffon Belge"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:24"
+}

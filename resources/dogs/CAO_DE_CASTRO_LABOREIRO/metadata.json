@@ -1,0 +1,25 @@
+{
+  "breed_id": "CAO_DE_CASTRO_LABOREIRO",
+  "breed_name": "CÃO DE CASTRO LABOREIRO (170) (CASTRO LABOREIRO DOG)",
+  "breed_number": 170,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/170g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/CAO_DE_CASTRO_LABOREIRO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CASTRO-LABOREIRO-DOG-170.html",
+  "fci_standard": "170g02",
+  "breed_name_alternative": "CASTRO LABOREIRO DOG",
+  "pdf_language": "English",
+  "common_display_name": "Castro Laboreiro Dog",
+  "alt_names": [
+    "Portuguese Cattle Dog",
+    "Cão de Castro Laboreiro",
+    "Laboreiro Dog",
+    "Portuguese Mountain Dog",
+    "Castro Laboreiro",
+    "Cão Castro Laboreiro",
+    "Portuguese Sheepdog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:29"
+}

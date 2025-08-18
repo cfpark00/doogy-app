@@ -1,0 +1,25 @@
+{
+  "breed_id": "IRISH_GLEN_OF_IMAAL_TERRIER",
+  "breed_name": "IRISH GLEN OF IMAAL TERRIER (302)",
+  "breed_number": 302,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/302g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/IRISH_GLEN_OF_IMAAL_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/IRISH-GLEN-OF-IMAAL-TERRIER-302.html",
+  "fci_standard": "302g03",
+  "breed_name_clean": "IRISH GLEN OF IMAAL TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Glen of Imaal Terrier",
+  "alt_names": [
+    "Glen",
+    "Irish Glen of Imaal",
+    "Glen of Imaal",
+    "Irish Glen",
+    "Glen of Imall",
+    "Irish Terrier Glen of Imaal",
+    "Glen of Imaal Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:50"
+}

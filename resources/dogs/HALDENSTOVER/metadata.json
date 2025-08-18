@@ -1,0 +1,26 @@
+{
+  "breed_id": "HALDENSTOVER",
+  "breed_name": "HALDENSTØVER (267) (HALDEN HOUND)",
+  "breed_number": 267,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/267g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/HALDENSTOVER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HALDEN-HOUND-267.html",
+  "fci_standard": "267g06",
+  "breed_name_alternative": "HALDEN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Haldenstovare",
+  "alt_names": [
+    "Norwegian Hound",
+    "Danish-Swedish Farmdog",
+    "Danish Hound",
+    "Norwegian Foxhound",
+    "Halden Hound",
+    "Schillerstövare",
+    "Hamiltonstövare",
+    "Smålandsstövare"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:55"
+}

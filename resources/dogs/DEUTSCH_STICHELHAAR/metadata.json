@@ -1,0 +1,26 @@
+{
+  "breed_id": "DEUTSCH_STICHELHAAR",
+  "breed_name": "DEUTSCH STICHELHAAR (232)",
+  "breed_number": 232,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/232g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/DEUTSCH_STICHELHAAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html",
+  "fci_standard": "232g07",
+  "breed_name_clean": "DEUTSCH STICHELHAAR",
+  "pdf_language": "English",
+  "common_display_name": "Wirehaired Pointing Griffon",
+  "alt_names": [
+    "Deutsch Stichelhaar",
+    "Stichelhaar",
+    "German Wirehaired Pointer",
+    "Griffon d'arrêt à poil dur",
+    "Korthals Griffon",
+    "Wirehaired Griffon",
+    "German Pointer (Wirehaired)",
+    "Stichelhaar Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:20"
+}

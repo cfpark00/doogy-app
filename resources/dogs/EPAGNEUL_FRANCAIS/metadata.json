@@ -1,0 +1,26 @@
+{
+  "breed_id": "EPAGNEUL_FRANCAIS",
+  "breed_name": "EPAGNEUL FRANÇAIS (175) (FRENCH SPANIEL)",
+  "breed_number": 175,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/175g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/EPAGNEUL_FRANCAIS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FRENCH-SPANIEL-175.html",
+  "fci_standard": "175g07",
+  "breed_name_alternative": "FRENCH SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "French Spaniel",
+  "alt_names": [
+    "Épagneul Français",
+    "French Spaniel Dog",
+    "Brittany Spaniel",
+    "Brittany Dog",
+    "Epagneul Breton",
+    "French Brittany",
+    "Brittany Spaniel Dog",
+    "Brittany Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:55"
+}

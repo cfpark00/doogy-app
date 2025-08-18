@@ -1,0 +1,26 @@
+{
+  "breed_id": "OSTERREICHISCHER_PINSCHER",
+  "breed_name": "ÖSTERREICHISCHER PINSCHER (64) (AUSTRIAN  PINSCHER)",
+  "breed_number": 64,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/064g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/OSTERREICHISCHER_PINSCHER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AUSTRIAN-PINSCHER-64.html",
+  "fci_standard": "064g02",
+  "breed_name_alternative": "AUSTRIAN  PINSCHER",
+  "pdf_language": "English",
+  "common_display_name": "Austrian Pinscher",
+  "alt_names": [
+    "Osterreichischer Pinscher",
+    "Austrian Shorthaired Pinscher",
+    "Österreichischer Kurzhaariger Pinscher",
+    "Austrian Farm Pinscher",
+    "Oesterreichischer Pinscher",
+    "Austrian Pinscher Dog",
+    "Austrian Pinscher Breed",
+    "Austrian Pinscher Type"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:31"
+}

@@ -1,0 +1,28 @@
+{
+  "breed_id": "COLLIE_SMOOTH",
+  "breed_name": "COLLIE SMOOTH (296)",
+  "breed_number": 296,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/296g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/COLLIE_SMOOTH.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/COLLIE-SMOOTH-296.html",
+  "fci_standard": "296g01",
+  "breed_name_clean": "COLLIE SMOOTH",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Collie",
+  "alt_names": [
+    "Smooth Collie",
+    "Collie Dog",
+    "Collie Rough",
+    "Scotch Collie",
+    "Lassie Dog",
+    "Border Collie",
+    "Farm Collie",
+    "Working Collie"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:39"
+}

@@ -1,0 +1,24 @@
+{
+  "breed_id": "DEUTSCHER_WACHTELHUND",
+  "breed_name": "DEUTSCHER WACHTELHUND (104) (GERMAN SPANIEL)",
+  "breed_number": 104,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/104g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/DEUTSCHER_WACHTELHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GERMAN-SPANIEL-104.html",
+  "fci_standard": "104g08",
+  "breed_name_alternative": "GERMAN SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "German Spaniel",
+  "alt_names": [
+    "Deutscher Wachtelhund",
+    "Wachtelhund",
+    "German Spaniel Dog",
+    "Hunting Spaniel",
+    "German Flushing Spaniel",
+    "Wachtel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:49"
+}

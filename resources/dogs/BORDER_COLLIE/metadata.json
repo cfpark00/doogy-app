@@ -1,0 +1,27 @@
+{
+  "breed_id": "BORDER_COLLIE",
+  "breed_name": "BORDER COLLIE (297)",
+  "breed_number": 297,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/297g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/BORDER_COLLIE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BORDER-COLLIE-297.html",
+  "fci_standard": "297g01",
+  "breed_name_clean": "BORDER COLLIE",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Border Collie",
+  "alt_names": [
+    "Border",
+    "Collie",
+    "BC",
+    "Sheepdog",
+    "Border Sheepdog",
+    "Scotch Collie",
+    "Working Collie"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:18:58"
+}

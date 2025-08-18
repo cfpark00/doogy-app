@@ -1,0 +1,28 @@
+{
+  "breed_id": "ROTTWEILER",
+  "breed_name": "ROTTWEILER (147)",
+  "breed_number": 147,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/147g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/ROTTWEILER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ROTTWEILER-147.html",
+  "fci_standard": "147g02",
+  "breed_name_clean": "ROTTWEILER",
+  "pdf_language": "English",
+  "common_display_name": "Rottweiler",
+  "alt_names": [
+    "Rottie",
+    "Rott",
+    "Rottweiler Dog",
+    "Rotty",
+    "Rottweiler Puppy",
+    "Rottweiler For Sale",
+    "Rottweiler Temperament",
+    "Rottweiler Price",
+    "Rottweiler Training",
+    "Rottweiler Characteristics"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:12"
+}

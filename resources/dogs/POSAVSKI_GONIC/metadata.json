@@ -1,0 +1,26 @@
+{
+  "breed_id": "POSAVSKI_GONIC",
+  "breed_name": "POSAVSKI GONIC (154) (POSAVATZ HOUND)",
+  "breed_number": 154,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/154g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/POSAVSKI_GONIC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/POSAVATZ-HOUND-154.html",
+  "fci_standard": "154g06",
+  "breed_name_alternative": "POSAVATZ HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Posavac Hound",
+  "alt_names": [
+    "Posavac",
+    "Posavac Hound Dog",
+    "Posavac Hunting Dog",
+    "Posavski Gonic Dog",
+    "Croatian Posavac Hound",
+    "Posavski Gonič",
+    "Posavski Gonic Hound",
+    "Posavac Hound Breed"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:21"
+}

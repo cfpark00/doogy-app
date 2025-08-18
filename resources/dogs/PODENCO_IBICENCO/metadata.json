@@ -1,0 +1,28 @@
+{
+  "breed_id": "PODENCO_IBICENCO",
+  "breed_name": "PODENCO IBICENCO (89) (IBIZAN PODENCO)",
+  "breed_number": 89,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/089g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/PODENCO_IBICENCO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/IBIZAN-PODENCO-89.html",
+  "fci_standard": "089g05",
+  "breed_name_alternative": "IBIZAN PODENCO",
+  "pdf_language": "English",
+  "common_display_name": "Podenco",
+  "alt_names": [
+    "Ibizan Hound",
+    "Podenco Ibicenco",
+    "Ibicen",
+    "Ibiza Hound",
+    "Podenco",
+    "Perro de Presa",
+    "Canario",
+    "Perro de Caza",
+    "Gale",
+    "Galaico"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:51"
+}

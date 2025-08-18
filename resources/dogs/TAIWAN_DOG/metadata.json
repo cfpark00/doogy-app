@@ -1,0 +1,23 @@
+{
+  "breed_id": "TAIWAN_DOG",
+  "breed_name": "TAIWAN DOG (348)",
+  "breed_number": 348,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/348g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/TAIWAN_DOG.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/TAIWAN-DOG-348.html",
+  "fci_standard": "348g05",
+  "breed_name_clean": "TAIWAN DOG",
+  "pdf_language": "English",
+  "common_display_name": "Taiwan Dog",
+  "alt_names": [
+    "Formosan Mountain Dog",
+    "Taiwan Native Dog",
+    "Taiwanese Dog",
+    "Formosan",
+    "TWD"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:54"
+}

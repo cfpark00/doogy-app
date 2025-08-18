@@ -1,0 +1,25 @@
+{
+  "breed_id": "CAO_DE_AGUA_PORTUGUES",
+  "breed_name": "CÃO DE ÁGUA PORTUGUÊS (37) (PORTUGUESE WATER DOG)",
+  "breed_number": 37,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/037g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/CAO_DE_AGUA_PORTUGUES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PORTUGUESE-WATER-DOG-37.html",
+  "fci_standard": "037g08",
+  "breed_name_alternative": "PORTUGUESE WATER DOG",
+  "pdf_language": "English",
+  "common_display_name": "Portuguese Water Dog",
+  "alt_names": [
+    "PWD",
+    "Cão de Agua Português",
+    "Portugese Water Dog",
+    "Cao de Agua",
+    "Portuguese Waterdog",
+    "Water Dog",
+    "Perro de Agua Portugues"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:24"
+}

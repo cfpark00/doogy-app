@@ -1,0 +1,25 @@
+{
+  "breed_id": "KERRY_BLUE_TERRIER",
+  "breed_name": "KERRY BLUE TERRIER (3)",
+  "breed_number": 3,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/003g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/KERRY_BLUE_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KERRY-BLUE-TERRIER-3.html",
+  "fci_standard": "003g03",
+  "breed_name_clean": "KERRY BLUE TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Kerry Blue Terrier",
+  "alt_names": [
+    "Kerry Blue",
+    "Blue Kerry",
+    "Irish Blue Terrier",
+    "KBT",
+    "Kerry",
+    "Irish Terrier (Kerry Blue)",
+    "KBTerrier"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:14"
+}

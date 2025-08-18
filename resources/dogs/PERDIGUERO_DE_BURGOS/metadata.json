@@ -1,0 +1,24 @@
+{
+  "breed_id": "PERDIGUERO_DE_BURGOS",
+  "breed_name": "PERDIGUERO DE BURGOS (90) (BURGOS POINTING DOG)",
+  "breed_number": 90,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/090g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/PERDIGUERO_DE_BURGOS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html",
+  "fci_standard": "090g07",
+  "breed_name_alternative": "BURGOS POINTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Burgos Pointer",
+  "alt_names": [
+    "Perdiguero de Burgos Pointer",
+    "Burgos Hound",
+    "Spanish Pointer",
+    "Perdiguero",
+    "Burgos Bird Dog",
+    "Perdiguero de Burgos Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:56"
+}

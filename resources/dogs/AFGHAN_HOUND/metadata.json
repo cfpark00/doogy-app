@@ -1,0 +1,26 @@
+{
+  "breed_id": "AFGHAN_HOUND",
+  "breed_name": "AFGHAN HOUND (228)",
+  "breed_number": 228,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/228g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/AFGHAN_HOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AFGHAN-HOUND-228.html",
+  "fci_standard": "228g10",
+  "breed_name_clean": "AFGHAN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Afghan Hound",
+  "alt_names": [
+    "Afghan",
+    "Afghan Dog",
+    "Afghan Greyhound",
+    "Tazi",
+    "Afghan Camelskin Rug Dog",
+    "Afghan Hunting Dog",
+    "Afghan Kuchi",
+    "Afghan Shepherd Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:15:33"
+}

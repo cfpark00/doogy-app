@@ -1,0 +1,25 @@
+{
+  "breed_id": "RUSSKIY_TCHIORNY_TERRIER",
+  "breed_name": "RUSSKIY TCHIORNY TERRIER (327) (RUSSIAN BLACK TERRIER)",
+  "breed_number": 327,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/327g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/RUSSKIY_TCHIORNY_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/RUSSIAN-BLACK-TERRIER-327.html",
+  "fci_standard": "327g02",
+  "breed_name_alternative": "RUSSIAN BLACK TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Black Russian Terrier",
+  "alt_names": [
+    "BRT",
+    "Russo-Tcherney Terrier",
+    "Russian Black Terrier",
+    "Chorny Terrier",
+    "BRT Dog",
+    "Black Russian",
+    "Tchiorny Terrier"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:27"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "SCHILLERSTOVARE",
+  "breed_name": "SCHILLERSTÖVARE (131)",
+  "breed_number": 131,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/131g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SCHILLERSTOVARE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SCHILLERSTOVARE-131.html",
+  "fci_standard": "131g06",
+  "breed_name_clean": "SCHILLERSTÖVARE",
+  "pdf_language": "English",
+  "common_display_name": "Schillerstovare",
+  "alt_names": [
+    "Schiller Hound",
+    "Schillerstövare",
+    "Schiller",
+    "Schillerstövare Hound",
+    "Schillerstövare Dog",
+    "Schillerstövare Swedish Hound",
+    "Swedish Schiller Hound",
+    "Schillerstövare Sweden"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:39:02"
+}

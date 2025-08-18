@@ -1,0 +1,28 @@
+{
+  "breed_id": "CESKOSLOVENSKY_VLCIAK",
+  "breed_name": "CESKOSLOVENSKÝ VLCIAK (332) (CZECHOSLOVAKIAN WOLFDOG)",
+  "breed_number": 332,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/332g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CESKOSLOVENSKY_VLCIAK.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CZECHOSLOVAKIAN-WOLFDOG-332.html",
+  "fci_standard": "332g01",
+  "breed_name_alternative": "CZECHOSLOVAKIAN WOLFDOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Czechoslovakian Wolfdog",
+  "alt_names": [
+    "Czechoslovakian Wolf Dog",
+    "Ceskoslovenský Vlcak",
+    "CSV",
+    "Czechoslovakian Vlcak",
+    "Wolfdog",
+    "Czech Wolfdog",
+    "Ceskoslovensky Vlcak",
+    "Czechoslovakian Wolf"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:49"
+}

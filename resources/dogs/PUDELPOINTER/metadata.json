@@ -1,0 +1,26 @@
+{
+  "breed_id": "PUDELPOINTER",
+  "breed_name": "PUDELPOINTER (216)",
+  "breed_number": 216,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/216g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/PUDELPOINTER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PUDELPOINTER-216.html",
+  "fci_standard": "216g07",
+  "breed_name_clean": "PUDELPOINTER",
+  "pdf_language": "English",
+  "common_display_name": "Pudelpointer",
+  "alt_names": [
+    "Pudel Pointer",
+    "German Poodle Pointer",
+    "Pudel-Pointer",
+    "Pudlepointer",
+    "Pudelpointer Dog",
+    "Pudle Pointer",
+    "Pudelpointer German",
+    "Pudelpointer Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:31"
+}

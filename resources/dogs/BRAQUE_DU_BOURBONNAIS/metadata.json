@@ -1,0 +1,25 @@
+{
+  "breed_id": "BRAQUE_DU_BOURBONNAIS",
+  "breed_name": "BRAQUE DU BOURBONNAIS (179) (BOURBONNAIS POINTING DOG)",
+  "breed_number": 179,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/179g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/BRAQUE_DU_BOURBONNAIS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BOURBONNAIS-POINTING-DOG-179.html",
+  "fci_standard": "179g07",
+  "breed_name_alternative": "BOURBONNAIS POINTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Bourbonnais Pointer",
+  "alt_names": [
+    "Braque Bourbonnais",
+    "Bourbonnais",
+    "French Pointer",
+    "Bourbonnais Setter",
+    "Braque du Bourbonnais Pointer",
+    "Bourbonnais Hunting Dog",
+    "French Braque"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:54"
+}

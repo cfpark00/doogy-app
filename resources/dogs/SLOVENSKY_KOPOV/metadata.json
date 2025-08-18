@@ -1,0 +1,25 @@
+{
+  "breed_id": "SLOVENSKY_KOPOV",
+  "breed_name": "SLOVENSKÝ KOPOV (244) (SLOVAKIAN HOUND)",
+  "breed_number": 244,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/244g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SLOVENSKY_KOPOV.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SLOVAKIAN-HOUND-244.html",
+  "fci_standard": "244g06",
+  "breed_name_alternative": "SLOVAKIAN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Slovak Hound",
+  "alt_names": [
+    "Slovenský Kopov",
+    "Slovakian Kopov",
+    "Slovakian Hound",
+    "Kopov",
+    "Slovak Hunting Dog",
+    "Slovakian Hunting Dog",
+    "Slovakian Bush Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:39"
+}

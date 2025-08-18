@@ -1,0 +1,26 @@
+{
+  "breed_id": "TIBETAN_TERRIER",
+  "breed_name": "TIBETAN TERRIER (209)",
+  "breed_number": 209,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/209g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/TIBETAN_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/TIBETAN-TERRIER-209.html",
+  "fci_standard": "209g09",
+  "breed_name_clean": "TIBETAN TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Tibetan Terrier",
+  "alt_names": [
+    "Tibetan",
+    "TT",
+    "Tsang Apso",
+    "Apso",
+    "Tibetan Temple Dog",
+    "Himalayan Sheepdog",
+    "Dhokhi",
+    "Kham Apso"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:19"
+}

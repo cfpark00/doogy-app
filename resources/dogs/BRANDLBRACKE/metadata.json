@@ -1,0 +1,25 @@
+{
+  "breed_id": "BRANDLBRACKE",
+  "breed_name": "BRANDLBRACKE - (VIERÄUGL) (63) (AUSTRIAN BLACK AND TAN HOUND)",
+  "breed_number": 63,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/063g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BRANDLBRACKE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AUSTRIAN-BLACK-AND-TAN-HOUND-63.html",
+  "fci_standard": "063g06",
+  "breed_name_alternative": "AUSTRIAN BLACK AND TAN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Bracke",
+  "alt_names": [
+    "Vieräugl",
+    "Brandlbracke",
+    "Austrian Black and Tan Hound",
+    "Alpine Dachsbracke",
+    "Dachsbracke",
+    "Alpine Hound",
+    "Four-Eyed Bracke"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:39"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "DANSK_SVENSK_GARDSHUND",
+  "breed_name": "DANSK-SVENSK GÅRDSHUND (356) (DANISH-SWEDISH FARMDOG)",
+  "breed_number": 356,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/356g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/DANSK_SVENSK_GARDSHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DANISH-SWEDISH-FARMDOG-356.html",
+  "fci_standard": "356g02",
+  "breed_name_alternative": "DANISH-SWEDISH FARMDOG",
+  "pdf_language": "English",
+  "common_display_name": "Farmdog",
+  "alt_names": [
+    "Dansk Svensk Gårdshund",
+    "Swedish Farm Dog",
+    "Danish Farm Dog",
+    "DSG",
+    "Scandi Farmdog",
+    "Nordic Farmdog",
+    "Gårdshund",
+    "Skåneterrier"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:14"
+}

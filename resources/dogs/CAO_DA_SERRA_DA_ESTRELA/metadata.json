@@ -1,0 +1,24 @@
+{
+  "breed_id": "CAO_DA_SERRA_DA_ESTRELA",
+  "breed_name": "CÃO DA SERRA DA ESTRELA (173) (ESTRELA MOUNTAIN DOG)",
+  "breed_number": 173,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/173g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/CAO_DA_SERRA_DA_ESTRELA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ESTRELA-MOUNTAIN-DOG-173.html",
+  "fci_standard": "173g02",
+  "breed_name_alternative": "ESTRELA MOUNTAIN DOG",
+  "pdf_language": "English",
+  "common_display_name": "Estrela Mountain Dog",
+  "alt_names": [
+    "Serra da Estrela Mountain Dog",
+    "Portuguese Mountain Dog",
+    "Cão da Serra da Estrela",
+    "Estrela Dog",
+    "Portuguese Sheepdog",
+    "Serra Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:14"
+}

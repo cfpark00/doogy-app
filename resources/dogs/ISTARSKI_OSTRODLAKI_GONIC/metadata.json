@@ -1,0 +1,24 @@
+{
+  "breed_id": "ISTARSKI_OSTRODLAKI_GONIC",
+  "breed_name": "ISTARSKI  OSTRODLAKI  GONIC (152) (ISTRIAN WIRE-HAIRED HOUND)",
+  "breed_number": 152,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/152g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/ISTARSKI_OSTRODLAKI_GONIC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ISTRIAN-WIRE-HAIRED-HOUND-152.html",
+  "fci_standard": "152g06",
+  "breed_name_alternative": "ISTRIAN WIRE-HAIRED HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Istrian Coarse-haired Hound",
+  "alt_names": [
+    "Istrian Rough-haired Hound",
+    "Istarski Ostrodlaki Gonic",
+    "Croatian Coarse-haired Hound",
+    "Croatian Rough-haired Hound",
+    "Istrian Hound",
+    "Istarski Oštrodlaki Gonic"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:34"
+}

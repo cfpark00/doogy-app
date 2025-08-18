@@ -1,0 +1,25 @@
+{
+  "breed_id": "DRENTSCHE_PATRIJSHOND",
+  "breed_name": "DRENTSCHE PATRIJSHOND (224) (DRENTSCHE PARTRIDGE DOG)",
+  "breed_number": 224,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/224g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/DRENTSCHE_PATRIJSHOND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DRENTSCHE-PARTRIDGE-DOG-224.html",
+  "fci_standard": "224g07",
+  "breed_name_alternative": "DRENTSCHE PARTRIDGE DOG",
+  "pdf_language": "English",
+  "common_display_name": "Drentse Patrijshond",
+  "alt_names": [
+    "Drentse Partridge Dog",
+    "Dutch Partridge Dog",
+    "Drentsche Patrijshond",
+    "Drent",
+    "Patrijshond",
+    "Drentse Pointer",
+    "Dutch Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:45"
+}

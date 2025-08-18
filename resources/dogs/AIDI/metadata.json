@@ -1,0 +1,26 @@
+{
+  "breed_id": "AIDI",
+  "breed_name": "AÏDI (CHIEN DE MONTAGNE DE L'ATLAS) (247) (ATLAS MOUNTAIN DOG (AIDI))",
+  "breed_number": 247,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/247g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/AIDI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ATLAS-MOUNTAIN-DOG-AIDI-247.html",
+  "fci_standard": "247g02",
+  "breed_name_alternative": "ATLAS MOUNTAIN DOG (AIDI",
+  "pdf_language": "English",
+  "common_display_name": "Aidi",
+  "alt_names": [
+    "Atlas Mountain Dog",
+    "Chien de Montagne de l'Atlas",
+    "Moroccan Atlas Shepherd",
+    "Atlas Shepherd Dog",
+    "Berber Dog",
+    "Atlas Mountain Sheepdog",
+    "Kabyle Dog",
+    "North African Shepherd"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:15:38"
+}

@@ -1,0 +1,27 @@
+{
+  "breed_id": "KUVASZ",
+  "breed_name": "KUVASZ (54)",
+  "breed_number": 54,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/054g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/KUVASZ.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KUVASZ-54.html",
+  "fci_standard": "054g01",
+  "breed_name_clean": "KUVASZ",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Kuvasz",
+  "alt_names": [
+    "Kuvasz Dog",
+    "Hungarian Kuvasz",
+    "Magyar Kuvasz",
+    "Kuv",
+    "White Hungarian Shepherd",
+    "Hungarian White Shepherd",
+    "Kuvasz"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:54"
+}

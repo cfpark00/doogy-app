@@ -1,0 +1,24 @@
+{
+  "breed_id": "PORCELAINE",
+  "breed_name": "PORCELAINE (30)",
+  "breed_number": 30,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/030g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/PORCELAINE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PORCELAINE-30.html",
+  "fci_standard": "030g06",
+  "breed_name_clean": "PORCELAINE",
+  "pdf_language": "English",
+  "common_display_name": "Porcelaine",
+  "alt_names": [
+    "Porcelaine Hound",
+    "French Porcelaine",
+    "Chien de Porcelaine",
+    "Porcelaine de France",
+    "Porcelaine Hunting Dog",
+    "Porcelain Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:16"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "ENGLISH_POINTER",
+  "breed_name": "ENGLISH POINTER (1)",
+  "breed_number": 1,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/001g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/ENGLISH_POINTER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ENGLISH-POINTER-1.html",
+  "fci_standard": "001g07",
+  "breed_name_clean": "ENGLISH POINTER",
+  "pdf_language": "English",
+  "common_display_name": "Pointer",
+  "alt_names": [
+    "English Pointer",
+    "Pointer Dog",
+    "English Pointer Dog",
+    "Pointer Breed",
+    "English Pointer Breed",
+    "Pointer Dog Breed",
+    "Old English Pointer",
+    "English Pointing Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:15"
+}

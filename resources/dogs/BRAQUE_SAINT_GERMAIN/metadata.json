@@ -1,0 +1,25 @@
+{
+  "breed_id": "BRAQUE_SAINT_GERMAIN",
+  "breed_name": "BRAQUE SAINT-GERMAIN (115) (SAINT GERMAIN POINTER)",
+  "breed_number": 115,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/115g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/BRAQUE_SAINT_GERMAIN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SAINT-GERMAIN-POINTER-115.html",
+  "fci_standard": "115g07",
+  "breed_name_alternative": "SAINT GERMAIN POINTER",
+  "pdf_language": "English",
+  "common_display_name": "Saint-Germain Pointer",
+  "alt_names": [
+    "Braque Saint-Germain",
+    "Saint-Germain Braque",
+    "Braque de Saint-Germain",
+    "Saint Germain Pointer",
+    "Braque Saint Germain",
+    "Saint-Germain",
+    "Braque Saint Germain Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:09"
+}

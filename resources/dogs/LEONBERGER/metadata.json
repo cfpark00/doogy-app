@@ -1,0 +1,26 @@
+{
+  "breed_id": "LEONBERGER",
+  "breed_name": "LEONBERGER (145)",
+  "breed_number": 145,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/145g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/LEONBERGER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LEONBERGER-145.html",
+  "fci_standard": "145g02",
+  "breed_name_clean": "LEONBERGER",
+  "pdf_language": "English",
+  "common_display_name": "Leonberger",
+  "alt_names": [
+    "Leo",
+    "Leonberger Dog",
+    "Leonberger Hund",
+    "Leonberger Dog Breed",
+    "Leo Dog",
+    "Leonberger Puppy",
+    "Lion Dog",
+    "Leonberger Giant"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:23"
+}

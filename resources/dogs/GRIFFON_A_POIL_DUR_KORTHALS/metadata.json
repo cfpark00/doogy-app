@@ -1,0 +1,25 @@
+{
+  "breed_id": "GRIFFON_A_POIL_DUR_KORTHALS",
+  "breed_name": "GRIFFON A POIL DUR KORTHALS (107) (WIRE-HAIRED POINTING GRIFFON KORTHALS)",
+  "breed_number": 107,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/107g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/GRIFFON_A_POIL_DUR_KORTHALS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html",
+  "fci_standard": "107g07",
+  "breed_name_alternative": "WIRE-HAIRED POINTING GRIFFON KORTHALS",
+  "pdf_language": "English",
+  "common_display_name": "Korthals Griffon",
+  "alt_names": [
+    "Griffon Korthals",
+    "Wirehaired Pointing Griffon",
+    "Korthals",
+    "Griffon d'arrêt à poil dur Korthals",
+    "French Pointer",
+    "Griffon d'arrêt Korthals",
+    "Wirehaired Griffon"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:09"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "AMERICAN_COCKER_SPANIEL",
+  "breed_name": "AMERICAN COCKER SPANIEL (167)",
+  "breed_number": 167,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/167g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/AMERICAN_COCKER_SPANIEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AMERICAN-COCKER-SPANIEL-167.html",
+  "fci_standard": "167g08",
+  "breed_name_clean": "AMERICAN COCKER SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Cocker Spaniel",
+  "alt_names": [
+    "American Cocker",
+    "Cocker",
+    "American Cocker Spaniel Dog",
+    "Cocker Spaniel Dog",
+    "American Cocker Spaniel Puppy",
+    "Cocker Spaniel Puppy",
+    "American Cocker Spaniel Breed",
+    "Cocker Spaniel Breed"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:16:08"
+}

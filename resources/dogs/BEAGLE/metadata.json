@@ -1,0 +1,28 @@
+{
+  "breed_id": "BEAGLE",
+  "breed_name": "BEAGLE (161)",
+  "breed_number": 161,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/161g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BEAGLE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BEAGLE-161.html",
+  "fci_standard": "161g06",
+  "breed_name_clean": "BEAGLE",
+  "pdf_language": "English",
+  "common_display_name": "Beagle",
+  "alt_names": [
+    "Beagle Dog",
+    "Pocket Beagle",
+    "Beagle Hound",
+    "Beagle Puppies",
+    "Beagle Mix",
+    "Beagle Dog Breed",
+    "Beagle for Sale",
+    "Beagle Temperament",
+    "Beagle Cost",
+    "Beagle Characteristics"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:48"
+}

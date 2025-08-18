@@ -1,0 +1,27 @@
+{
+  "breed_id": "BERGER_BLANC_SUISSE",
+  "breed_name": "BERGER BLANC SUISSE (347) (WHITE SWISS SHEPHERD DOG)",
+  "breed_number": 347,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/347g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/BERGER_BLANC_SUISSE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html",
+  "fci_standard": "347g01",
+  "breed_name_alternative": "WHITE SWISS SHEPHERD DOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "White Swiss Shepherd",
+  "alt_names": [
+    "Berger Blanc Suisse",
+    "Swiss Shepherd",
+    "White Shepherd",
+    "Berger Blanc",
+    "BS",
+    "White German Shepherd",
+    "American White Shepherd"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:18:08"
+}

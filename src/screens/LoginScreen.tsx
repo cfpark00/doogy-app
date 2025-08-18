@@ -23,6 +23,10 @@ export function LoginScreen() {
     try {
       await signInWithGoogle();
     } catch (error: any) {
+      console.error('Login error:', error);
+      console.error('Error message:', error?.message);
+      console.error('Error code:', error?.code);
+      
       // Check if it's a cancellation or an actual error
       if (error?.message?.includes('User cancelled') || error?.message?.includes('canceled')) {
         Toast.show({
@@ -42,8 +46,8 @@ export function LoginScreen() {
         Toast.show({
           type: 'error',
           text1: 'Login Failed',
-          text2: 'Please try again',
-          visibilityTime: 3000,
+          text2: error?.message || 'Please try again',
+          visibilityTime: 5000,
         });
       }
     } finally {

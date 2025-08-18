@@ -1,0 +1,26 @@
+{
+  "breed_id": "NORFOLK_TERRIER",
+  "breed_name": "NORFOLK TERRIER (272)",
+  "breed_number": 272,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/272g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/NORFOLK_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NORFOLK-TERRIER-272.html",
+  "fci_standard": "272g03",
+  "breed_name_clean": "NORFOLK TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Norfolk Terrier",
+  "alt_names": [
+    "Norfolk",
+    "Norwich Terrier (often confused)",
+    "Norfolk Terrier Club",
+    "Norfolk Terrier puppies",
+    "Norfolk Terrier dog",
+    "Norfolk Terrier temperament",
+    "Norfolk Terrier characteristics",
+    "Norfolk Terrier for sale"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:42"
+}

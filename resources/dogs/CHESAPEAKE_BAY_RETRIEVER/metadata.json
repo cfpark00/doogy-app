@@ -1,0 +1,25 @@
+{
+  "breed_id": "CHESAPEAKE_BAY_RETRIEVER",
+  "breed_name": "CHESAPEAKE BAY RETRIEVER (263)",
+  "breed_number": 263,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/263g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/CHESAPEAKE_BAY_RETRIEVER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CHESAPEAKE-BAY-RETRIEVER-263.html",
+  "fci_standard": "263g08",
+  "breed_name_clean": "CHESAPEAKE BAY RETRIEVER",
+  "pdf_language": "English",
+  "common_display_name": "Chessie",
+  "alt_names": [
+    "Chesapeake Bay",
+    "Chesapeake Retriever",
+    "Bay Dog",
+    "Chessie Dog",
+    "Chesapeake Bay Dog",
+    "Bay Retriever",
+    "Chesapeake Bay Duck Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:22:09"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "FRANCAIS_BLANC_ET_ORANGE",
+  "breed_name": "FRANÇAIS BLANC ET ORANGE (316) (FRENCH WHITE AND ORANGE HOUND)",
+  "breed_number": 316,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/316g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/FRANCAIS_BLANC_ET_ORANGE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FRENCH-WHITE-AND-ORANGE-HOUND-316.html",
+  "fci_standard": "316g06",
+  "breed_name_alternative": "FRENCH WHITE AND ORANGE HOUND",
+  "pdf_language": "English",
+  "common_display_name": "French Tricolor Hound",
+  "alt_names": [
+    "Grand Anglo-Français Tricolore",
+    "Anglo-French Tricolor",
+    "French Tricolor",
+    "Anglo-Français Tricolore",
+    "French White and Orange Hound",
+    "Tricolore Hound",
+    "Anglo-Français Tricolore de Petite Vénerie"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:50"
+}

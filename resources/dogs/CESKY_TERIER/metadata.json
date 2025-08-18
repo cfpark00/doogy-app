@@ -1,0 +1,24 @@
+{
+  "breed_id": "CESKY_TERIER",
+  "breed_name": "CESKÝ TERIER (246) (CESKY TERRIER)",
+  "breed_number": 246,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/246g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/CESKY_TERIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CESKY-TERRIER-246.html",
+  "fci_standard": "246g03",
+  "breed_name_alternative": "CESKY TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Czech Terrier",
+  "alt_names": [
+    "Bohemian Terrier",
+    "Český teriér",
+    "Czech Terrier Dog",
+    "Bohemian Terrier Dog",
+    "Terrier Bohemien",
+    "Ceský teriér"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:59"
+}

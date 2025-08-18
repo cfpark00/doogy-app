@@ -1,0 +1,27 @@
+{
+  "breed_id": "SKYE_TERRIER",
+  "breed_name": "SKYE TERRIER (75)",
+  "breed_number": 75,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/075g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/SKYE_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SKYE-TERRIER-75.html",
+  "fci_standard": "075g03",
+  "breed_name_clean": "SKYE TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Skye Terrier",
+  "alt_names": [
+    "Skye",
+    "Skye Terrier Dog",
+    "West Highland Terrier",
+    "Clydesdale Terrier",
+    "Silky Terrier",
+    "Short-haired Skye Terrier",
+    "Long-haired Skye Terrier",
+    "Skye Terrier Dog Breed",
+    "Terrier of Skye"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:19"
+}

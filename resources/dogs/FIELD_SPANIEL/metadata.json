@@ -1,0 +1,23 @@
+{
+  "breed_id": "FIELD_SPANIEL",
+  "breed_name": "FIELD SPANIEL (123)",
+  "breed_number": 123,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/123g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/FIELD_SPANIEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FIELD-SPANIEL-123.html",
+  "fci_standard": "123g08",
+  "breed_name_clean": "FIELD SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Field Spaniel",
+  "alt_names": [
+    "Fieldie",
+    "English Field Spaniel",
+    "Old English Field Spaniel",
+    "Cockerspaniel (historically, as it was developed from similar lines)",
+    "Land Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:20"
+}

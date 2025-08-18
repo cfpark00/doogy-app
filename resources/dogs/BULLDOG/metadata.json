@@ -1,0 +1,25 @@
+{
+  "breed_id": "BULLDOG",
+  "breed_name": "BULLDOG (149)",
+  "breed_number": 149,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/149g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/BULLDOG.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BULLDOG-149.html",
+  "fci_standard": "149g02",
+  "breed_name_clean": "BULLDOG",
+  "pdf_language": "English",
+  "common_display_name": "Bulldog",
+  "alt_names": [
+    "English Bulldog",
+    "Bully",
+    "Old English Bulldog",
+    "Bulldogge",
+    "Bully Bulldog",
+    "Bulldog England",
+    "British Bulldog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:24"
+}

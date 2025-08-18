@@ -1,0 +1,26 @@
+{
+  "breed_id": "MASTIN_ESPANOL",
+  "breed_name": "MASTÍN ESPAÑOL (91) (SPANISH MASTIFF)",
+  "breed_number": 91,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/091g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/MASTIN_ESPANOL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SPANISH-MASTIFF-91.html",
+  "fci_standard": "091g02",
+  "breed_name_alternative": "SPANISH MASTIFF",
+  "pdf_language": "English",
+  "common_display_name": "Spanish Mastiff",
+  "alt_names": [
+    "Mastín Español",
+    "Spanish Mastiff Dog",
+    "Mastin",
+    "Spanish Mastiff Puppy",
+    "Mastiff Español",
+    "Spanish Mastiff Breeders",
+    "Mastin Dog",
+    "Mastin de España"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:03"
+}

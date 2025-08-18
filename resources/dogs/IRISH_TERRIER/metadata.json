@@ -1,0 +1,23 @@
+{
+  "breed_id": "IRISH_TERRIER",
+  "breed_name": "IRISH TERRIER (139)",
+  "breed_number": 139,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/139g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/IRISH_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/IRISH-TERRIER-139.html",
+  "fci_standard": "139g03",
+  "breed_name_clean": "IRISH TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Irish Terrier",
+  "alt_names": [
+    "Irish",
+    "Irish Red Terrier",
+    "Old Irish Terrier",
+    "Deutscher Terrier",
+    "Terrier Irlandais"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:09"
+}

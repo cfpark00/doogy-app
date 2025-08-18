@@ -1,0 +1,26 @@
+{
+  "breed_id": "FRANCAIS_BLANC_ET_NOIR",
+  "breed_name": "FRANÇAIS BLANC ET NOIR (220) (FRENCH WHITE & BLACK HOUND)",
+  "breed_number": 220,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/220g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/FRANCAIS_BLANC_ET_NOIR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FRENCH-WHITE-BLACK-HOUND-220.html",
+  "fci_standard": "220g06",
+  "breed_name_alternative": "FRENCH WHITE & BLACK HOUND",
+  "pdf_language": "English",
+  "common_display_name": "French Tricolor Hound",
+  "alt_names": [
+    "Grand Anglo-Français Tricolore",
+    "Anglo-French Tricolor",
+    "French Tricolor",
+    "Grand Anglo-Français",
+    "Tricolor Anglo-French Hound",
+    "Anglo-Français Tricolore",
+    "French White and Black Hound",
+    "Blanc et Noir"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:44"
+}

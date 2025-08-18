@@ -1,0 +1,27 @@
+{
+  "breed_id": "KOMONDOR",
+  "breed_name": "KOMONDOR (53)",
+  "breed_number": 53,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/053g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/KOMONDOR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KOMONDOR-53.html",
+  "fci_standard": "053g01",
+  "breed_name_clean": "KOMONDOR",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Komondor",
+  "alt_names": [
+    "Hungarian Sheepdog",
+    "Kumo",
+    "Komondor Dog",
+    "Mop Dog",
+    "Hungarian Komondor",
+    "Komon",
+    "Komondorok"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:34"
+}

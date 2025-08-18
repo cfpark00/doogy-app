@@ -1,0 +1,25 @@
+{
+  "breed_id": "BASSET_BLEU_DE_GASCOGNE",
+  "breed_name": "BASSET BLEU DE GASCOGNE (35) (BLUE GASCONY BASSET)",
+  "breed_number": 35,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/035g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BASSET_BLEU_DE_GASCOGNE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BLUE-GASCONY-BASSET-35.html",
+  "fci_standard": "035g06",
+  "breed_name_alternative": "BLUE GASCONY BASSET",
+  "pdf_language": "English",
+  "common_display_name": "Basset Bleu",
+  "alt_names": [
+    "Gascon Saintongeois Basset",
+    "Basset Bleu de Gascogne",
+    "Blue Basset Hound",
+    "Basset Hound Bleu",
+    "Bleu Basset",
+    "Gascon Basset",
+    "Basset Saintongeois Bleu"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:28"
+}

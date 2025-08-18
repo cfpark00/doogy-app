@@ -1,0 +1,28 @@
+{
+  "breed_id": "CLUMBER_SPANIEL",
+  "breed_name": "CLUMBER SPANIEL (109)",
+  "breed_number": 109,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/109g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/CLUMBER_SPANIEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CLUMBER-SPANIEL-109.html",
+  "fci_standard": "109g08",
+  "breed_name_clean": "CLUMBER SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Clumber",
+  "alt_names": [
+    "Clumber Spaniel Dog",
+    "Clumber Spaniel Dog Breed",
+    "Clumber Spaniel Dog For Sale",
+    "Clumber Spaniel Puppy",
+    "Clumber Spaniel Temperament",
+    "Clumber Spaniel Price",
+    "Clumber Spaniel Characteristics",
+    "Clumber Spaniel History",
+    "Clumber Spaniel Grooming",
+    "Clumber Spaniel Health"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:29"
+}

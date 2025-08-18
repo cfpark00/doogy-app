@@ -1,0 +1,25 @@
+{
+  "breed_id": "IRISH_WOLFHOUND",
+  "breed_name": "IRISH WOLFHOUND (160)",
+  "breed_number": 160,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/160g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/IRISH_WOLFHOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/IRISH-WOLFHOUND-160.html",
+  "fci_standard": "160g10",
+  "breed_name_clean": "IRISH WOLFHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Irish Wolfhound",
+  "alt_names": [
+    "Wolfhound",
+    "Irish",
+    "Cú Faoil",
+    "Irish Great Dane",
+    "Irish Boarhound",
+    "Gentle Giant",
+    "Irish Greyhound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:20"
+}

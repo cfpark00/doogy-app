@@ -1,0 +1,27 @@
+{
+  "breed_id": "MUDI",
+  "breed_name": "MUDI (238)",
+  "breed_number": 238,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/238g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/MUDI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MUDI-238.html",
+  "fci_standard": "238g01",
+  "breed_name_clean": "MUDI",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Mudi",
+  "alt_names": [
+    "Hungarian Mudi",
+    "Mudik",
+    "Canis familiaris ovilis Hungaricus",
+    "Hungarian Sheepdog",
+    "Mudi Dog",
+    "Hungarian Herding Dog",
+    "Mudi Shepherd"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:13"
+}

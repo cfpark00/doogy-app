@@ -1,0 +1,24 @@
+{
+  "breed_id": "CAVALIER_KING_CHARLES_SPANIEL",
+  "breed_name": "CAVALIER KING CHARLES SPANIEL (136)",
+  "breed_number": 136,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/136g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/CAVALIER_KING_CHARLES_SPANIEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CAVALIER-KING-CHARLES-SPANIEL-136.html",
+  "fci_standard": "136g09",
+  "breed_name_clean": "CAVALIER KING CHARLES SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Cavalier",
+  "alt_names": [
+    "Cavalier King Charles",
+    "King Charles Spaniel",
+    "CKCS",
+    "Cavalier King Charles Spaniel Dog",
+    "King Charles Dog",
+    "English Toy Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:39"
+}

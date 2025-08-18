@@ -1,0 +1,25 @@
+{
+  "breed_id": "BAYERISCHER_GEBIRGSSCHWEISSHUND",
+  "breed_name": "BAYERISCHER GEBIRGSSCHWEISSHUND (217) (BAVARIAN MOUNTAIN SCENT HOUND)",
+  "breed_number": 217,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/217g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BAYERISCHER_GEBIRGSSCHWEISSHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BAVARIAN-MOUNTAIN-SCENT-HOUND-217.html",
+  "fci_standard": "217g06",
+  "breed_name_alternative": "BAVARIAN MOUNTAIN SCENT HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Bavarian Mountain Hound",
+  "alt_names": [
+    "Bayerischer Gebirgsschweisshund",
+    "Bavarian Mountain Scent Hound",
+    "Bavarian Schweisshund",
+    "Bavarian Scent Hound",
+    "Bayerischer Schweisshund",
+    "Bavarian Mountain Dog",
+    "Gebirgsschweisshund"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:43"
+}

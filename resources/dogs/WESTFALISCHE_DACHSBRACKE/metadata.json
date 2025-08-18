@@ -1,0 +1,26 @@
+{
+  "breed_id": "WESTFALISCHE_DACHSBRACKE",
+  "breed_name": "WESTFÄLISCHE DACHSBRACKE (100) (WESTPHALIAN DACHSBRACKE)",
+  "breed_number": 100,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/100g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/WESTFALISCHE_DACHSBRACKE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WESTPHALIAN-DACHSBRACKE-100.html",
+  "fci_standard": "100g06",
+  "breed_name_alternative": "WESTPHALIAN DACHSBRACKE",
+  "pdf_language": "English",
+  "common_display_name": "Westphalian Dachsbracke",
+  "alt_names": [
+    "Westphalian Hound",
+    "German Dachsbracke",
+    "Dachsbracke",
+    "Westfalian Dachshund Hound",
+    "Westphalian Badger Hound",
+    "Westphalian Scent Hound",
+    "Westfalian Scent Hound",
+    "Westphalian Tracking Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:21"
+}

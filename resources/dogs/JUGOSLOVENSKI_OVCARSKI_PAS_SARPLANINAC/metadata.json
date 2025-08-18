@@ -1,0 +1,27 @@
+{
+  "breed_id": "JUGOSLOVENSKI_OVCARSKI_PAS_SARPLANINAC",
+  "breed_name": "JUGOSLOVENSKI OVCARSKI PAS-SARPLANINAC (41) (YUGOSLAVIAN SHEPHERD DOG - SHARPLANINA)",
+  "breed_number": 41,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/041g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/JUGOSLOVENSKI_OVCARSKI_PAS_SARPLANINAC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/YUGOSLAVIAN-SHEPHERD-DOG-SHARPLANINA-41.html",
+  "fci_standard": "041g02",
+  "breed_name_alternative": "YUGOSLAVIAN SHEPHERD DOG - SHARPLANINA",
+  "pdf_language": "English",
+  "common_display_name": "Sharplaninac",
+  "alt_names": [
+    "Yugoslav Shepherd Dog",
+    "Yugoslavian Shepherd Dog",
+    "Sarplaninac Shepherd",
+    "Illyrian Shepherd Dog",
+    "Shara Planina Dog",
+    "Jugoslovenski Ovcharski Pas",
+    "Sarplaninac Dog",
+    "Sarplaninac",
+    "Shara Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:31:49"
+}

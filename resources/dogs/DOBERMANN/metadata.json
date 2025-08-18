@@ -1,0 +1,25 @@
+{
+  "breed_id": "DOBERMANN",
+  "breed_name": "DOBERMANN (143)",
+  "breed_number": 143,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/143g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/DOBERMANN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DOBERMANN-143.html",
+  "fci_standard": "143g02",
+  "breed_name_clean": "DOBERMANN",
+  "pdf_language": "English",
+  "common_display_name": "Doberman",
+  "alt_names": [
+    "Doberman Pinscher",
+    "Dobermann Pinscher",
+    "Dobermann",
+    "Dobie",
+    "Doberman Dog",
+    "Doberman Pinscher Dog",
+    "Doberman Pinschers"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:25"
+}

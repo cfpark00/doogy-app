@@ -1,0 +1,28 @@
+{
+  "breed_id": "PEKINGESE",
+  "breed_name": "PEKINGESE (207)",
+  "breed_number": 207,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/207g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/PEKINGESE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PEKINGESE-207.html",
+  "fci_standard": "207g09",
+  "breed_name_clean": "PEKINGESE",
+  "pdf_language": "English",
+  "common_display_name": "Pekingese",
+  "alt_names": [
+    "Peke",
+    "Pekingese Dog",
+    "Peking",
+    "Pekingese Lion Dog",
+    "Pekingese Spaniel",
+    "Pekingese Puppy",
+    "Pekingese Dog Breed",
+    "Pekingese Dog Price",
+    "Pekingese Dogs",
+    "Pekingese Cat"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:46"
+}

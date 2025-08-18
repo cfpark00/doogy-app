@@ -1,0 +1,27 @@
+{
+  "breed_id": "WHIPPET",
+  "breed_name": "WHIPPET (162)",
+  "breed_number": 162,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/162g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/WHIPPET.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WHIPPET-162.html",
+  "fci_standard": "162g10",
+  "breed_name_clean": "WHIPPET",
+  "pdf_language": "English",
+  "common_display_name": "Whippet",
+  "alt_names": [
+    "Whippet Dog",
+    "Snap Dog",
+    "Whippet Hound",
+    "English Whippet",
+    "Whippet Racing Dog",
+    "Whippet Greyhound",
+    "Whippet Lurcher",
+    "Whippet Dog Breed",
+    "Whippet Puppy"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:36"
+}

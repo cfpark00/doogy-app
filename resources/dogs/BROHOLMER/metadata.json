@@ -1,0 +1,25 @@
+{
+  "breed_id": "BROHOLMER",
+  "breed_name": "BROHOLMER (315)",
+  "breed_number": 315,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/315g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/BROHOLMER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BROHOLMER-315.html",
+  "fci_standard": "315g02",
+  "breed_name_clean": "BROHOLMER",
+  "pdf_language": "English",
+  "common_display_name": "Broholmer",
+  "alt_names": [
+    "Broholmer Dog",
+    "Danish Broholmer",
+    "Broholmer Mastiff",
+    "Old Danish Mastiff",
+    "Broholmer Hound",
+    "Danish Hound",
+    "Broholmer Bulldog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:19"
+}

@@ -1,0 +1,24 @@
+{
+  "breed_id": "HYGENHUND",
+  "breed_name": "HYGENHUND (266) (HYGEN HOUND)",
+  "breed_number": 266,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/266g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/HYGENHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HYGEN-HOUND-266.html",
+  "fci_standard": "266g06",
+  "breed_name_alternative": "HYGEN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Hygenhund",
+  "alt_names": [
+    "Hygen",
+    "Hygen Hound",
+    "Norwegian Hygenhund",
+    "Hygen Hounds",
+    "Hygenhund Hound",
+    "Hygenhund Norwegian Elkhound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:45"
+}

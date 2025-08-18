@@ -1,0 +1,25 @@
+{
+  "breed_id": "HOKKAIDO",
+  "breed_name": "HOKKAIDO (261)",
+  "breed_number": 261,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/261g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/HOKKAIDO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HOKKAIDO-261.html",
+  "fci_standard": "261g05",
+  "breed_name_clean": "HOKKAIDO",
+  "pdf_language": "English",
+  "common_display_name": "Hokkaido",
+  "alt_names": [
+    "Ainu Ken",
+    "Hokkaido Dog",
+    "Northern Hokkaido",
+    "Dosanko",
+    "Hokkaido Ken",
+    "Japanese Hokkaido",
+    "Ainu Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:20"
+}

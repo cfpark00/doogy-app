@@ -1,0 +1,25 @@
+{
+  "breed_id": "RHODESIAN_RIDGEBACK",
+  "breed_name": "RHODESIAN RIDGEBACK (146)",
+  "breed_number": 146,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/146g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/RHODESIAN_RIDGEBACK.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/RHODESIAN-RIDGEBACK-146.html",
+  "fci_standard": "146g06",
+  "breed_name_clean": "RHODESIAN RIDGEBACK",
+  "pdf_language": "English",
+  "common_display_name": "Rhodesian Ridgeback",
+  "alt_names": [
+    "Ridgeback",
+    "Rhodesian",
+    "Lion Dog",
+    "African Lion Hound",
+    "Rhodesian Lion Dog",
+    "Rhodesian Ridge",
+    "RR"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:01"
+}

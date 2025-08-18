@@ -1,0 +1,28 @@
+{
+  "breed_id": "CA_DE_BESTIAR",
+  "breed_name": "CA DE BESTIAR (321) (MAJORCA SHEPHERD DOG)",
+  "breed_number": 321,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/321g01-fr.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CA_DE_BESTIAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MAJORCA-SHEPHERD-DOG-321.html",
+  "fci_standard": "321g01",
+  "breed_name_alternative": "MAJORCA SHEPHERD DOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "French",
+  "note": "English version not available",
+  "common_display_name": "Catalan Sheepdog",
+  "alt_names": [
+    "Ca de Pastor",
+    "Perro de Pastor Catalán",
+    "Gos d'Atura Català",
+    "Catalan Shepherd",
+    "Catalan Sheepdog",
+    "Pastor Catalán",
+    "Gos de Pastor"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:44"
+}

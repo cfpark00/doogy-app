@@ -1,0 +1,27 @@
+{
+  "breed_id": "PULI",
+  "breed_name": "PULI (55)",
+  "breed_number": 55,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/055g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/PULI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PULI-55.html",
+  "fci_standard": "055g01",
+  "breed_name_clean": "PULI",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Puli",
+  "alt_names": [
+    "Hungarian Puli",
+    "Puli Dog",
+    "Komondor Puli",
+    "Mop Dog",
+    "Corded Puli",
+    "Hungarian Sheepdog",
+    "Puli Shepherd"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:41"
+}

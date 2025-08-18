@@ -1,0 +1,25 @@
+{
+  "breed_id": "GRIFFON_BLEU_DE_GASCOGNE",
+  "breed_name": "GRIFFON BLEU DE GASCOGNE (32) (BLUE GASCONY GRIFFON)",
+  "breed_number": 32,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/032g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GRIFFON_BLEU_DE_GASCOGNE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BLUE-GASCONY-GRIFFON-32.html",
+  "fci_standard": "032g06",
+  "breed_name_alternative": "BLUE GASCONY GRIFFON",
+  "pdf_language": "English",
+  "common_display_name": "Blue Gascony Griffon",
+  "alt_names": [
+    "Griffon Bleu de Gascogne",
+    "Gascony Blue Griffon",
+    "Bleu de Gascogne",
+    "Griffon Bleu",
+    "Blue Gascon Griffon",
+    "Griffon Bleu de Gascogne Hunting Dog",
+    "Gascon Bleu"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:19"
+}

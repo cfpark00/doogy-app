@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import {
   View,
   Text,
@@ -22,6 +22,7 @@ import {Message} from '../types';
 import {MessageBubble} from '../components/MessageBubble';
 import {chatService} from '../services/chatService';
 import {useAuth} from '../contexts/AuthContext';
+import {supabase} from '../lib/supabase';
 import Icon from 'react-native-vector-icons/Feather';
 
 const {height: screenHeight} = Dimensions.get('window');
@@ -32,7 +33,9 @@ export const HomeScreen: React.FC = () => {
   const [searchText, setSearchText] = useState('');
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [userAvatar, setUserAvatar] = useState<string | null>(null); // For future user uploads
+  const [dogPhoto, setDogPhoto] = useState<string | null>(null);
+  const [dogName, setDogName] = useState<string>('');
+  const [userName, setUserName] = useState<string>('');
   const [drawerVisible, setDrawerVisible] = useState(false);
   const flatListRef = useRef<FlatList>(null);
   const drawerAnimation = useRef(new Animated.Value(-350)).current;
@@ -55,22 +58,60 @@ export const HomeScreen: React.FC = () => {
   ];
 
   const completedTasks = tasks.filter(t => t.completed).length;
-  const progressPercentage = (completedTasks / tasks.length) * 100;
+  const progressPercentage = 63; // Direct percentage value
 
-  // Function to switch to chat mode
+  // Fetch user profile and dog data
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!user?.id) return;
+      
+      try {
+        // Fetch user profile
+        const {data: profileData} = await supabase
+          .from('profiles')
+          .select('name')
+          .eq('id', user.id)
+          .single();
+        
+        if (profileData) {
+          setUserName(profileData.name || 'Friend');
+        }
+
+        // Fetch first dog's data
+        const {data: dogData} = await supabase
+          .from('dogs')
+          .select('name, photo_url')
+          .eq('user_id', user.id)
+          .order('created_at', {ascending: true})
+          .limit(1)
+          .single();
+        
+        if (dogData) {
+          setDogName(dogData.name);
+          setDogPhoto(dogData.photo_url);
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, [user]);
+
+  // Function to switch to chat mode (expand top section for chat)
   const switchToChatMode = () => {
     Animated.spring(dividerPosition, {
-      toValue: MIN_TOP_HEIGHT,
+      toValue: screenHeight - MIN_BOTTOM_HEIGHT - 100,
       useNativeDriver: false,
       tension: 50,
       friction: 10,
     }).start();
   };
 
-  // Function to switch to dashboard mode
+  // Function to switch to dashboard mode (shrink top section, expand bottom)
   const switchToDashboardMode = () => {
     Animated.spring(dividerPosition, {
-      toValue: screenHeight - MIN_BOTTOM_HEIGHT - 100,
+      toValue: MIN_TOP_HEIGHT + 100,
       useNativeDriver: false,
       tension: 50,
       friction: 10,
@@ -168,41 +209,17 @@ export const HomeScreen: React.FC = () => {
     PanResponder.create({
       onStartShouldSetPanResponder: () => true,
       onMoveShouldSetPanResponder: () => true,
-      onPanResponderGrant: () => {
-        // Store the current position when starting to drag
-      },
       onPanResponderMove: (evt, gestureState) => {
-        // If dragging up (negative dy), move divider up
         const currentValue = (dividerPosition as any)._value;
         const newPosition = currentValue + gestureState.dy;
-        
-        // Constrain position within bounds
         const constrainedPosition = Math.max(
           MIN_TOP_HEIGHT,
           Math.min(screenHeight - MIN_BOTTOM_HEIGHT - 100, newPosition)
         );
-        
         dividerPosition.setValue(constrainedPosition);
       },
-      onPanResponderRelease: (evt, gestureState) => {
-        const currentValue = (dividerPosition as any)._value;
-        
-        // If user dragged up significantly, go to dashboard mode
-        if (gestureState.dy < -50) {
-          switchToDashboardMode();
-        }
-        // If user dragged down significantly, go to chat mode
-        else if (gestureState.dy > 50) {
-          switchToChatMode();
-        }
-        // Otherwise snap to nearest mode based on current position
-        else {
-          if (currentValue < screenHeight * 0.5) {
-            switchToChatMode();
-          } else {
-            switchToDashboardMode();
-          }
-        }
+      onPanResponderRelease: () => {
+        // Just let it stay where the user dragged it
       },
     })
   ).current;
@@ -244,20 +261,26 @@ export const HomeScreen: React.FC = () => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <>
+      {/* Top SafeAreaView - Golden background for notch/status bar area */}
+      <SafeAreaView style={styles.topSafeArea} />
+      
+      {/* Bottom SafeAreaView - Cream background for content and home indicator */}
+      <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView 
         style={styles.container}
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
       >
         {/* Top Section - Dashboard/Welcome */}
-        <Animated.View 
-          style={[
-            styles.topSection,
-            {
-              height: dividerPosition,
-            }
-          ]}
-        >
+        <TouchableWithoutFeedback onPress={switchToChatMode}>
+          <Animated.View 
+            style={[
+              styles.topSection,
+              {
+                height: dividerPosition,
+              }
+            ]}
+          >
           <ScrollView 
             showsVerticalScrollIndicator={false}
             contentContainerStyle={styles.topScrollContent}
@@ -270,16 +293,13 @@ export const HomeScreen: React.FC = () => {
                 <View style={styles.menuLine} />
               </TouchableOpacity>
               
-              <TouchableOpacity style={styles.avatarContainer} onPress={() => {
-                // Future: Open image picker for user to upload custom avatar
-                console.log('Avatar tapped - image picker will be implemented');
-              }}>
+              <TouchableOpacity style={styles.avatarContainer}>
                 <View style={styles.avatar}>
-                  {userAvatar ? (
-                    <Image source={{uri: userAvatar}} style={styles.avatarImage} />
+                  {dogPhoto ? (
+                    <Image source={{uri: dogPhoto}} style={styles.avatarImage} />
                   ) : (
                     <Image 
-                      source={require('../assets/images/default_avatar.png')} 
+                      source={require('../assets/images/dog_pic.png')} 
                       style={styles.avatarImage}
                     />
                   )}
@@ -291,23 +311,20 @@ export const HomeScreen: React.FC = () => {
 
             {/* Welcome Message */}
             <View style={styles.welcomeSection}>
-              <Text style={styles.welcomeTitle}>Hello,</Text>
+              <Text style={styles.welcomeTitle}>
+                {dogName ? `${dogName}'s Day` : 'Welcome!'}
+              </Text>
               <Text style={styles.welcomeText}>
                 today is perfect day for 20-30 mins of out{'\n'}
                 door activity!
               </Text>
               <Text style={styles.questionText}>
-                will you give a treat after a good walk?
+                will you give {dogName || 'your dog'} a treat after a good walk?
               </Text>
             </View>
           </ScrollView>
-        </Animated.View>
-
-        {/* Draggable Divider with Search Bar */}
-        <View style={styles.dividerContainer} {...panResponder.panHandlers}>
-          <View style={styles.dragHandle}>
-            <View style={styles.dragIndicator} />
-          </View>
+          
+          {/* Chat Input at bottom of top section */}
           <View style={styles.searchContainer}>
             <TextInput
               style={styles.searchInput}
@@ -323,17 +340,22 @@ export const HomeScreen: React.FC = () => {
               <Text style={styles.sendButtonText}>➤</Text>
             </TouchableOpacity>
           </View>
-        </View>
+        </Animated.View>
+        </TouchableWithoutFeedback>
+
+        {/* Invisible Divider - no visual bar */}
+        <View style={styles.dividerContainer} {...panResponder.panHandlers} />
 
         {/* Bottom Section - Chat/Dashboard */}
-        <Animated.View 
-          style={[
-            styles.bottomSection,
-            {
-              flex: 1,
-            }
-          ]}
-        >
+        <TouchableWithoutFeedback onPress={switchToDashboardMode}>
+          <Animated.View 
+            style={[
+              styles.bottomSection,
+              {
+                height: Animated.subtract(screenHeight - 100, dividerPosition),
+              }
+            ]}
+          >
           {/* Chat Messages */}
           <View style={styles.chatSection}>
             <FlatList
@@ -347,19 +369,14 @@ export const HomeScreen: React.FC = () => {
               }
               ListEmptyComponent={
                 <View style={styles.dashboardContainer}>
-                  <Text style={styles.dummyText}>dummy text</Text>
-                  
                   {/* Dashboard Cards */}
                   <View style={styles.cardsContainer}>
                     {/* Progress Card */}
                     <TouchableOpacity style={styles.card}>
                       <View style={styles.progressCircle}>
-                        <View style={styles.progressBackground} />
-                        <View style={[styles.progressFill, {
-                          transform: [{rotate: `${(progressPercentage * 3.6) - 90}deg`}]
-                        }]} />
-                        <View style={styles.progressInner}>
-                          <Text style={styles.progressText}>{Math.round(progressPercentage)}%</Text>
+                        {/* Just show the percentage text for now */}
+                        <View style={styles.progressRing}>
+                          <Text style={styles.progressText}>{progressPercentage}%</Text>
                         </View>
                       </View>
                     </TouchableOpacity>
@@ -395,6 +412,7 @@ export const HomeScreen: React.FC = () => {
             />
           </View>
         </Animated.View>
+        </TouchableWithoutFeedback>
       </KeyboardAvoidingView>
 
       {/* Slide-out Drawer */}
@@ -486,40 +504,37 @@ export const HomeScreen: React.FC = () => {
         </TouchableWithoutFeedback>
       </Modal>
     </SafeAreaView>
+    </>
   );
 };
 
 const styles = StyleSheet.create({
+  // Safe Area Views
+  topSafeArea: {
+    flex: 0,
+    backgroundColor: theme.colors.primary, // Golden for top/notch area
+  },
   container: {
     flex: 1,
-    backgroundColor: theme.colors.background,
+    backgroundColor: theme.colors.surface, // Cream for content and bottom area
   },
   topSection: {
     backgroundColor: theme.colors.primary,
-    overflow: 'hidden',
+    overflow: 'visible',
+    zIndex: 5,
   },
   topScrollContent: {
     paddingBottom: theme.spacing.lg,
   },
   bottomSection: {
     backgroundColor: theme.colors.surface,
+    zIndex: 1,
   },
   dividerContainer: {
-    backgroundColor: theme.colors.white,
-    borderTopLeftRadius: theme.borderRadius.lg,
-    borderTopRightRadius: theme.borderRadius.lg,
-    ...theme.shadows.lg,
+    height: 20,
+    marginTop: -10,
+    marginBottom: -10,
     zIndex: 10,
-  },
-  dragHandle: {
-    alignItems: 'center',
-    paddingVertical: theme.spacing.sm,
-  },
-  dragIndicator: {
-    width: 40,
-    height: 4,
-    backgroundColor: theme.colors.gray300,
-    borderRadius: 2,
   },
   header: {
     flexDirection: 'row',
@@ -556,9 +571,8 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   avatarImage: {
-    width: 25,
-    height: 25,
-    resizeMode: 'contain',
+    width: '100%',
+    height: '100%',
   },
   welcomeSection: {
     paddingHorizontal: theme.spacing.lg,
@@ -584,8 +598,14 @@ const styles = StyleSheet.create({
   searchContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: theme.spacing.lg,
-    paddingBottom: theme.spacing.md,
+    marginHorizontal: theme.spacing.md,
+    marginBottom: theme.spacing.md,
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: theme.spacing.xs,
+    backgroundColor: theme.colors.surface,
+    borderRadius: theme.borderRadius.lg,
+    ...theme.shadows.sm,
+    zIndex: 10,
   },
   searchInput: {
     flex: 1,
@@ -609,11 +629,6 @@ const styles = StyleSheet.create({
   dashboardContainer: {
     padding: theme.spacing.lg,
   },
-  dummyText: {
-    fontSize: theme.fontSize.md,
-    color: theme.colors.textPrimary,
-    marginBottom: theme.spacing.lg,
-  },
   cardsContainer: {
     flexDirection: 'row',
     marginBottom: theme.spacing.lg,
@@ -632,32 +647,15 @@ const styles = StyleSheet.create({
   progressCircle: {
     width: 80,
     height: 80,
-    position: 'relative',
     justifyContent: 'center',
     alignItems: 'center',
   },
-  progressBackground: {
-    position: 'absolute',
-    width: 80,
-    height: 80,
-    borderRadius: 40,
-    borderWidth: 8,
-    borderColor: theme.colors.secondaryDark,
-  },
-  progressFill: {
-    position: 'absolute',
+  progressRing: {
     width: 80,
     height: 80,
     borderRadius: 40,
     borderWidth: 8,
     borderColor: theme.colors.primary,
-    borderTopColor: 'transparent',
-    borderRightColor: 'transparent',
-  },
-  progressInner: {
-    width: 64,
-    height: 64,
-    borderRadius: 32,
     backgroundColor: theme.colors.white,
     justifyContent: 'center',
     alignItems: 'center',

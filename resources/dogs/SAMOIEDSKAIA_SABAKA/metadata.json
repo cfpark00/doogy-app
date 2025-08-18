@@ -1,0 +1,26 @@
+{
+  "breed_id": "SAMOIEDSKAIA_SABAKA",
+  "breed_name": "SAMOIEDSKAÏA SABAKA (212) (SAMOYED)",
+  "breed_number": 212,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/212g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/SAMOIEDSKAIA_SABAKA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SAMOYED-212.html",
+  "fci_standard": "212g05",
+  "breed_name_alternative": "SAMOYED",
+  "pdf_language": "English",
+  "common_display_name": "Samoyed",
+  "alt_names": [
+    "Samoiedskaïa Sabaka",
+    "Samoiedskaia Sabaka",
+    "Samoedskaïa Sabaka",
+    "Samoedskaia Sabaka",
+    "Samoied",
+    "Samoed",
+    "Arctic Samoyed",
+    "Samoiedskaya Sobaka"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:57"
+}

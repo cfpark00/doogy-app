@@ -1,0 +1,25 @@
+{
+  "breed_id": "DALMATINSKI_PAS",
+  "breed_name": "DALMATINSKI PAS (153) (DALMATIAN)",
+  "breed_number": 153,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/153g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/DALMATINSKI_PAS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DALMATIAN-153.html",
+  "fci_standard": "153g06",
+  "breed_name_alternative": "DALMATIAN",
+  "pdf_language": "English",
+  "common_display_name": "Dalmatian",
+  "alt_names": [
+    "Dalmatinac",
+    "Dalmation",
+    "Spotted Dog",
+    "Coach Dog",
+    "Carriage Dog",
+    "Plum Pudding Dog",
+    "English Coach Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:04"
+}

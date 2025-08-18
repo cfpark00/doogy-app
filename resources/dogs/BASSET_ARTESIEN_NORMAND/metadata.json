@@ -1,0 +1,23 @@
+{
+  "breed_id": "BASSET_ARTESIEN_NORMAND",
+  "breed_name": "BASSET ARTESIEN NORMAND (34) (NORMAN ARTESIEN BASSET)",
+  "breed_number": 34,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/034g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BASSET_ARTESIEN_NORMAND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NORMAN-ARTESIEN-BASSET-34.html",
+  "fci_standard": "034g06",
+  "breed_name_alternative": "NORMAN ARTESIEN BASSET",
+  "pdf_language": "English",
+  "common_display_name": "Basset Hound",
+  "alt_names": [
+    "Basset Artésien Normand",
+    "Basset Normand",
+    "Basset Artésien",
+    "Normandy Basset",
+    "Basset Hound (French)"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:17:23"
+}

@@ -1,0 +1,28 @@
+{
+  "breed_id": "CIOBANESC_ROMANESC_CARPATIN",
+  "breed_name": "CIOBANESC ROMÂNESC CARPATIN (350) (ROMANIAN CARPATHIAN SHEPHERD DOG)",
+  "breed_number": 350,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/350g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/CIOBANESC_ROMANESC_CARPATIN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ROMANIAN-CARPATHIAN-SHEPHERD-DOG-350.html",
+  "fci_standard": "350g01",
+  "breed_name_alternative": "ROMANIAN CARPATHIAN SHEPHERD DOG",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Carpathian Shepherd Dog",
+  "alt_names": [
+    "Romanian Carpathian Shepherd Dog",
+    "Ciobănesc Românesc Carpatin",
+    "Romanian Shepherd Dog",
+    "Carpathian",
+    "Romanian Mountain Dog",
+    "Carpatin Dog",
+    "Romanian Sheepdog",
+    "Carpathian Sheepdog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:09"
+}

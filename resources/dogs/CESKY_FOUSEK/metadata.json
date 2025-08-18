@@ -1,0 +1,25 @@
+{
+  "breed_id": "CESKY_FOUSEK",
+  "breed_name": "CESKÝ FOUSEK (245) (BOHEMIAN WIRE-HAIRED POINTING GRIFFON)",
+  "breed_number": 245,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/245g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/CESKY_FOUSEK.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BOHEMIAN-WIRE-HAIRED-POINTING-GRIFFON-245.html",
+  "fci_standard": "245g07",
+  "breed_name_alternative": "BOHEMIAN WIRE-HAIRED POINTING GRIFFON",
+  "pdf_language": "English",
+  "common_display_name": "Bohemian Wirehaired Pointing Griffon",
+  "alt_names": [
+    "Cesky Fousek",
+    "Bohemian Griffon",
+    "Wirehaired Bohemian Pointer",
+    "Czech Pointer",
+    "Fousek",
+    "Bohemian Wirehaired Pointer",
+    "Czech Wirehaired Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:54"
+}

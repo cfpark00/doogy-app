@@ -1,0 +1,26 @@
+{
+  "breed_id": "AMERICAN_FOXHOUND",
+  "breed_name": "AMERICAN FOXHOUND (303)",
+  "breed_number": 303,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/303g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/AMERICAN_FOXHOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AMERICAN-FOXHOUND-303.html",
+  "fci_standard": "303g06",
+  "breed_name_clean": "AMERICAN FOXHOUND",
+  "pdf_language": "English",
+  "common_display_name": "American Foxhound",
+  "alt_names": [
+    "Foxhound",
+    "American Fox Hound",
+    "American Foxhound Dog",
+    "American Foxhound Puppy",
+    "American Foxhound For Sale",
+    "American Foxhound Temperament",
+    "American Foxhound Breeders",
+    "American Foxhound Characteristics"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:16:13"
+}

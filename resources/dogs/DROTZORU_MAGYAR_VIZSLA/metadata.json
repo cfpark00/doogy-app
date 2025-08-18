@@ -1,0 +1,26 @@
+{
+  "breed_id": "DROTZORU_MAGYAR_VIZSLA",
+  "breed_name": "DRÓTZÖRÜ  MAGYAR VIZSLA (239) (HUNGARIAN WIRE-HAIRED POINTER)",
+  "breed_number": 239,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/239g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/DROTZORU_MAGYAR_VIZSLA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HUNGARIAN-WIRE-HAIRED-POINTER-239.html",
+  "fci_standard": "239g07",
+  "breed_name_alternative": "HUNGARIAN WIRE-HAIRED POINTER",
+  "pdf_language": "English",
+  "common_display_name": "Vizsla",
+  "alt_names": [
+    "Hungarian Vizsla",
+    "Magyar Vizsla",
+    "Red Vizsla",
+    "Vizsla Dog",
+    "Hungarian Pointer",
+    "Vizsla Hound",
+    "Vizsla Retriever",
+    "Vizsla Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:55"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "SUOMENLAPINKOIRA",
+  "breed_name": "SUOMENLAPINKOIRA (189) (FINNISH LAPPONIAN DOG)",
+  "breed_number": 189,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/189g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/SUOMENLAPINKOIRA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FINNISH-LAPPONIAN-DOG-189.html",
+  "fci_standard": "189g05",
+  "breed_name_alternative": "FINNISH LAPPONIAN DOG",
+  "pdf_language": "English",
+  "common_display_name": "Finnish Lapphund",
+  "alt_names": [
+    "Lapponian Herder",
+    "Lapinporokoira",
+    "Suomenlapinkoira",
+    "Finnish Lapponian Herder",
+    "Lapinkoira",
+    "Lappie",
+    "Finnish Herder"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:34"
+}

@@ -1,0 +1,24 @@
+{
+  "breed_id": "PETIT_CHIEN_LION",
+  "breed_name": "PETIT CHIEN LION (233) (LITTLE LION DOG)",
+  "breed_number": 233,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/233g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/PETIT_CHIEN_LION.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LITTLE-LION-DOG-233.html",
+  "fci_standard": "233g09",
+  "breed_name_alternative": "LITTLE LION DOG",
+  "pdf_language": "English",
+  "common_display_name": "Lowchen",
+  "alt_names": [
+    "Little Lion Dog",
+    "Petit Chien Lion",
+    "Lion Dog",
+    "Hund von Löwen",
+    "Perro León Pequeño",
+    "Chien Lion"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:31"
+}

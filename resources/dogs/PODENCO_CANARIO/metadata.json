@@ -1,0 +1,25 @@
+{
+  "breed_id": "PODENCO_CANARIO",
+  "breed_name": "PODENCO CANARIO (329) (CANARIAN WARREN HOUND)",
+  "breed_number": 329,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/329g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/PODENCO_CANARIO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CANARIAN-WARREN-HOUND-329.html",
+  "fci_standard": "329g05",
+  "breed_name_alternative": "CANARIAN WARREN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Podenco Canario",
+  "alt_names": [
+    "Canary Island Podenco",
+    "Canary Podenco",
+    "Podenco Canario Dog",
+    "Canary Islands Hound",
+    "Podenco",
+    "Canary Islands Podenco Hound",
+    "Perro de Presa Canario"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:46"
+}

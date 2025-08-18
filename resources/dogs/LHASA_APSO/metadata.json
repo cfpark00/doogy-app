@@ -1,0 +1,26 @@
+{
+  "breed_id": "LHASA_APSO",
+  "breed_name": "LHASA APSO (227)",
+  "breed_number": 227,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/227g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/LHASA_APSO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LHASA-APSO-227.html",
+  "fci_standard": "227g09",
+  "breed_name_clean": "LHASA APSO",
+  "pdf_language": "English",
+  "common_display_name": "Lhasa Apso",
+  "alt_names": [
+    "Lhasa",
+    "Apso",
+    "Tibetan Lhasa Apso",
+    "Abso",
+    "Lion Dog",
+    "Tibetan Lion Dog",
+    "Apso Dog",
+    "Lhasa Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:28"
+}

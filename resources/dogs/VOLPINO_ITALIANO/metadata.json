@@ -1,0 +1,25 @@
+{
+  "breed_id": "VOLPINO_ITALIANO",
+  "breed_name": "VOLPINO ITALIANO (195) (ITALIAN VOLPINO)",
+  "breed_number": 195,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/195g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/VOLPINO_ITALIANO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ITALIAN-VOLPINO-195.html",
+  "fci_standard": "195g05",
+  "breed_name_alternative": "ITALIAN VOLPINO",
+  "pdf_language": "English",
+  "common_display_name": "Volpino",
+  "alt_names": [
+    "Italian Spitz",
+    "Italian Pomeranian",
+    "Volpino Italiano",
+    "Italian Spitz Dog",
+    "Dogo de Italia",
+    "Spitz Italiano",
+    "Italian Fox Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:45"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "CIRNECO_DELLETNA",
+  "breed_name": "CIRNECO DELL'ETNA (199)",
+  "breed_number": 199,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/199g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/CIRNECO_DELLETNA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CIRNECO-DELL-ETNA-199.html",
+  "fci_standard": "199g05",
+  "breed_name_clean": "CIRNECO DELL'ETNA",
+  "pdf_language": "English",
+  "common_display_name": "Cirneco",
+  "alt_names": [
+    "Cirneco dell'Etna",
+    "Sicilian hunting dog",
+    "Etna dog",
+    "Maltese hunting dog",
+    "Cirneco dell Etna",
+    "Sicilian Hound",
+    "Cirneco dell'Etna Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:24"
+}

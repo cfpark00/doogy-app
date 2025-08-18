@@ -1,0 +1,28 @@
+{
+  "breed_id": "CAIRN_TERRIER",
+  "breed_name": "CAIRN TERRIER (4)",
+  "breed_number": 4,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/004g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/CAIRN_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CAIRN-TERRIER-4.html",
+  "fci_standard": "004g03",
+  "breed_name_clean": "CAIRN TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Cairn",
+  "alt_names": [
+    "Cairn Terrier Dog",
+    "West Highland White Terrier",
+    "Skye Terrier",
+    "Terrier Cairn",
+    "Cairn Terrier Puppy",
+    "Cairn Terrier Dog Breed",
+    "Cairn Terrier Mix",
+    "Cairn Terrier Information",
+    "Cairn Terrier Temperament",
+    "Cairn Terrier Training"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:39"
+}

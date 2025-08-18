@@ -1,0 +1,25 @@
+{
+  "breed_id": "THAI_BANGKAEW_DOG",
+  "breed_name": "THAI BANGKAEW DOG (358)",
+  "breed_number": 358,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/358g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/THAI_BANGKAEW_DOG.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/THAI-BANGKAEW-DOG-358.html",
+  "fci_standard": "358g05",
+  "breed_name_clean": "THAI BANGKAEW DOG",
+  "pdf_language": "English",
+  "common_display_name": "Thai Bangkaew Dog",
+  "alt_names": [
+    "Bangkaew Dog",
+    "Thai Bangkaew",
+    "Bangkaew",
+    "Thai Native Dog",
+    "Bangkaew Thai",
+    "Bang Kaeo Dog",
+    "Thai Bangkaew Shepherd"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:04"
+}

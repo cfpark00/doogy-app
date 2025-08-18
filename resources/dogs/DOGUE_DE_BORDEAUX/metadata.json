@@ -1,0 +1,26 @@
+{
+  "breed_id": "DOGUE_DE_BORDEAUX",
+  "breed_name": "DOGUE DE BORDEAUX (116)",
+  "breed_number": 116,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/116g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/DOGUE_DE_BORDEAUX.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DOGUE-DE-BORDEAUX-116.html",
+  "fci_standard": "116g02",
+  "breed_name_clean": "DOGUE DE BORDEAUX",
+  "pdf_language": "English",
+  "common_display_name": "Dogue",
+  "alt_names": [
+    "French Mastiff",
+    "Bordeaux Mastiff",
+    "Dogue de Bordeaux Mastiff",
+    "French Bulldog Mastiff",
+    "DDB",
+    "Bordeaux Dog",
+    "French Mastiff Dog",
+    "Dogue de Bordeaux France"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:35"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "ENGLISH_SETTER",
+  "breed_name": "ENGLISH SETTER (2)",
+  "breed_number": 2,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/002g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/ENGLISH_SETTER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ENGLISH-SETTER-2.html",
+  "fci_standard": "002g07",
+  "breed_name_clean": "ENGLISH SETTER",
+  "pdf_language": "English",
+  "common_display_name": "English Setter",
+  "alt_names": [
+    "Setter",
+    "English Setting Dog",
+    "Belton Setter",
+    "Old English Setter",
+    "Gundog",
+    "Field Setter",
+    "Show Setter",
+    "English Pointer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:20"
+}

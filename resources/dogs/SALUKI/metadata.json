@@ -1,0 +1,26 @@
+{
+  "breed_id": "SALUKI",
+  "breed_name": "SALUKI (269)",
+  "breed_number": 269,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/269g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/SALUKI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SALUKI-269.html",
+  "fci_standard": "269g10",
+  "breed_name_clean": "SALUKI",
+  "pdf_language": "English",
+  "common_display_name": "Saluki",
+  "alt_names": [
+    "Persian Greyhound",
+    "Royal Dog of Egypt",
+    "Gazelle Hound",
+    "Arabian Greyhound",
+    "Chien de Suse",
+    "Tazi",
+    "El Hor",
+    "Shami"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:52"
+}

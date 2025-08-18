@@ -1,0 +1,25 @@
+{
+  "breed_id": "LANDSEER",
+  "breed_name": "LANDSEER (EUROPÄISCH-KONTINENTALER TYP) (226) (LANDSEER (EUROPEAN CONTINENTAL TYPE))",
+  "breed_number": 226,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/226g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/LANDSEER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LANDSEER-EUROPEAN-CONTINENTAL-TYPE-226.html",
+  "fci_standard": "226g02",
+  "breed_name_alternative": "LANDSEER (EUROPEAN CONTINENTAL TYPE",
+  "pdf_language": "English",
+  "common_display_name": "Landseer",
+  "alt_names": [
+    "Landseer (European Continental Type)",
+    "European Landseer",
+    "Landseer Dog",
+    "Landseer Type",
+    "Continental Landseer",
+    "Landseer (Newfoundland)",
+    "Landseer Newfoundland"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:13"
+}

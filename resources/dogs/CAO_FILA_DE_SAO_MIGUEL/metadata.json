@@ -1,0 +1,25 @@
+{
+  "breed_id": "CAO_FILA_DE_SAO_MIGUEL",
+  "breed_name": "CÃO FILA DE SÃO MIGUEL (340) (SAINT MIGUEL CATTLE DOG)",
+  "breed_number": 340,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/340g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/CAO_FILA_DE_SAO_MIGUEL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SAINT-MIGUEL-CATTLE-DOG-340.html",
+  "fci_standard": "340g02",
+  "breed_name_alternative": "SAINT MIGUEL CATTLE DOG",
+  "pdf_language": "English",
+  "common_display_name": "São Miguel Cattle Dog",
+  "alt_names": [
+    "Cão Fila de São Miguel",
+    "Azorean Cattle Dog",
+    "São Miguel Dog",
+    "Fila de São Miguel",
+    "Azores Cattle Dog",
+    "Cão de Gado de São Miguel",
+    "São Miguel Cattle Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:21:34"
+}

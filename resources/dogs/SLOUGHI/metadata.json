@@ -1,0 +1,26 @@
+{
+  "breed_id": "SLOUGHI",
+  "breed_name": "SLOUGHI (188)",
+  "breed_number": 188,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/188g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/SLOUGHI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SLOUGHI-188.html",
+  "fci_standard": "188g10",
+  "breed_name_clean": "SLOUGHI",
+  "pdf_language": "English",
+  "common_display_name": "Sloughi",
+  "alt_names": [
+    "Arabian Greyhound",
+    "North African Greyhound",
+    "Berber Greyhound",
+    "Libyan Greyhound",
+    "Moroccan Greyhound",
+    "Algerian Greyhound",
+    "Sloughi Dog",
+    "Sloughi Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:24"
+}

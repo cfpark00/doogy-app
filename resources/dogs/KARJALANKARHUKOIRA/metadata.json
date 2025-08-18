@@ -1,0 +1,26 @@
+{
+  "breed_id": "KARJALANKARHUKOIRA",
+  "breed_name": "KARJALANKARHUKOIRA (48) (KARELIAN BEAR DOG)",
+  "breed_number": 48,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/048g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/KARJALANKARHUKOIRA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KARELIAN-BEAR-DOG-48.html",
+  "fci_standard": "048g05",
+  "breed_name_alternative": "KARELIAN BEAR DOG",
+  "pdf_language": "English",
+  "common_display_name": "Karelian Bear Dog",
+  "alt_names": [
+    "Karjalankarhukoira",
+    "Karelian Bear Dog",
+    "Finnish Bear Dog",
+    "Karhukoira",
+    "Karelian",
+    "Finnish Spitz",
+    "Bear Dog",
+    "Karelian Bear Hunter"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:04"
+}

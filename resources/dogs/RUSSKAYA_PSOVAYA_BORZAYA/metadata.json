@@ -1,0 +1,26 @@
+{
+  "breed_id": "RUSSKAYA_PSOVAYA_BORZAYA",
+  "breed_name": "RUSSKAYA PSOVAYA BORZAYA (193) (BORZOI - RUSSIAN HUNTING SIGHTHOUND)",
+  "breed_number": 193,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/193g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/RUSSKAYA_PSOVAYA_BORZAYA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BORZOI-RUSSIAN-HUNTING-SIGHTHOUND-193.html",
+  "fci_standard": "193g10",
+  "breed_name_alternative": "BORZOI - RUSSIAN HUNTING SIGHTHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Borzoi",
+  "alt_names": [
+    "Russian Wolfhound",
+    "Psowaja Borzaia",
+    "Russkaya Psovaya Borzaya",
+    "Russian Hunting Sighthound",
+    "Borzoi Dog",
+    "Russian Borzoi",
+    "Borzoi Hound",
+    "Russian Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:22"
+}

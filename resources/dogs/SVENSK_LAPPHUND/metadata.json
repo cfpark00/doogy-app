@@ -1,0 +1,26 @@
+{
+  "breed_id": "SVENSK_LAPPHUND",
+  "breed_name": "SVENSK LAPPHUND (135) (SWEDISH LAPPHUND)",
+  "breed_number": 135,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/135g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/SVENSK_LAPPHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SWEDISH-LAPPHUND-135.html",
+  "fci_standard": "135g05",
+  "breed_name_alternative": "SWEDISH LAPPHUND",
+  "pdf_language": "English",
+  "common_display_name": "Lapphund",
+  "alt_names": [
+    "Swedish Lapphund",
+    "Svensk Lapphund",
+    "Lapponian Herder",
+    "Lapland Herder",
+    "Finnish Lapphund",
+    "Lappie",
+    "Swedish Reindeer Dog",
+    "Lapphund Svensk"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:49"
+}

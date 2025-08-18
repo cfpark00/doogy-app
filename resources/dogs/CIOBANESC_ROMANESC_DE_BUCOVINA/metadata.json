@@ -1,0 +1,26 @@
+{
+  "breed_id": "CIOBANESC_ROMANESC_DE_BUCOVINA",
+  "breed_name": "CIOBANESC ROMÂNESC DE BUCOVINA (357) (ROMANIAN BUCOVINA SHEPHERD)",
+  "breed_number": 357,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/357g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/CIOBANESC_ROMANESC_DE_BUCOVINA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ROMANIAN-BUCOVINA-SHEPHERD-357.html",
+  "fci_standard": "357g02",
+  "breed_name_alternative": "ROMANIAN BUCOVINA SHEPHERD",
+  "pdf_language": "English",
+  "common_display_name": "Romanian Shepherd Dog",
+  "alt_names": [
+    "Ciobanesc Romanesc de Bucovina",
+    "Bucovina Shepherd Dog",
+    "Romanian Bucovina Shepherd",
+    "Bucovina Ciobanesc",
+    "Romanian Mountain Dog",
+    "Bucovina Mountain Dog",
+    "Romanian Bucovina",
+    "Bucovina Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:23:14"
+}

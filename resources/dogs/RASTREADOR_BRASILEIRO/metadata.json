@@ -1,0 +1,25 @@
+{
+  "breed_id": "RASTREADOR_BRASILEIRO",
+  "breed_name": "RASTREADOR BRASILEIRO (275) (BRAZILIAN TRACKER)",
+  "breed_number": 275,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/275g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/RASTREADOR_BRASILEIRO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BRAZILIAN-TRACKER-275.html",
+  "fci_standard": "275g06",
+  "breed_name_alternative": "BRAZILIAN TRACKER",
+  "pdf_language": "English",
+  "common_display_name": "Brazilian Tracker",
+  "alt_names": [
+    "Ovelheiro Brasileiro",
+    "Brazilian Sheepdog",
+    "Fila Brasileiro Sheepdog",
+    "Brazilian Cattle Dog",
+    "Ovelheiro",
+    "Brazilian Herding Dog",
+    "Rastreador"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:37:56"
+}

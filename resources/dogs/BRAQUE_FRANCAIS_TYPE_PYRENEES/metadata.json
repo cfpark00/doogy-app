@@ -1,0 +1,24 @@
+{
+  "breed_id": "BRAQUE_FRANCAIS_TYPE_PYRENEES",
+  "breed_name": "BRAQUE FRANÇAIS - TYPE PYRENEES (134) (FRENCH POINTING DOG - PYRENEAN TYPE)",
+  "breed_number": 134,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/134g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/BRAQUE_FRANCAIS_TYPE_PYRENEES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html",
+  "fci_standard": "134g07",
+  "breed_name_alternative": "FRENCH POINTING DOG - PYRENEAN TYPE",
+  "pdf_language": "English",
+  "common_display_name": "Braque Francais",
+  "alt_names": [
+    "French Pointer",
+    "Braque Francais Pyrenean",
+    "Pyrenean Braque",
+    "Braque Francais type Pyrenees",
+    "French Pointing Dog Pyrenean",
+    "Braque du Pyrenees"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:04"
+}

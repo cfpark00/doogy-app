@@ -1,0 +1,25 @@
+{
+  "breed_id": "GRAND_BLEU_DE_GASCOGNE",
+  "breed_name": "GRAND BLEU DE GASCOGNE (22) (GREAT GASCONY BLUE)",
+  "breed_number": 22,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/022g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GRAND_BLEU_DE_GASCOGNE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREAT-GASCONY-BLUE-22.html",
+  "fci_standard": "022g06",
+  "breed_name_alternative": "GREAT GASCONY BLUE",
+  "pdf_language": "English",
+  "common_display_name": "Blue Gascon",
+  "alt_names": [
+    "Grand Bleu de Gascogne",
+    "Great Blue Gascon",
+    "Gascon Blue",
+    "Bleu de Gascogne",
+    "Grand Bleu",
+    "French Tricolor Hound",
+    "Gascon Saintongeois"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:54"
+}

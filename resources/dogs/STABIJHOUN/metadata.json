@@ -1,0 +1,25 @@
+{
+  "breed_id": "STABIJHOUN",
+  "breed_name": "STABIJHOUN (222)",
+  "breed_number": 222,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/222g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/STABIJHOUN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/STABIJHOUN-222.html",
+  "fci_standard": "222g07",
+  "breed_name_clean": "STABIJHOUN",
+  "pdf_language": "English",
+  "common_display_name": "Stabyhoun",
+  "alt_names": [
+    "Staby",
+    "Stabyhouns",
+    "Frisian Pointer",
+    "Dutch Pointer",
+    "Friese Stabij",
+    "Stabyhoun",
+    "Friese Stabijhouns"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:09"
+}

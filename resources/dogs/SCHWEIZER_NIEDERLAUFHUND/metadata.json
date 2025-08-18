@@ -1,0 +1,25 @@
+{
+  "breed_id": "SCHWEIZER_NIEDERLAUFHUND",
+  "breed_name": "SCHWEIZER  NIEDERLAUFHUND (60) (SMALL SWISS HOUND)",
+  "breed_number": 60,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/060g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SCHWEIZER_NIEDERLAUFHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SMALL-SWISS-HOUND-60.html",
+  "fci_standard": "060g06",
+  "breed_name_alternative": "SMALL SWISS HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Swiss Hound",
+  "alt_names": [
+    "Schweizer Laufhund",
+    "Swiss Running Hound",
+    "Swiss Scent Hound",
+    "Schweizer Niederlaufhund",
+    "Swiss Hound Dog",
+    "Swiss Hunting Dog",
+    "Laufhund"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:39:24"
+}

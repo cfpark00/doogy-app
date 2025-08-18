@@ -1,0 +1,26 @@
+{
+  "breed_id": "RUSSKIY_TOY",
+  "breed_name": "RUSSKIY TOY (352) (RUSSIAN TOY)",
+  "breed_number": 352,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/352g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/RUSSKIY_TOY.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/RUSSIAN-TOY-352.html",
+  "fci_standard": "352g09",
+  "breed_name_alternative": "RUSSIAN TOY",
+  "pdf_language": "English",
+  "common_display_name": "Russian Toy",
+  "alt_names": [
+    "Russkiy Toy",
+    "Russian Toy Terrier",
+    "Moscow Toy Terrier",
+    "Moskovskiy Toy Terrier",
+    "Toy Terrier",
+    "Russian Toy Dog",
+    "RT",
+    "Rus Toy"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:32"
+}

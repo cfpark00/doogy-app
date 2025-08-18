@@ -1,0 +1,26 @@
+{
+  "breed_id": "GRAND_ANGLO_FRANCAIS_TRICOLORE",
+  "breed_name": "GRAND ANGLO-FRANÇAIS TRICOLORE (322) (GREAT ANGLO-FRENCH TRICOLOUR HOUND)",
+  "breed_number": 322,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/322g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GRAND_ANGLO_FRANCAIS_TRICOLORE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREAT-ANGLO-FRENCH-TRICOLOUR-HOUND-322.html",
+  "fci_standard": "322g06",
+  "breed_name_alternative": "GREAT ANGLO-FRENCH TRICOLOUR HOUND",
+  "pdf_language": "English",
+  "common_display_name": "French Tricolor Hound",
+  "alt_names": [
+    "Grand Anglo-Français Tricolore",
+    "French Tricolore",
+    "Anglo-French Tricolor",
+    "Tricolor Anglo-French",
+    "Grand Anglo-Français",
+    "French Tricolor Beagle",
+    "Anglo-Français de Petite Vénerie Tricolore",
+    "French Tricolor Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:44"
+}

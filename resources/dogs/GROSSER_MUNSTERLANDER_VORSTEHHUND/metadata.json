@@ -1,0 +1,26 @@
+{
+  "breed_id": "GROSSER_MUNSTERLANDER_VORSTEHHUND",
+  "breed_name": "GROSSER MÜNSTERLÄNDER VORSTEHHUND (118) (LARGE MUNSTERLANDER)",
+  "breed_number": 118,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/118g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/GROSSER_MUNSTERLANDER_VORSTEHHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LARGE-MUNSTERLANDER-118.html",
+  "fci_standard": "118g07",
+  "breed_name_alternative": "LARGE MUNSTERLANDER",
+  "pdf_language": "English",
+  "common_display_name": "Weimaraner",
+  "alt_names": [
+    "Large Münsterländer",
+    "Grosser Münsterländer",
+    "Münsterländer Vorstehhund",
+    "Large Munsterlander Pointer",
+    "German Pointer",
+    "Münsterländer",
+    "Large Münsterländer Pointer",
+    "Grosse Münsterländer"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:45"
+}

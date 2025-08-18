@@ -1,0 +1,23 @@
+{
+  "breed_id": "DEUTSCHE_BRACKE",
+  "breed_name": "DEUTSCHE BRACKE (299) (GERMAN HOUND)",
+  "breed_number": 299,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/299g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/DEUTSCHE_BRACKE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GERMAN-HOUND-299.html",
+  "fci_standard": "299g06",
+  "breed_name_alternative": "GERMAN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "German Hound",
+  "alt_names": [
+    "Deutsche Bracke",
+    "German Bracke",
+    "German Hunting Hound",
+    "Bracke",
+    "German Scent Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:54"
+}

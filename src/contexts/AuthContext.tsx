@@ -3,12 +3,14 @@ import {Session, User} from '@supabase/supabase-js';
 import {supabase} from '../lib/supabase';
 import {GoogleSignin} from '@react-native-google-signin/google-signin';
 import {AppState} from 'react-native';
+import {GOOGLE_IOS_CLIENT_ID, GOOGLE_WEB_CLIENT_ID} from '@env';
 
 interface AuthContextType {
   user: User | null;
   session: Session | null;
   loading: boolean;
   isOnboarded: boolean;
+  onboardingLoading: boolean;
   signInWithGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
   completeOnboarding: () => Promise<void>;
@@ -21,29 +23,52 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
   const [isOnboarded, setIsOnboarded] = useState(false);
+  const [onboardingLoading, setOnboardingLoading] = useState(false);
 
   useEffect(() => {
     GoogleSignin.configure({
-      iosClientId: process.env.GOOGLE_IOS_CLIENT_ID,
-      webClientId: process.env.GOOGLE_WEB_CLIENT_ID,
+      iosClientId: GOOGLE_IOS_CLIENT_ID,
+      webClientId: GOOGLE_WEB_CLIENT_ID,
       offlineAccess: true,
       forceCodeForRefreshToken: true,
     });
 
-    supabase.auth.getSession().then(async ({data: {session}}) => {
-      setSession(session);
-      setUser(session?.user ?? null);
-      
-      // Check onboarding status on initial load
-      if (session?.user) {
-        await checkOnboardingStatus(session.user.id);
+    supabase.auth.getSession().then(async ({data: {session}, error}) => {
+      if (error) {
+        console.error('Session error:', error);
+        // If there's an error getting the session (like invalid refresh token)
+        // clear the session and sign out
+        if (error.message?.includes('Refresh Token')) {
+          await supabase.auth.signOut();
+          setSession(null);
+          setUser(null);
+          setIsOnboarded(false);
+        }
+      } else {
+        setSession(session);
+        setUser(session?.user ?? null);
+        
+        // Check onboarding status on initial load
+        if (session?.user) {
+          await checkOnboardingStatus(session.user.id);
+        }
       }
       
       setLoading(false);
     });
 
     const {data: {subscription}} = supabase.auth.onAuthStateChange(
-      async (_event, session) => {
+      async (event, session) => {
+        // Handle refresh token errors
+        if (event === 'TOKEN_REFRESHED' && !session) {
+          console.log('Token refresh failed, signing out');
+          await supabase.auth.signOut();
+          setSession(null);
+          setUser(null);
+          setIsOnboarded(false);
+          return;
+        }
+        
         setSession(session);
         setUser(session?.user ?? null);
         
@@ -57,9 +82,22 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
     );
 
     // Auto-refresh tokens when app becomes active
-    const appStateSubscription = AppState.addEventListener('change', (state) => {
+    const appStateSubscription = AppState.addEventListener('change', async (state) => {
       if (state === 'active') {
-        supabase.auth.startAutoRefresh();
+        try {
+          // Try to refresh the session when app becomes active
+          const {data: {session}, error} = await supabase.auth.getSession();
+          if (error && error.message?.includes('Refresh Token')) {
+            console.log('Refresh token invalid on app resume, signing out');
+            await supabase.auth.signOut();
+            setSession(null);
+            setUser(null);
+            setIsOnboarded(false);
+          }
+          supabase.auth.startAutoRefresh();
+        } catch (error) {
+          console.error('Error refreshing session on app resume:', error);
+        }
       } else {
         supabase.auth.stopAutoRefresh();
       }
@@ -106,22 +144,30 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
   };
 
   const checkOnboardingStatus = async (userId: string) => {
+    setOnboardingLoading(true);
     try {
+      console.log('Checking onboarding status for user:', userId);
       const {data, error} = await supabase
         .from('profiles')
         .select('onboarded')
         .eq('id', userId)
         .maybeSingle();
       
+      console.log('Onboarding query result:', {data, error});
+      
       if (error) {
         console.error('Error checking onboarding status:', error);
         setIsOnboarded(false);
       } else if (!data) {
-        // Profile doesn't exist yet, create it
+        console.log('No profile found, creating new profile');
+        // Profile doesn't exist yet, create it with user data
         const {error: insertError} = await supabase
           .from('profiles')
           .insert({
             id: userId,
+            name: user?.user_metadata?.full_name || user?.user_metadata?.name || null,
+            email: user?.email || null,
+            avatar_url: user?.user_metadata?.avatar_url || user?.user_metadata?.picture || null,
             onboarded: false
           });
         
@@ -130,11 +176,14 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
         }
         setIsOnboarded(false);
       } else {
+        console.log('Setting isOnboarded to:', data.onboarded);
         setIsOnboarded(data.onboarded || false);
       }
     } catch (error) {
       console.error('Error checking onboarding status:', error);
       setIsOnboarded(false);
+    } finally {
+      setOnboardingLoading(false);
     }
   };
 
@@ -153,7 +202,11 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
         throw error;
       }
       
+      // Important: Update the state immediately so navigation works
       setIsOnboarded(true);
+      
+      // Re-check onboarding status to ensure consistency
+      await checkOnboardingStatus(user.id);
     } catch (error) {
       console.error('Error completing onboarding:', error);
       throw error;
@@ -161,7 +214,7 @@ export function AuthProvider({children}: {children: React.ReactNode}) {
   };
 
   return (
-    <AuthContext.Provider value={{user, session, loading, isOnboarded, signInWithGoogle, signOut, completeOnboarding}}>
+    <AuthContext.Provider value={{user, session, loading, isOnboarded, onboardingLoading, signInWithGoogle, signOut, completeOnboarding}}>
       {children}
     </AuthContext.Provider>
   );

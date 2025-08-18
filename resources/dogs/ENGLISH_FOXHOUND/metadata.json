@@ -1,0 +1,25 @@
+{
+  "breed_id": "ENGLISH_FOXHOUND",
+  "breed_name": "ENGLISH FOXHOUND (159)",
+  "breed_number": 159,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/159g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/ENGLISH_FOXHOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ENGLISH-FOXHOUND-159.html",
+  "fci_standard": "159g06",
+  "breed_name_clean": "ENGLISH FOXHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Foxhound",
+  "alt_names": [
+    "English Foxhound",
+    "Foxhound Dog",
+    "Old English Foxhound",
+    "English Fox Hound",
+    "Fox Hound",
+    "English Hound",
+    "Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:26:10"
+}

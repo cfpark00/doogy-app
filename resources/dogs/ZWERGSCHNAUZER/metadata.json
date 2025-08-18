@@ -1,0 +1,26 @@
+{
+  "breed_id": "ZWERGSCHNAUZER",
+  "breed_name": "ZWERGSCHNAUZER (183) (MINIATURE SCHNAUZER)",
+  "breed_number": 183,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/183g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/ZWERGSCHNAUZER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/MINIATURE-SCHNAUZER-183.html",
+  "fci_standard": "183g02",
+  "breed_name_alternative": "MINIATURE SCHNAUZER",
+  "pdf_language": "English",
+  "common_display_name": "Miniature Schnauzer",
+  "alt_names": [
+    "Zwerg",
+    "Zwergschnauzer",
+    "Mini Schnauzer",
+    "Dwarf Schnauzer",
+    "Schnauzer Miniature",
+    "Schnauzer Zwerg",
+    "Standard Schnauzer Dwarf",
+    "Miniature Schnauzer Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:44:06"
+}

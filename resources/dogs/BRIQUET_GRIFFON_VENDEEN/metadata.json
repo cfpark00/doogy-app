@@ -1,0 +1,24 @@
+{
+  "breed_id": "BRIQUET_GRIFFON_VENDEEN",
+  "breed_name": "BRIQUET GRIFFON VENDEEN (19)",
+  "breed_number": 19,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/019g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/BRIQUET_GRIFFON_VENDEEN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BRIQUET-GRIFFON-VENDEEN-19.html",
+  "fci_standard": "019g06",
+  "breed_name_clean": "BRIQUET GRIFFON VENDEEN",
+  "pdf_language": "English",
+  "common_display_name": "Briquet Griffon Vendeen",
+  "alt_names": [
+    "Griffon Vendeen",
+    "Petit Griffon Vendeen",
+    "Vendeen Griffon",
+    "Griffon Vendeen Petit",
+    "Briquet Vendeen",
+    "BGV"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:20:14"
+}

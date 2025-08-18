@@ -1,0 +1,26 @@
+{
+  "breed_id": "VOSTOTCHNO_SIBIRSKAIA_LAIKA",
+  "breed_name": "VOSTOTCHNO-SIBIRSKAÏA LAÏKA (305) (EAST SIBERIAN LAIKA)",
+  "breed_number": 305,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/305g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/VOSTOTCHNO_SIBIRSKAIA_LAIKA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/EAST-SIBERIAN-LAIKA-305.html",
+  "fci_standard": "305g05",
+  "breed_name_alternative": "EAST SIBERIAN LAIKA",
+  "pdf_language": "English",
+  "common_display_name": "East Siberian Laika",
+  "alt_names": [
+    "Vostochno-Sibirskaya Laika",
+    "East Siberian Laika Dog",
+    "ESL",
+    "Siberian Laika",
+    "Laika",
+    "Vostochno Sibirskaya Laika",
+    "Vostochno Sibirsky Laika",
+    "Sibirskaya Laika"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:50"
+}

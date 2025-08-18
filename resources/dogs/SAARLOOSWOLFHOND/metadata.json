@@ -1,0 +1,28 @@
+{
+  "breed_id": "SAARLOOSWOLFHOND",
+  "breed_name": "SAARLOOSWOLFHOND (311) (SAARLOOS WOLFHOND)",
+  "breed_number": 311,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/311g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/SAARLOOSWOLFHOND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SAARLOOS-WOLFHOND-311.html",
+  "fci_standard": "311g01",
+  "breed_name_alternative": "SAARLOOS WOLFHOND",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Saarlooswolfdog",
+  "alt_names": [
+    "Saarloos",
+    "Saarloos Wolfdog",
+    "Dutch Wolfdog",
+    "Wolfdog",
+    "Saarloos Wolfhond",
+    "Saarloos Wolf Dog",
+    "Saarloos Wolf",
+    "Dutch Wolf Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:42"
+}

@@ -1,0 +1,24 @@
+{
+  "breed_id": "OGAR_POLSKI",
+  "breed_name": "OGAR POLSKI (52) (POLISH HOUND)",
+  "breed_number": 52,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/052g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/OGAR_POLSKI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/POLISH-HOUND-52.html",
+  "fci_standard": "052g06",
+  "breed_name_alternative": "POLISH HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Ogar Polski",
+  "alt_names": [
+    "Polish Hound",
+    "Polish Hunting Dog",
+    "Polish Scent Hound",
+    "Ogar",
+    "Goniący Polski",
+    "Polish Sighthound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:21"
+}

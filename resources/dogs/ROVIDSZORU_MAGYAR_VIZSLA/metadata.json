@@ -1,0 +1,26 @@
+{
+  "breed_id": "ROVIDSZORU_MAGYAR_VIZSLA",
+  "breed_name": "RÖVIDSZÖRÜ MAGYAR VIZSLA (57) (HUNGARIAN SHORT-HAIRED POINTER (VIZSLA))",
+  "breed_number": 57,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/057g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/ROVIDSZORU_MAGYAR_VIZSLA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HUNGARIAN-SHORT-HAIRED-POINTER-VIZSLA-57.html",
+  "fci_standard": "057g07",
+  "breed_name_alternative": "HUNGARIAN SHORT-HAIRED POINTER (VIZSLA",
+  "pdf_language": "English",
+  "common_display_name": "Vizsla",
+  "alt_names": [
+    "Hungarian Vizsla",
+    "Rovidszoru Magyar Vizsla",
+    "Smooth-Haired Hungarian Vizsla",
+    "Magyar Vizsla",
+    "Vizsla Dog",
+    "Hungarian Pointer",
+    "Vizsla Puppy",
+    "Vizsla For Sale"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:17"
+}

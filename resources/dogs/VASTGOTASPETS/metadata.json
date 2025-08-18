@@ -1,0 +1,24 @@
+{
+  "breed_id": "VASTGOTASPETS",
+  "breed_name": "VÄSTGÖTASPETS (14) (SWEDISH VALLHUND)",
+  "breed_number": 14,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/014g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/VASTGOTASPETS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SWEDISH-VALLHUND-14.html",
+  "fci_standard": "014g05",
+  "breed_name_alternative": "SWEDISH VALLHUND",
+  "pdf_language": "English",
+  "common_display_name": "Västgötaspets",
+  "alt_names": [
+    "Swedish Vallhund",
+    "Vastgotaspets",
+    "Vallhund",
+    "Swedish Cattle Dog",
+    "Vastgotaspets Swedish Vallhund",
+    "Swedish Spitz"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:40"
+}

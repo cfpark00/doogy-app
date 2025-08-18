@@ -1,0 +1,24 @@
+{
+  "breed_id": "SABUESO_ESPANOL",
+  "breed_name": "SABUESO ESPAÑOL (204) (SPANISH HOUND)",
+  "breed_number": 204,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/204g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SABUESO_ESPANOL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SPANISH-HOUND-204.html",
+  "fci_standard": "204g06",
+  "breed_name_alternative": "SPANISH HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Spanish Hound",
+  "alt_names": [
+    "Sabueso Español",
+    "Spanish Scent Hound",
+    "Perro Sabueso Español",
+    "Sabueso",
+    "Spanish Bloodhound",
+    "Sabueso de Trabajo"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:47"
+}

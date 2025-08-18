@@ -1,0 +1,25 @@
+{
+  "breed_id": "EPAGNEUL_NAIN_CONTINENTAL",
+  "breed_name": "EPAGNEUL NAIN CONTINENTAL (77) (CONTINENTAL TOY SPANIEL)",
+  "breed_number": 77,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/077g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/EPAGNEUL_NAIN_CONTINENTAL.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CONTINENTAL-TOY-SPANIEL-77.html",
+  "fci_standard": "077g09",
+  "breed_name_alternative": "CONTINENTAL TOY SPANIEL",
+  "pdf_language": "English",
+  "common_display_name": "Papillon",
+  "alt_names": [
+    "Continental Toy Spaniel",
+    "Epagneul Nain Continental",
+    "Phalène",
+    "Little Continental Dog",
+    "Butterfly Dog",
+    "Papillon Dog",
+    "Continental Spaniel"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:00"
+}

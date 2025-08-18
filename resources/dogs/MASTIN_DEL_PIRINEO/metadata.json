@@ -1,0 +1,26 @@
+{
+  "breed_id": "MASTIN_DEL_PIRINEO",
+  "breed_name": "MASTÍN DEL PIRINEO (92) (PYRENEAN MASTIFF)",
+  "breed_number": 92,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/092g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/MASTIN_DEL_PIRINEO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PYRENEAN-MASTIFF-92.html",
+  "fci_standard": "092g02",
+  "breed_name_alternative": "PYRENEAN MASTIFF",
+  "pdf_language": "English",
+  "common_display_name": "Pyrenean Mastiff",
+  "alt_names": [
+    "Mastin del Pirineo",
+    "Pyrenean Mountain Dog",
+    "Pirinean Mastiff",
+    "Spanish Mastiff",
+    "Pyrenean",
+    "Mastin",
+    "Pirineo Mastiff",
+    "Spanish Pyrenean Mastiff"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:58"
+}

@@ -1,0 +1,21 @@
+{
+  "breed_id": "WETTERHOUN",
+  "breed_name": "WETTERHOUN (221)",
+  "breed_number": 221,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/221g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/WETTERHOUN.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/WETTERHOUN-221.html",
+  "fci_standard": "221g08",
+  "breed_name_clean": "WETTERHOUN",
+  "pdf_language": "English",
+  "common_display_name": "Wetterhoun",
+  "alt_names": [
+    "Dutch Water Dog",
+    "Frisian Water Dog",
+    "Stabyhoun"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:43:31"
+}

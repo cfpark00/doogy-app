@@ -32,14 +32,12 @@ Project Structure - Doogy App
 │
 ├── src/                          # React Native source
 │   ├── components/
-│   │   ├── ChatInput.tsx
-│   │   └── MessageBubble.tsx
+│   │   └── MessageBubble.tsx     # Chat message component
 │   ├── screens/
-│   │   ├── HomeScreen.tsx       # Main app screen with drawer
+│   │   ├── HomeScreen.tsx       # Main app screen with drawer and chat (refactored)
 │   │   ├── LoginScreen.tsx      # Login/welcome screen with Google auth
-│   │   ├── OnboardingScreen.tsx # Dog profile setup wizard
-│   │   ├── ChatScreen.tsx       # (deprecated - now part of HomeScreen)
-│   │   └── ThemePreview.tsx     # Theme testing screen
+│   │   ├── OnboardingScreen.tsx # Dog ownership questionnaire
+│   │   └── SplashScreen.tsx     # Animated splash screen with app logo
 │   ├── contexts/
 │   │   └── AuthContext.tsx      # Authentication state management
 │   ├── hooks/
@@ -47,28 +45,30 @@ Project Structure - Doogy App
 │   ├── lib/
 │   │   └── supabase.ts          # Supabase client configuration
 │   ├── services/
-│   │   ├── chatService.ts       # API communication
-│   │   └── supabase.ts          # (old - replaced by lib/supabase.ts)
+│   │   └── chatService.ts       # API communication
 │   ├── assets/
+│   │   ├── data/
+│   │   │   └── breeds.json      # Static breed data (177KB, 344 breeds)
 │   │   └── images/
-│   │       ├── default_avatar.png
-│   │       └── app_icon.png     # App icon for login screen
+│   │       ├── app_icon.png     # App icon for login screen
+│   │       └── dog_pic.png      # Default dog photo placeholder
 │   ├── types/
 │   │   └── index.ts
 │   ├── config/
 │   │   ├── env.d.ts             # TypeScript env types
 │   │   └── toastConfig.tsx      # Toast notification styling
-│   ├── theme/                    # App theming
-│   │   ├── index.ts             # Theme constants & configuration
-│   │   └── DESIGNER_GUIDE.md    # Theme customization guide
-│   └── utils/                   # (empty)
+│   └── theme/                    # App theming
+│       ├── index.ts             # Theme constants & configuration
+│       └── DESIGNER_GUIDE.md    # Theme customization guide
 │
 ├── ios/                          # iOS native code
 │   ├── Doogy.xcworkspace/       # Xcode workspace
 │   ├── Doogy.xcodeproj/         # Xcode project
 │   ├── Doogy/                   # iOS app files
 │   │   ├── AppDelegate.swift
-│   │   ├── Info.plist
+│   │   ├── Info.plist           # Uses env variables for Google Client ID
+│   │   ├── Config.xcconfig      # Generated build config (gitignored)
+│   │   ├── GoogleService-Info.plist.template
 │   │   ├── LaunchScreen.storyboard
 │   │   ├── PrivacyInfo.xcprivacy
 │   │   └── Images.xcassets/
@@ -76,8 +76,12 @@ Project Structure - Doogy App
 │   ├── Pods/                     # CocoaPods dependencies
 │   ├── Podfile
 │   ├── Podfile.lock
+│   ├── .env                      # iOS environment variables (gitignored)
+│   ├── .env.example              # iOS env template
 │   └── scripts/
-│       └── build-ios.sh         # IPA build script
+│       ├── build-ios.sh         # IPA build script
+│       ├── set-google-client-id.sh  # Config injection script
+│       └── xcode-prebuild.sh    # Xcode prebuild hook
 │
 ├── android/                      # Android native code
 │   ├── app/
@@ -95,35 +99,59 @@ Project Structure - Doogy App
 ├── docs/                         # Documentation
 │   ├── testflight-first-time-setup.md
 │   ├── testflight-updates.md
-│   └── AUTH_GUIDE.md            # Authentication usage guide
+│   ├── AUTH_GUIDE.md            # Authentication usage guide
+│   └── ios-configuration.md     # iOS build configuration guide
 │
 ├── resources/                    # Design assets
-│   ├── icon.png                 # Original 1024x1024 icon
+│   ├── dogs/                    # Dog breed data (344 breeds)
+│   │   ├── [BREED_NAME]/       # Each breed directory
+│   │   │   ├── metadata.json   # Breed metadata with alt_names
+│   │   │   └── md/
+│   │   │       └── [BREED_NAME].md  # Breed documentation
+│   │   └── summary.json        # Summary of all breeds
+│   ├── dogs.zip                # Compressed breed data
+│   ├── icon.png                # Original 1024x1024 icon
 │   └── README.md
 │
 ├── __tests__/                    # Test files
 │   └── App.test.tsx
 │
 ├── supabase/                     # Database configuration
-│   └── migrations/
-│       ├── complete_reset.sql    # Idempotent DB reset script
-│       └── README.md
+│   ├── migrations/
+│   │   ├── complete_reset.sql   # Idempotent DB reset script (includes breeds table)
+│   │   ├── BREEDS_SETUP.md      # Breeds setup documentation
+│   │   └── README.md
+│   └── populate-breeds.js       # Script to populate breeds from resources/dogs/
+│
+├── scripts/                      # Build and data scripts
+│   └── generate-breeds-data.js  # Generate breeds.json from database
 │
 ├── scratch/                      # Test scripts
 │   └── test_gemini.py
+│
+├── docs/                         # Additional documentation
+│   └── SECURITY.md              # Security guidelines for API keys
 │
 ├── claude_notes/                 # AI session logs
 │   ├── structure.txt            # This file
 │   └── logs/
 │       ├── 2025-08-07/
 │       │   └── 1028_fullstack_setup.md
-│       └── 2025-08-09/
-│           ├── 0304_testflight_deployment.md
-│           ├── 1641_database_migration_setup.md
-│           ├── 1653_react_navigation_auth_setup.md
-│           ├── 1731_ui_redesign_implementation.md
-│           ├── 1812_auth_animations_toast.md
-│           └── 2347_onboarding_implementation.md
+│       ├── 2025-08-09/
+│       │   ├── 0304_testflight_deployment.md
+│       │   ├── 1641_database_migration_setup.md
+│       │   ├── 1653_react_navigation_auth_setup.md
+│       │   ├── 1731_ui_redesign_implementation.md
+│       │   ├── 1812_auth_animations_toast.md
+│       │   └── 2347_onboarding_implementation.md
+│       ├── 2025-08-10/
+│       │   ├── 0023_cleanup_and_fixes.md
+│       │   ├── 0114_splash_navigation_onboarding_fixes.md
+│       │   └── 0212_ios_build_fixes_and_navigation_flash_resolution.md
+│       ├── 2025-08-13/
+│       │   └── 1638_auth_fixes_and_ui_improvements.md
+│       └── 2025-08-18/
+│           └── 0011_breeds_database_and_bundling.md
 │
 ├── node_modules/                 # NPM dependencies
 ├── package.json                  # NPM configuration

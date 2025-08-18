@@ -1,0 +1,26 @@
+{
+  "breed_id": "DANDIE_DINMONT_TERRIER",
+  "breed_name": "DANDIE DINMONT TERRIER (168)",
+  "breed_number": 168,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/168g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/DANDIE_DINMONT_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DANDIE-DINMONT-TERRIER-168.html",
+  "fci_standard": "168g03",
+  "breed_name_clean": "DANDIE DINMONT TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Dandie",
+  "alt_names": [
+    "Dandie Dinmont",
+    "Dandie Dinmont Terrier",
+    "Dandie Dinmont Terrier Dog",
+    "Dandie Dinmont Terrier Puppy",
+    "Dandie Dinmont Terrier Breed",
+    "Dandie Dinmont Terrier Dog Breed",
+    "Dandie Dinmont Terrier Dog Puppy",
+    "Dandie Dinmont Terrier Puppy Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:09"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "RUSSKO_EVROPEISKAIA_LAIKA",
+  "breed_name": "RUSSKO-EVROPEÏSKAÏA LAÏKA (304) (RUSSIAN-EUROPEAN LAIKA)",
+  "breed_number": 304,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/304g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/RUSSKO_EVROPEISKAIA_LAIKA.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/RUSSIAN-EUROPEAN-LAIKA-304.html",
+  "fci_standard": "304g05",
+  "breed_name_alternative": "RUSSIAN-EUROPEAN LAIKA",
+  "pdf_language": "English",
+  "common_display_name": "Laika",
+  "alt_names": [
+    "Russian-European Laika",
+    "RE Laika",
+    "Russko-Evropeyskaya Laika",
+    "European Laika",
+    "Russian Laika",
+    "Laika Dog",
+    "RE Laika Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:38:37"
+}

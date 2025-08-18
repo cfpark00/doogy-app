@@ -1,0 +1,25 @@
+{
+  "breed_id": "EURASIER",
+  "breed_name": "EURASIER (291) (EURASIAN)",
+  "breed_number": 291,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/291g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/EURASIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/EURASIAN-291.html",
+  "fci_standard": "291g05",
+  "breed_name_alternative": "EURASIAN",
+  "pdf_language": "English",
+  "common_display_name": "Eurasier",
+  "alt_names": [
+    "Eurasian Dog",
+    "Wolfspitz",
+    "Spitz-Wolf",
+    "Wolf-Spitz",
+    "European Dog",
+    "Wolfspitz-Eurasier",
+    "Eurasian Wolfspitz"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:15"
+}

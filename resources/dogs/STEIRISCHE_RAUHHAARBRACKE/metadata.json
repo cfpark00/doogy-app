@@ -1,0 +1,25 @@
+{
+  "breed_id": "STEIRISCHE_RAUHHAARBRACKE",
+  "breed_name": "STEIRISCHE RAUHHAARBRACKE (62) (COARSE-HAIRED STYRIAN HOUND)",
+  "breed_number": 62,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/062g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/STEIRISCHE_RAUHHAARBRACKE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/COARSE-HAIRED-STYRIAN-HOUND-62.html",
+  "fci_standard": "062g06",
+  "breed_name_alternative": "COARSE-HAIRED STYRIAN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Styrian Coarse-haired Hound",
+  "alt_names": [
+    "Styrian Rough-haired Hound",
+    "Steirische Rauhhaar Bracke",
+    "Styrian Hound",
+    "Rauhhaar Bracke",
+    "Steirer Bracke",
+    "Styrian Rough-haired Scent Hound",
+    "Styrian Scent Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:41:24"
+}

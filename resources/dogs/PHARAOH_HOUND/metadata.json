@@ -1,0 +1,26 @@
+{
+  "breed_id": "PHARAOH_HOUND",
+  "breed_name": "PHARAOH HOUND (248)",
+  "breed_number": 248,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/248g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/PHARAOH_HOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PHARAOH-HOUND-248.html",
+  "fci_standard": "248g05",
+  "breed_name_clean": "PHARAOH HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Pharaoh Hound",
+  "alt_names": [
+    "Pharaoh",
+    "Kelb tal-Fenek",
+    "Pharaoh Hound dog",
+    "Pharaoh Hound breed",
+    "Egyptian Greyhound",
+    "Malta",
+    "Malta Dog",
+    "Khlub tal-Fenek"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:36"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "BICHON_HAVANAIS",
+  "breed_name": "BICHON HAVANAIS (250) (HAVANESE)",
+  "breed_number": 250,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/250g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/BICHON_HAVANAIS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HAVANESE-250.html",
+  "fci_standard": "250g09",
+  "breed_name_alternative": "HAVANESE",
+  "pdf_language": "English",
+  "common_display_name": "Havanese",
+  "alt_names": [
+    "Bichon Havanese",
+    "Havana Silk Dog",
+    "Habanero",
+    "Havana",
+    "Havanese Dog",
+    "Bichon",
+    "Cuban Bichon",
+    "Havanese Bichon"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:18:38"
+}

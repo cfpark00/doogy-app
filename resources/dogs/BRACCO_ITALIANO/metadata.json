@@ -1,0 +1,26 @@
+{
+  "breed_id": "BRACCO_ITALIANO",
+  "breed_name": "BRACCO ITALIANO (202) (ITALIAN POINTING DOG)",
+  "breed_number": 202,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/202g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/BRACCO_ITALIANO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-202.html",
+  "fci_standard": "202g07",
+  "breed_name_alternative": "ITALIAN POINTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Bracco",
+  "alt_names": [
+    "Italian Pointer",
+    "Bracco Italiano Pointer",
+    "Italian Pointing Dog",
+    "Bracco",
+    "Italian Bird Dog",
+    "Bracco Dogs",
+    "Italian Hunting Dog",
+    "Bracco Italiano Hunting Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:19:34"
+}

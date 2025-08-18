@@ -1,0 +1,25 @@
+{
+  "breed_id": "HAMILTONSTOVARE",
+  "breed_name": "HAMILTONSTÖVARE (132)",
+  "breed_number": 132,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/132g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/HAMILTONSTOVARE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HAMILTONSTOVARE-132.html",
+  "fci_standard": "132g06",
+  "breed_name_clean": "HAMILTONSTÖVARE",
+  "pdf_language": "English",
+  "common_display_name": "Hamiltonstovare",
+  "alt_names": [
+    "Hamilton Hound",
+    "Hamiltonstövare",
+    "Swedish Foxhound",
+    "Hamiltonstövare Hound",
+    "Hamiltonstövare Dog",
+    "Hamiltonstövare Sweden",
+    "Hamiltonstövare hunting dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:00"
+}

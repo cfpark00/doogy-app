@@ -1,0 +1,24 @@
+{
+  "breed_id": "THAI_RIDGEBACK_DOG",
+  "breed_name": "THAI RIDGEBACK DOG (338)",
+  "breed_number": 338,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/338g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/THAI_RIDGEBACK_DOG.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/THAI-RIDGEBACK-DOG-338.html",
+  "fci_standard": "338g05",
+  "breed_name_clean": "THAI RIDGEBACK DOG",
+  "pdf_language": "English",
+  "common_display_name": "Thai Ridgeback",
+  "alt_names": [
+    "Maha Thai",
+    "Thai Ridgeback Dog",
+    "Ridgeback Thai",
+    "TRD",
+    "Thai Dog",
+    "Mah Thai"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:09"
+}

@@ -1,0 +1,25 @@
+{
+  "breed_id": "CHIEN_DE_MONTAGNE_DES_PYRENEES",
+  "breed_name": "CHIEN DE MONTAGNE DES PYRENEES (137) (PYRENEAN MOUNTAIN DOG)",
+  "breed_number": 137,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/137g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/CHIEN_DE_MONTAGNE_DES_PYRENEES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PYRENEAN-MOUNTAIN-DOG-137.html",
+  "fci_standard": "137g02",
+  "breed_name_alternative": "PYRENEAN MOUNTAIN DOG",
+  "pdf_language": "English",
+  "common_display_name": "Great Pyrenees",
+  "alt_names": [
+    "Pyrenean Mountain Dog",
+    "Pyrenean Mastiff",
+    "Montagne des Pyrénées",
+    "Chien de Montagne des Pyrénées",
+    "Pyrenean",
+    "Pyr",
+    "Pyrenean Shepherd Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:22:34"
+}

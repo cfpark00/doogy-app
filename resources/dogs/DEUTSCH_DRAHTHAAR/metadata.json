@@ -1,0 +1,24 @@
+{
+  "breed_id": "DEUTSCH_DRAHTHAAR",
+  "breed_name": "DEUTSCH DRAHTHAAR (98) (GERMAN WIRE- HAIRED POINTING DOG)",
+  "breed_number": 98,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/098g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/DEUTSCH_DRAHTHAAR.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GERMAN-WIRE-HAIRED-POINTING-DOG-98.html",
+  "fci_standard": "098g07",
+  "breed_name_alternative": "GERMAN WIRE- HAIRED POINTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Wirehaired Pointer",
+  "alt_names": [
+    "Deutsch Drahthaar",
+    "DD",
+    "German Wirehaired Pointer",
+    "Draht",
+    "German Rough-haired Pointer",
+    "Drahthaar"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:04"
+}

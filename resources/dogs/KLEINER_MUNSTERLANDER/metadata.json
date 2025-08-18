@@ -1,0 +1,26 @@
+{
+  "breed_id": "KLEINER_MUNSTERLANDER",
+  "breed_name": "KLEINER MÜNSTERLÄNDER (102)",
+  "breed_number": 102,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/102g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/KLEINER_MUNSTERLANDER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html",
+  "fci_standard": "102g07",
+  "breed_name_clean": "KLEINER MÜNSTERLÄNDER",
+  "pdf_language": "English",
+  "common_display_name": "Little Münsterländer",
+  "alt_names": [
+    "Kleine Münsterländer",
+    "German Spaniel",
+    "Small Münsterländer Pointer",
+    "Deutsch Langhaar Klein",
+    "Münsterländer",
+    "Kleine",
+    "Little German Pointer",
+    "Deutsch Kurzhaar Klein"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:29"
+}

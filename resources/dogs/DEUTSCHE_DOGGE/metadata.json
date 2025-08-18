@@ -1,0 +1,26 @@
+{
+  "breed_id": "DEUTSCHE_DOGGE",
+  "breed_name": "DEUTSCHE DOGGE (235) (GREAT DANE)",
+  "breed_number": 235,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/235g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/DEUTSCHE_DOGGE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREAT-DANE-235.html",
+  "fci_standard": "235g02",
+  "breed_name_alternative": "GREAT DANE",
+  "pdf_language": "English",
+  "common_display_name": "Great Dane",
+  "alt_names": [
+    "Deutsche Dogge",
+    "German Mastiff",
+    "Danish Hound",
+    "Gentle Giant",
+    "Dogue Allemand",
+    "German Boarhound",
+    "Ulmer Dogge",
+    "German Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:25:00"
+}

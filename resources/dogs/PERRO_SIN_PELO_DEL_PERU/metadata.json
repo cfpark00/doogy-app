@@ -1,0 +1,26 @@
+{
+  "breed_id": "PERRO_SIN_PELO_DEL_PERU",
+  "breed_name": "PERRO SIN PELO DEL PERÚ (310) (PERUVIAN HAIRLESS DOG)",
+  "breed_number": 310,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/310g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/PERRO_SIN_PELO_DEL_PERU.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PERUVIAN-HAIRLESS-DOG-310.html",
+  "fci_standard": "310g05",
+  "breed_name_alternative": "PERUVIAN HAIRLESS DOG",
+  "pdf_language": "English",
+  "common_display_name": "Peruvian Inca Orchid",
+  "alt_names": [
+    "Peruvian Hairless Dog",
+    "Peruvian Inca Dog",
+    "Perro Sin Pelo del Perú",
+    "Peruvian Naked Dog",
+    "Peruvian Pila",
+    "Pila Dog",
+    "Peruvian Orchid Dog",
+    "Peruvian Inca Orchid Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:36:11"
+}

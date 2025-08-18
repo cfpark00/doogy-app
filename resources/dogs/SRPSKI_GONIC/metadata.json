@@ -1,0 +1,24 @@
+{
+  "breed_id": "SRPSKI_GONIC",
+  "breed_name": "SRPSKI GONIC (150) (SERBIAN HOUND)",
+  "breed_number": 150,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/150g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/SRPSKI_GONIC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SERBIAN-HOUND-150.html",
+  "fci_standard": "150g06",
+  "breed_name_alternative": "SERBIAN HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Serbian Hound",
+  "alt_names": [
+    "Srpski Gonic",
+    "Serbian Tricolor Hound",
+    "Balkan Hound",
+    "Serbian Tricolor Pointer",
+    "Serbian Hunting Dog",
+    "Srpski Trobojni Gonic"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:59"
+}

@@ -1,0 +1,26 @@
+{
+  "breed_id": "NEDERLANDSE_KOOIKERHONDJE",
+  "breed_name": "NEDERLANDSE KOOIKERHONDJE (314)",
+  "breed_number": 314,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/314g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/NEDERLANDSE_KOOIKERHONDJE.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NEDERLANDSE-KOOIKERHONDJE-314.html",
+  "fci_standard": "314g08",
+  "breed_name_clean": "NEDERLANDSE KOOIKERHONDJE",
+  "pdf_language": "English",
+  "common_display_name": "Kooikerhondje",
+  "alt_names": [
+    "Dutch Kooiker",
+    "Kooiker",
+    "Nederlandse Kooiker Hondje",
+    "Kooikerhondje Dog",
+    "Kooiker Dog",
+    "Dutch Decoy Dog",
+    "Kooikerhondje Hollandais",
+    "Kooikerhondje Nederland"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:18"
+}

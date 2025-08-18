@@ -1,0 +1,25 @@
+{
+  "breed_id": "FILA_BRASILEIRO",
+  "breed_name": "FILA BRASILEIRO (225)",
+  "breed_number": 225,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/225g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/FILA_BRASILEIRO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html",
+  "fci_standard": "225g02",
+  "breed_name_clean": "FILA BRASILEIRO",
+  "pdf_language": "English",
+  "common_display_name": "Fila Brasileiro",
+  "alt_names": [
+    "Brazilian Mastiff",
+    "Fila",
+    "Brazilian Bulldog",
+    "Cão de Fila Brasileiro",
+    "O Fila",
+    "Brazilian Cattle Dog",
+    "Perro de Presa Brasileño"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:27:25"
+}

@@ -1,0 +1,27 @@
+{
+  "breed_id": "LABRADOR_RETRIEVER",
+  "breed_name": "LABRADOR RETRIEVER (122)",
+  "breed_number": 122,
+  "group": "group8",
+  "group_number": 8,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/122g08-en.pdf",
+  "pdf_local_path": "data/pdfs/group8/LABRADOR_RETRIEVER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122.html",
+  "fci_standard": "122g08",
+  "breed_name_clean": "LABRADOR RETRIEVER",
+  "pdf_language": "English",
+  "common_display_name": "Labrador",
+  "alt_names": [
+    "Labrador Retriever",
+    "Lab",
+    "Labs",
+    "Labrador Dog",
+    "Retriever",
+    "Labrador Hound",
+    "Yellow Lab",
+    "Black Lab",
+    "Chocolate Lab"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:59"
+}

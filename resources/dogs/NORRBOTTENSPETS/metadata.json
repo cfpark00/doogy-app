@@ -1,0 +1,25 @@
+{
+  "breed_id": "NORRBOTTENSPETS",
+  "breed_name": "NORRBOTTENSPETS (276) (NORRBOTTENSPITZ)",
+  "breed_number": 276,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/276g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/NORRBOTTENSPETS.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/NORRBOTTENSPITZ-276.html",
+  "fci_standard": "276g05",
+  "breed_name_alternative": "NORRBOTTENSPITZ",
+  "pdf_language": "English",
+  "common_display_name": "Norrbottenspets",
+  "alt_names": [
+    "Norbottenspets",
+    "Nordic Spitz",
+    "Swedish Spitz",
+    "Norden Spitz",
+    "Norrbottenspitz",
+    "Norrbottenspitz Dog",
+    "Swedish Reindeer Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:34:47"
+}

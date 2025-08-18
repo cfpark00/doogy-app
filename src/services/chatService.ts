@@ -1,6 +1,4 @@
-import {BACKEND_URL} from '@env';
-
-const backendUrl = BACKEND_URL || 'http://localhost:3001';
+const backendUrl = 'http://localhost:3001';
 
 export const chatService = {
   async sendMessage(message: string): Promise<string> {

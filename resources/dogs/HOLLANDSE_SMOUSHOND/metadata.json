@@ -1,0 +1,24 @@
+{
+  "breed_id": "HOLLANDSE_SMOUSHOND",
+  "breed_name": "HOLLANDSE SMOUSHOND (308) (DUTCH SMOUSHOND)",
+  "breed_number": 308,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/308g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/HOLLANDSE_SMOUSHOND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DUTCH-SMOUSHOND-308.html",
+  "fci_standard": "308g02",
+  "breed_name_alternative": "DUTCH SMOUSHOND",
+  "pdf_language": "English",
+  "common_display_name": "Smoushond",
+  "alt_names": [
+    "Dutch Smoushond",
+    "Hollandse Smoushondje",
+    "Dutch Bearded Terrier",
+    "Smoushondje",
+    "Hollandse",
+    "Smoushond"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:30"
+}

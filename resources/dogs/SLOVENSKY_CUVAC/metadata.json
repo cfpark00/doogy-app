@@ -1,0 +1,28 @@
+{
+  "breed_id": "SLOVENSKY_CUVAC",
+  "breed_name": "SLOVENSKÝ CUVAC (142) (SLOVAKIAN CHUVACH)",
+  "breed_number": 142,
+  "group": "group1",
+  "group_number": 1,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/142g01-en.pdf",
+  "pdf_local_path": "data/pdfs/group1/section1_sheepdogs/SLOVENSKY_CUVAC.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SLOVAKIAN-CHUVACH-142.html",
+  "fci_standard": "142g01",
+  "breed_name_alternative": "SLOVAKIAN CHUVACH",
+  "section": "Sheepdogs",
+  "section_number": 1,
+  "pdf_language": "English",
+  "common_display_name": "Slovenský Cuvac",
+  "alt_names": [
+    "Slovak Cuvac",
+    "Slovakian Cuvac",
+    "Tatra Shepherd Dog",
+    "Tatra Dog",
+    "Slovak Sheepdog",
+    "Cuvac",
+    "Slovenský Pastiersky Pes",
+    "Slovakian Shepherd Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:40:29"
+}

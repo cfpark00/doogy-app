@@ -1,0 +1,26 @@
+{
+  "breed_id": "AIREDALE_TERRIER",
+  "breed_name": "AIREDALE TERRIER (7)",
+  "breed_number": 7,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/007g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/AIREDALE_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html",
+  "fci_standard": "007g03",
+  "breed_name_clean": "AIREDALE TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Airedale",
+  "alt_names": [
+    "Airedale Terrier",
+    "Waterside Terrier",
+    "King of Terriers",
+    "Bingley Terrier",
+    "Irish Terrier",
+    "Rough-Coated Terrier",
+    "Black and Tan Terrier",
+    "Bingley Terrier Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:15:43"
+}

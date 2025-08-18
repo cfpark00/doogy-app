@@ -1,0 +1,24 @@
+{
+  "breed_id": "CHART_POLSKI",
+  "breed_name": "CHART POLSKI (333) (POLISH GREYHOUND)",
+  "breed_number": 333,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/333g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/CHART_POLSKI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/POLISH-GREYHOUND-333.html",
+  "fci_standard": "333g10",
+  "breed_name_alternative": "POLISH GREYHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Polish Greyhound",
+  "alt_names": [
+    "Chart Polski",
+    "Polish Hunting Greyhound",
+    "Polish Sighthound",
+    "Greyhound Polski",
+    "Polish Hound",
+    "Ch Polski"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:22:04"
+}

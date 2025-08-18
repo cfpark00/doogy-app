@@ -1,0 +1,24 @@
+{
+  "breed_id": "GONCZY_POLSKI",
+  "breed_name": "GONCZY POLSKI  (354) (POLISH HUNTING DOG)",
+  "breed_number": 354,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/354g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/GONCZY_POLSKI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/POLISH-HUNTING-DOG-354.html",
+  "fci_standard": "354g06",
+  "breed_name_alternative": "POLISH HUNTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Polish Hound",
+  "alt_names": [
+    "Gonczy Polski",
+    "Polish Hunting Dog",
+    "Polish Scent Hound",
+    "Ogar Polski",
+    "Polish Gończy",
+    "Polski Gończy"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:28:19"
+}

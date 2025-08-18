@@ -1,0 +1,25 @@
+{
+  "breed_id": "GRONLANDSHUND",
+  "breed_name": "GRØNLANDSHUND (274) (GREENLAND DOG)",
+  "breed_number": 274,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/274g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/GRONLANDSHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/GREENLAND-DOG-274.html",
+  "fci_standard": "274g05",
+  "breed_name_alternative": "GREENLAND DOG",
+  "pdf_language": "English",
+  "common_display_name": "Greenland Dog",
+  "alt_names": [
+    "Greenlandic Dog",
+    "Grønlandshund",
+    "Polar Dog",
+    "Greenland Sled Dog",
+    "Greenland Husky",
+    "Nordic Sled Dog",
+    "Arctic Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:29:39"
+}

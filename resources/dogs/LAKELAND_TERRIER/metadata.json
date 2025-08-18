@@ -1,0 +1,28 @@
+{
+  "breed_id": "LAKELAND_TERRIER",
+  "breed_name": "LAKELAND TERRIER (70)",
+  "breed_number": 70,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/070g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/LAKELAND_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/LAKELAND-TERRIER-70.html",
+  "fci_standard": "070g03",
+  "breed_name_clean": "LAKELAND TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Lakeland",
+  "alt_names": [
+    "Lakeland Terrier",
+    "Lakeland Terrier Dog",
+    "Lakeland Terrier Hound",
+    "Lakeland Terrier Puppy",
+    "Lakeland Terrier For Sale",
+    "Lakeland Terrier Price",
+    "Lakeland Terrier Temperament",
+    "Lakeland Terrier Characteristics",
+    "Lakeland Terrier Grooming",
+    "Lakeland Terrier Training"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:33:08"
+}

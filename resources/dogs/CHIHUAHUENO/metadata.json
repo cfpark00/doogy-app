@@ -1,0 +1,26 @@
+{
+  "breed_id": "CHIHUAHUENO",
+  "breed_name": "CHIHUAHUEÑO (218) (CHIHUAHUA)",
+  "breed_number": 218,
+  "group": "group9",
+  "group_number": 9,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/218g09-en.pdf",
+  "pdf_local_path": "data/pdfs/group9/CHIHUAHUENO.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/CHIHUAHUA-218.html",
+  "fci_standard": "218g09",
+  "breed_name_alternative": "CHIHUAHUA",
+  "pdf_language": "English",
+  "common_display_name": "Chihuahua",
+  "alt_names": [
+    "Chihuahueño",
+    "Chihua",
+    "Chihuhua",
+    "Chiwawa",
+    "Chihuahua Dog",
+    "Chihuahua Puppy",
+    "Chihuahua Toy",
+    "Chihuahua Miniature"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:22:44"
+}

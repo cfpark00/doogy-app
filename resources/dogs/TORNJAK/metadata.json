@@ -1,0 +1,26 @@
+{
+  "breed_id": "TORNJAK",
+  "breed_name": "TORNJAK (355) (BOSNIAN AND HERZEGOVINIAN - CROATIAN SHEPHERD DOG)",
+  "breed_number": 355,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/355g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/TORNJAK.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/BOSNIAN-AND-HERZEGOVINIAN-CROATIAN-SHEPHERD-DOG-355.html",
+  "fci_standard": "355g02",
+  "breed_name_alternative": "BOSNIAN AND HERZEGOVINIAN - CROATIAN SHEPHERD DOG",
+  "pdf_language": "English",
+  "common_display_name": "Tornjak",
+  "alt_names": [
+    "Bosnian and Herzegovinian Shepherd Dog",
+    "Bosnian Shepherd",
+    "Herzegovinian Shepherd",
+    "Bosnian-Herzegovinian Tornjak",
+    "Tornjak Shepherd",
+    "Bosnian Mountain Dog",
+    "Herzegovinian Mountain Dog",
+    "Dinaric Shepherd Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:42:30"
+}

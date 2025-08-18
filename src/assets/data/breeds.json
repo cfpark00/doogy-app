@@ -1,0 +1,5243 @@
+{
+  "version": "1.0.0",
+  "generated": "2025-08-18T04:10:56.103Z",
+  "count": 344,
+  "breeds": [
+    {
+      "id": "b900d29f-8ff8-4b61-8956-6e0f44c2aeeb",
+      "name": "AFFENPINSCHER",
+      "displayName": "Affenpinscher",
+      "altNames": [
+        "Monkey Dog",
+        "Little Monkey",
+        "Affie",
+        "Affen",
+        "Monkey Terrier",
+        "Zwerggriffon"
+      ],
+      "searchText": "affenpinscher monkey dog little monkey affie affen monkey terrier zwerggriffon"
+    },
+    {
+      "id": "6fadbc0d-3379-4c20-b4d0-bc8db0e301af",
+      "name": "AFGHAN_HOUND",
+      "displayName": "Afghan Hound",
+      "altNames": [
+        "Afghan",
+        "Afghan Dog",
+        "Afghan Greyhound",
+        "Tazi",
+        "Afghan Camelskin Rug Dog",
+        "Afghan Hunting Dog",
+        "Afghan Kuchi",
+        "Afghan Shepherd Dog"
+      ],
+      "searchText": "afghan hound afghan afghan dog afghan greyhound tazi afghan camelskin rug dog afghan hunting dog afghan kuchi afghan shepherd dog"
+    },
+    {
+      "id": "6dff82fd-2599-4af4-9a95-8205b061cd82",
+      "name": "AIDI",
+      "displayName": "Aidi",
+      "altNames": [
+        "Atlas Mountain Dog",
+        "Chien de Montagne de l'Atlas",
+        "Moroccan Atlas Shepherd",
+        "Atlas Shepherd Dog",
+        "Berber Dog",
+        "Atlas Mountain Sheepdog",
+        "Kabyle Dog",
+        "North African Shepherd"
+      ],
+      "searchText": "aidi atlas mountain dog chien de montagne de l'atlas moroccan atlas shepherd atlas shepherd dog berber dog atlas mountain sheepdog kabyle dog north african shepherd"
+    },
+    {
+      "id": "14acd576-829f-4bbe-8c9b-00b4ebc3b893",
+      "name": "AIREDALE_TERRIER",
+      "displayName": "Airedale",
+      "altNames": [
+        "Airedale Terrier",
+        "Waterside Terrier",
+        "King of Terriers",
+        "Bingley Terrier",
+        "Irish Terrier",
+        "Rough-Coated Terrier",
+        "Black and Tan Terrier",
+        "Bingley Terrier Dog"
+      ],
+      "searchText": "airedale airedale terrier waterside terrier king of terriers bingley terrier irish terrier rough-coated terrier black and tan terrier bingley terrier dog"
+    },
+    {
+      "id": "09dc4266-0e86-407d-8744-0e064fb5568a",
+      "name": "AKITA",
+      "displayName": "Akita",
+      "altNames": [
+        "Akita Inu",
+        "Japanese Akita",
+        "American Akita",
+        "Great Japanese Dog",
+        "Akita Ken",
+        "Inu",
+        "Akita Dog",
+        "Akita Inu (Japanese)"
+      ],
+      "searchText": "akita akita inu japanese akita american akita great japanese dog akita ken inu akita dog akita inu (japanese)"
+    },
+    {
+      "id": "7c8172a4-5c12-4485-899b-55f9f78238d1",
+      "name": "ALASKAN_MALAMUTE",
+      "displayName": "Malamute",
+      "altNames": [
+        "Alaskan Malamute Dog",
+        "Malamute Dog",
+        "Mal",
+        "Malemute",
+        "Mahlemut",
+        "Arctic Malamute",
+        "Sled Dog",
+        "Northwest Malamute"
+      ],
+      "searchText": "malamute alaskan malamute dog malamute dog mal malemute mahlemut arctic malamute sled dog northwest malamute"
+    },
+    {
+      "id": "46f20125-b456-49e1-9686-cb138c86ac86",
+      "name": "ALPENLANDISCHE_DACHSBRACKE",
+      "displayName": "Alpine Dachsbracke",
+      "altNames": [
+        "Austrian Dachsbracke",
+        "Alpine Dachshund",
+        "Dachsbracke",
+        "Austrian Hound",
+        "Alpenländische Dachsbracke",
+        "Alpen Dachsbracke",
+        "Alpine Bracke"
+      ],
+      "searchText": "alpine dachsbracke austrian dachsbracke alpine dachshund dachsbracke austrian hound alpenländische dachsbracke alpen dachsbracke alpine bracke"
+    },
+    {
+      "id": "d2a7d138-12e0-412f-ab55-881cb2943381",
+      "name": "AMERICAN_AKITA",
+      "displayName": "American Akita",
+      "altNames": [
+        "Great Japanese Dog",
+        "American Akita Inu",
+        "Akita",
+        "American Akita Dog",
+        "Akita Ken",
+        "Akitainu"
+      ],
+      "searchText": "american akita great japanese dog american akita inu akita american akita dog akita ken akitainu"
+    },
+    {
+      "id": "4c54abd7-ad48-4d11-b633-36cb78e62f76",
+      "name": "AMERICAN_COCKER_SPANIEL",
+      "displayName": "Cocker Spaniel",
+      "altNames": [
+        "American Cocker",
+        "Cocker",
+        "American Cocker Spaniel Dog",
+        "Cocker Spaniel Dog",
+        "American Cocker Spaniel Puppy",
+        "Cocker Spaniel Puppy",
+        "American Cocker Spaniel Breed",
+        "Cocker Spaniel Breed"
+      ],
+      "searchText": "cocker spaniel american cocker cocker american cocker spaniel dog cocker spaniel dog american cocker spaniel puppy cocker spaniel puppy american cocker spaniel breed cocker spaniel breed"
+    },
+    {
+      "id": "3e21b925-e789-4fc5-855c-7fd055c58391",
+      "name": "AMERICAN_FOXHOUND",
+      "displayName": "American Foxhound",
+      "altNames": [
+        "Foxhound",
+        "American Fox Hound",
+        "American Foxhound Dog",
+        "American Foxhound Puppy",
+        "American Foxhound For Sale",
+        "American Foxhound Temperament",
+        "American Foxhound Breeders",
+        "American Foxhound Characteristics"
+      ],
+      "searchText": "american foxhound foxhound american fox hound american foxhound dog american foxhound puppy american foxhound for sale american foxhound temperament american foxhound breeders american foxhound characteristics"
+    },
+    {
+      "id": "cb635477-d6b8-471c-aa28-d5c9fb37f887",
+      "name": "AMERICAN_STAFFORDSHIRE_TERRIER",
+      "displayName": "Amstaff",
+      "altNames": [
+        "American Staffordshire Terrier",
+        "Staffy",
+        "Amstaff Terrier",
+        "Staffordshire Terrier",
+        "American Staffy",
+        "Blue Amstaff",
+        "Pitbull Terrier",
+        "Pit Bull",
+        "Am Staff"
+      ],
+      "searchText": "amstaff american staffordshire terrier staffy amstaff terrier staffordshire terrier american staffy blue amstaff pitbull terrier pit bull am staff"
+    },
+    {
+      "id": "7b4e4f21-5dc1-4f81-a139-e7e7fb4486fa",
+      "name": "AMERICAN_WATER_SPANIEL",
+      "displayName": "American Water Spaniel",
+      "altNames": [
+        "AWS",
+        "American Water",
+        "Wisconsin Water Dog",
+        "Fox Squirrel Dog",
+        "Little Brown Dog",
+        "Brown Dog",
+        "Water Spaniel"
+      ],
+      "searchText": "american water spaniel aws american water wisconsin water dog fox squirrel dog little brown dog brown dog water spaniel"
+    },
+    {
+      "id": "d30586d6-8711-41c7-8999-aa7d7f6b84f3",
+      "name": "ANGLO_FRANCAIS_DE_PETITE_VENERIE",
+      "displayName": "Anglo-French Pointer",
+      "altNames": [
+        "Anglo-French Hound",
+        "French Pointer",
+        "Anglo-Français de Petite Vénerie",
+        "Petite Vénerie",
+        "Anglo-French Hunting Dog",
+        "French Hunting Dog"
+      ],
+      "searchText": "anglo-french pointer anglo-french hound french pointer anglo-français de petite vénerie petite vénerie anglo-french hunting dog french hunting dog"
+    },
+    {
+      "id": "98e519fc-3545-40a7-a547-ac2b8e4c9ed2",
+      "name": "APPENZELLER_SENNENHUND",
+      "displayName": "Appenzeller",
+      "altNames": [
+        "Appenzeller Sennenhund",
+        "Appenzell Cattle Dog",
+        "Appenzell Mountain Dog",
+        "Appenzeller",
+        "Appenzell",
+        "Sennenhund",
+        "Appenzeller Dog"
+      ],
+      "searchText": "appenzeller appenzeller sennenhund appenzell cattle dog appenzell mountain dog appenzeller appenzell sennenhund appenzeller dog"
+    },
+    {
+      "id": "e777659a-f69d-48fd-9e24-6156323c90d2",
+      "name": "ARIEGEOIS",
+      "displayName": "Ariegeois",
+      "altNames": [
+        "Chien Courant Ariégeois",
+        "Ariege Hound",
+        "Ariège Pointer",
+        "Ariegeois Hound",
+        "Chien Courant de Montagne des Pyrénées",
+        "Ariegeois Mountain Hound"
+      ],
+      "searchText": "ariegeois chien courant ariégeois ariege hound ariège pointer ariegeois hound chien courant de montagne des pyrénées ariegeois mountain hound"
+    },
+    {
+      "id": "0718f929-1fbf-4769-a8a1-da1cf6d1120e",
+      "name": "AUSTRALIAN_CATTLE_DOG",
+      "displayName": "Cattle Dog",
+      "altNames": [
+        "Blue Heeler",
+        "Queensland Heeler",
+        "Australian Heeler",
+        "Red Heeler",
+        "ACD",
+        "Heeler",
+        "Australian Cattle Dog",
+        "Cattledog"
+      ],
+      "searchText": "cattle dog blue heeler queensland heeler australian heeler red heeler acd heeler australian cattle dog cattledog"
+    },
+    {
+      "id": "a61c013c-4453-4adb-81a1-0a0a5ef6066c",
+      "name": "AUSTRALIAN_KELPIE",
+      "displayName": "Kelpie",
+      "altNames": [
+        "Australian Kelpie",
+        "Kelpie Dog",
+        "Working Kelpie",
+        "Kelpies",
+        "Australian Working Kelpie",
+        "Kelpie Sheepdog",
+        "Kelpie Herding Dog"
+      ],
+      "searchText": "kelpie australian kelpie kelpie dog working kelpie kelpies australian working kelpie kelpie sheepdog kelpie herding dog"
+    },
+    {
+      "id": "05e1f59d-48c7-4693-9d5a-be7b786f64b7",
+      "name": "AUSTRALIAN_SHEPHERD",
+      "displayName": "Australian Shepherd",
+      "altNames": [
+        "Aussie",
+        "Aussie Shepherd",
+        "Aussie Dog",
+        "Aussies",
+        "Australian Cattle Dog",
+        "Blue Heeler",
+        "Queensland Heeler",
+        "Australian Kelpie",
+        "Australian Sheepdog"
+      ],
+      "searchText": "australian shepherd aussie aussie shepherd aussie dog aussies australian cattle dog blue heeler queensland heeler australian kelpie australian sheepdog"
+    },
+    {
+      "id": "4dc8877a-2c7c-4e4d-866f-7f4abda3b618",
+      "name": "AUSTRALIAN_SILKY_TERRIER",
+      "displayName": "Silky Terrier",
+      "altNames": [
+        "Australian Silky Terrier",
+        "Silky",
+        "Sydney Silky",
+        "Silky Toy Terrier",
+        "Australian Toy Terrier",
+        "Silky Terrier Dog",
+        "Silky Pup"
+      ],
+      "searchText": "silky terrier australian silky terrier silky sydney silky silky toy terrier australian toy terrier silky terrier dog silky pup"
+    },
+    {
+      "id": "ee657786-d065-4760-8e62-1f947c0455fe",
+      "name": "AUSTRALIAN_TERRIER",
+      "displayName": "Australian Terrier",
+      "altNames": [
+        "Aussie Terrier",
+        "Australian Terriers",
+        "Aussie",
+        "Australian",
+        "Aussie Dog",
+        "Aussie Toy Terrier",
+        "Australian Toy Terrier",
+        "Aussie Terriers"
+      ],
+      "searchText": "australian terrier aussie terrier australian terriers aussie australian aussie dog aussie toy terrier australian toy terrier aussie terriers"
+    },
+    {
+      "id": "8fbc07af-42c1-4e89-a58f-a8da6b21ec8e",
+      "name": "AZAWAKH",
+      "displayName": "Azawakh",
+      "altNames": [
+        "Tuareg Azawakh",
+        "African Greyhound",
+        "Berber Greyhound",
+        "Azawakh Hound",
+        "Sahara Greyhound",
+        "Azawak"
+      ],
+      "searchText": "azawakh tuareg azawakh african greyhound berber greyhound azawakh hound sahara greyhound azawak"
+    },
+    {
+      "id": "4bc2d0ff-9a2c-4423-936d-18256fc52128",
+      "name": "BARBET",
+      "displayName": "Barbet",
+      "altNames": [
+        "French Water Dog",
+        "Chien d'Eau Français",
+        "Barbet Dog",
+        "French Barbet",
+        "Water Barbet",
+        "Barbet Retriever",
+        "Chien d'eau"
+      ],
+      "searchText": "barbet french water dog chien d'eau français barbet dog french barbet water barbet barbet retriever chien d'eau"
+    },
+    {
+      "id": "ce574b34-7f87-4438-9958-e16908e93e24",
+      "name": "BASENJI",
+      "displayName": "Basenji",
+      "altNames": [
+        "Basenji Dog",
+        "African Barkless Dog",
+        "Congo Dog",
+        "Zande Dog",
+        "Kongo Dog",
+        "Basenji Hound",
+        "African Bush Dog"
+      ],
+      "searchText": "basenji basenji dog african barkless dog congo dog zande dog kongo dog basenji hound african bush dog"
+    },
+    {
+      "id": "d31856fa-544c-4871-beb4-0dbc78329bbf",
+      "name": "BASSET_ARTESIEN_NORMAND",
+      "displayName": "Basset Hound",
+      "altNames": [
+        "Basset Artésien Normand",
+        "Basset Normand",
+        "Basset Artésien",
+        "Normandy Basset",
+        "Basset Hound (French)"
+      ],
+      "searchText": "basset hound basset artésien normand basset normand basset artésien normandy basset basset hound (french)"
+    },
+    {
+      "id": "707b064a-6604-4797-a4e5-be96bea23353",
+      "name": "BASSET_BLEU_DE_GASCOGNE",
+      "displayName": "Basset Bleu",
+      "altNames": [
+        "Gascon Saintongeois Basset",
+        "Basset Bleu de Gascogne",
+        "Blue Basset Hound",
+        "Basset Hound Bleu",
+        "Bleu Basset",
+        "Gascon Basset",
+        "Basset Saintongeois Bleu"
+      ],
+      "searchText": "basset bleu gascon saintongeois basset basset bleu de gascogne blue basset hound basset hound bleu bleu basset gascon basset basset saintongeois bleu"
+    },
+    {
+      "id": "a0bba3ce-4853-43f8-b49c-cae4c7f8093d",
+      "name": "BASSET_FAUVE_DE_BRETAGNE",
+      "displayName": "Basset Fauve de Bretagne",
+      "altNames": [
+        "Fauve de Bretagne",
+        "Brittany Basset",
+        "Little Fawn Brittany",
+        "Fauve Basset",
+        "Basset Fauve",
+        "Fauve",
+        "Brittany Hound"
+      ],
+      "searchText": "basset fauve de bretagne fauve de bretagne brittany basset little fawn brittany fauve basset basset fauve fauve brittany hound"
+    },
+    {
+      "id": "82950581-1441-4e66-87b5-02e70e943750",
+      "name": "BASSET_HOUND",
+      "displayName": "Basset Hound",
+      "altNames": [
+        "Basset",
+        "Basset Hound Dog",
+        "Bassett Hound",
+        "Basset Hound Puppies",
+        "Basset Hound For Sale",
+        "Basset Hound Temperament",
+        "Basset Hound Breeders",
+        "Basset Hound Characteristics",
+        "Basset Hound History",
+        "Basset Hound Personality"
+      ],
+      "searchText": "basset hound basset basset hound dog bassett hound basset hound puppies basset hound for sale basset hound temperament basset hound breeders basset hound characteristics basset hound history basset hound personality"
+    },
+    {
+      "id": "97438c42-55eb-4a15-a403-c68ba162e712",
+      "name": "BAYERISCHER_GEBIRGSSCHWEISSHUND",
+      "displayName": "Bavarian Mountain Hound",
+      "altNames": [
+        "Bayerischer Gebirgsschweisshund",
+        "Bavarian Mountain Scent Hound",
+        "Bavarian Schweisshund",
+        "Bavarian Scent Hound",
+        "Bayerischer Schweisshund",
+        "Bavarian Mountain Dog",
+        "Gebirgsschweisshund"
+      ],
+      "searchText": "bavarian mountain hound bayerischer gebirgsschweisshund bavarian mountain scent hound bavarian schweisshund bavarian scent hound bayerischer schweisshund bavarian mountain dog gebirgsschweisshund"
+    },
+    {
+      "id": "f4317b92-3f89-4ded-a595-e9a11a92383c",
+      "name": "BEAGLE",
+      "displayName": "Beagle",
+      "altNames": [
+        "Beagle Dog",
+        "Pocket Beagle",
+        "Beagle Hound",
+        "Beagle Puppies",
+        "Beagle Mix",
+        "Beagle Dog Breed",
+        "Beagle for Sale",
+        "Beagle Temperament",
+        "Beagle Cost",
+        "Beagle Characteristics"
+      ],
+      "searchText": "beagle beagle dog pocket beagle beagle hound beagle puppies beagle mix beagle dog breed beagle for sale beagle temperament beagle cost beagle characteristics"
+    },
+    {
+      "id": "aad035c1-c687-4c2f-b2c9-a64c206a38ed",
+      "name": "BEAGLE_HARRIER",
+      "displayName": "Beagle-Harrier",
+      "altNames": [
+        "Beagle Harrier",
+        "Beagle Harrier Dog",
+        "French Beagle-Harrier",
+        "Chien Courant Beagle-Harrier",
+        "Beagle",
+        "Harrier",
+        "French Hound"
+      ],
+      "searchText": "beagle-harrier beagle harrier beagle harrier dog french beagle-harrier chien courant beagle-harrier beagle harrier french hound"
+    },
+    {
+      "id": "0cb92711-1632-491a-9ebb-31616e4a167d",
+      "name": "BEARDED_COLLIE",
+      "displayName": "Bearded Collie",
+      "altNames": [
+        "Beardie",
+        "Old Scotch Collie",
+        "Hairy Collie",
+        "Highland Collie",
+        "Scotch Collie",
+        "Bearded Sheepdog"
+      ],
+      "searchText": "bearded collie beardie old scotch collie hairy collie highland collie scotch collie bearded sheepdog"
+    },
+    {
+      "id": "570f4d79-ff17-49a5-8bad-fbc66cd1a2be",
+      "name": "BEDLINGTON_TERRIER",
+      "displayName": "Bedlington Terrier",
+      "altNames": [
+        "Bedlington",
+        "Lamb Dog",
+        "Dandie Dinmont Terrier",
+        "Rothbury Terrier",
+        "Beddy",
+        "Bedlington Terrier Dog",
+        "Bedlington Terrier Puppy",
+        "Bedlington Terrier Breed"
+      ],
+      "searchText": "bedlington terrier bedlington lamb dog dandie dinmont terrier rothbury terrier beddy bedlington terrier dog bedlington terrier puppy bedlington terrier breed"
+    },
+    {
+      "id": "b4de9f14-7772-4373-8cf3-52f2d4819e9c",
+      "name": "BERGER_BLANC_SUISSE",
+      "displayName": "White Swiss Shepherd",
+      "altNames": [
+        "Berger Blanc Suisse",
+        "Swiss Shepherd",
+        "White Shepherd",
+        "Berger Blanc",
+        "BS",
+        "White German Shepherd",
+        "American White Shepherd"
+      ],
+      "searchText": "white swiss shepherd berger blanc suisse swiss shepherd white shepherd berger blanc bs white german shepherd american white shepherd"
+    },
+    {
+      "id": "d8f892be-c921-4647-ae68-f4b0a2851773",
+      "name": "BERGER_DE_BEAUCE",
+      "displayName": "Beauceron",
+      "altNames": [
+        "Berger de Beauce",
+        "French Beauceron",
+        "Beauce Shepherd",
+        "Bas Rouge",
+        "Beauceron Shepherd",
+        "Berger de Beauce Dog",
+        "French Sheepdog",
+        "Beauce"
+      ],
+      "searchText": "beauceron berger de beauce french beauceron beauce shepherd bas rouge beauceron shepherd berger de beauce dog french sheepdog beauce"
+    },
+    {
+      "id": "f199d672-fc67-418f-ab11-3fddecb705f5",
+      "name": "BERGER_DE_BRIE",
+      "displayName": "Briard",
+      "altNames": [
+        "Berger de Brie",
+        "Briard Sheepdog",
+        "Brie Shepherd",
+        "French Briard",
+        "Chien de Berger de Brie",
+        "Berger Français de Brie",
+        "Brie Dog"
+      ],
+      "searchText": "briard berger de brie briard sheepdog brie shepherd french briard chien de berger de brie berger français de brie brie dog"
+    },
+    {
+      "id": "09369b69-0689-4102-a548-842b6fe4096f",
+      "name": "BERGER_DE_PICARDIE",
+      "displayName": "Berger Picard",
+      "altNames": [
+        "Picardy Shepherd",
+        "Berger Picard Dog",
+        "Picardy Sheepdog",
+        "French Shepherd",
+        "Berger de Picardie Dog",
+        "Picardy Herder",
+        "Picard Shepherd Dog"
+      ],
+      "searchText": "berger picard picardy shepherd berger picard dog picardy sheepdog french shepherd berger de picardie dog picardy herder picard shepherd dog"
+    },
+    {
+      "id": "468d7d8f-4207-4c3d-b188-9f5f52af7eff",
+      "name": "BERNER_SENNENHUND",
+      "displayName": "Bernese Mountain Dog",
+      "altNames": [
+        "Berner",
+        "Bernese",
+        "Berner Sennenhund",
+        "Bernerdog",
+        "Bernese Dog",
+        "Greater Swiss Mountain Dog",
+        "Swissy"
+      ],
+      "searchText": "bernese mountain dog berner bernese berner sennenhund bernerdog bernese dog greater swiss mountain dog swissy"
+    },
+    {
+      "id": "01cbe624-fed2-467a-8c11-f6e132f567df",
+      "name": "BICHON_A_POIL_FRISE",
+      "displayName": "Bichon",
+      "altNames": [
+        "Bichon Frise",
+        "Bichon Frise Dog",
+        "Frizzy Bichon",
+        "Little White Dog",
+        "Cloud Dog",
+        "Cotton Ball Dog",
+        "Bichon Frisé",
+        "Havanese Bichon"
+      ],
+      "searchText": "bichon bichon frise bichon frise dog frizzy bichon little white dog cloud dog cotton ball dog bichon frisé havanese bichon"
+    },
+    {
+      "id": "3c8d7730-2aeb-4d27-a2c5-1367435d406a",
+      "name": "BICHON_HAVANAIS",
+      "displayName": "Havanese",
+      "altNames": [
+        "Bichon Havanese",
+        "Havana Silk Dog",
+        "Habanero",
+        "Havana",
+        "Havanese Dog",
+        "Bichon",
+        "Cuban Bichon",
+        "Havanese Bichon"
+      ],
+      "searchText": "havanese bichon havanese havana silk dog habanero havana havanese dog bichon cuban bichon havanese bichon"
+    },
+    {
+      "id": "7699acd6-7e4c-440e-90d0-c2dde5e553d7",
+      "name": "BILLY",
+      "displayName": "Billy",
+      "altNames": [
+        "Chien-loup de France",
+        "French Billy Dog",
+        "Chien de berger français",
+        "Berger français",
+        "Billy Hound",
+        "French Shepherd Dog",
+        "Chien de Billy"
+      ],
+      "searchText": "billy chien-loup de france french billy dog chien de berger français berger français billy hound french shepherd dog chien de billy"
+    },
+    {
+      "id": "50340df8-3006-4f5c-9a1c-34aa055131da",
+      "name": "BLACK_AND_TAN_COONHOUND",
+      "displayName": "Black and Tan Coonhound",
+      "altNames": [
+        "Black and Tan",
+        "American Black and Tan Coonhound",
+        "American Black and Tan",
+        "Black and Tan Hound",
+        "B&T Coonhound",
+        "B&T Hound",
+        "American Coonhound Black and Tan"
+      ],
+      "searchText": "black and tan coonhound black and tan american black and tan coonhound american black and tan black and tan hound b&t coonhound b&t hound american coonhound black and tan"
+    },
+    {
+      "id": "17f259ee-fdb0-4972-8c1c-cdc6970236ce",
+      "name": "BOLOGNESE",
+      "displayName": "Bolognese",
+      "altNames": [
+        "Bichon Bolognese",
+        "Bolognaise",
+        "Little White Lion Dog",
+        "Havanese Bolognese",
+        "Bolonka",
+        "Bologna",
+        "Bolognese Dog",
+        "Bolo"
+      ],
+      "searchText": "bolognese bichon bolognese bolognaise little white lion dog havanese bolognese bolonka bologna bolognese dog bolo"
+    },
+    {
+      "id": "c1e9af22-547f-44bb-97c3-1ded2eada921",
+      "name": "BORDER_COLLIE",
+      "displayName": "Border Collie",
+      "altNames": [
+        "Border",
+        "Collie",
+        "BC",
+        "Sheepdog",
+        "Border Sheepdog",
+        "Scotch Collie",
+        "Working Collie"
+      ],
+      "searchText": "border collie border collie bc sheepdog border sheepdog scotch collie working collie"
+    },
+    {
+      "id": "5d532b75-76bd-40bd-98d6-7fa1638f6788",
+      "name": "BORDER_TERRIER",
+      "displayName": "Border Terrier",
+      "altNames": [
+        "Border",
+        "Tammie",
+        "Coquetdale Terrier",
+        "Reed Terrier",
+        "Border Terrier Dog",
+        "Border Terrier Puppy",
+        "Border Terrier for Sale"
+      ],
+      "searchText": "border terrier border tammie coquetdale terrier reed terrier border terrier dog border terrier puppy border terrier for sale"
+    },
+    {
+      "id": "d2fdfe52-5ad4-46df-bae0-19c3e40ccf76",
+      "name": "BOSANSKI_OSTRODLAKI_GONIC_BARAK",
+      "displayName": "Bosnian Rough-haired Hound",
+      "altNames": [
+        "Bosanski Oštrodlaki Gonič",
+        "Bosnian Barak",
+        "Bosnian Hound",
+        "Bosnian Rough Hound",
+        "Barak Hound",
+        "Oštrodlaki Gonič"
+      ],
+      "searchText": "bosnian rough-haired hound bosanski oštrodlaki gonič bosnian barak bosnian hound bosnian rough hound barak hound oštrodlaki gonič"
+    },
+    {
+      "id": "a09fd348-a919-4034-acc1-94d62a4275f6",
+      "name": "BOSTON_TERRIER",
+      "displayName": "Boston Terrier",
+      "altNames": [
+        "Boston",
+        "Boston Bulldog",
+        "American Gentleman",
+        "Boston Bull Terrier",
+        "Toy Boston",
+        "Hunchback"
+      ],
+      "searchText": "boston terrier boston boston bulldog american gentleman boston bull terrier toy boston hunchback"
+    },
+    {
+      "id": "c4d602c2-67c5-4bab-8d2e-f05b2954c405",
+      "name": "BOULEDOGUE_FRANCAIS",
+      "displayName": "French Bulldog",
+      "altNames": [
+        "Frenchie",
+        "French Bulldog Terrier",
+        "Bouledogue Français",
+        "Boubou",
+        "Frog Dog",
+        "Frenchie Bulldog",
+        "Bulldog Français"
+      ],
+      "searchText": "french bulldog frenchie french bulldog terrier bouledogue français boubou frog dog frenchie bulldog bulldog français"
+    },
+    {
+      "id": "63b26816-7d57-43b6-8839-1d11a56a16bd",
+      "name": "BOUVIER_DES_ARDENNES",
+      "displayName": "Bouvier",
+      "altNames": [
+        "Bouvier des Ardennes",
+        "Ardennes Bouvier",
+        "Belgian Bouvier",
+        "Bouvier",
+        "Bouvier des Flandres"
+      ],
+      "searchText": "bouvier bouvier des ardennes ardennes bouvier belgian bouvier bouvier bouvier des flandres"
+    },
+    {
+      "id": "b314615a-9c2c-4f3c-a7c6-0adfc68021af",
+      "name": "BOUVIER_DES_FLANDRES_VLAAMSE_KOEHOND",
+      "displayName": "Bouvier",
+      "altNames": [
+        "Bouvier des Flandres",
+        "Flemish Cowdog",
+        "Vlaamse Koehond",
+        "Belgian Cattle Dog",
+        "Toughie",
+        "Bouv"
+      ],
+      "searchText": "bouvier bouvier des flandres flemish cowdog vlaamse koehond belgian cattle dog toughie bouv"
+    },
+    {
+      "id": "a03da21b-3805-4136-a6e5-71b33153fa61",
+      "name": "BRACCO_ITALIANO",
+      "displayName": "Bracco",
+      "altNames": [
+        "Italian Pointer",
+        "Bracco Italiano Pointer",
+        "Italian Pointing Dog",
+        "Bracco",
+        "Italian Bird Dog",
+        "Bracco Dogs",
+        "Italian Hunting Dog",
+        "Bracco Italiano Hunting Dog"
+      ],
+      "searchText": "bracco italian pointer bracco italiano pointer italian pointing dog bracco italian bird dog bracco dogs italian hunting dog bracco italiano hunting dog"
+    },
+    {
+      "id": "43aa2934-db03-481b-bfe2-f537b2b4d44f",
+      "name": "BRANDLBRACKE",
+      "displayName": "Bracke",
+      "altNames": [
+        "Vieräugl",
+        "Brandlbracke",
+        "Austrian Black and Tan Hound",
+        "Alpine Dachsbracke",
+        "Dachsbracke",
+        "Alpine Hound",
+        "Four-Eyed Bracke"
+      ],
+      "searchText": "bracke vieräugl brandlbracke austrian black and tan hound alpine dachsbracke dachsbracke alpine hound four-eyed bracke"
+    },
+    {
+      "id": "cab7050f-637a-4be3-a0c2-5541b90f3064",
+      "name": "BRAQUE_DAUVERGNE",
+      "displayName": "Braque d'Auvergne",
+      "altNames": [
+        "Auvergne Pointer",
+        "Braque of Auvergne",
+        "Auvergne Braque",
+        "French Pointer Auvergne"
+      ],
+      "searchText": "braque d'auvergne auvergne pointer braque of auvergne auvergne braque french pointer auvergne"
+    },
+    {
+      "id": "242c1c4f-a214-4e66-9168-bbbeadeba0ce",
+      "name": "BRAQUE_DE_LARIEGE",
+      "displayName": "Ariégeois Pointer",
+      "altNames": [
+        "Braque de l'Ariège",
+        "Ariège Pointer",
+        "Braque Ariégeois",
+        "Ariège",
+        "French Pointer",
+        "Braque de l'Ariège Pointer"
+      ],
+      "searchText": "ariégeois pointer braque de l'ariège ariège pointer braque ariégeois ariège french pointer braque de l'ariège pointer"
+    },
+    {
+      "id": "e928fd31-6de7-4844-8ffd-2951a43eba01",
+      "name": "BRAQUE_DU_BOURBONNAIS",
+      "displayName": "Bourbonnais Pointer",
+      "altNames": [
+        "Braque Bourbonnais",
+        "Bourbonnais",
+        "French Pointer",
+        "Bourbonnais Setter",
+        "Braque du Bourbonnais Pointer",
+        "Bourbonnais Hunting Dog",
+        "French Braque"
+      ],
+      "searchText": "bourbonnais pointer braque bourbonnais bourbonnais french pointer bourbonnais setter braque du bourbonnais pointer bourbonnais hunting dog french braque"
+    },
+    {
+      "id": "c0d9815e-93cc-4654-9d43-345943357e0d",
+      "name": "BRAQUE_FRANCAIS_TYPE_GASCOGNE",
+      "displayName": "Braque Francais",
+      "altNames": [
+        "French Pointer",
+        "Braque Francais Gascogne",
+        "Gascony Braque",
+        "French Gun Dog",
+        "Braque de Gascogne",
+        "Gascogne Pointer",
+        "French Pointer Gascogne"
+      ],
+      "searchText": "braque francais french pointer braque francais gascogne gascony braque french gun dog braque de gascogne gascogne pointer french pointer gascogne"
+    },
+    {
+      "id": "45b9626e-864d-481f-a289-b5694fb42cf1",
+      "name": "BRAQUE_FRANCAIS_TYPE_PYRENEES",
+      "displayName": "Braque Francais",
+      "altNames": [
+        "French Pointer",
+        "Braque Francais Pyrenean",
+        "Pyrenean Braque",
+        "Braque Francais type Pyrenees",
+        "French Pointing Dog Pyrenean",
+        "Braque du Pyrenees"
+      ],
+      "searchText": "braque francais french pointer braque francais pyrenean pyrenean braque braque francais type pyrenees french pointing dog pyrenean braque du pyrenees"
+    },
+    {
+      "id": "44c628f2-f8d6-4ee7-984a-8857f9bfe796",
+      "name": "BRAQUE_SAINT_GERMAIN",
+      "displayName": "Saint-Germain Pointer",
+      "altNames": [
+        "Braque Saint-Germain",
+        "Saint-Germain Braque",
+        "Braque de Saint-Germain",
+        "Saint Germain Pointer",
+        "Braque Saint Germain",
+        "Saint-Germain",
+        "Braque Saint Germain Pointer"
+      ],
+      "searchText": "saint-germain pointer braque saint-germain saint-germain braque braque de saint-germain saint germain pointer braque saint germain saint-germain braque saint germain pointer"
+    },
+    {
+      "id": "eb39b9cd-921e-43c8-a194-d9fcb57cb3fe",
+      "name": "BRIQUET_GRIFFON_VENDEEN",
+      "displayName": "Briquet Griffon Vendeen",
+      "altNames": [
+        "Griffon Vendeen",
+        "Petit Griffon Vendeen",
+        "Vendeen Griffon",
+        "Griffon Vendeen Petit",
+        "Briquet Vendeen",
+        "BGV"
+      ],
+      "searchText": "briquet griffon vendeen griffon vendeen petit griffon vendeen vendeen griffon griffon vendeen petit briquet vendeen bgv"
+    },
+    {
+      "id": "44dba130-f893-4f90-bde2-4a2b34ae67f0",
+      "name": "BROHOLMER",
+      "displayName": "Broholmer",
+      "altNames": [
+        "Broholmer Dog",
+        "Danish Broholmer",
+        "Broholmer Mastiff",
+        "Old Danish Mastiff",
+        "Broholmer Hound",
+        "Danish Hound",
+        "Broholmer Bulldog"
+      ],
+      "searchText": "broholmer broholmer dog danish broholmer broholmer mastiff old danish mastiff broholmer hound danish hound broholmer bulldog"
+    },
+    {
+      "id": "9c2021c5-282c-4150-b127-653d0707c706",
+      "name": "BULL_TERRIER",
+      "displayName": "Bull Terrier",
+      "altNames": [
+        "Bully",
+        "Miniature Bull Terrier",
+        "Staffy Bull",
+        "Bull Terrier Miniature",
+        "English Bull Terrier",
+        "Bully Terrier",
+        "BT"
+      ],
+      "searchText": "bull terrier bully miniature bull terrier staffy bull bull terrier miniature english bull terrier bully terrier bt"
+    },
+    {
+      "id": "f3f1da75-34b8-4141-b44e-1acf42c22fea",
+      "name": "BULLDOG",
+      "displayName": "Bulldog",
+      "altNames": [
+        "English Bulldog",
+        "Bully",
+        "Old English Bulldog",
+        "Bulldogge",
+        "Bully Bulldog",
+        "Bulldog England",
+        "British Bulldog"
+      ],
+      "searchText": "bulldog english bulldog bully old english bulldog bulldogge bully bulldog bulldog england british bulldog"
+    },
+    {
+      "id": "05dad165-f759-490b-8e38-437e259dd675",
+      "name": "BULLMASTIFF",
+      "displayName": "Bullmastiff",
+      "altNames": [
+        "Bull Mastiff",
+        "English Bullmastiff",
+        "Mastiff",
+        "Bully",
+        "Mastie",
+        "Bully Mastiff",
+        "Old English Mastiff"
+      ],
+      "searchText": "bullmastiff bull mastiff english bullmastiff mastiff bully mastie bully mastiff old english mastiff"
+    },
+    {
+      "id": "e464ce87-f959-4757-b7e1-023dbaa923bd",
+      "name": "CA_DE_BESTIAR",
+      "displayName": "Catalan Sheepdog",
+      "altNames": [
+        "Ca de Pastor",
+        "Perro de Pastor Catalán",
+        "Gos d'Atura Català",
+        "Catalan Shepherd",
+        "Catalan Sheepdog",
+        "Pastor Catalán",
+        "Gos de Pastor"
+      ],
+      "searchText": "catalan sheepdog ca de pastor perro de pastor catalán gos d'atura català catalan shepherd catalan sheepdog pastor catalán gos de pastor"
+    },
+    {
+      "id": "7f849202-b5ca-4c0e-b13a-523b701127cc",
+      "name": "CAIRN_TERRIER",
+      "displayName": "Cairn",
+      "altNames": [
+        "Cairn Terrier Dog",
+        "West Highland White Terrier",
+        "Skye Terrier",
+        "Terrier Cairn",
+        "Cairn Terrier Puppy",
+        "Cairn Terrier Dog Breed",
+        "Cairn Terrier Mix",
+        "Cairn Terrier Information",
+        "Cairn Terrier Temperament",
+        "Cairn Terrier Training"
+      ],
+      "searchText": "cairn cairn terrier dog west highland white terrier skye terrier terrier cairn cairn terrier puppy cairn terrier dog breed cairn terrier mix cairn terrier information cairn terrier temperament cairn terrier training"
+    },
+    {
+      "id": "7f895fb8-a805-4a55-9ae3-dc2c0541982d",
+      "name": "CANAAN_DOG",
+      "displayName": "Canaan Dog",
+      "altNames": [
+        "Canaan",
+        "Kelev Canaan",
+        "Israeli Canaan Dog",
+        "Bedouin Sheepdog",
+        "Levantine Canaan Dog",
+        "Kanaan Dog",
+        "Canaan Sheepdog"
+      ],
+      "searchText": "canaan dog canaan kelev canaan israeli canaan dog bedouin sheepdog levantine canaan dog kanaan dog canaan sheepdog"
+    },
+    {
+      "id": "4a7e4544-8a4c-4b76-9fa1-74b5f0ffef79",
+      "name": "CANADIAN_ESKIMO_DOG",
+      "displayName": "Canadian Eskimo Dog",
+      "altNames": [
+        "Canadian Inuit Dog",
+        "Inuit Dog",
+        "Qimmiq",
+        "Greenland Dog",
+        "Eskimo Dog",
+        "Canadian Husky",
+        "Inuit Qimmit",
+        "Northern Dog"
+      ],
+      "searchText": "canadian eskimo dog canadian inuit dog inuit dog qimmiq greenland dog eskimo dog canadian husky inuit qimmit northern dog"
+    },
+    {
+      "id": "7c74329b-7ff9-4dcd-9b47-58ad8ce69f02",
+      "name": "CANE_CORSO_ITALIANO",
+      "displayName": "Cane Corso",
+      "altNames": [
+        "Italian Mastiff",
+        "Corso",
+        "Cane Corso Italiano Mastiff",
+        "Italian Cane Corso",
+        "Corso Italiano",
+        "Molossus of Epirus",
+        "Molosser",
+        "Italian Bulldog"
+      ],
+      "searchText": "cane corso italian mastiff corso cane corso italiano mastiff italian cane corso corso italiano molossus of epirus molosser italian bulldog"
+    },
+    {
+      "id": "993eb3b7-498f-447b-830a-47381aca5d81",
+      "name": "CANE_DA_PASTORE_BERGAMASCO",
+      "displayName": "Bergamasco",
+      "altNames": [
+        "Bergamasco Shepherd",
+        "Cane da Pastore Bergamasco",
+        "Bergamasco Sheepdog",
+        "Bergamasco Dog",
+        "Italian Bergamasco",
+        "Bergamasco Cattle Dog",
+        "Bergamasco herding dog"
+      ],
+      "searchText": "bergamasco bergamasco shepherd cane da pastore bergamasco bergamasco sheepdog bergamasco dog italian bergamasco bergamasco cattle dog bergamasco herding dog"
+    },
+    {
+      "id": "51547dee-cd80-4528-8b3d-e5719e6c44e9",
+      "name": "CANE_DA_PASTORE_MAREMMANO_ABRUZZESE",
+      "displayName": "Maremma Sheepdog",
+      "altNames": [
+        "Maremma",
+        "Maremmano",
+        "Abruzzese",
+        "Cane da Pastore Maremmano-Abruzzese",
+        "Maremma Sheepdog Abruzzese",
+        "Italian Maremma",
+        "Abruzzese Sheepdog",
+        "Maremmano-Abruzzese"
+      ],
+      "searchText": "maremma sheepdog maremma maremmano abruzzese cane da pastore maremmano-abruzzese maremma sheepdog abruzzese italian maremma abruzzese sheepdog maremmano-abruzzese"
+    },
+    {
+      "id": "a98c4d8b-ac1e-4ec7-8bfc-475e3db8dbe0",
+      "name": "CANICHE",
+      "displayName": "Poodle",
+      "altNames": [
+        "Standard Poodle",
+        "Miniature Poodle",
+        "Toy Poodle",
+        "Caniche",
+        "French Poodle",
+        "Pudle",
+        "Pudel",
+        "Poodle Dog"
+      ],
+      "searchText": "poodle standard poodle miniature poodle toy poodle caniche french poodle pudle pudel poodle dog"
+    },
+    {
+      "id": "ee4deaec-6e24-455e-b78e-82e93392494f",
+      "name": "CAO_DA_SERRA_DA_ESTRELA",
+      "displayName": "Estrela Mountain Dog",
+      "altNames": [
+        "Serra da Estrela Mountain Dog",
+        "Portuguese Mountain Dog",
+        "Cão da Serra da Estrela",
+        "Estrela Dog",
+        "Portuguese Sheepdog",
+        "Serra Dog"
+      ],
+      "searchText": "estrela mountain dog serra da estrela mountain dog portuguese mountain dog cão da serra da estrela estrela dog portuguese sheepdog serra dog"
+    },
+    {
+      "id": "200a34d0-4c0a-4c9f-acf1-3987e28071c9",
+      "name": "CAO_DA_SERRA_DE_AIRES",
+      "displayName": "Portuguese Sheepdog",
+      "altNames": [
+        "Cão da Serra de Aires",
+        "Serra de Aires Dog",
+        "Portuguese Cattle Dog",
+        "Aires Shepherd",
+        "Portuguese Mountain Dog",
+        "Cão da Serra",
+        "Pastor Português da Serra de Aires",
+        "Portuguese Shepherd Dog"
+      ],
+      "searchText": "portuguese sheepdog cão da serra de aires serra de aires dog portuguese cattle dog aires shepherd portuguese mountain dog cão da serra pastor português da serra de aires portuguese shepherd dog"
+    },
+    {
+      "id": "6f51fb7e-8c62-495c-9406-49b495dfa957",
+      "name": "CAO_DE_AGUA_PORTUGUES",
+      "displayName": "Portuguese Water Dog",
+      "altNames": [
+        "PWD",
+        "Cão de Agua Português",
+        "Portugese Water Dog",
+        "Cao de Agua",
+        "Portuguese Waterdog",
+        "Water Dog",
+        "Perro de Agua Portugues"
+      ],
+      "searchText": "portuguese water dog pwd cão de agua português portugese water dog cao de agua portuguese waterdog water dog perro de agua portugues"
+    },
+    {
+      "id": "155f6651-7082-4246-b382-ac169b551759",
+      "name": "CAO_DE_CASTRO_LABOREIRO",
+      "displayName": "Castro Laboreiro Dog",
+      "altNames": [
+        "Portuguese Cattle Dog",
+        "Cão de Castro Laboreiro",
+        "Laboreiro Dog",
+        "Portuguese Mountain Dog",
+        "Castro Laboreiro",
+        "Cão Castro Laboreiro",
+        "Portuguese Sheepdog"
+      ],
+      "searchText": "castro laboreiro dog portuguese cattle dog cão de castro laboreiro laboreiro dog portuguese mountain dog castro laboreiro cão castro laboreiro portuguese sheepdog"
+    },
+    {
+      "id": "b729fef2-a911-47d9-a2e5-ab28a58fdbf3",
+      "name": "CAO_FILA_DE_SAO_MIGUEL",
+      "displayName": "São Miguel Cattle Dog",
+      "altNames": [
+        "Cão Fila de São Miguel",
+        "Azorean Cattle Dog",
+        "São Miguel Dog",
+        "Fila de São Miguel",
+        "Azores Cattle Dog",
+        "Cão de Gado de São Miguel",
+        "São Miguel Cattle Dog"
+      ],
+      "searchText": "são miguel cattle dog cão fila de são miguel azorean cattle dog são miguel dog fila de são miguel azores cattle dog cão de gado de são miguel são miguel cattle dog"
+    },
+    {
+      "id": "0ec482e4-0861-4465-ab0d-b76eb3ea6f61",
+      "name": "CAVALIER_KING_CHARLES_SPANIEL",
+      "displayName": "Cavalier",
+      "altNames": [
+        "Cavalier King Charles",
+        "King Charles Spaniel",
+        "CKCS",
+        "Cavalier King Charles Spaniel Dog",
+        "King Charles Dog",
+        "English Toy Spaniel"
+      ],
+      "searchText": "cavalier cavalier king charles king charles spaniel ckcs cavalier king charles spaniel dog king charles dog english toy spaniel"
+    },
+    {
+      "id": "22bb71da-c402-43df-8d65-ddbfd2813851",
+      "name": "CESKOSLOVENSKY_VLCIAK",
+      "displayName": "Czechoslovakian Wolfdog",
+      "altNames": [
+        "Czechoslovakian Wolf Dog",
+        "Ceskoslovenský Vlcak",
+        "CSV",
+        "Czechoslovakian Vlcak",
+        "Wolfdog",
+        "Czech Wolfdog",
+        "Ceskoslovensky Vlcak",
+        "Czechoslovakian Wolf"
+      ],
+      "searchText": "czechoslovakian wolfdog czechoslovakian wolf dog ceskoslovenský vlcak csv czechoslovakian vlcak wolfdog czech wolfdog ceskoslovensky vlcak czechoslovakian wolf"
+    },
+    {
+      "id": "95cfb014-a7b2-4082-863f-7e0126b83e3f",
+      "name": "CESKY_FOUSEK",
+      "displayName": "Bohemian Wirehaired Pointing Griffon",
+      "altNames": [
+        "Cesky Fousek",
+        "Bohemian Griffon",
+        "Wirehaired Bohemian Pointer",
+        "Czech Pointer",
+        "Fousek",
+        "Bohemian Wirehaired Pointer",
+        "Czech Wirehaired Pointer"
+      ],
+      "searchText": "bohemian wirehaired pointing griffon cesky fousek bohemian griffon wirehaired bohemian pointer czech pointer fousek bohemian wirehaired pointer czech wirehaired pointer"
+    },
+    {
+      "id": "bacd107f-d007-47e4-89a1-4d5f7e9353a6",
+      "name": "CESKY_TERIER",
+      "displayName": "Czech Terrier",
+      "altNames": [
+        "Bohemian Terrier",
+        "Český teriér",
+        "Czech Terrier Dog",
+        "Bohemian Terrier Dog",
+        "Terrier Bohemien",
+        "Ceský teriér"
+      ],
+      "searchText": "czech terrier bohemian terrier český teriér czech terrier dog bohemian terrier dog terrier bohemien ceský teriér"
+    },
+    {
+      "id": "a4c2b262-838a-4e12-bd54-7e8582b131d9",
+      "name": "CHART_POLSKI",
+      "displayName": "Polish Greyhound",
+      "altNames": [
+        "Chart Polski",
+        "Polish Hunting Greyhound",
+        "Polish Sighthound",
+        "Greyhound Polski",
+        "Polish Hound",
+        "Ch Polski"
+      ],
+      "searchText": "polish greyhound chart polski polish hunting greyhound polish sighthound greyhound polski polish hound ch polski"
+    },
+    {
+      "id": "74e9b8df-337e-4d88-a0af-60ca0341ca2b",
+      "name": "CHESAPEAKE_BAY_RETRIEVER",
+      "displayName": "Chessie",
+      "altNames": [
+        "Chesapeake Bay",
+        "Chesapeake Retriever",
+        "Bay Dog",
+        "Chessie Dog",
+        "Chesapeake Bay Dog",
+        "Bay Retriever",
+        "Chesapeake Bay Duck Dog"
+      ],
+      "searchText": "chessie chesapeake bay chesapeake retriever bay dog chessie dog chesapeake bay dog bay retriever chesapeake bay duck dog"
+    },
+    {
+      "id": "75379385-2d4c-4bde-b715-4996e646cf3a",
+      "name": "CHIEN_DARTOIS",
+      "displayName": "Artois Hound",
+      "altNames": [
+        "Chien d'Artois",
+        "Artois",
+        "Artois Hunting Dog",
+        "Artois Pointer",
+        "Chien de Chasse Artois",
+        "Artois Braque",
+        "Artois Scent Hound"
+      ],
+      "searchText": "artois hound chien d'artois artois artois hunting dog artois pointer chien de chasse artois artois braque artois scent hound"
+    },
+    {
+      "id": "ccbb6363-f10d-4b47-9270-7d8e3863abe3",
+      "name": "CHIEN_DE_BERGER_BELGE",
+      "displayName": "Belgian Shepherd",
+      "altNames": [
+        "Belgian Sheepdog",
+        "Belgian Malinois",
+        "Belgian Tervuren",
+        "Belgian Laekenois",
+        "Chien Berger Belge",
+        "Belgian Herder",
+        "Belgian Shepherd Dog",
+        "Malinois",
+        "Tervuren",
+        "Laekenois"
+      ],
+      "searchText": "belgian shepherd belgian sheepdog belgian malinois belgian tervuren belgian laekenois chien berger belge belgian herder belgian shepherd dog malinois tervuren laekenois"
+    },
+    {
+      "id": "356bc4e0-b4e6-4046-897f-8de815f41b4b",
+      "name": "CHIEN_DE_BERGER_DES_PYRENEES_A_FACE_RASE",
+      "displayName": "Pyrenean Shepherd",
+      "altNames": [
+        "Pyrenean Sheepdog",
+        "Chien de Berger des Pyrénées",
+        "Berger des Pyrénées",
+        "Pyrenean Shepherd Dog",
+        "Petite Pyrénées",
+        "Pyr Shep",
+        "Pyrenean",
+        "Berger des Pyrenees a face rase"
+      ],
+      "searchText": "pyrenean shepherd pyrenean sheepdog chien de berger des pyrénées berger des pyrénées pyrenean shepherd dog petite pyrénées pyr shep pyrenean berger des pyrenees a face rase"
+    },
+    {
+      "id": "c7b579bf-8261-44a2-9440-55207499b464",
+      "name": "CHIEN_DE_BERGER_DES_PYRENEES_A_POIL_LONG",
+      "displayName": "Pyrenean Sheepdog",
+      "altNames": [
+        "Pyrenean Shepherd",
+        "Berger des Pyrenees",
+        "Pyrenean Sheepdog Long Haired",
+        "Chien de Berger des Pyrenees",
+        "Pyrenean Shepherd Dog",
+        "Pyrenean Mountain Dog",
+        "Pyrenean Herder",
+        "Berger des Pyrénées à poil long"
+      ],
+      "searchText": "pyrenean sheepdog pyrenean shepherd berger des pyrenees pyrenean sheepdog long haired chien de berger des pyrenees pyrenean shepherd dog pyrenean mountain dog pyrenean herder berger des pyrénées à poil long"
+    },
+    {
+      "id": "b005fa82-5bde-46c1-90ea-0a7e976e44aa",
+      "name": "CHIEN_DE_MONTAGNE_DES_PYRENEES",
+      "displayName": "Great Pyrenees",
+      "altNames": [
+        "Pyrenean Mountain Dog",
+        "Pyrenean Mastiff",
+        "Montagne des Pyrénées",
+        "Chien de Montagne des Pyrénées",
+        "Pyrenean",
+        "Pyr",
+        "Pyrenean Shepherd Dog"
+      ],
+      "searchText": "great pyrenees pyrenean mountain dog pyrenean mastiff montagne des pyrénées chien de montagne des pyrénées pyrenean pyr pyrenean shepherd dog"
+    },
+    {
+      "id": "dfa7908c-24e1-4a2f-b93b-a2490626346a",
+      "name": "CHIEN_DE_SAINT_HUBERT",
+      "displayName": "Bloodhound",
+      "altNames": [
+        "Saint Hubert Hound",
+        "Chien de Saint-Hubert",
+        "Hubert Hound",
+        "Old English Bloodhound",
+        "St. Hubert's Dog",
+        "Bloodhound Dog"
+      ],
+      "searchText": "bloodhound saint hubert hound chien de saint-hubert hubert hound old english bloodhound st. hubert's dog bloodhound dog"
+    },
+    {
+      "id": "c371dfab-7962-4955-8b16-146cb199a408",
+      "name": "CHIHUAHUENO",
+      "displayName": "Chihuahua",
+      "altNames": [
+        "Chihuahueño",
+        "Chihua",
+        "Chihuhua",
+        "Chiwawa",
+        "Chihuahua Dog",
+        "Chihuahua Puppy",
+        "Chihuahua Toy",
+        "Chihuahua Miniature"
+      ],
+      "searchText": "chihuahua chihuahueño chihua chihuhua chiwawa chihuahua dog chihuahua puppy chihuahua toy chihuahua miniature"
+    },
+    {
+      "id": "1127a2da-153c-4ee7-bc57-5b1b100f0f49",
+      "name": "CHIN",
+      "displayName": "Chin",
+      "altNames": [
+        "Japanese Chin",
+        "Chin-Chin",
+        "Japanese Spaniel",
+        "Chin Chin Dog",
+        "Japanese Toy Dog",
+        "Chin-chin",
+        "Japanese Pug"
+      ],
+      "searchText": "chin japanese chin chin-chin japanese spaniel chin chin dog japanese toy dog chin-chin japanese pug"
+    },
+    {
+      "id": "5fc61e11-600d-4f79-9bc5-976630244fdc",
+      "name": "CHINESE_CRESTED_DOG",
+      "displayName": "Chinese Crested",
+      "altNames": [
+        "Crested",
+        "Chinese Hairless",
+        "Hairless Chinese Crested",
+        "Powderpuff",
+        "Chinese Crested Dog",
+        "Chinese Crested Hairless",
+        "Chinese Crested Powderpuff"
+      ],
+      "searchText": "chinese crested crested chinese hairless hairless chinese crested powderpuff chinese crested dog chinese crested hairless chinese crested powderpuff"
+    },
+    {
+      "id": "32ced8af-b71b-489c-a9af-3bf5c1f25eea",
+      "name": "CHOW_CHOW",
+      "displayName": "Chow Chow",
+      "altNames": [
+        "Chow",
+        "Tang Quan",
+        "Songshi Quan",
+        "Chinese Foo Dog",
+        "Chinese Bear Dog",
+        "Kwantung Dog",
+        "Chow Chow Dog",
+        "Chow Chow Puppy"
+      ],
+      "searchText": "chow chow chow tang quan songshi quan chinese foo dog chinese bear dog kwantung dog chow chow dog chow chow puppy"
+    },
+    {
+      "id": "709a8f4e-5e69-400e-8ce0-bcc7fe4a43ae",
+      "name": "CIMARRON_URUGUAYO",
+      "displayName": "Cimarrón",
+      "altNames": [
+        "Cimarron Uruguayo",
+        "Perro Cimarrón",
+        "Uruguayan Cimarrón",
+        "Uruguayan Bulldog",
+        "Cimarrón Dog",
+        "Uruguayan Mastiff",
+        "Cimarrón de Uruguay"
+      ],
+      "searchText": "cimarrón cimarron uruguayo perro cimarrón uruguayan cimarrón uruguayan bulldog cimarrón dog uruguayan mastiff cimarrón de uruguay"
+    },
+    {
+      "id": "92ea64b9-6c1e-4b82-b9fe-8b6248cc24df",
+      "name": "CIOBANESC_ROMANESC_CARPATIN",
+      "displayName": "Carpathian Shepherd Dog",
+      "altNames": [
+        "Romanian Carpathian Shepherd Dog",
+        "Ciobănesc Românesc Carpatin",
+        "Romanian Shepherd Dog",
+        "Carpathian",
+        "Romanian Mountain Dog",
+        "Carpatin Dog",
+        "Romanian Sheepdog",
+        "Carpathian Sheepdog"
+      ],
+      "searchText": "carpathian shepherd dog romanian carpathian shepherd dog ciobănesc românesc carpatin romanian shepherd dog carpathian romanian mountain dog carpatin dog romanian sheepdog carpathian sheepdog"
+    },
+    {
+      "id": "7626e2a4-2e2a-49b7-8789-92c5df5665b6",
+      "name": "CIOBANESC_ROMANESC_DE_BUCOVINA",
+      "displayName": "Romanian Shepherd Dog",
+      "altNames": [
+        "Ciobanesc Romanesc de Bucovina",
+        "Bucovina Shepherd Dog",
+        "Romanian Bucovina Shepherd",
+        "Bucovina Ciobanesc",
+        "Romanian Mountain Dog",
+        "Bucovina Mountain Dog",
+        "Romanian Bucovina",
+        "Bucovina Dog"
+      ],
+      "searchText": "romanian shepherd dog ciobanesc romanesc de bucovina bucovina shepherd dog romanian bucovina shepherd bucovina ciobanesc romanian mountain dog bucovina mountain dog romanian bucovina bucovina dog"
+    },
+    {
+      "id": "8769f8e3-f81b-4614-adcd-020be919eed8",
+      "name": "CIOBANESC_ROMANESC_MIORITIC",
+      "displayName": "Mioritic",
+      "altNames": [
+        "Romanian Mioritic Shepherd Dog",
+        "Ciobănesc Românesc Mioritic",
+        "Romanian Shepherd Dog",
+        "Mioritic Shepherd",
+        "Romanian Mountain Dog",
+        "Mioritic Sheepdog",
+        "Romanian Mioritic",
+        "Mioritic Dog"
+      ],
+      "searchText": "mioritic romanian mioritic shepherd dog ciobănesc românesc mioritic romanian shepherd dog mioritic shepherd romanian mountain dog mioritic sheepdog romanian mioritic mioritic dog"
+    },
+    {
+      "id": "c30e87ca-8309-4f60-b589-f19d4e26795e",
+      "name": "CIRNECO_DELLETNA",
+      "displayName": "Cirneco",
+      "altNames": [
+        "Cirneco dell'Etna",
+        "Sicilian hunting dog",
+        "Etna dog",
+        "Maltese hunting dog",
+        "Cirneco dell Etna",
+        "Sicilian Hound",
+        "Cirneco dell'Etna Dog"
+      ],
+      "searchText": "cirneco cirneco dell'etna sicilian hunting dog etna dog maltese hunting dog cirneco dell etna sicilian hound cirneco dell'etna dog"
+    },
+    {
+      "id": "66c84d8c-9323-44a8-8028-fa6e609e2218",
+      "name": "CLUMBER_SPANIEL",
+      "displayName": "Clumber",
+      "altNames": [
+        "Clumber Spaniel Dog",
+        "Clumber Spaniel Dog Breed",
+        "Clumber Spaniel Dog For Sale",
+        "Clumber Spaniel Puppy",
+        "Clumber Spaniel Temperament",
+        "Clumber Spaniel Price",
+        "Clumber Spaniel Characteristics",
+        "Clumber Spaniel History",
+        "Clumber Spaniel Grooming",
+        "Clumber Spaniel Health"
+      ],
+      "searchText": "clumber clumber spaniel dog clumber spaniel dog breed clumber spaniel dog for sale clumber spaniel puppy clumber spaniel temperament clumber spaniel price clumber spaniel characteristics clumber spaniel history clumber spaniel grooming clumber spaniel health"
+    },
+    {
+      "id": "337f3567-c90f-4ffc-bf58-efa630a24b64",
+      "name": "COLLIE_ROUGH",
+      "displayName": "Collie",
+      "altNames": [
+        "Rough Collie",
+        "Collie Dog",
+        "Scotch Collie",
+        "Long-Haired Collie",
+        "Lassie Dog",
+        "Collie Sheepdog",
+        "Border Collie"
+      ],
+      "searchText": "collie rough collie collie dog scotch collie long-haired collie lassie dog collie sheepdog border collie"
+    },
+    {
+      "id": "69ad1f72-df33-4073-a40c-c57dc70c2a5c",
+      "name": "COLLIE_SMOOTH",
+      "displayName": "Collie",
+      "altNames": [
+        "Smooth Collie",
+        "Collie Dog",
+        "Collie Rough",
+        "Scotch Collie",
+        "Lassie Dog",
+        "Border Collie",
+        "Farm Collie",
+        "Working Collie"
+      ],
+      "searchText": "collie smooth collie collie dog collie rough scotch collie lassie dog border collie farm collie working collie"
+    },
+    {
+      "id": "e1b6055f-416e-4e56-9fc6-5c79cf6c3ba7",
+      "name": "COTON_DE_TULEAR",
+      "displayName": "Coton",
+      "altNames": [
+        "Coton de Tulear",
+        "Coton du Madagascar",
+        "Madagascar Dog",
+        "Cotton Dog",
+        "Coton",
+        "Coton de Tuléar",
+        "Coton du Tulear"
+      ],
+      "searchText": "coton coton de tulear coton du madagascar madagascar dog cotton dog coton coton de tuléar coton du tulear"
+    },
+    {
+      "id": "9e6ea423-1ff8-4cd8-b0ea-bcbccabdfd06",
+      "name": "CRNOGORSKI_PLANINSKI_GONIC",
+      "displayName": "Montenegrin Mountain Hound",
+      "altNames": [
+        "Crnogorski Planinski Gonic",
+        "Montenegrin Hound",
+        "Yugoslavian Mountain Hound",
+        "Crnogorski Gonic",
+        "Montenegrin Mountain Dog",
+        "Crnogorski Planinski Gonic Breed",
+        "Mountain Hound of Montenegro"
+      ],
+      "searchText": "montenegrin mountain hound crnogorski planinski gonic montenegrin hound yugoslavian mountain hound crnogorski gonic montenegrin mountain dog crnogorski planinski gonic breed mountain hound of montenegro"
+    },
+    {
+      "id": "34052a4e-63ac-4e3d-9d69-aea1268cc988",
+      "name": "CURLY_COATED_RETRIEVER",
+      "displayName": "Curly Coated Retriever",
+      "altNames": [
+        "Curly",
+        "Curlycoat",
+        "Curly Coated",
+        "Curly Retriever",
+        "CC Retriever",
+        "English Curly Coated Retriever",
+        "Curly-Coated Retriever"
+      ],
+      "searchText": "curly coated retriever curly curlycoat curly coated curly retriever cc retriever english curly coated retriever curly-coated retriever"
+    },
+    {
+      "id": "23499cc0-1a1b-4cd6-abf6-0993455d4df7",
+      "name": "DACHSHUND",
+      "displayName": "Dachshund",
+      "altNames": [
+        "Doxie",
+        "Wiener Dog",
+        "Sausage Dog",
+        "Doxiepoo",
+        "Dachshund Dog",
+        "Dachshund Puppy",
+        "Miniature Dachshund",
+        "Standard Dachshund",
+        "Teckel",
+        "Badger Dog"
+      ],
+      "searchText": "dachshund doxie wiener dog sausage dog doxiepoo dachshund dog dachshund puppy miniature dachshund standard dachshund teckel badger dog"
+    },
+    {
+      "id": "9c4fe5ca-1069-432a-aa93-a089143c7df0",
+      "name": "DALMATINSKI_PAS",
+      "displayName": "Dalmatian",
+      "altNames": [
+        "Dalmatinac",
+        "Dalmation",
+        "Spotted Dog",
+        "Coach Dog",
+        "Carriage Dog",
+        "Plum Pudding Dog",
+        "English Coach Dog"
+      ],
+      "searchText": "dalmatian dalmatinac dalmation spotted dog coach dog carriage dog plum pudding dog english coach dog"
+    },
+    {
+      "id": "b260a10c-8edc-43ac-819e-1933374c6fbe",
+      "name": "DANDIE_DINMONT_TERRIER",
+      "displayName": "Dandie",
+      "altNames": [
+        "Dandie Dinmont",
+        "Dandie Dinmont Terrier",
+        "Dandie Dinmont Terrier Dog",
+        "Dandie Dinmont Terrier Puppy",
+        "Dandie Dinmont Terrier Breed",
+        "Dandie Dinmont Terrier Dog Breed",
+        "Dandie Dinmont Terrier Dog Puppy",
+        "Dandie Dinmont Terrier Puppy Dog"
+      ],
+      "searchText": "dandie dandie dinmont dandie dinmont terrier dandie dinmont terrier dog dandie dinmont terrier puppy dandie dinmont terrier breed dandie dinmont terrier dog breed dandie dinmont terrier dog puppy dandie dinmont terrier puppy dog"
+    },
+    {
+      "id": "793a6bed-f919-4c28-bf73-5995d30a6fa7",
+      "name": "DANSK_SVENSK_GARDSHUND",
+      "displayName": "Farmdog",
+      "altNames": [
+        "Dansk Svensk Gårdshund",
+        "Swedish Farm Dog",
+        "Danish Farm Dog",
+        "DSG",
+        "Scandi Farmdog",
+        "Nordic Farmdog",
+        "Gårdshund",
+        "Skåneterrier"
+      ],
+      "searchText": "farmdog dansk svensk gårdshund swedish farm dog danish farm dog dsg scandi farmdog nordic farmdog gårdshund skåneterrier"
+    },
+    {
+      "id": "d165de01-9c73-458c-9f05-67ddbc235886",
+      "name": "DEERHOUND",
+      "displayName": "Deerhound",
+      "altNames": [
+        "Scottish Deerhound",
+        "Scot",
+        "Deerhound Scot",
+        "Scottish Hound",
+        "Great Scottish Deerhound",
+        "Deer Dog"
+      ],
+      "searchText": "deerhound scottish deerhound scot deerhound scot scottish hound great scottish deerhound deer dog"
+    },
+    {
+      "id": "39ede911-b0c7-4d76-a749-7fc9febf47c5",
+      "name": "DEUTSCH_DRAHTHAAR",
+      "displayName": "Wirehaired Pointer",
+      "altNames": [
+        "Deutsch Drahthaar",
+        "DD",
+        "German Wirehaired Pointer",
+        "Draht",
+        "German Rough-haired Pointer",
+        "Drahthaar"
+      ],
+      "searchText": "wirehaired pointer deutsch drahthaar dd german wirehaired pointer draht german rough-haired pointer drahthaar"
+    },
+    {
+      "id": "a56e0321-ef0e-4dc6-b5d7-f3b048451efd",
+      "name": "DEUTSCH_KURZHAAR",
+      "displayName": "German Shorthaired Pointer",
+      "altNames": [
+        "GSP",
+        "Deutsch Kurzhaar",
+        "German Pointer",
+        "Short-haired German Pointer",
+        "German Shorthair",
+        "Kurzhaar"
+      ],
+      "searchText": "german shorthaired pointer gsp deutsch kurzhaar german pointer short-haired german pointer german shorthair kurzhaar"
+    },
+    {
+      "id": "f44bca0b-766d-405c-a18e-d592e973382b",
+      "name": "DEUTSCH_LANGHAAR",
+      "displayName": "Deutsch Langhaar",
+      "altNames": [
+        "German Longhaired Pointer",
+        "DL",
+        "Deutsch Langhaar Pointer",
+        "German Longhair",
+        "Longhaired German Pointer",
+        "Deutsch-Langhaar"
+      ],
+      "searchText": "deutsch langhaar german longhaired pointer dl deutsch langhaar pointer german longhair longhaired german pointer deutsch-langhaar"
+    },
+    {
+      "id": "dc6c9de5-cb22-4aa0-b19e-87895870b795",
+      "name": "DEUTSCH_STICHELHAAR",
+      "displayName": "Wirehaired Pointing Griffon",
+      "altNames": [
+        "Deutsch Stichelhaar",
+        "Stichelhaar",
+        "German Wirehaired Pointer",
+        "Griffon d'arrêt à poil dur",
+        "Korthals Griffon",
+        "Wirehaired Griffon",
+        "German Pointer (Wirehaired)",
+        "Stichelhaar Pointer"
+      ],
+      "searchText": "wirehaired pointing griffon deutsch stichelhaar stichelhaar german wirehaired pointer griffon d'arrêt à poil dur korthals griffon wirehaired griffon german pointer (wirehaired) stichelhaar pointer"
+    },
+    {
+      "id": "ac6be756-6536-451a-8984-d184f611f79b",
+      "name": "DEUTSCHE_BRACKE",
+      "displayName": "German Hound",
+      "altNames": [
+        "Deutsche Bracke",
+        "German Bracke",
+        "German Hunting Hound",
+        "Bracke",
+        "German Scent Hound"
+      ],
+      "searchText": "german hound deutsche bracke german bracke german hunting hound bracke german scent hound"
+    },
+    {
+      "id": "6d8d1946-12b0-491b-87e7-61effdd251c1",
+      "name": "DEUTSCHE_DOGGE",
+      "displayName": "Great Dane",
+      "altNames": [
+        "Deutsche Dogge",
+        "German Mastiff",
+        "Danish Hound",
+        "Gentle Giant",
+        "Dogue Allemand",
+        "German Boarhound",
+        "Ulmer Dogge",
+        "German Hound"
+      ],
+      "searchText": "great dane deutsche dogge german mastiff danish hound gentle giant dogue allemand german boarhound ulmer dogge german hound"
+    },
+    {
+      "id": "ea881b2a-1354-484b-a440-7eb17f92928b",
+      "name": "DEUTSCHER_BOXER",
+      "displayName": "Boxer",
+      "altNames": [
+        "Deutscher Boxer",
+        "German Boxer",
+        "Boxer Dog",
+        "Boxer Hund",
+        "Boxer Dog Breed",
+        "German Boxer Dog"
+      ],
+      "searchText": "boxer deutscher boxer german boxer boxer dog boxer hund boxer dog breed german boxer dog"
+    },
+    {
+      "id": "f93a2e80-bf09-492d-8053-97cb3f5a23c8",
+      "name": "DEUTSCHER_JAGDTERRIER",
+      "displayName": "Jagdterrier",
+      "altNames": [
+        "German Hunting Terrier",
+        "Deutscher Jagdterrier",
+        "Jagd",
+        "German Terrier",
+        "Hunting Terrier",
+        "DJT"
+      ],
+      "searchText": "jagdterrier german hunting terrier deutscher jagdterrier jagd german terrier hunting terrier djt"
+    },
+    {
+      "id": "ce437938-0ca6-46e3-8bec-bce12a6d47e6",
+      "name": "DEUTSCHER_PINSCHER",
+      "displayName": "German Pinscher",
+      "altNames": [
+        "Deutscher Pinscher",
+        "German Pinscher Dog",
+        "Pinscher",
+        "German Pinscher Breed",
+        "Deutscher Pinscher Dog",
+        "Pinscher Dog"
+      ],
+      "searchText": "german pinscher deutscher pinscher german pinscher dog pinscher german pinscher breed deutscher pinscher dog pinscher dog"
+    },
+    {
+      "id": "19c390f4-894f-4805-8808-27c2edbf61e4",
+      "name": "DEUTSCHER_SCHAFERHUND",
+      "displayName": "German Shepherd",
+      "altNames": [
+        "GSD",
+        "Alsatian",
+        "Deutscher Schäferhund",
+        "Shepherd Dog",
+        "German Shepherd Dog",
+        "Shepherd"
+      ],
+      "searchText": "german shepherd gsd alsatian deutscher schäferhund shepherd dog german shepherd dog shepherd"
+    },
+    {
+      "id": "dd22e200-60bd-42b8-bac0-34171b0df279",
+      "name": "DEUTSCHER_SPITZ",
+      "displayName": "German Spitz",
+      "altNames": [
+        "Spitz",
+        "Deutscher Spitz",
+        "German Spitz Dog",
+        "Spitz Dog",
+        "Pomeranian"
+      ],
+      "searchText": "german spitz spitz deutscher spitz german spitz dog spitz dog pomeranian"
+    },
+    {
+      "id": "cd1c9d37-4e9a-4a71-baf6-a91038bbbeb2",
+      "name": "DEUTSCHER_WACHTELHUND",
+      "displayName": "German Spaniel",
+      "altNames": [
+        "Deutscher Wachtelhund",
+        "Wachtelhund",
+        "German Spaniel Dog",
+        "Hunting Spaniel",
+        "German Flushing Spaniel",
+        "Wachtel"
+      ],
+      "searchText": "german spaniel deutscher wachtelhund wachtelhund german spaniel dog hunting spaniel german flushing spaniel wachtel"
+    },
+    {
+      "id": "a41fea88-c4bd-46cc-89ff-9619ce93082a",
+      "name": "DO_KHYI",
+      "displayName": "Dogue",
+      "altNames": [
+        "Dogue de Bordeaux",
+        "French Mastiff",
+        "Bordeaux Mastiff",
+        "Bordeaux Bulldog",
+        "Le Dogue",
+        "French Bulldog (incorrect, but sometimes searched)",
+        "Bordeaux Dogge",
+        "Dogue de Bordo"
+      ],
+      "searchText": "dogue dogue de bordeaux french mastiff bordeaux mastiff bordeaux bulldog le dogue french bulldog (incorrect, but sometimes searched) bordeaux dogge dogue de bordo"
+    },
+    {
+      "id": "cfb9f8eb-0a09-4b03-9e6a-b5348d627054",
+      "name": "DOBERMANN",
+      "displayName": "Doberman",
+      "altNames": [
+        "Doberman Pinscher",
+        "Dobermann Pinscher",
+        "Dobermann",
+        "Dobie",
+        "Doberman Dog",
+        "Doberman Pinscher Dog",
+        "Doberman Pinschers"
+      ],
+      "searchText": "doberman doberman pinscher dobermann pinscher dobermann dobie doberman dog doberman pinscher dog doberman pinschers"
+    },
+    {
+      "id": "626d0839-cc0d-4ead-a61c-e970ebefc487",
+      "name": "DOGO_ARGENTINO",
+      "displayName": "Dogo",
+      "altNames": [
+        "Dogo Argentino",
+        "Argentine Dogo",
+        "Argentine Mastiff",
+        "Dogo Argentino Mastiff",
+        "Dogo",
+        "Argentinian Mastiff",
+        "Cordoba Fighting Dog"
+      ],
+      "searchText": "dogo dogo argentino argentine dogo argentine mastiff dogo argentino mastiff dogo argentinian mastiff cordoba fighting dog"
+    },
+    {
+      "id": "9e9f77fa-a20b-4d50-b3a5-9027206022cf",
+      "name": "DOGUE_DE_BORDEAUX",
+      "displayName": "Dogue",
+      "altNames": [
+        "French Mastiff",
+        "Bordeaux Mastiff",
+        "Dogue de Bordeaux Mastiff",
+        "French Bulldog Mastiff",
+        "DDB",
+        "Bordeaux Dog",
+        "French Mastiff Dog",
+        "Dogue de Bordeaux France"
+      ],
+      "searchText": "dogue french mastiff bordeaux mastiff dogue de bordeaux mastiff french bulldog mastiff ddb bordeaux dog french mastiff dog dogue de bordeaux france"
+    },
+    {
+      "id": "f3b540c0-9efa-46bc-bbb5-fa3828749d00",
+      "name": "DRENTSCHE_PATRIJSHOND",
+      "displayName": "Drentse Patrijshond",
+      "altNames": [
+        "Drentse Partridge Dog",
+        "Dutch Partridge Dog",
+        "Drentsche Patrijshond",
+        "Drent",
+        "Patrijshond",
+        "Drentse Pointer",
+        "Dutch Spaniel"
+      ],
+      "searchText": "drentse patrijshond drentse partridge dog dutch partridge dog drentsche patrijshond drent patrijshond drentse pointer dutch spaniel"
+    },
+    {
+      "id": "4ab6b180-b198-4beb-8c86-05241e131911",
+      "name": "DREVER",
+      "displayName": "Drever",
+      "altNames": [
+        "Swedish Dachshund Hound",
+        "Dachsbracke",
+        "Swedish Dachsbracke",
+        "Drever Hound",
+        "Drover",
+        "Small Swedish Hound"
+      ],
+      "searchText": "drever swedish dachshund hound dachsbracke swedish dachsbracke drever hound drover small swedish hound"
+    },
+    {
+      "id": "6e8a5775-892f-4718-aafa-f1606fba5dc2",
+      "name": "DROTZORU_MAGYAR_VIZSLA",
+      "displayName": "Vizsla",
+      "altNames": [
+        "Hungarian Vizsla",
+        "Magyar Vizsla",
+        "Red Vizsla",
+        "Vizsla Dog",
+        "Hungarian Pointer",
+        "Vizsla Hound",
+        "Vizsla Retriever",
+        "Vizsla Pointer"
+      ],
+      "searchText": "vizsla hungarian vizsla magyar vizsla red vizsla vizsla dog hungarian pointer vizsla hound vizsla retriever vizsla pointer"
+    },
+    {
+      "id": "673a3f16-d551-49da-b2f2-1d82e95bda09",
+      "name": "DUNKER",
+      "displayName": "Dunker",
+      "altNames": [
+        "Norwegian Hound",
+        "Norsk Dunker",
+        "Dunker Hound",
+        "Norwegian Dunker",
+        "Norsk Elghund Dunker",
+        "Dunker Elghund"
+      ],
+      "searchText": "dunker norwegian hound norsk dunker dunker hound norwegian dunker norsk elghund dunker dunker elghund"
+    },
+    {
+      "id": "6f2e7d4a-1f41-4107-b5dd-bac356f3712a",
+      "name": "ENGLISH_COCKER_SPANIEL",
+      "displayName": "Cocker Spaniel",
+      "altNames": [
+        "English Cocker",
+        "Cocker",
+        "Working Cocker Spaniel",
+        "WCS",
+        "American Cocker Spaniel"
+      ],
+      "searchText": "cocker spaniel english cocker cocker working cocker spaniel wcs american cocker spaniel"
+    },
+    {
+      "id": "8e4a4c3f-e3fc-4b71-8ea2-df7cfc077316",
+      "name": "ENGLISH_FOXHOUND",
+      "displayName": "Foxhound",
+      "altNames": [
+        "English Foxhound",
+        "Foxhound Dog",
+        "Old English Foxhound",
+        "English Fox Hound",
+        "Fox Hound",
+        "English Hound",
+        "Hound"
+      ],
+      "searchText": "foxhound english foxhound foxhound dog old english foxhound english fox hound fox hound english hound hound"
+    },
+    {
+      "id": "f90b0b4a-7b5b-4ae4-9ed5-8c613364c3a8",
+      "name": "ENGLISH_POINTER",
+      "displayName": "Pointer",
+      "altNames": [
+        "English Pointer",
+        "Pointer Dog",
+        "English Pointer Dog",
+        "Pointer Breed",
+        "English Pointer Breed",
+        "Pointer Dog Breed",
+        "Old English Pointer",
+        "English Pointing Dog"
+      ],
+      "searchText": "pointer english pointer pointer dog english pointer dog pointer breed english pointer breed pointer dog breed old english pointer english pointing dog"
+    },
+    {
+      "id": "22dc5e6c-6296-4e76-8903-54b04cd38e25",
+      "name": "ENGLISH_SETTER",
+      "displayName": "English Setter",
+      "altNames": [
+        "Setter",
+        "English Setting Dog",
+        "Belton Setter",
+        "Old English Setter",
+        "Gundog",
+        "Field Setter",
+        "Show Setter",
+        "English Pointer"
+      ],
+      "searchText": "english setter setter english setting dog belton setter old english setter gundog field setter show setter english pointer"
+    },
+    {
+      "id": "21b0da92-5c9e-48a6-92f6-220af10119a8",
+      "name": "ENGLISH_SPRINGER_SPANIEL",
+      "displayName": "Springer Spaniel",
+      "altNames": [
+        "English Springer",
+        "Springer",
+        "ES",
+        "English Springer Spaniel Dog",
+        "Working Springer Spaniel",
+        "Show Springer Spaniel",
+        "Field Spaniel"
+      ],
+      "searchText": "springer spaniel english springer springer es english springer spaniel dog working springer spaniel show springer spaniel field spaniel"
+    },
+    {
+      "id": "c6e14755-2f1b-4121-a0d9-5ceb2cda180a",
+      "name": "ENGLISH_TOY_TERRIER",
+      "displayName": "English Toy Terrier",
+      "altNames": [
+        "Black and Tan Terrier",
+        "Toy Black and Tan Terrier",
+        "ETTer",
+        "English Toy",
+        "Toy Terrier",
+        "Black and Tan Toy Terrier",
+        "Miniature Black and Tan Terrier"
+      ],
+      "searchText": "english toy terrier black and tan terrier toy black and tan terrier etter english toy toy terrier black and tan toy terrier miniature black and tan terrier"
+    },
+    {
+      "id": "76a99915-ea21-4268-b902-64f221360003",
+      "name": "ENTLEBUCHER_SENNENHUND",
+      "displayName": "Entlebucher",
+      "altNames": [
+        "Entlebucher Sennenhund",
+        "Entlebucher Mountain Dog",
+        "Entlebucher Cattle Dog",
+        "Entlebucher Sennenhund",
+        "Entlebucher",
+        "Entlebucher Swiss Mountain Dog",
+        "Entlebucher Mountain Cattle Dog",
+        "Entlebucher Cattle Mountain Dog"
+      ],
+      "searchText": "entlebucher entlebucher sennenhund entlebucher mountain dog entlebucher cattle dog entlebucher sennenhund entlebucher entlebucher swiss mountain dog entlebucher mountain cattle dog entlebucher cattle mountain dog"
+    },
+    {
+      "id": "01903fad-2e0a-412f-99e5-50d2140109e7",
+      "name": "EPAGNEUL_BLEU_DE_PICARDIE",
+      "displayName": "Picardy Spaniel",
+      "altNames": [
+        "Epagneul Bleu de Picardie",
+        "Picardy Blue Spaniel",
+        "Bleu de Picardie",
+        "Picardy Blue",
+        "French Spaniel Blue"
+      ],
+      "searchText": "picardy spaniel epagneul bleu de picardie picardy blue spaniel bleu de picardie picardy blue french spaniel blue"
+    },
+    {
+      "id": "855302a2-596b-466f-94a3-0cca9ec3223a",
+      "name": "EPAGNEUL_BRETON",
+      "displayName": "Brittany",
+      "altNames": [
+        "Epagneul Breton",
+        "Brittany Spaniel",
+        "Breton Spaniel",
+        "Brittany Dog",
+        "Bretagne Spaniel",
+        "French Brittany",
+        "Brittany Spaniel Dog",
+        "Brittany Pointer"
+      ],
+      "searchText": "brittany epagneul breton brittany spaniel breton spaniel brittany dog bretagne spaniel french brittany brittany spaniel dog brittany pointer"
+    },
+    {
+      "id": "bff38c12-4372-4da6-baac-e65bf3b90154",
+      "name": "EPAGNEUL_DE_PONT_AUDEMER",
+      "displayName": "Pont Audemer Spaniel",
+      "altNames": [
+        "Epagneul de Pont Audemer",
+        "Pont-Audemer Spaniel",
+        "French Spaniel Pont Audemer",
+        "Pont Audemer Gun Dog",
+        "Pont Audemer Water Spaniel",
+        "French Water Spaniel"
+      ],
+      "searchText": "pont audemer spaniel epagneul de pont audemer pont-audemer spaniel french spaniel pont audemer pont audemer gun dog pont audemer water spaniel french water spaniel"
+    },
+    {
+      "id": "556348b1-9939-4f42-ad28-7b8f3995207b",
+      "name": "EPAGNEUL_FRANCAIS",
+      "displayName": "French Spaniel",
+      "altNames": [
+        "Épagneul Français",
+        "French Spaniel Dog",
+        "Brittany Spaniel",
+        "Brittany Dog",
+        "Epagneul Breton",
+        "French Brittany",
+        "Brittany Spaniel Dog",
+        "Brittany Pointer"
+      ],
+      "searchText": "french spaniel épagneul français french spaniel dog brittany spaniel brittany dog epagneul breton french brittany brittany spaniel dog brittany pointer"
+    },
+    {
+      "id": "8fceb330-8f0f-4a63-aacb-e2c9dd1abb8d",
+      "name": "EPAGNEUL_NAIN_CONTINENTAL",
+      "displayName": "Papillon",
+      "altNames": [
+        "Continental Toy Spaniel",
+        "Epagneul Nain Continental",
+        "Phalène",
+        "Little Continental Dog",
+        "Butterfly Dog",
+        "Papillon Dog",
+        "Continental Spaniel"
+      ],
+      "searchText": "papillon continental toy spaniel epagneul nain continental phalène little continental dog butterfly dog papillon dog continental spaniel"
+    },
+    {
+      "id": "58cf84a1-8c1c-4cdb-a243-f02c18f78349",
+      "name": "EPAGNEUL_PICARD",
+      "displayName": "Picardy Spaniel",
+      "altNames": [
+        "Epagneul Picard",
+        "Picardy",
+        "Chien d'Oysel Picard",
+        "Picardy Pointer",
+        "Picard Spaniel"
+      ],
+      "searchText": "picardy spaniel epagneul picard picardy chien d'oysel picard picardy pointer picard spaniel"
+    },
+    {
+      "id": "eaafe76a-1443-4243-bc4e-d372c6bace1d",
+      "name": "ERDELYI_KOPO",
+      "displayName": "Transylvanian Hound",
+      "altNames": [
+        "Erdélyi kopó",
+        "Transylvanian Kopó",
+        "Hungarian Hound",
+        "Erdely Kopó",
+        "Transylvanian Scent Hound",
+        "Hungarian Scent Hound",
+        "Kopó"
+      ],
+      "searchText": "transylvanian hound erdélyi kopó transylvanian kopó hungarian hound erdely kopó transylvanian scent hound hungarian scent hound kopó"
+    },
+    {
+      "id": "76326cb8-83d1-4681-b7b2-5d56d0f979f1",
+      "name": "EURASIER",
+      "displayName": "Eurasier",
+      "altNames": [
+        "Eurasian Dog",
+        "Wolfspitz",
+        "Spitz-Wolf",
+        "Wolf-Spitz",
+        "European Dog",
+        "Wolfspitz-Eurasier",
+        "Eurasian Wolfspitz"
+      ],
+      "searchText": "eurasier eurasian dog wolfspitz spitz-wolf wolf-spitz european dog wolfspitz-eurasier eurasian wolfspitz"
+    },
+    {
+      "id": "a8ab4424-6274-4ed4-af3a-ef98444d25dd",
+      "name": "FIELD_SPANIEL",
+      "displayName": "Field Spaniel",
+      "altNames": [
+        "Fieldie",
+        "English Field Spaniel",
+        "Old English Field Spaniel",
+        "Cockerspaniel (historically, as it was developed from similar lines)",
+        "Land Spaniel"
+      ],
+      "searchText": "field spaniel fieldie english field spaniel old english field spaniel cockerspaniel (historically, as it was developed from similar lines) land spaniel"
+    },
+    {
+      "id": "b9847dcf-6ed1-4744-9e5a-4f17d67c82fa",
+      "name": "FILA_BRASILEIRO",
+      "displayName": "Fila Brasileiro",
+      "altNames": [
+        "Brazilian Mastiff",
+        "Fila",
+        "Brazilian Bulldog",
+        "Cão de Fila Brasileiro",
+        "O Fila",
+        "Brazilian Cattle Dog",
+        "Perro de Presa Brasileño"
+      ],
+      "searchText": "fila brasileiro brazilian mastiff fila brazilian bulldog cão de fila brasileiro o fila brazilian cattle dog perro de presa brasileño"
+    },
+    {
+      "id": "fb4b19c7-c66f-40ab-bfa6-48c5f3d5f776",
+      "name": "FLAT_COATED_RETRIEVER",
+      "displayName": "Flat-Coated Retriever",
+      "altNames": [
+        "Flatcoat",
+        "Flat-Coated",
+        "Flatcoat Retriever",
+        "Flattie",
+        "Wavy-Coated Retriever",
+        "Black Retriever",
+        "Liver Retriever"
+      ],
+      "searchText": "flat-coated retriever flatcoat flat-coated flatcoat retriever flattie wavy-coated retriever black retriever liver retriever"
+    },
+    {
+      "id": "1fd2457a-d456-426b-8ff5-fdf38c9bbe97",
+      "name": "FOX_TERRIER",
+      "displayName": "Fox Terrier",
+      "altNames": [
+        "Smooth Fox Terrier",
+        "Smoothcoat Fox Terrier",
+        "English Fox Terrier",
+        "Wire Fox Terrier",
+        "Foxie",
+        "Vixen Terrier",
+        "Terrier Fox"
+      ],
+      "searchText": "fox terrier smooth fox terrier smoothcoat fox terrier english fox terrier wire fox terrier foxie vixen terrier terrier fox"
+    },
+    {
+      "id": "69e6e267-5bc1-4550-9038-dc8e68e741d0",
+      "name": "FOX_TERRIER_2",
+      "displayName": "Wire Fox Terrier",
+      "altNames": [
+        "Wire Fox",
+        "Fox Terrier Wire",
+        "Wire Terrier",
+        "Fox Terrier (Wire)",
+        "English Wire Fox Terrier",
+        "Wirehaired Fox Terrier"
+      ],
+      "searchText": "wire fox terrier wire fox fox terrier wire wire terrier fox terrier (wire) english wire fox terrier wirehaired fox terrier"
+    },
+    {
+      "id": "deadbed4-419a-431b-8fbe-e6393c35cb24",
+      "name": "FRANCAIS_BLANC_ET_NOIR",
+      "displayName": "French Tricolor Hound",
+      "altNames": [
+        "Grand Anglo-Français Tricolore",
+        "Anglo-French Tricolor",
+        "French Tricolor",
+        "Grand Anglo-Français",
+        "Tricolor Anglo-French Hound",
+        "Anglo-Français Tricolore",
+        "French White and Black Hound",
+        "Blanc et Noir"
+      ],
+      "searchText": "french tricolor hound grand anglo-français tricolore anglo-french tricolor french tricolor grand anglo-français tricolor anglo-french hound anglo-français tricolore french white and black hound blanc et noir"
+    },
+    {
+      "id": "768cc6fd-a3ce-40bd-aaf1-7f064dd82f4b",
+      "name": "FRANCAIS_BLANC_ET_ORANGE",
+      "displayName": "French Tricolor Hound",
+      "altNames": [
+        "Grand Anglo-Français Tricolore",
+        "Anglo-French Tricolor",
+        "French Tricolor",
+        "Anglo-Français Tricolore",
+        "French White and Orange Hound",
+        "Tricolore Hound",
+        "Anglo-Français Tricolore de Petite Vénerie"
+      ],
+      "searchText": "french tricolor hound grand anglo-français tricolore anglo-french tricolor french tricolor anglo-français tricolore french white and orange hound tricolore hound anglo-français tricolore de petite vénerie"
+    },
+    {
+      "id": "a0e7aa9a-04e5-4554-b905-72666377a2ed",
+      "name": "FRANCAIS_TRICOLORE",
+      "displayName": "French Tricolor Hound",
+      "altNames": [
+        "Grand Anglo-Français Tricolore",
+        "Anglo-French Tricolor",
+        "French Tricolor",
+        "Anglo-Français Tricolore",
+        "Grand Anglo-Français",
+        "French Tricolor Scent Hound"
+      ],
+      "searchText": "french tricolor hound grand anglo-français tricolore anglo-french tricolor french tricolor anglo-français tricolore grand anglo-français french tricolor scent hound"
+    },
+    {
+      "id": "8d907e74-1cf2-4bcd-a818-49f667c80325",
+      "name": "GALGO_ESPANOL",
+      "displayName": "Galgo",
+      "altNames": [
+        "Spanish Greyhound",
+        "Galgo Español Greyhound",
+        "Galgo Español Dog",
+        "Spanish Hare Hound",
+        "Galgo Hound",
+        "Galgo Español",
+        "Galgo Espanol"
+      ],
+      "searchText": "galgo spanish greyhound galgo español greyhound galgo español dog spanish hare hound galgo hound galgo español galgo espanol"
+    },
+    {
+      "id": "87b55443-6bc9-443f-a5d8-f33af56d5ec3",
+      "name": "GAMMEL_DANSK_HONSEHUND",
+      "displayName": "Old Danish Pointer",
+      "altNames": [
+        "Gammel Dansk Hønsehund",
+        "Danish Pointer",
+        "Old Danish Bird Dog",
+        "Gammel Dansk",
+        "Danish Hunting Dog",
+        "Danish Pointer Dog",
+        "Hønsehund"
+      ],
+      "searchText": "old danish pointer gammel dansk hønsehund danish pointer old danish bird dog gammel dansk danish hunting dog danish pointer dog hønsehund"
+    },
+    {
+      "id": "43fddded-6ef4-4d2b-b266-061df77ec824",
+      "name": "GASCON_SAINTONGEOIS",
+      "displayName": "Gascon Saintongeais",
+      "altNames": [
+        "Gascon Saintonge",
+        "Grand Gascon Saintongeais",
+        "Saintongeais",
+        "Grand Saintongeais",
+        "Chien de Saintonge",
+        "Gascon Saintonge Hound"
+      ],
+      "searchText": "gascon saintongeais gascon saintonge grand gascon saintongeais saintongeais grand saintongeais chien de saintonge gascon saintonge hound"
+    },
+    {
+      "id": "055811b0-7355-4c56-b638-8f956f02e6f6",
+      "name": "GOLDEN_RETRIEVER",
+      "displayName": "Golden Retriever",
+      "altNames": [
+        "Golden",
+        "Goldie",
+        "Retriever",
+        "Golden Retriever Dog",
+        "Golden Retriever Puppy",
+        "Golden Retriever for Sale",
+        "Golden Retriever Temperament",
+        "Golden Retriever Training",
+        "Golden Retriever Breed"
+      ],
+      "searchText": "golden retriever golden goldie retriever golden retriever dog golden retriever puppy golden retriever for sale golden retriever temperament golden retriever training golden retriever breed"
+    },
+    {
+      "id": "825d39b4-cce6-4c45-a63b-e00d31be6d5c",
+      "name": "GONCZY_POLSKI",
+      "displayName": "Polish Hound",
+      "altNames": [
+        "Gonczy Polski",
+        "Polish Hunting Dog",
+        "Polish Scent Hound",
+        "Ogar Polski",
+        "Polish Gończy",
+        "Polski Gończy"
+      ],
+      "searchText": "polish hound gonczy polski polish hunting dog polish scent hound ogar polski polish gończy polski gończy"
+    },
+    {
+      "id": "87785e0a-3b7e-4766-88e4-aaf7840a5a5f",
+      "name": "GORDON_SETTER",
+      "displayName": "Gordon Setter",
+      "altNames": [
+        "Gordon",
+        "Black and Tan Setter",
+        "Gordons",
+        "Setter Gordon",
+        "Gordon Setter Dog",
+        "Gordon Setter Puppy",
+        "Gordon Setter For Sale",
+        "Gordon Setter Temperament",
+        "Gordon Setter Training",
+        "Gordon Setter Characteristics"
+      ],
+      "searchText": "gordon setter gordon black and tan setter gordons setter gordon gordon setter dog gordon setter puppy gordon setter for sale gordon setter temperament gordon setter training gordon setter characteristics"
+    },
+    {
+      "id": "4ad895cb-39e8-453e-8565-8336380b3023",
+      "name": "GOS_DATURA_CATALA",
+      "displayName": "Catalan Sheepdog",
+      "altNames": [
+        "Gos d'Atura Català",
+        "Perro de Pastor Catalán",
+        "Catalan Shepherd Dog",
+        "Gos d'Atura",
+        "Catalan Sheepdog",
+        "Catalan Herder",
+        "Pastor Catalán"
+      ],
+      "searchText": "catalan sheepdog gos d'atura català perro de pastor catalán catalan shepherd dog gos d'atura catalan sheepdog catalan herder pastor catalán"
+    },
+    {
+      "id": "1d257be4-7fd6-4734-b6de-6c4bf17fc70a",
+      "name": "GRAND_ANGLO_FRANCAIS_BLANC_ET_NOIR",
+      "displayName": "Grand Anglo-Français Blanc et Noir",
+      "altNames": [
+        "Great Anglo-French White and Black Hound",
+        "Anglo-French Hound",
+        "Grand Anglo-Français",
+        "French White and Black Hound",
+        "Grand Anglo-Français Blanc et Noir Hound",
+        "Anglo-French White and Black",
+        "Grand Anglo-Français Blanc et Noir Dog",
+        "French Hound White and Black"
+      ],
+      "searchText": "grand anglo-français blanc et noir great anglo-french white and black hound anglo-french hound grand anglo-français french white and black hound grand anglo-français blanc et noir hound anglo-french white and black grand anglo-français blanc et noir dog french hound white and black"
+    },
+    {
+      "id": "20df836e-fad4-461e-bcb3-28d986d27348",
+      "name": "GRAND_ANGLO_FRANCAIS_BLANC_ET_ORANGE",
+      "displayName": "Grand Anglo-Français Blanc et Orange",
+      "altNames": [
+        "Great Anglo-French White and Orange Hound",
+        "Anglo-French Tricolor Hound (White and Orange)",
+        "Grand Anglo-Français Tricolore (Blanc et Orange)",
+        "French White and Orange Hound",
+        "Anglo-French White and Orange",
+        "Blanc et Orange",
+        "GAFBO"
+      ],
+      "searchText": "grand anglo-français blanc et orange great anglo-french white and orange hound anglo-french tricolor hound (white and orange) grand anglo-français tricolore (blanc et orange) french white and orange hound anglo-french white and orange blanc et orange gafbo"
+    },
+    {
+      "id": "c6f1b99c-4d2e-457a-b795-4573145100c6",
+      "name": "GRAND_ANGLO_FRANCAIS_TRICOLORE",
+      "displayName": "French Tricolor Hound",
+      "altNames": [
+        "Grand Anglo-Français Tricolore",
+        "French Tricolore",
+        "Anglo-French Tricolor",
+        "Tricolor Anglo-French",
+        "Grand Anglo-Français",
+        "French Tricolor Beagle",
+        "Anglo-Français de Petite Vénerie Tricolore",
+        "French Tricolor Hunting Dog"
+      ],
+      "searchText": "french tricolor hound grand anglo-français tricolore french tricolore anglo-french tricolor tricolor anglo-french grand anglo-français french tricolor beagle anglo-français de petite vénerie tricolore french tricolor hunting dog"
+    },
+    {
+      "id": "caeef7df-2aa8-4d89-9c38-4a43e0b18b57",
+      "name": "GRAND_BASSET_GRIFFON_VENDEEN",
+      "displayName": "Grand Basset Griffon Vendeen",
+      "altNames": [
+        "GBGV",
+        "Grand Basset",
+        "Vendeen Basset",
+        "Basset Griffon Vendeen",
+        "Grand Griffon Vendeen",
+        "Griffon Vendeen Basset",
+        "Basset Griffon",
+        "Grand Basset Griffon"
+      ],
+      "searchText": "grand basset griffon vendeen gbgv grand basset vendeen basset basset griffon vendeen grand griffon vendeen griffon vendeen basset basset griffon grand basset griffon"
+    },
+    {
+      "id": "309ebce8-9e7a-423d-a308-5bdd4e245184",
+      "name": "GRAND_BLEU_DE_GASCOGNE",
+      "displayName": "Blue Gascon",
+      "altNames": [
+        "Grand Bleu de Gascogne",
+        "Great Blue Gascon",
+        "Gascon Blue",
+        "Bleu de Gascogne",
+        "Grand Bleu",
+        "French Tricolor Hound",
+        "Gascon Saintongeois"
+      ],
+      "searchText": "blue gascon grand bleu de gascogne great blue gascon gascon blue bleu de gascogne grand bleu french tricolor hound gascon saintongeois"
+    },
+    {
+      "id": "0fe42e7e-6ce2-4121-bbf5-04a19fa4c8b2",
+      "name": "GRAND_GRIFFON_VENDEEN",
+      "displayName": "Grand Griffon Vendéen",
+      "altNames": [
+        "Grand Griffon",
+        "Vendéen",
+        "French Griffon",
+        "Vendeen Griffon",
+        "Grand Griffon Vendeen",
+        "Chien de grande vènerie du midi",
+        "GRIFFON VENDEEN",
+        "Grand Griffon Vendéen Dog"
+      ],
+      "searchText": "grand griffon vendéen grand griffon vendéen french griffon vendeen griffon grand griffon vendeen chien de grande vènerie du midi griffon vendeen grand griffon vendéen dog"
+    },
+    {
+      "id": "6c39261d-1e60-4f10-b671-5851a21f89cc",
+      "name": "GREYHOUND",
+      "displayName": "Greyhound",
+      "altNames": [
+        "Greyhound Dog",
+        "English Greyhound",
+        "Whippet",
+        "Lurcher",
+        "Gazzetta",
+        "Galgo",
+        "Irish Greyhound",
+        "Speed Dog"
+      ],
+      "searchText": "greyhound greyhound dog english greyhound whippet lurcher gazzetta galgo irish greyhound speed dog"
+    },
+    {
+      "id": "f94b775e-03df-4a79-bef1-ce4e15889e10",
+      "name": "GRIFFON_A_POIL_DUR_KORTHALS",
+      "displayName": "Korthals Griffon",
+      "altNames": [
+        "Griffon Korthals",
+        "Wirehaired Pointing Griffon",
+        "Korthals",
+        "Griffon d'arrêt à poil dur Korthals",
+        "French Pointer",
+        "Griffon d'arrêt Korthals",
+        "Wirehaired Griffon"
+      ],
+      "searchText": "korthals griffon griffon korthals wirehaired pointing griffon korthals griffon d'arrêt à poil dur korthals french pointer griffon d'arrêt korthals wirehaired griffon"
+    },
+    {
+      "id": "e1832ce5-fd54-410d-8ad7-e1d41a92fc61",
+      "name": "GRIFFON_BELGE",
+      "displayName": "Brussels Griffon",
+      "altNames": [
+        "Griffon Belge",
+        "Belgian Griffon",
+        "Petit Griffon Belge",
+        "Chien Griffon Belge",
+        "Griffon Bruxellois",
+        "Griffon Bruxellois Belge",
+        "Belgian Small Griffon"
+      ],
+      "searchText": "brussels griffon griffon belge belgian griffon petit griffon belge chien griffon belge griffon bruxellois griffon bruxellois belge belgian small griffon"
+    },
+    {
+      "id": "346b9593-c930-4b99-b3c1-43f489d8b359",
+      "name": "GRIFFON_BLEU_DE_GASCOGNE",
+      "displayName": "Blue Gascony Griffon",
+      "altNames": [
+        "Griffon Bleu de Gascogne",
+        "Gascony Blue Griffon",
+        "Bleu de Gascogne",
+        "Griffon Bleu",
+        "Blue Gascon Griffon",
+        "Griffon Bleu de Gascogne Hunting Dog",
+        "Gascon Bleu"
+      ],
+      "searchText": "blue gascony griffon griffon bleu de gascogne gascony blue griffon bleu de gascogne griffon bleu blue gascon griffon griffon bleu de gascogne hunting dog gascon bleu"
+    },
+    {
+      "id": "2df91be9-d7bd-4e1f-8459-d5e7c943c067",
+      "name": "GRIFFON_BRUXELLOIS",
+      "displayName": "Brussels Griffon",
+      "altNames": [
+        "Griffon Bruxellois",
+        "Belgian Griffon",
+        "Petit Griffon Belge",
+        "Bruxellois",
+        "Griffon",
+        "Brabancon",
+        "Chien Griffon Bruxellois",
+        "Griffon Belge"
+      ],
+      "searchText": "brussels griffon griffon bruxellois belgian griffon petit griffon belge bruxellois griffon brabancon chien griffon bruxellois griffon belge"
+    },
+    {
+      "id": "6e75349e-83bc-412a-b070-19dfe3c4a132",
+      "name": "GRIFFON_FAUVE_DE_BRETAGNE",
+      "displayName": "Brittany",
+      "altNames": [
+        "Brittany Spaniel",
+        "Epagneul Breton",
+        "Brittany Dog",
+        "Britt",
+        "French Brittany",
+        "Brittany Spaniel Dog",
+        "Epagneul Nain Breton"
+      ],
+      "searchText": "brittany brittany spaniel epagneul breton brittany dog britt french brittany brittany spaniel dog epagneul nain breton"
+    },
+    {
+      "id": "646803dd-bb23-45b8-a482-bf164bbd35db",
+      "name": "GRIFFON_NIVERNAIS",
+      "displayName": "Griffon Nivernais",
+      "altNames": [
+        "Briquet Griffon Nivernais",
+        "Nivernais Griffon",
+        "Griffon of Nivernais",
+        "Chien de Sologne",
+        "Griffon Fauve de Bretagne",
+        "Nivernais",
+        "Griffon Nivernais hunting dog",
+        "French Griffon Nivernais"
+      ],
+      "searchText": "griffon nivernais briquet griffon nivernais nivernais griffon griffon of nivernais chien de sologne griffon fauve de bretagne nivernais griffon nivernais hunting dog french griffon nivernais"
+    },
+    {
+      "id": "d5b38702-abe5-4bba-8df3-5d080978bbd5",
+      "name": "GRONLANDSHUND",
+      "displayName": "Greenland Dog",
+      "altNames": [
+        "Greenlandic Dog",
+        "Grønlandshund",
+        "Polar Dog",
+        "Greenland Sled Dog",
+        "Greenland Husky",
+        "Nordic Sled Dog",
+        "Arctic Dog"
+      ],
+      "searchText": "greenland dog greenlandic dog grønlandshund polar dog greenland sled dog greenland husky nordic sled dog arctic dog"
+    },
+    {
+      "id": "49b59aae-a9f4-40e9-af11-fecc0757ee6f",
+      "name": "GROSSER_MUNSTERLANDER_VORSTEHHUND",
+      "displayName": "Weimaraner",
+      "altNames": [
+        "Large Münsterländer",
+        "Grosser Münsterländer",
+        "Münsterländer Vorstehhund",
+        "Large Munsterlander Pointer",
+        "German Pointer",
+        "Münsterländer",
+        "Large Münsterländer Pointer",
+        "Grosse Münsterländer"
+      ],
+      "searchText": "weimaraner large münsterländer grosser münsterländer münsterländer vorstehhund large munsterlander pointer german pointer münsterländer large münsterländer pointer grosse münsterländer"
+    },
+    {
+      "id": "22883630-cde0-4e6a-af66-4df6b78eeda3",
+      "name": "GROSSER_SCHWEIZER_SENNENHUND",
+      "displayName": "Greater Swiss Mountain Dog",
+      "altNames": [
+        "Grosser Schweizer Sennenhund",
+        "Swissy",
+        "Greater Swiss",
+        "Swiss Mountain Dog",
+        "GSS",
+        "Swissy Dog",
+        "Greater Swissy",
+        "Grosser Swissy"
+      ],
+      "searchText": "greater swiss mountain dog grosser schweizer sennenhund swissy greater swiss swiss mountain dog gss swissy dog greater swissy grosser swissy"
+    },
+    {
+      "id": "c8939544-8d66-447c-b700-f3b73b2061d0",
+      "name": "HALDENSTOVER",
+      "displayName": "Haldenstovare",
+      "altNames": [
+        "Norwegian Hound",
+        "Danish-Swedish Farmdog",
+        "Danish Hound",
+        "Norwegian Foxhound",
+        "Halden Hound",
+        "Schillerstövare",
+        "Hamiltonstövare",
+        "Smålandsstövare"
+      ],
+      "searchText": "haldenstovare norwegian hound danish-swedish farmdog danish hound norwegian foxhound halden hound schillerstövare hamiltonstövare smålandsstövare"
+    },
+    {
+      "id": "fcad9c95-d3e6-43ee-b04f-7e325b58805e",
+      "name": "HAMILTONSTOVARE",
+      "displayName": "Hamiltonstovare",
+      "altNames": [
+        "Hamilton Hound",
+        "Hamiltonstövare",
+        "Swedish Foxhound",
+        "Hamiltonstövare Hound",
+        "Hamiltonstövare Dog",
+        "Hamiltonstövare Sweden",
+        "Hamiltonstövare hunting dog"
+      ],
+      "searchText": "hamiltonstovare hamilton hound hamiltonstövare swedish foxhound hamiltonstövare hound hamiltonstövare dog hamiltonstövare sweden hamiltonstövare hunting dog"
+    },
+    {
+      "id": "3e0bad7e-dab6-49fc-9086-698cf48b5990",
+      "name": "HANNOVERSCHER_SCHWEISSHUND",
+      "displayName": "Hannoverian Scenthound",
+      "altNames": [
+        "Hannoveraner",
+        "Hannover",
+        "Hanoverian",
+        "Hannoverian Tracking Dog",
+        "Hannover Hounds",
+        "Hannover Schweisshund"
+      ],
+      "searchText": "hannoverian scenthound hannoveraner hannover hanoverian hannoverian tracking dog hannover hounds hannover schweisshund"
+    },
+    {
+      "id": "bc74c1b8-7ec8-4d21-8b00-ceb36c4985f6",
+      "name": "HARRIER",
+      "displayName": "Harrier",
+      "altNames": [
+        "English Harrier",
+        "Harrier Hound",
+        "Old English Harrier",
+        "Harrier Dog",
+        "Harrier Beagle"
+      ],
+      "searchText": "harrier english harrier harrier hound old english harrier harrier dog harrier beagle"
+    },
+    {
+      "id": "c57304e6-7c43-487e-a251-5b932a8e76c2",
+      "name": "HELLINIKOS_ICHNILATIS",
+      "displayName": "Hellenic Hound",
+      "altNames": [
+        "Greek Hound",
+        "Hellinikos Ichnilatis",
+        "Hellenikos Ichnilatis",
+        "Greek Scent Hound",
+        "Hellenic Scent Hound",
+        "Greek Tracking Dog",
+        "Hellenic Tracking Dog",
+        "Hellenic Scent Hound Dog"
+      ],
+      "searchText": "hellenic hound greek hound hellinikos ichnilatis hellenikos ichnilatis greek scent hound hellenic scent hound greek tracking dog hellenic tracking dog hellenic scent hound dog"
+    },
+    {
+      "id": "a1b94aff-335d-4835-9d8a-1f338f262a19",
+      "name": "HOKKAIDO",
+      "displayName": "Hokkaido",
+      "altNames": [
+        "Ainu Ken",
+        "Hokkaido Dog",
+        "Northern Hokkaido",
+        "Dosanko",
+        "Hokkaido Ken",
+        "Japanese Hokkaido",
+        "Ainu Dog"
+      ],
+      "searchText": "hokkaido ainu ken hokkaido dog northern hokkaido dosanko hokkaido ken japanese hokkaido ainu dog"
+    },
+    {
+      "id": "72353f5b-f859-486d-805e-7a1bf34d2d23",
+      "name": "HOLLANDSE_HERDERSHOND",
+      "displayName": "Dutch Shepherd",
+      "altNames": [
+        "Hollandse Herdershond",
+        "Dutch Herding Dog",
+        "Hollandse Herder",
+        "Dutch Sheepdog",
+        "Dutch Herder",
+        "Herderhond",
+        "Dutch Shepherd Dog"
+      ],
+      "searchText": "dutch shepherd hollandse herdershond dutch herding dog hollandse herder dutch sheepdog dutch herder herderhond dutch shepherd dog"
+    },
+    {
+      "id": "3a5f9ff6-4e9f-46ed-9fe7-f051597e4a3a",
+      "name": "HOLLANDSE_SMOUSHOND",
+      "displayName": "Smoushond",
+      "altNames": [
+        "Dutch Smoushond",
+        "Hollandse Smoushondje",
+        "Dutch Bearded Terrier",
+        "Smoushondje",
+        "Hollandse",
+        "Smoushond"
+      ],
+      "searchText": "smoushond dutch smoushond hollandse smoushondje dutch bearded terrier smoushondje hollandse smoushond"
+    },
+    {
+      "id": "8ca566ec-d239-4639-8c78-1a8d3ce73c97",
+      "name": "HOVAWART",
+      "displayName": "Hovawart",
+      "altNames": [
+        "Hova",
+        "Hov",
+        "Hovawart Dog",
+        "Hovawarts",
+        "Hovawart German",
+        "Hovawart Guard Dog",
+        "Hovawart Family Dog",
+        "Hovawart Working Dog"
+      ],
+      "searchText": "hovawart hova hov hovawart dog hovawarts hovawart german hovawart guard dog hovawart family dog hovawart working dog"
+    },
+    {
+      "id": "704046d3-2185-41f9-952d-2f524e0016f4",
+      "name": "HRVATSKI_OVCAR",
+      "displayName": "Croatian Sheepdog",
+      "altNames": [
+        "Hrvatski Ovcar",
+        "Croatian Shepherd Dog",
+        "Croatian Shepherd",
+        "Croatian Herding Dog",
+        "Croat",
+        "Hrvat",
+        "Croatian Dog",
+        "Croation Ovcar"
+      ],
+      "searchText": "croatian sheepdog hrvatski ovcar croatian shepherd dog croatian shepherd croatian herding dog croat hrvat croatian dog croation ovcar"
+    },
+    {
+      "id": "f0e97451-5f18-453e-bbd4-25b52e986a12",
+      "name": "HYGENHUND",
+      "displayName": "Hygenhund",
+      "altNames": [
+        "Hygen",
+        "Hygen Hound",
+        "Norwegian Hygenhund",
+        "Hygen Hounds",
+        "Hygenhund Hound",
+        "Hygenhund Norwegian Elkhound"
+      ],
+      "searchText": "hygenhund hygen hygen hound norwegian hygenhund hygen hounds hygenhund hound hygenhund norwegian elkhound"
+    },
+    {
+      "id": "072c1b2c-62ee-4119-aaae-dabe063c2915",
+      "name": "IRISH_GLEN_OF_IMAAL_TERRIER",
+      "displayName": "Glen of Imaal Terrier",
+      "altNames": [
+        "Glen",
+        "Irish Glen of Imaal",
+        "Glen of Imaal",
+        "Irish Glen",
+        "Glen of Imall",
+        "Irish Terrier Glen of Imaal",
+        "Glen of Imaal Dog"
+      ],
+      "searchText": "glen of imaal terrier glen irish glen of imaal glen of imaal irish glen glen of imall irish terrier glen of imaal glen of imaal dog"
+    },
+    {
+      "id": "d3631703-e875-4345-ae2e-b16f7e90a0d7",
+      "name": "IRISH_RED_AND_WHITE_SETTER",
+      "displayName": "Irish Setter",
+      "altNames": [
+        "Irish Red and White Setter",
+        "Red and White Setter",
+        "Irish Setter (Red and White)",
+        "Irish Red Setter",
+        "Red Setter",
+        "Irish Red Setter dog",
+        "Setters (Irish Red and White)"
+      ],
+      "searchText": "irish setter irish red and white setter red and white setter irish setter (red and white) irish red setter red setter irish red setter dog setters (irish red and white)"
+    },
+    {
+      "id": "a2b5f0e7-d005-4355-9590-457d972490f1",
+      "name": "IRISH_RED_SETTER",
+      "displayName": "Setter",
+      "altNames": [
+        "Irish Setter",
+        "Red Setter",
+        "Setter (Irish)",
+        "Irish Red",
+        "Gadhar Rúadh",
+        "Old Red",
+        "Irish",
+        "Setter"
+      ],
+      "searchText": "setter irish setter red setter setter (irish) irish red gadhar rúadh old red irish setter"
+    },
+    {
+      "id": "788f9918-9740-4b69-9e83-6e4e8250c364",
+      "name": "IRISH_SOFT_COATED_WHEATEN_TERRIER",
+      "displayName": "Wheaten Terrier",
+      "altNames": [
+        "Irish Soft Coated Wheaten Terrier",
+        "Soft Coated Wheaten Terrier",
+        "Wheaten",
+        "ISCW",
+        "Irish Wheaten",
+        "Wheaten Dog",
+        "Soft Coated Terrier",
+        "Wheaten of Ireland"
+      ],
+      "searchText": "wheaten terrier irish soft coated wheaten terrier soft coated wheaten terrier wheaten iscw irish wheaten wheaten dog soft coated terrier wheaten of ireland"
+    },
+    {
+      "id": "3b65352a-b75f-4745-86e5-c639396dbf30",
+      "name": "IRISH_TERRIER",
+      "displayName": "Irish Terrier",
+      "altNames": [
+        "Irish",
+        "Irish Red Terrier",
+        "Old Irish Terrier",
+        "Deutscher Terrier",
+        "Terrier Irlandais"
+      ],
+      "searchText": "irish terrier irish irish red terrier old irish terrier deutscher terrier terrier irlandais"
+    },
+    {
+      "id": "7bd464dd-3ca2-4fce-bc21-7e47620442a8",
+      "name": "IRISH_WATER_SPANIEL",
+      "displayName": "Irish Water Spaniel",
+      "altNames": [
+        "Irish Water Dog",
+        "IWS",
+        "Water Spaniel",
+        "Rachle",
+        "Tir-uisce",
+        "Irish Curly-coated Water Dog"
+      ],
+      "searchText": "irish water spaniel irish water dog iws water spaniel rachle tir-uisce irish curly-coated water dog"
+    },
+    {
+      "id": "a0d838e3-a761-40be-8f04-245884918224",
+      "name": "IRISH_WOLFHOUND",
+      "displayName": "Irish Wolfhound",
+      "altNames": [
+        "Wolfhound",
+        "Irish",
+        "Cú Faoil",
+        "Irish Great Dane",
+        "Irish Boarhound",
+        "Gentle Giant",
+        "Irish Greyhound"
+      ],
+      "searchText": "irish wolfhound wolfhound irish cú faoil irish great dane irish boarhound gentle giant irish greyhound"
+    },
+    {
+      "id": "3a07bdbd-084c-442f-8c88-53ebc7bb24e9",
+      "name": "ISLENSKUR_FJARHUNDUR",
+      "displayName": "Icelandic Sheepdog",
+      "altNames": [
+        "Icelandic Shepherd Dog",
+        "Íslenskur Fjárhundur",
+        "Icelandic Spitz",
+        "Icelandic Farm Dog",
+        "Fjallhundur",
+        "Icelandic Herding Dog",
+        "Viking Dog"
+      ],
+      "searchText": "icelandic sheepdog icelandic shepherd dog íslenskur fjárhundur icelandic spitz icelandic farm dog fjallhundur icelandic herding dog viking dog"
+    },
+    {
+      "id": "a9b96517-a640-464c-a6a2-588db67a1c0d",
+      "name": "ISTARSKI_KRATKODLAKI_GONIC",
+      "displayName": "Istrian Hound",
+      "altNames": [
+        "Istrian Short-haired Hound",
+        "Istarski Kratkodlaki Gonic",
+        "Croatian Hound",
+        "Istrian Pointer",
+        "Short-haired Istrian Hound",
+        "Istrien Kurzhaariger Laufhund",
+        "Istrian Gonic"
+      ],
+      "searchText": "istrian hound istrian short-haired hound istarski kratkodlaki gonic croatian hound istrian pointer short-haired istrian hound istrien kurzhaariger laufhund istrian gonic"
+    },
+    {
+      "id": "67bf3e5d-35da-4232-a009-746aeecca626",
+      "name": "ISTARSKI_OSTRODLAKI_GONIC",
+      "displayName": "Istrian Coarse-haired Hound",
+      "altNames": [
+        "Istrian Rough-haired Hound",
+        "Istarski Ostrodlaki Gonic",
+        "Croatian Coarse-haired Hound",
+        "Croatian Rough-haired Hound",
+        "Istrian Hound",
+        "Istarski Oštrodlaki Gonic"
+      ],
+      "searchText": "istrian coarse-haired hound istrian rough-haired hound istarski ostrodlaki gonic croatian coarse-haired hound croatian rough-haired hound istrian hound istarski oštrodlaki gonic"
+    },
+    {
+      "id": "2bb0bbf0-c545-4960-ab5f-c7849fd78bcb",
+      "name": "JACK_RUSSELL_TERRIER",
+      "displayName": "Jack Russell Terrier",
+      "altNames": [
+        "Jack Russell",
+        "JRT",
+        "Jack",
+        "Parson Russell Terrier",
+        "Russell Terrier",
+        "Jack Russell Terrier Dog",
+        "Jack Russell Terrier Puppy"
+      ],
+      "searchText": "jack russell terrier jack russell jrt jack parson russell terrier russell terrier jack russell terrier dog jack russell terrier puppy"
+    },
+    {
+      "id": "7e911013-3ced-4ba8-92ba-0a47a48a8b80",
+      "name": "JAMTHUND",
+      "displayName": "Jämthund",
+      "altNames": [
+        "Swedish Elkhound",
+        "Jamthund",
+        "Swedish Moose Dog",
+        "Elkhound",
+        "Swedish Hound",
+        "Jämthund Elkhound",
+        "Moose Hound"
+      ],
+      "searchText": "jämthund swedish elkhound jamthund swedish moose dog elkhound swedish hound jämthund elkhound moose hound"
+    },
+    {
+      "id": "3ab2a3da-80bd-4f11-a2de-b1c44116fc66",
+      "name": "JUGOSLOVENSKI_OVCARSKI_PAS_SARPLANINAC",
+      "displayName": "Sharplaninac",
+      "altNames": [
+        "Yugoslav Shepherd Dog",
+        "Yugoslavian Shepherd Dog",
+        "Sarplaninac Shepherd",
+        "Illyrian Shepherd Dog",
+        "Shara Planina Dog",
+        "Jugoslovenski Ovcharski Pas",
+        "Sarplaninac Dog",
+        "Sarplaninac",
+        "Shara Dog"
+      ],
+      "searchText": "sharplaninac yugoslav shepherd dog yugoslavian shepherd dog sarplaninac shepherd illyrian shepherd dog shara planina dog jugoslovenski ovcharski pas sarplaninac dog sarplaninac shara dog"
+    },
+    {
+      "id": "e80ebb90-ec97-45c9-89db-ab57ff53514d",
+      "name": "KAI",
+      "displayName": "Kai",
+      "altNames": [
+        "Kai Ken",
+        "Japanese Kai",
+        "Kai Inu",
+        "Tiger Dog",
+        "Mikado Dog",
+        "Kai Ken Aigoo",
+        "Japanese Tiger Dog",
+        "Kai Ken Dog"
+      ],
+      "searchText": "kai kai ken japanese kai kai inu tiger dog mikado dog kai ken aigoo japanese tiger dog kai ken dog"
+    },
+    {
+      "id": "99440c5c-a348-47e9-b884-c2307f870723",
+      "name": "KANGAL_COBAN_KOPEGI",
+      "displayName": "Kangal",
+      "altNames": [
+        "Kangal Shepherd Dog",
+        "Anatolian Shepherd Dog",
+        "Kangal Shepherd",
+        "Çoban Köpeği",
+        "Turkish Shepherd Dog",
+        "Kangal Dog",
+        "Anatolian Dog",
+        "Karabaş"
+      ],
+      "searchText": "kangal kangal shepherd dog anatolian shepherd dog kangal shepherd çoban köpeği turkish shepherd dog kangal dog anatolian dog karabaş"
+    },
+    {
+      "id": "b0b3538f-9df3-44bd-a87e-8abfe89fb375",
+      "name": "KARJALANKARHUKOIRA",
+      "displayName": "Karelian Bear Dog",
+      "altNames": [
+        "Karjalankarhukoira",
+        "Karelian Bear Dog",
+        "Finnish Bear Dog",
+        "Karhukoira",
+        "Karelian",
+        "Finnish Spitz",
+        "Bear Dog",
+        "Karelian Bear Hunter"
+      ],
+      "searchText": "karelian bear dog karjalankarhukoira karelian bear dog finnish bear dog karhukoira karelian finnish spitz bear dog karelian bear hunter"
+    },
+    {
+      "id": "0395b200-de41-4125-b227-1056a86d0c2f",
+      "name": "KAVKAZSKAIA_OVTCHARKA",
+      "displayName": "Caucasian Shepherd Dog",
+      "altNames": [
+        "Caucasian Ovcharka",
+        "Kavkazskaya Ovcharka",
+        "Caucasian Mountain Dog",
+        "Ovcharka",
+        "Caucasian Sheepdog",
+        "Kavkaz Ovtcharka",
+        "Caucasus Shepherd Dog",
+        "Kavkazskaya Volkodav"
+      ],
+      "searchText": "caucasian shepherd dog caucasian ovcharka kavkazskaya ovcharka caucasian mountain dog ovcharka caucasian sheepdog kavkaz ovtcharka caucasus shepherd dog kavkazskaya volkodav"
+    },
+    {
+      "id": "6874adcf-33cf-4775-a7eb-0dd2f9d693b1",
+      "name": "KERRY_BLUE_TERRIER",
+      "displayName": "Kerry Blue Terrier",
+      "altNames": [
+        "Kerry Blue",
+        "Blue Kerry",
+        "Irish Blue Terrier",
+        "KBT",
+        "Kerry",
+        "Irish Terrier (Kerry Blue)",
+        "KBTerrier"
+      ],
+      "searchText": "kerry blue terrier kerry blue blue kerry irish blue terrier kbt kerry irish terrier (kerry blue) kbterrier"
+    },
+    {
+      "id": "702b115e-1521-4c26-b7f5-7f534ed0249e",
+      "name": "KING_CHARLES_SPANIEL",
+      "displayName": "Cavalier",
+      "altNames": [
+        "King Charles",
+        "CKCS",
+        "Cavalier King Charles Spaniel",
+        "Charles Spaniel",
+        "King Charles Spaniel",
+        "Charlie",
+        "King Charles Dog",
+        "Cavalier Spaniel"
+      ],
+      "searchText": "cavalier king charles ckcs cavalier king charles spaniel charles spaniel king charles spaniel charlie king charles dog cavalier spaniel"
+    },
+    {
+      "id": "2c67674c-023d-4602-ba2c-37634a38a14c",
+      "name": "KISHU",
+      "displayName": "Kishu",
+      "altNames": [
+        "Kishu Ken",
+        "Kishu Inu",
+        "Kishu Dog",
+        "Kishuken",
+        "Kishu Ken Inu",
+        "Nihon Ken",
+        "Japanese Kishu"
+      ],
+      "searchText": "kishu kishu ken kishu inu kishu dog kishuken kishu ken inu nihon ken japanese kishu"
+    },
+    {
+      "id": "60eb7e5c-6453-4e0c-9a34-43bd55ebc1fc",
+      "name": "KLEINER_MUNSTERLANDER",
+      "displayName": "Little Münsterländer",
+      "altNames": [
+        "Kleine Münsterländer",
+        "German Spaniel",
+        "Small Münsterländer Pointer",
+        "Deutsch Langhaar Klein",
+        "Münsterländer",
+        "Kleine",
+        "Little German Pointer",
+        "Deutsch Kurzhaar Klein"
+      ],
+      "searchText": "little münsterländer kleine münsterländer german spaniel small münsterländer pointer deutsch langhaar klein münsterländer kleine little german pointer deutsch kurzhaar klein"
+    },
+    {
+      "id": "7dac96d0-004a-4e55-987f-65e06f165a3b",
+      "name": "KOMONDOR",
+      "displayName": "Komondor",
+      "altNames": [
+        "Hungarian Sheepdog",
+        "Kumo",
+        "Komondor Dog",
+        "Mop Dog",
+        "Hungarian Komondor",
+        "Komon",
+        "Komondorok"
+      ],
+      "searchText": "komondor hungarian sheepdog kumo komondor dog mop dog hungarian komondor komon komondorok"
+    },
+    {
+      "id": "b92fc360-1f99-4a18-80f2-1624976aca60",
+      "name": "KOREA_JINDO_DOG",
+      "displayName": "Jindo",
+      "altNames": [
+        "Korean Jindo",
+        "Jindo Dog",
+        "Chindo",
+        "Korea Jindo",
+        "Noksal",
+        "Jin-do",
+        "Korean Indigenous Dog",
+        "Jindo Gae"
+      ],
+      "searchText": "jindo korean jindo jindo dog chindo korea jindo noksal jin-do korean indigenous dog jindo gae"
+    },
+    {
+      "id": "97f7bf9d-53a8-44e9-971e-2af0f0d76d4a",
+      "name": "KRASKI_OVCAR",
+      "displayName": "Krasniy Ovchar",
+      "altNames": [
+        "Krasniy Ovcharka",
+        "Russian Shepherd",
+        "Krasny Ovcharka",
+        "Krasnoyarsky Ovcharka",
+        "Krasnoyarsk Shepherd",
+        "Krasnoyarsk Ovcharka"
+      ],
+      "searchText": "krasniy ovchar krasniy ovcharka russian shepherd krasny ovcharka krasnoyarsky ovcharka krasnoyarsk shepherd krasnoyarsk ovcharka"
+    },
+    {
+      "id": "b4c549ab-1179-41f1-aa7d-c247c87d52c2",
+      "name": "KROMFOHRLANDER",
+      "displayName": "Kromfohrlander",
+      "altNames": [
+        "Kromi",
+        "Kromi dog",
+        "Kromfohrländer",
+        "Kromfohrländer dog",
+        "Kromfohrländer Hund",
+        "Kromfohrländer Pinscher",
+        "Kromfohrländer Terrier"
+      ],
+      "searchText": "kromfohrlander kromi kromi dog kromfohrländer kromfohrländer dog kromfohrländer hund kromfohrländer pinscher kromfohrländer terrier"
+    },
+    {
+      "id": "b13780a5-6353-4feb-bf58-83b59b00e3b0",
+      "name": "KUVASZ",
+      "displayName": "Kuvasz",
+      "altNames": [
+        "Kuvasz Dog",
+        "Hungarian Kuvasz",
+        "Magyar Kuvasz",
+        "Kuv",
+        "White Hungarian Shepherd",
+        "Hungarian White Shepherd",
+        "Kuvasz"
+      ],
+      "searchText": "kuvasz kuvasz dog hungarian kuvasz magyar kuvasz kuv white hungarian shepherd hungarian white shepherd kuvasz"
+    },
+    {
+      "id": "543fb04d-0abf-41d2-9fd5-300cf8a6b1f8",
+      "name": "LABRADOR_RETRIEVER",
+      "displayName": "Labrador",
+      "altNames": [
+        "Labrador Retriever",
+        "Lab",
+        "Labs",
+        "Labrador Dog",
+        "Retriever",
+        "Labrador Hound",
+        "Yellow Lab",
+        "Black Lab",
+        "Chocolate Lab"
+      ],
+      "searchText": "labrador labrador retriever lab labs labrador dog retriever labrador hound yellow lab black lab chocolate lab"
+    },
+    {
+      "id": "8b2a2b24-eb69-4ccc-8948-f5d2a76d9c87",
+      "name": "LAGOTTO_ROMAGNOLO",
+      "displayName": "Lagotto",
+      "altNames": [
+        "Lagotto Romagnolo",
+        "Romagnol Water Dog",
+        "Italian Water Dog",
+        "Lagotto",
+        "Romagnolo",
+        "Italian Water Spaniel",
+        "Lagotto Water Dog"
+      ],
+      "searchText": "lagotto lagotto romagnolo romagnol water dog italian water dog lagotto romagnolo italian water spaniel lagotto water dog"
+    },
+    {
+      "id": "5070087d-bdd1-4ef6-a908-e0b27aa99be7",
+      "name": "LAKELAND_TERRIER",
+      "displayName": "Lakeland",
+      "altNames": [
+        "Lakeland Terrier",
+        "Lakeland Terrier Dog",
+        "Lakeland Terrier Hound",
+        "Lakeland Terrier Puppy",
+        "Lakeland Terrier For Sale",
+        "Lakeland Terrier Price",
+        "Lakeland Terrier Temperament",
+        "Lakeland Terrier Characteristics",
+        "Lakeland Terrier Grooming",
+        "Lakeland Terrier Training"
+      ],
+      "searchText": "lakeland lakeland terrier lakeland terrier dog lakeland terrier hound lakeland terrier puppy lakeland terrier for sale lakeland terrier price lakeland terrier temperament lakeland terrier characteristics lakeland terrier grooming lakeland terrier training"
+    },
+    {
+      "id": "6c6b274f-767f-4eac-93d3-acc0652ddbe5",
+      "name": "LANDSEER",
+      "displayName": "Landseer",
+      "altNames": [
+        "Landseer (European Continental Type)",
+        "European Landseer",
+        "Landseer Dog",
+        "Landseer Type",
+        "Continental Landseer",
+        "Landseer (Newfoundland)",
+        "Landseer Newfoundland"
+      ],
+      "searchText": "landseer landseer (european continental type) european landseer landseer dog landseer type continental landseer landseer (newfoundland) landseer newfoundland"
+    },
+    {
+      "id": "894856f6-c60e-42d1-bf04-fb37907f42bd",
+      "name": "LAPINPOROKOIRA",
+      "displayName": "Lapland Reindeer Dog",
+      "altNames": [
+        "Lapinporokoira",
+        "Finnish Reindeer Hound",
+        "Lapponian Herder",
+        "Lapponian Reindeer Dog",
+        "Porokoira",
+        "Finnish Herder"
+      ],
+      "searchText": "lapland reindeer dog lapinporokoira finnish reindeer hound lapponian herder lapponian reindeer dog porokoira finnish herder"
+    },
+    {
+      "id": "834938a7-6bc3-4cea-a6c6-c088f3971e15",
+      "name": "LEONBERGER",
+      "displayName": "Leonberger",
+      "altNames": [
+        "Leo",
+        "Leonberger Dog",
+        "Leonberger Hund",
+        "Leonberger Dog Breed",
+        "Leo Dog",
+        "Leonberger Puppy",
+        "Lion Dog",
+        "Leonberger Giant"
+      ],
+      "searchText": "leonberger leo leonberger dog leonberger hund leonberger dog breed leo dog leonberger puppy lion dog leonberger giant"
+    },
+    {
+      "id": "c0979e63-ccda-44fd-8c4d-ba619b336572",
+      "name": "LHASA_APSO",
+      "displayName": "Lhasa Apso",
+      "altNames": [
+        "Lhasa",
+        "Apso",
+        "Tibetan Lhasa Apso",
+        "Abso",
+        "Lion Dog",
+        "Tibetan Lion Dog",
+        "Apso Dog",
+        "Lhasa Dog"
+      ],
+      "searchText": "lhasa apso lhasa apso tibetan lhasa apso abso lion dog tibetan lion dog apso dog lhasa dog"
+    },
+    {
+      "id": "cfc555c3-ec04-4e39-aae9-8be235745818",
+      "name": "MAGYAR_AGAR",
+      "displayName": "Hungarian Greyhound",
+      "altNames": [
+        "Magyar Agar",
+        "Hungarian Greyhound Dog",
+        "Hungarian Sighthound",
+        "Agar",
+        "Hungarian Hound",
+        "Magyar Agar Greyhound",
+        "Hungarian Dog",
+        "Hungarian Racer"
+      ],
+      "searchText": "hungarian greyhound magyar agar hungarian greyhound dog hungarian sighthound agar hungarian hound magyar agar greyhound hungarian dog hungarian racer"
+    },
+    {
+      "id": "7f1f0745-1651-4e95-88df-898688c4130c",
+      "name": "MALTESE",
+      "displayName": "Maltese",
+      "altNames": [
+        "Maltese Dog",
+        "Maltese Terrier",
+        "Maltese Lion Dog",
+        "Maltese Toy Dog",
+        "Malt",
+        "Maltie",
+        "Melita",
+        "Canis Melitaeus"
+      ],
+      "searchText": "maltese maltese dog maltese terrier maltese lion dog maltese toy dog malt maltie melita canis melitaeus"
+    },
+    {
+      "id": "ab88a403-4878-4668-bc04-9537a7f53632",
+      "name": "MANCHESTER_TERRIER",
+      "displayName": "Manchester Terrier",
+      "altNames": [
+        "Black and Tan Terrier",
+        "Old English Black and Tan Terrier",
+        "English Black and Tan Terrier",
+        "Toy Manchester Terrier",
+        "Standard Manchester Terrier",
+        "Black and Tan",
+        "Manchester"
+      ],
+      "searchText": "manchester terrier black and tan terrier old english black and tan terrier english black and tan terrier toy manchester terrier standard manchester terrier black and tan manchester"
+    },
+    {
+      "id": "696f67cb-7605-49f6-be25-7a23ce0039ec",
+      "name": "MASTIFF",
+      "displayName": "Mastiff",
+      "altNames": [
+        "English Mastiff",
+        "Old English Mastiff",
+        "Mastiff Dog",
+        "Big Mastiff",
+        "Masty",
+        "Bull Mastiff"
+      ],
+      "searchText": "mastiff english mastiff old english mastiff mastiff dog big mastiff masty bull mastiff"
+    },
+    {
+      "id": "f10addb3-0aa5-489b-84d0-172a80655a9e",
+      "name": "MASTIN_DEL_PIRINEO",
+      "displayName": "Pyrenean Mastiff",
+      "altNames": [
+        "Mastin del Pirineo",
+        "Pyrenean Mountain Dog",
+        "Pirinean Mastiff",
+        "Spanish Mastiff",
+        "Pyrenean",
+        "Mastin",
+        "Pirineo Mastiff",
+        "Spanish Pyrenean Mastiff"
+      ],
+      "searchText": "pyrenean mastiff mastin del pirineo pyrenean mountain dog pirinean mastiff spanish mastiff pyrenean mastin pirineo mastiff spanish pyrenean mastiff"
+    },
+    {
+      "id": "ef81ab05-e099-4aa8-aef3-950f1c927e50",
+      "name": "MASTIN_ESPANOL",
+      "displayName": "Spanish Mastiff",
+      "altNames": [
+        "Mastín Español",
+        "Spanish Mastiff Dog",
+        "Mastin",
+        "Spanish Mastiff Puppy",
+        "Mastiff Español",
+        "Spanish Mastiff Breeders",
+        "Mastin Dog",
+        "Mastin de España"
+      ],
+      "searchText": "spanish mastiff mastín español spanish mastiff dog mastin spanish mastiff puppy mastiff español spanish mastiff breeders mastin dog mastin de españa"
+    },
+    {
+      "id": "4241b5da-039f-4250-90a0-71d9e2192673",
+      "name": "MASTINO_NAPOLETANO",
+      "displayName": "Neapolitan Mastiff",
+      "altNames": [
+        "Mastino",
+        "Neapolitan Mastino",
+        "Italian Mastiff",
+        "Mastino Napoletano Dog",
+        "Napolitan Mastiff",
+        "Mastino Napoletano",
+        "Mastiff Napoletano"
+      ],
+      "searchText": "neapolitan mastiff mastino neapolitan mastino italian mastiff mastino napoletano dog napolitan mastiff mastino napoletano mastiff napoletano"
+    },
+    {
+      "id": "98360732-1999-4c8e-b157-fb2651d0d80e",
+      "name": "MINIATURE_BULL_TERRIER",
+      "displayName": "Miniature Bull Terrier",
+      "altNames": [
+        "Min Bull",
+        "Mini Bull",
+        "Miniature Bull",
+        "Bull Terrier Miniature",
+        "Bull Terrier Mini",
+        "BT",
+        "Miniature Bullterrier"
+      ],
+      "searchText": "miniature bull terrier min bull mini bull miniature bull bull terrier miniature bull terrier mini bt miniature bullterrier"
+    },
+    {
+      "id": "ddaa6298-e549-4683-a67f-98efaf180b2f",
+      "name": "MUDI",
+      "displayName": "Mudi",
+      "altNames": [
+        "Hungarian Mudi",
+        "Mudik",
+        "Canis familiaris ovilis Hungaricus",
+        "Hungarian Sheepdog",
+        "Mudi Dog",
+        "Hungarian Herding Dog",
+        "Mudi Shepherd"
+      ],
+      "searchText": "mudi hungarian mudi mudik canis familiaris ovilis hungaricus hungarian sheepdog mudi dog hungarian herding dog mudi shepherd"
+    },
+    {
+      "id": "42a0a83f-896b-4145-9269-b6e249f4783b",
+      "name": "NEDERLANDSE_KOOIKERHONDJE",
+      "displayName": "Kooikerhondje",
+      "altNames": [
+        "Dutch Kooiker",
+        "Kooiker",
+        "Nederlandse Kooiker Hondje",
+        "Kooikerhondje Dog",
+        "Kooiker Dog",
+        "Dutch Decoy Dog",
+        "Kooikerhondje Hollandais",
+        "Kooikerhondje Nederland"
+      ],
+      "searchText": "kooikerhondje dutch kooiker kooiker nederlandse kooiker hondje kooikerhondje dog kooiker dog dutch decoy dog kooikerhondje hollandais kooikerhondje nederland"
+    },
+    {
+      "id": "397d5f7d-2c72-4d0b-bad2-25e648d8650d",
+      "name": "NEDERLANDSE_SCHAPENDOES",
+      "displayName": "Dutch Sheepdog",
+      "altNames": [
+        "Nederlandse Schapendoes",
+        "Schapendoes",
+        "Dutch Sheep Dog",
+        "Duitse Schapendoes",
+        "Dutch Shepherd Dog",
+        "Schapendoes Dog",
+        "Nederlandse Sheepdog"
+      ],
+      "searchText": "dutch sheepdog nederlandse schapendoes schapendoes dutch sheep dog duitse schapendoes dutch shepherd dog schapendoes dog nederlandse sheepdog"
+    },
+    {
+      "id": "18448456-9e62-44e0-8255-2ee8a43fe0aa",
+      "name": "NEWFOUNDLAND",
+      "displayName": "Newfoundland",
+      "altNames": [
+        "Newfie",
+        "Newf",
+        "Newfoundland Dog",
+        "Lesser Newfoundland",
+        "Greater Newfoundland",
+        "Chien de Terre-Neuve",
+        "Terre Neuve",
+        "Water Dog"
+      ],
+      "searchText": "newfoundland newfie newf newfoundland dog lesser newfoundland greater newfoundland chien de terre-neuve terre neuve water dog"
+    },
+    {
+      "id": "eafaca66-425f-43dc-b5a9-c0793a20cba4",
+      "name": "NIHON_SUPITTSU",
+      "displayName": "Japanese Spitz",
+      "altNames": [
+        "Nihon Supittsu",
+        "Nihon Spitz",
+        "Japanese Spitz Dog",
+        "Spitz",
+        "White Spitz",
+        "Nihon Spitz Dog"
+      ],
+      "searchText": "japanese spitz nihon supittsu nihon spitz japanese spitz dog spitz white spitz nihon spitz dog"
+    },
+    {
+      "id": "115bd80c-d1b4-4158-958a-810c7ae2259a",
+      "name": "NIHON_TERIA",
+      "displayName": "Shiba Inu",
+      "altNames": [
+        "Shiba",
+        "Japanese Shiba Inu",
+        "Shiba Ken",
+        "Shiba Dog",
+        "Nihon Shiba Inu",
+        "Shiba-inu"
+      ],
+      "searchText": "shiba inu shiba japanese shiba inu shiba ken shiba dog nihon shiba inu shiba-inu"
+    },
+    {
+      "id": "5155bbd6-2419-44e7-925b-0b336676d484",
+      "name": "NORFOLK_TERRIER",
+      "displayName": "Norfolk Terrier",
+      "altNames": [
+        "Norfolk",
+        "Norwich Terrier (often confused)",
+        "Norfolk Terrier Club",
+        "Norfolk Terrier puppies",
+        "Norfolk Terrier dog",
+        "Norfolk Terrier temperament",
+        "Norfolk Terrier characteristics",
+        "Norfolk Terrier for sale"
+      ],
+      "searchText": "norfolk terrier norfolk norwich terrier (often confused) norfolk terrier club norfolk terrier puppies norfolk terrier dog norfolk terrier temperament norfolk terrier characteristics norfolk terrier for sale"
+    },
+    {
+      "id": "3df15ca6-7a28-4956-9091-6bd621650756",
+      "name": "NORRBOTTENSPETS",
+      "displayName": "Norrbottenspets",
+      "altNames": [
+        "Norbottenspets",
+        "Nordic Spitz",
+        "Swedish Spitz",
+        "Norden Spitz",
+        "Norrbottenspitz",
+        "Norrbottenspitz Dog",
+        "Swedish Reindeer Dog"
+      ],
+      "searchText": "norrbottenspets norbottenspets nordic spitz swedish spitz norden spitz norrbottenspitz norrbottenspitz dog swedish reindeer dog"
+    },
+    {
+      "id": "3a555caf-aeae-4685-96f1-b49ee6951c16",
+      "name": "NORSK_BUHUND",
+      "displayName": "Buhund",
+      "altNames": [
+        "Norwegian Buhund",
+        "Norsk Buhund",
+        "Norwegian Sheepdog",
+        "Norwegian Herding Dog",
+        "Buhund Dog",
+        "Norwegian Farm Dog",
+        "Norwegian Country Dog",
+        "Buhunds"
+      ],
+      "searchText": "buhund norwegian buhund norsk buhund norwegian sheepdog norwegian herding dog buhund dog norwegian farm dog norwegian country dog buhunds"
+    },
+    {
+      "id": "78bd1c4b-6213-4262-a45b-d31cb519d7d1",
+      "name": "NORSK_ELGHUND_GRA",
+      "displayName": "Norwegian Elkhound",
+      "altNames": [
+        "Grey Norwegian Elkhound",
+        "Norsk Elghund Grå",
+        "Elkhound",
+        "Norwegian Moose Dog",
+        "Moose Dog",
+        "Gray Elkhound",
+        "Norsk Elghund"
+      ],
+      "searchText": "norwegian elkhound grey norwegian elkhound norsk elghund grå elkhound norwegian moose dog moose dog gray elkhound norsk elghund"
+    },
+    {
+      "id": "4e660ce7-e876-4bef-8e48-6f9d4406688e",
+      "name": "NORSK_ELGHUND_SORT",
+      "displayName": "Elkhound",
+      "altNames": [
+        "Norwegian Elkhound Black",
+        "Black Norwegian Elkhound",
+        "Norsk Elghund Svart",
+        "Black Elkhound",
+        "Norwegian Moose Dog Black",
+        "Norsk Elghund Sort"
+      ],
+      "searchText": "elkhound norwegian elkhound black black norwegian elkhound norsk elghund svart black elkhound norwegian moose dog black norsk elghund sort"
+    },
+    {
+      "id": "0fe10dce-0316-4d48-b2b1-66a25c3413f6",
+      "name": "NORSK_LUNDEHUND",
+      "displayName": "Lundehund",
+      "altNames": [
+        "Norwegian Lundehund",
+        "Norsk Lundehund",
+        "Puffin Dog",
+        "Norwegian Puffin Dog",
+        "Lunde Dog",
+        "Norwegian Puffin Hound",
+        "Lundehund Dog",
+        "Norwegian Puffin Hound Dog"
+      ],
+      "searchText": "lundehund norwegian lundehund norsk lundehund puffin dog norwegian puffin dog lunde dog norwegian puffin hound lundehund dog norwegian puffin hound dog"
+    },
+    {
+      "id": "35fae5f1-5fc2-4995-a43b-d43ee1eca2d9",
+      "name": "NORWICH_TERRIER",
+      "displayName": "Norwich Terrier",
+      "altNames": [
+        "Norwich",
+        "Norwich Terrier Dog",
+        "Norwich Terrier Puppy",
+        "Norwich Terrier For Sale",
+        "Norwich Terrier Temperament",
+        "Norwich Terrier Price",
+        "Norwich Terrier Club",
+        "Norwich Terrier Breeders",
+        "Norwich Terrier Characteristics"
+      ],
+      "searchText": "norwich terrier norwich norwich terrier dog norwich terrier puppy norwich terrier for sale norwich terrier temperament norwich terrier price norwich terrier club norwich terrier breeders norwich terrier characteristics"
+    },
+    {
+      "id": "ee6774f4-3ce4-43a0-aa8e-d0069b8513f4",
+      "name": "NOVA_SCOTIA_DUCK_TOLLING_RETRIEVER",
+      "displayName": "Toller",
+      "altNames": [
+        "Nova Scotia Duck Tolling Retriever",
+        "Tolling Retriever",
+        "Little Red Dog",
+        "NSDTR",
+        "Nova Scotia Retriever",
+        "Toller Retriever",
+        "Duck Toller",
+        "Tollers"
+      ],
+      "searchText": "toller nova scotia duck tolling retriever tolling retriever little red dog nsdtr nova scotia retriever toller retriever duck toller tollers"
+    },
+    {
+      "id": "5238b81d-58a3-429a-84b0-4c8e8fb949e1",
+      "name": "OGAR_POLSKI",
+      "displayName": "Ogar Polski",
+      "altNames": [
+        "Polish Hound",
+        "Polish Hunting Dog",
+        "Polish Scent Hound",
+        "Ogar",
+        "Goniący Polski",
+        "Polish Sighthound"
+      ],
+      "searchText": "ogar polski polish hound polish hunting dog polish scent hound ogar goniący polski polish sighthound"
+    },
+    {
+      "id": "16cd970c-828d-4f94-9f69-0cb58223f6f6",
+      "name": "OLD_ENGLISH_SHEEPDOG",
+      "displayName": "Old English Sheepdog",
+      "altNames": [
+        "OES",
+        "Sheepdog",
+        "Bobtail",
+        "English Bobtail",
+        "Droopy",
+        "Shepherd Dog",
+        "Grey Sheepdog",
+        "Pastoral Sheepdog"
+      ],
+      "searchText": "old english sheepdog oes sheepdog bobtail english bobtail droopy shepherd dog grey sheepdog pastoral sheepdog"
+    },
+    {
+      "id": "71c19471-1d51-4c47-bc4a-27de7744909d",
+      "name": "OSTERREICHISCHER_PINSCHER",
+      "displayName": "Austrian Pinscher",
+      "altNames": [
+        "Osterreichischer Pinscher",
+        "Austrian Shorthaired Pinscher",
+        "Österreichischer Kurzhaariger Pinscher",
+        "Austrian Farm Pinscher",
+        "Oesterreichischer Pinscher",
+        "Austrian Pinscher Dog",
+        "Austrian Pinscher Breed",
+        "Austrian Pinscher Type"
+      ],
+      "searchText": "austrian pinscher osterreichischer pinscher austrian shorthaired pinscher österreichischer kurzhaariger pinscher austrian farm pinscher oesterreichischer pinscher austrian pinscher dog austrian pinscher breed austrian pinscher type"
+    },
+    {
+      "id": "3e0488df-d39f-4f15-b4a4-c3c45949f514",
+      "name": "OTTERHOUND",
+      "displayName": "Otterhound",
+      "altNames": [
+        "Otter Hound",
+        "Otterhound Dog",
+        "Old English Otterhound",
+        "English Otterhound",
+        "O.H.",
+        "Otterdog"
+      ],
+      "searchText": "otterhound otter hound otterhound dog old english otterhound english otterhound o.h. otterdog"
+    },
+    {
+      "id": "ddb9cb36-a93e-404c-9173-bda0c4141c20",
+      "name": "PARSON_RUSSELL_TERRIER",
+      "displayName": "Parson Russell Terrier",
+      "altNames": [
+        "Parson",
+        "PRT",
+        "Jack Russell Terrier",
+        "Russell Terrier",
+        "Parson Jack Russell Terrier",
+        "English Jack Russell Terrier",
+        "White English Terrier"
+      ],
+      "searchText": "parson russell terrier parson prt jack russell terrier russell terrier parson jack russell terrier english jack russell terrier white english terrier"
+    },
+    {
+      "id": "dfc70f10-341d-4d10-a631-922714f3bfee",
+      "name": "PEKINGESE",
+      "displayName": "Pekingese",
+      "altNames": [
+        "Peke",
+        "Pekingese Dog",
+        "Peking",
+        "Pekingese Lion Dog",
+        "Pekingese Spaniel",
+        "Pekingese Puppy",
+        "Pekingese Dog Breed",
+        "Pekingese Dog Price",
+        "Pekingese Dogs",
+        "Pekingese Cat"
+      ],
+      "searchText": "pekingese peke pekingese dog peking pekingese lion dog pekingese spaniel pekingese puppy pekingese dog breed pekingese dog price pekingese dogs pekingese cat"
+    },
+    {
+      "id": "f291c10c-aaf0-4516-a0aa-af64617030fe",
+      "name": "PERDIGUEIRO_PORTUGUES",
+      "displayName": "Portuguese Pointer",
+      "altNames": [
+        "Perdigueiro Português",
+        "Portuguese Setting Dog",
+        "Portuguese Bird Dog",
+        "Perdigueiro",
+        "Portuguese Podengo",
+        "Portuguese Hound"
+      ],
+      "searchText": "portuguese pointer perdigueiro português portuguese setting dog portuguese bird dog perdigueiro portuguese podengo portuguese hound"
+    },
+    {
+      "id": "c7c26e39-2023-486e-b389-81d7fecda57d",
+      "name": "PERDIGUERO_DE_BURGOS",
+      "displayName": "Burgos Pointer",
+      "altNames": [
+        "Perdiguero de Burgos Pointer",
+        "Burgos Hound",
+        "Spanish Pointer",
+        "Perdiguero",
+        "Burgos Bird Dog",
+        "Perdiguero de Burgos Hunting Dog"
+      ],
+      "searchText": "burgos pointer perdiguero de burgos pointer burgos hound spanish pointer perdiguero burgos bird dog perdiguero de burgos hunting dog"
+    },
+    {
+      "id": "ab35f0d1-5499-47d1-b775-c75ec20e13a9",
+      "name": "PERRO_DE_AGUA_ESPANOL",
+      "displayName": "Spanish Water Dog",
+      "altNames": [
+        "Perro de Agua Español",
+        "Andalusian Water Dog",
+        "SWD",
+        "Turco Andaluz",
+        "Barbet Español",
+        "Churro Dog",
+        "Perro de Agua"
+      ],
+      "searchText": "spanish water dog perro de agua español andalusian water dog swd turco andaluz barbet español churro dog perro de agua"
+    },
+    {
+      "id": "2fedf602-2396-4c16-8a07-a48c4dd8624f",
+      "name": "PERRO_DOGO_MALLORQUIN",
+      "displayName": "Ca de Bou",
+      "altNames": [
+        "Mallorcan Bulldog",
+        "Perro de Presa Mallorquin",
+        "Perro Dogo Mallorquin",
+        "Baleares Bulldog",
+        "Ca de Bou Mallorquin",
+        "Mallorquin Fighting Dog",
+        "Dogo Mallorquin",
+        "Presa Mallorquin"
+      ],
+      "searchText": "ca de bou mallorcan bulldog perro de presa mallorquin perro dogo mallorquin baleares bulldog ca de bou mallorquin mallorquin fighting dog dogo mallorquin presa mallorquin"
+    },
+    {
+      "id": "444fb845-11ee-41d8-83eb-326e9d07240d",
+      "name": "PERRO_SIN_PELO_DEL_PERU",
+      "displayName": "Peruvian Inca Orchid",
+      "altNames": [
+        "Peruvian Hairless Dog",
+        "Peruvian Inca Dog",
+        "Perro Sin Pelo del Perú",
+        "Peruvian Naked Dog",
+        "Peruvian Pila",
+        "Pila Dog",
+        "Peruvian Orchid Dog",
+        "Peruvian Inca Orchid Dog"
+      ],
+      "searchText": "peruvian inca orchid peruvian hairless dog peruvian inca dog perro sin pelo del perú peruvian naked dog peruvian pila pila dog peruvian orchid dog peruvian inca orchid dog"
+    },
+    {
+      "id": "8e65c9a3-0f55-4b21-aa9d-3aad91fe7e5b",
+      "name": "PETIT_BASSET_GRIFFON_VENDEEN",
+      "displayName": "Vendee",
+      "altNames": [
+        "Petit Basset Griffon Vendeen",
+        "PBGV",
+        "Little Vendee Basset",
+        "Griffon Vendeen",
+        "Basset Griffon Vendeen",
+        "Petit Basset Griffon",
+        "Vendeen Basset",
+        "Little Griffon Vendeen"
+      ],
+      "searchText": "vendee petit basset griffon vendeen pbgv little vendee basset griffon vendeen basset griffon vendeen petit basset griffon vendeen basset little griffon vendeen"
+    },
+    {
+      "id": "f0cfdc2a-6e39-4d39-85cc-16c3742def28",
+      "name": "PETIT_BLEU_DE_GASCOGNE",
+      "displayName": "Petit Bleu de Gascogne",
+      "altNames": [
+        "Little Blue Gascon Hound",
+        "Small Blue Gascon",
+        "Bleu de Gascogne Petit",
+        "Gascon Saintongeois Petit",
+        "Petit Bleu",
+        "Small Gascon Saintongeois"
+      ],
+      "searchText": "petit bleu de gascogne little blue gascon hound small blue gascon bleu de gascogne petit gascon saintongeois petit petit bleu small gascon saintongeois"
+    },
+    {
+      "id": "2aed44d6-b012-4b6b-a23a-c26dfa214346",
+      "name": "PETIT_BRABANCON",
+      "displayName": "Petit Brabancon",
+      "altNames": [
+        "Brabancon Griffon",
+        "Griffon Bruxellois Petit",
+        "Petit Brabant",
+        "Belgian Griffon",
+        "Brabancon",
+        "Griffon Brabançon"
+      ],
+      "searchText": "petit brabancon brabancon griffon griffon bruxellois petit petit brabant belgian griffon brabancon griffon brabançon"
+    },
+    {
+      "id": "6898ab2a-25a3-414b-8474-0f9dd6494f18",
+      "name": "PETIT_CHIEN_LION",
+      "displayName": "Lowchen",
+      "altNames": [
+        "Little Lion Dog",
+        "Petit Chien Lion",
+        "Lion Dog",
+        "Hund von Löwen",
+        "Perro León Pequeño",
+        "Chien Lion"
+      ],
+      "searchText": "lowchen little lion dog petit chien lion lion dog hund von löwen perro león pequeño chien lion"
+    },
+    {
+      "id": "8c9de550-bbc2-4aa1-8e46-4308f7c7e2f4",
+      "name": "PHARAOH_HOUND",
+      "displayName": "Pharaoh Hound",
+      "altNames": [
+        "Pharaoh",
+        "Kelb tal-Fenek",
+        "Pharaoh Hound dog",
+        "Pharaoh Hound breed",
+        "Egyptian Greyhound",
+        "Malta",
+        "Malta Dog",
+        "Khlub tal-Fenek"
+      ],
+      "searchText": "pharaoh hound pharaoh kelb tal-fenek pharaoh hound dog pharaoh hound breed egyptian greyhound malta malta dog khlub tal-fenek"
+    },
+    {
+      "id": "1a0a87fe-9430-47d1-b5d2-89b313fc3b65",
+      "name": "PICCOLO_LEVRIERO_ITALIANO",
+      "displayName": "Italian Greyhound",
+      "altNames": [
+        "Piccolo Levriero Italiano",
+        "IG",
+        "Italian Greyhound Dog",
+        "Little Italian Greyhound",
+        "Miniature Greyhound",
+        "Levriero Italiano",
+        "Italian Whippet",
+        "Grecian Greyhound"
+      ],
+      "searchText": "italian greyhound piccolo levriero italiano ig italian greyhound dog little italian greyhound miniature greyhound levriero italiano italian whippet grecian greyhound"
+    },
+    {
+      "id": "ef91caf7-4a84-41d1-9ff3-321a1494f551",
+      "name": "PODENCO_CANARIO",
+      "displayName": "Podenco Canario",
+      "altNames": [
+        "Canary Island Podenco",
+        "Canary Podenco",
+        "Podenco Canario Dog",
+        "Canary Islands Hound",
+        "Podenco",
+        "Canary Islands Podenco Hound",
+        "Perro de Presa Canario"
+      ],
+      "searchText": "podenco canario canary island podenco canary podenco podenco canario dog canary islands hound podenco canary islands podenco hound perro de presa canario"
+    },
+    {
+      "id": "e4ea72b6-1da2-4d89-a267-69ba4688bbaa",
+      "name": "PODENCO_IBICENCO",
+      "displayName": "Podenco",
+      "altNames": [
+        "Ibizan Hound",
+        "Podenco Ibicenco",
+        "Ibicen",
+        "Ibiza Hound",
+        "Podenco",
+        "Perro de Presa",
+        "Canario",
+        "Perro de Caza",
+        "Gale",
+        "Galaico"
+      ],
+      "searchText": "podenco ibizan hound podenco ibicenco ibicen ibiza hound podenco perro de presa canario perro de caza gale galaico"
+    },
+    {
+      "id": "bdc83d51-73d8-4965-88f4-c9740d26e584",
+      "name": "PODENGO_PORTUGUES",
+      "displayName": "Podengo",
+      "altNames": [
+        "Portuguese Podengo",
+        "Podengo Português",
+        "Portuguese Warren Hound",
+        "Podengo Pequeno",
+        "Podengo Medio",
+        "Podengo Grande",
+        "Portuguese Hound",
+        "Portuguese Rabbit Dog"
+      ],
+      "searchText": "podengo portuguese podengo podengo português portuguese warren hound podengo pequeno podengo medio podengo grande portuguese hound portuguese rabbit dog"
+    },
+    {
+      "id": "51eb2d4e-4816-489a-b1d7-92e55ef494c1",
+      "name": "POITEVIN",
+      "displayName": "Poitevin",
+      "altNames": [
+        "Poitevin Hound",
+        "Chien de Poitou",
+        "Poitou Hound",
+        "Grand Poitevin",
+        "Poitevin Saintongeois"
+      ],
+      "searchText": "poitevin poitevin hound chien de poitou poitou hound grand poitevin poitevin saintongeois"
+    },
+    {
+      "id": "58771180-8649-45f1-8739-8bf0313540e0",
+      "name": "POLSKI_OWCZAREK_NIZINNY",
+      "displayName": "PON",
+      "altNames": [
+        "Polish Lowland Sheepdog",
+        "Nizinnys",
+        "PON dog",
+        "Polski Owczarek",
+        "Lowland Sheepdog",
+        "Polish Sheepdog",
+        "Nizinny"
+      ],
+      "searchText": "pon polish lowland sheepdog nizinnys pon dog polski owczarek lowland sheepdog polish sheepdog nizinny"
+    },
+    {
+      "id": "ba298b61-f94f-4924-ba4d-60d8e64980ee",
+      "name": "POLSKI_OWCZAREK_PODHALANSKI",
+      "displayName": "Podhalan",
+      "altNames": [
+        "Polish Tatra Sheepdog",
+        "Tatra Shepherd Dog",
+        "Polish Mountain Dog",
+        "Tatra Mountain Dog",
+        "Podhalanski Owczarek",
+        "Polish Sheepdog",
+        "Tatra Dog"
+      ],
+      "searchText": "podhalan polish tatra sheepdog tatra shepherd dog polish mountain dog tatra mountain dog podhalanski owczarek polish sheepdog tatra dog"
+    },
+    {
+      "id": "42424fe9-857c-43fb-9d3f-73cb50068aa0",
+      "name": "PORCELAINE",
+      "displayName": "Porcelaine",
+      "altNames": [
+        "Porcelaine Hound",
+        "French Porcelaine",
+        "Chien de Porcelaine",
+        "Porcelaine de France",
+        "Porcelaine Hunting Dog",
+        "Porcelain Hound"
+      ],
+      "searchText": "porcelaine porcelaine hound french porcelaine chien de porcelaine porcelaine de france porcelaine hunting dog porcelain hound"
+    },
+    {
+      "id": "f92ecd67-7ccb-443a-8579-3c0f8db91772",
+      "name": "POSAVSKI_GONIC",
+      "displayName": "Posavac Hound",
+      "altNames": [
+        "Posavac",
+        "Posavac Hound Dog",
+        "Posavac Hunting Dog",
+        "Posavski Gonic Dog",
+        "Croatian Posavac Hound",
+        "Posavski Gonič",
+        "Posavski Gonic Hound",
+        "Posavac Hound Breed"
+      ],
+      "searchText": "posavac hound posavac posavac hound dog posavac hunting dog posavski gonic dog croatian posavac hound posavski gonič posavski gonic hound posavac hound breed"
+    },
+    {
+      "id": "cc9a41e4-49aa-4302-94c9-cb833c95b42f",
+      "name": "PRESA_CANARIO",
+      "displayName": "Presa Canario",
+      "altNames": [
+        "Dogo Canario",
+        "Canary Mastiff",
+        "Presa",
+        "Perro de Presa Canario",
+        "Canary Dog",
+        "Presa Canario Dog",
+        "Dogo"
+      ],
+      "searchText": "presa canario dogo canario canary mastiff presa perro de presa canario canary dog presa canario dog dogo"
+    },
+    {
+      "id": "5b52cc6a-3989-4f76-82b9-12e79ab3320f",
+      "name": "PUDELPOINTER",
+      "displayName": "Pudelpointer",
+      "altNames": [
+        "Pudel Pointer",
+        "German Poodle Pointer",
+        "Pudel-Pointer",
+        "Pudlepointer",
+        "Pudelpointer Dog",
+        "Pudle Pointer",
+        "Pudelpointer German",
+        "Pudelpointer Hunting Dog"
+      ],
+      "searchText": "pudelpointer pudel pointer german poodle pointer pudel-pointer pudlepointer pudelpointer dog pudle pointer pudelpointer german pudelpointer hunting dog"
+    },
+    {
+      "id": "29cfdd6a-d484-4f7e-aeb6-80d8b850f7f6",
+      "name": "PUG",
+      "displayName": "Pug",
+      "altNames": [
+        "Pug Dog",
+        "Mops",
+        "Pugs",
+        "Puggy",
+        "Puglet",
+        "Puggy Dog",
+        "Pug Dog Breed",
+        "Chinese Pug"
+      ],
+      "searchText": "pug pug dog mops pugs puggy puglet puggy dog pug dog breed chinese pug"
+    },
+    {
+      "id": "47e5f3f3-e87f-4948-9a27-1e4f15c24b70",
+      "name": "PULI",
+      "displayName": "Puli",
+      "altNames": [
+        "Hungarian Puli",
+        "Puli Dog",
+        "Komondor Puli",
+        "Mop Dog",
+        "Corded Puli",
+        "Hungarian Sheepdog",
+        "Puli Shepherd"
+      ],
+      "searchText": "puli hungarian puli puli dog komondor puli mop dog corded puli hungarian sheepdog puli shepherd"
+    },
+    {
+      "id": "13dd90fd-fbbb-443c-bad0-54d6a38a3a3d",
+      "name": "PUMI",
+      "displayName": "Pumi",
+      "altNames": [
+        "Hungarian Pumi",
+        "Pumi Dog",
+        "Hungarian Herding Dog",
+        "Pumi Terrier",
+        "Kopó",
+        "Farkaskutya"
+      ],
+      "searchText": "pumi hungarian pumi pumi dog hungarian herding dog pumi terrier kopó farkaskutya"
+    },
+    {
+      "id": "1f4455b0-cada-49fe-9b02-a95d0e448c58",
+      "name": "RAFEIRO_DO_ALENTEJO",
+      "displayName": "Alentejo Mastiff",
+      "altNames": [
+        "Portuguese Mastiff",
+        "Rafeiro",
+        "Alentejo Dog",
+        "Portuguese Cattle Dog",
+        "Cão de Castro Laboreiro",
+        "Cão de Rafeiro",
+        "Alentejo Cattle Dog",
+        "Portuguese Guard Dog"
+      ],
+      "searchText": "alentejo mastiff portuguese mastiff rafeiro alentejo dog portuguese cattle dog cão de castro laboreiro cão de rafeiro alentejo cattle dog portuguese guard dog"
+    },
+    {
+      "id": "19ba6e6a-1b07-48ed-be95-082743a35606",
+      "name": "RASTREADOR_BRASILEIRO",
+      "displayName": "Brazilian Tracker",
+      "altNames": [
+        "Ovelheiro Brasileiro",
+        "Brazilian Sheepdog",
+        "Fila Brasileiro Sheepdog",
+        "Brazilian Cattle Dog",
+        "Ovelheiro",
+        "Brazilian Herding Dog",
+        "Rastreador"
+      ],
+      "searchText": "brazilian tracker ovelheiro brasileiro brazilian sheepdog fila brasileiro sheepdog brazilian cattle dog ovelheiro brazilian herding dog rastreador"
+    },
+    {
+      "id": "7876dc62-5b41-41e7-9d45-45a4543b0d67",
+      "name": "RHODESIAN_RIDGEBACK",
+      "displayName": "Rhodesian Ridgeback",
+      "altNames": [
+        "Ridgeback",
+        "Rhodesian",
+        "Lion Dog",
+        "African Lion Hound",
+        "Rhodesian Lion Dog",
+        "Rhodesian Ridge",
+        "RR"
+      ],
+      "searchText": "rhodesian ridgeback ridgeback rhodesian lion dog african lion hound rhodesian lion dog rhodesian ridge rr"
+    },
+    {
+      "id": "e538a1a4-77c3-44c6-b306-9c6a3cc62087",
+      "name": "RIESENSCHNAUZER",
+      "displayName": "Giant Schnauzer",
+      "altNames": [
+        "Riesenschnauzer",
+        "Giant Schnauzer Dog",
+        "Giant Schnauzer Puppy",
+        "Giant Schnauzer For Sale",
+        "Giant Schnauzer Temperament",
+        "Giant Schnauzer Training",
+        "Giant Schnauzer Breeders",
+        "Giant Schnauzer Price",
+        "Giant Schnauzer Lifespan",
+        "Giant Schnauzer Grooming"
+      ],
+      "searchText": "giant schnauzer riesenschnauzer giant schnauzer dog giant schnauzer puppy giant schnauzer for sale giant schnauzer temperament giant schnauzer training giant schnauzer breeders giant schnauzer price giant schnauzer lifespan giant schnauzer grooming"
+    },
+    {
+      "id": "4c245b9d-7233-47c6-bb06-2ed42540290b",
+      "name": "ROTTWEILER",
+      "displayName": "Rottweiler",
+      "altNames": [
+        "Rottie",
+        "Rott",
+        "Rottweiler Dog",
+        "Rotty",
+        "Rottweiler Puppy",
+        "Rottweiler For Sale",
+        "Rottweiler Temperament",
+        "Rottweiler Price",
+        "Rottweiler Training",
+        "Rottweiler Characteristics"
+      ],
+      "searchText": "rottweiler rottie rott rottweiler dog rotty rottweiler puppy rottweiler for sale rottweiler temperament rottweiler price rottweiler training rottweiler characteristics"
+    },
+    {
+      "id": "7e764ea6-ca72-42b4-91de-4133233d71b0",
+      "name": "ROVIDSZORU_MAGYAR_VIZSLA",
+      "displayName": "Vizsla",
+      "altNames": [
+        "Hungarian Vizsla",
+        "Rovidszoru Magyar Vizsla",
+        "Smooth-Haired Hungarian Vizsla",
+        "Magyar Vizsla",
+        "Vizsla Dog",
+        "Hungarian Pointer",
+        "Vizsla Puppy",
+        "Vizsla For Sale"
+      ],
+      "searchText": "vizsla hungarian vizsla rovidszoru magyar vizsla smooth-haired hungarian vizsla magyar vizsla vizsla dog hungarian pointer vizsla puppy vizsla for sale"
+    },
+    {
+      "id": "f921bae2-5836-4b2c-86df-88b6a055d028",
+      "name": "RUSSKAYA_PSOVAYA_BORZAYA",
+      "displayName": "Borzoi",
+      "altNames": [
+        "Russian Wolfhound",
+        "Psowaja Borzaia",
+        "Russkaya Psovaya Borzaya",
+        "Russian Hunting Sighthound",
+        "Borzoi Dog",
+        "Russian Borzoi",
+        "Borzoi Hound",
+        "Russian Hunting Dog"
+      ],
+      "searchText": "borzoi russian wolfhound psowaja borzaia russkaya psovaya borzaya russian hunting sighthound borzoi dog russian borzoi borzoi hound russian hunting dog"
+    },
+    {
+      "id": "acca740c-2e2c-40a8-9170-b62d3a2869d0",
+      "name": "RUSSKIY_TCHIORNY_TERRIER",
+      "displayName": "Black Russian Terrier",
+      "altNames": [
+        "BRT",
+        "Russo-Tcherney Terrier",
+        "Russian Black Terrier",
+        "Chorny Terrier",
+        "BRT Dog",
+        "Black Russian",
+        "Tchiorny Terrier"
+      ],
+      "searchText": "black russian terrier brt russo-tcherney terrier russian black terrier chorny terrier brt dog black russian tchiorny terrier"
+    },
+    {
+      "id": "b30d16d3-6836-4536-8657-fae1bb3533a6",
+      "name": "RUSSKIY_TOY",
+      "displayName": "Russian Toy",
+      "altNames": [
+        "Russkiy Toy",
+        "Russian Toy Terrier",
+        "Moscow Toy Terrier",
+        "Moskovskiy Toy Terrier",
+        "Toy Terrier",
+        "Russian Toy Dog",
+        "RT",
+        "Rus Toy"
+      ],
+      "searchText": "russian toy russkiy toy russian toy terrier moscow toy terrier moskovskiy toy terrier toy terrier russian toy dog rt rus toy"
+    },
+    {
+      "id": "c0ea2fd6-50b4-4823-9330-a7f2dda70597",
+      "name": "RUSSKO_EVROPEISKAIA_LAIKA",
+      "displayName": "Laika",
+      "altNames": [
+        "Russian-European Laika",
+        "RE Laika",
+        "Russko-Evropeyskaya Laika",
+        "European Laika",
+        "Russian Laika",
+        "Laika Dog",
+        "RE Laika Dog"
+      ],
+      "searchText": "laika russian-european laika re laika russko-evropeyskaya laika european laika russian laika laika dog re laika dog"
+    },
+    {
+      "id": "6d9f1428-bfeb-4607-bfa8-ab537093496f",
+      "name": "SAARLOOSWOLFHOND",
+      "displayName": "Saarlooswolfdog",
+      "altNames": [
+        "Saarloos",
+        "Saarloos Wolfdog",
+        "Dutch Wolfdog",
+        "Wolfdog",
+        "Saarloos Wolfhond",
+        "Saarloos Wolf Dog",
+        "Saarloos Wolf",
+        "Dutch Wolf Dog"
+      ],
+      "searchText": "saarlooswolfdog saarloos saarloos wolfdog dutch wolfdog wolfdog saarloos wolfhond saarloos wolf dog saarloos wolf dutch wolf dog"
+    },
+    {
+      "id": "e2347c1e-81f8-4bd0-8257-554de3c84237",
+      "name": "SABUESO_ESPANOL",
+      "displayName": "Spanish Hound",
+      "altNames": [
+        "Sabueso Español",
+        "Spanish Scent Hound",
+        "Perro Sabueso Español",
+        "Sabueso",
+        "Spanish Bloodhound",
+        "Sabueso de Trabajo"
+      ],
+      "searchText": "spanish hound sabueso español spanish scent hound perro sabueso español sabueso spanish bloodhound sabueso de trabajo"
+    },
+    {
+      "id": "934ac667-d878-4074-83ad-2ee50d5abe58",
+      "name": "SALUKI",
+      "displayName": "Saluki",
+      "altNames": [
+        "Persian Greyhound",
+        "Royal Dog of Egypt",
+        "Gazelle Hound",
+        "Arabian Greyhound",
+        "Chien de Suse",
+        "Tazi",
+        "El Hor",
+        "Shami"
+      ],
+      "searchText": "saluki persian greyhound royal dog of egypt gazelle hound arabian greyhound chien de suse tazi el hor shami"
+    },
+    {
+      "id": "65e2fdcb-da09-4ede-acac-17f89e41d482",
+      "name": "SAMOIEDSKAIA_SABAKA",
+      "displayName": "Samoyed",
+      "altNames": [
+        "Samoiedskaïa Sabaka",
+        "Samoiedskaia Sabaka",
+        "Samoedskaïa Sabaka",
+        "Samoedskaia Sabaka",
+        "Samoied",
+        "Samoed",
+        "Arctic Samoyed",
+        "Samoiedskaya Sobaka"
+      ],
+      "searchText": "samoyed samoiedskaïa sabaka samoiedskaia sabaka samoedskaïa sabaka samoedskaia sabaka samoied samoed arctic samoyed samoiedskaya sobaka"
+    },
+    {
+      "id": "aa6deada-791b-4ab1-a074-8680362159eb",
+      "name": "SCHILLERSTOVARE",
+      "displayName": "Schillerstovare",
+      "altNames": [
+        "Schiller Hound",
+        "Schillerstövare",
+        "Schiller",
+        "Schillerstövare Hound",
+        "Schillerstövare Dog",
+        "Schillerstövare Swedish Hound",
+        "Swedish Schiller Hound",
+        "Schillerstövare Sweden"
+      ],
+      "searchText": "schillerstovare schiller hound schillerstövare schiller schillerstövare hound schillerstövare dog schillerstövare swedish hound swedish schiller hound schillerstövare sweden"
+    },
+    {
+      "id": "dc96f650-06f5-4698-9ab9-fcacb9631cd1",
+      "name": "SCHIPPERKE",
+      "displayName": "Schipperke",
+      "altNames": [
+        "Schipperke Dog",
+        "Belgian Barge Dog",
+        "Little Black Witch",
+        "Spits",
+        "Skipper",
+        "Schipperke Dog Breed",
+        "Belgian Sheepdog",
+        "Flemish Shepherd Dog"
+      ],
+      "searchText": "schipperke schipperke dog belgian barge dog little black witch spits skipper schipperke dog breed belgian sheepdog flemish shepherd dog"
+    },
+    {
+      "id": "97b7112d-f961-4ab0-99b4-c8c3e527a6d0",
+      "name": "SCHNAUZER",
+      "displayName": "Schnauzer",
+      "altNames": [
+        "Miniature Schnauzer",
+        "Standard Schnauzer",
+        "Giant Schnauzer",
+        "Schnauzer Dog",
+        "Schnauzer Breed",
+        "Schnauzers",
+        "Schnauzer Puppy",
+        "Schnauzer Mix",
+        "Schnauzer Grooming",
+        "Schnauzer Temperament"
+      ],
+      "searchText": "schnauzer miniature schnauzer standard schnauzer giant schnauzer schnauzer dog schnauzer breed schnauzers schnauzer puppy schnauzer mix schnauzer grooming schnauzer temperament"
+    },
+    {
+      "id": "0140c7ec-7d04-4b91-8352-ed154166661f",
+      "name": "SCHWEIZER_LAUFHUND_CHIEN_COURANT_SUISSE",
+      "displayName": "Swiss Hound",
+      "altNames": [
+        "Schweizer Laufhund",
+        "Chien Courant Suisse",
+        "Swiss Running Hound",
+        "Swiss Scent Hound",
+        "Swiss Hound Dog",
+        "Swiss Courant"
+      ],
+      "searchText": "swiss hound schweizer laufhund chien courant suisse swiss running hound swiss scent hound swiss hound dog swiss courant"
+    },
+    {
+      "id": "8517f6ba-cb44-4584-b453-371c06b994a1",
+      "name": "SCHWEIZER_NIEDERLAUFHUND",
+      "displayName": "Swiss Hound",
+      "altNames": [
+        "Schweizer Laufhund",
+        "Swiss Running Hound",
+        "Swiss Scent Hound",
+        "Schweizer Niederlaufhund",
+        "Swiss Hound Dog",
+        "Swiss Hunting Dog",
+        "Laufhund"
+      ],
+      "searchText": "swiss hound schweizer laufhund swiss running hound swiss scent hound schweizer niederlaufhund swiss hound dog swiss hunting dog laufhund"
+    },
+    {
+      "id": "023dc6b3-e260-48e8-8ed3-440eb535c0f8",
+      "name": "SCOTTISH_TERRIER",
+      "displayName": "Scottie",
+      "altNames": [
+        "Scottish Terrier Dog",
+        "Scotty Dog",
+        "Aberdeen Terrier",
+        "Scottie Terrier",
+        "Caledonian Terrier",
+        "West Highland White Terrier"
+      ],
+      "searchText": "scottie scottish terrier dog scotty dog aberdeen terrier scottie terrier caledonian terrier west highland white terrier"
+    },
+    {
+      "id": "885f27e5-4e24-4775-b52c-21113453f8ef",
+      "name": "SEALYHAM_TERRIER",
+      "displayName": "Sealyham",
+      "altNames": [
+        "Sealyham Terrier",
+        "Sealyham Terrier Dog",
+        "Sealy",
+        "Sealyham Terrier Breed",
+        "Welsh Terrier",
+        "Sealyham Terrier Dog Breed",
+        "Terrier Sealyham",
+        "Sealyham Terrier Dog Types"
+      ],
+      "searchText": "sealyham sealyham terrier sealyham terrier dog sealy sealyham terrier breed welsh terrier sealyham terrier dog breed terrier sealyham sealyham terrier dog types"
+    },
+    {
+      "id": "3dcabef4-bb59-4f10-bd95-e476d0904797",
+      "name": "SEGUGIO_ITALIANO_A_PELO_FORTE",
+      "displayName": "Italian Hound",
+      "altNames": [
+        "Segugio Italiano",
+        "Italian Rough-Haired Hound",
+        "Segugio Italiano a Pelo Forte",
+        "Italian Rough Hound",
+        "Italian Setter",
+        "Segugio",
+        "Italiano"
+      ],
+      "searchText": "italian hound segugio italiano italian rough-haired hound segugio italiano a pelo forte italian rough hound italian setter segugio italiano"
+    },
+    {
+      "id": "d029e812-6078-44c0-bff6-f3564fbd7e71",
+      "name": "SEGUGIO_ITALIANO_A_PELO_RASO",
+      "displayName": "Italian Hound",
+      "altNames": [
+        "Segugio Italiano",
+        "Italian Rough-haired Hound",
+        "Italian Pointer",
+        "Segugio Italiano a Pelo Forte",
+        "Italian Hunting Dog",
+        "Italian Sighthound",
+        "Italian Scent Hound",
+        "Italian Hare Hound"
+      ],
+      "searchText": "italian hound segugio italiano italian rough-haired hound italian pointer segugio italiano a pelo forte italian hunting dog italian sighthound italian scent hound italian hare hound"
+    },
+    {
+      "id": "8f3fc39b-6eb8-4003-a6e3-29941462ecbc",
+      "name": "SHAR_PEI",
+      "displayName": "Shar Pei",
+      "altNames": [
+        "Chinese Shar-Pei",
+        "Sharpei",
+        "Shar Pei Dog",
+        "Wrinkle Dog",
+        "Chinese Fighting Dog",
+        "Sand Dog"
+      ],
+      "searchText": "shar pei chinese shar-pei sharpei shar pei dog wrinkle dog chinese fighting dog sand dog"
+    },
+    {
+      "id": "da251a9c-9ee6-4df8-85ee-c2c8242fa052",
+      "name": "SHETLAND_SHEEPDOG",
+      "displayName": "Sheltie",
+      "altNames": [
+        "Shetland Sheepdog",
+        "Sheltie dog",
+        "Miniature Collie",
+        "Sheltie puppy",
+        "Shetland Collie",
+        "Sheltie dog breed",
+        "Sheltie dog price",
+        "Shetland"
+      ],
+      "searchText": "sheltie shetland sheepdog sheltie dog miniature collie sheltie puppy shetland collie sheltie dog breed sheltie dog price shetland"
+    },
+    {
+      "id": "f5097e86-abdb-4928-8310-af41ce4c9f49",
+      "name": "SHIBA",
+      "displayName": "Shiba",
+      "altNames": [
+        "Shiba Inu",
+        "Shiba Ken",
+        "Japanese Shiba",
+        "Shiba Dog",
+        "Shiba Inu Dog",
+        "Shiba Inu Inu",
+        "Shiba Inu Ken"
+      ],
+      "searchText": "shiba shiba inu shiba ken japanese shiba shiba dog shiba inu dog shiba inu inu shiba inu ken"
+    },
+    {
+      "id": "e19895b4-4378-4059-a273-28d978bf5b7f",
+      "name": "SHIH_TZU",
+      "displayName": "Shih Tzu",
+      "altNames": [
+        "Shih Tzu Dog",
+        "Shih Tzu Puppy",
+        "Shih Tzu for Sale",
+        "Shih Tzu Price",
+        "Shih Tzu Grooming",
+        "Shih Tzu Temperament",
+        "Shih Tzu Lifespan",
+        "Shih Tzu Training",
+        "Shih Tzu History",
+        "Shih Tzu Characteristics"
+      ],
+      "searchText": "shih tzu shih tzu dog shih tzu puppy shih tzu for sale shih tzu price shih tzu grooming shih tzu temperament shih tzu lifespan shih tzu training shih tzu history shih tzu characteristics"
+    },
+    {
+      "id": "8e94b929-e4f8-471d-a8c3-f7aa389f5e10",
+      "name": "SHIKOKU",
+      "displayName": "Shikoku",
+      "altNames": [
+        "Shikoku-inu",
+        "Shikoku Ken",
+        "Japanese Shikoku",
+        "Shikoku Dog",
+        "Dogo Shikoku",
+        "Shikoku Inu",
+        "Shikoku Ken"
+      ],
+      "searchText": "shikoku shikoku-inu shikoku ken japanese shikoku shikoku dog dogo shikoku shikoku inu shikoku ken"
+    },
+    {
+      "id": "62cafae2-3743-4b85-a2e2-171bac73c3f0",
+      "name": "SIBERIAN_HUSKY",
+      "displayName": "Husky",
+      "altNames": [
+        "Siberian Husky Dog",
+        "Husky Dog",
+        "Siberian",
+        "Arctic Husky",
+        "Northern Husky",
+        "Sibe",
+        "Husky Wolf"
+      ],
+      "searchText": "husky siberian husky dog husky dog siberian arctic husky northern husky sibe husky wolf"
+    },
+    {
+      "id": "04ae3123-dc06-45f1-a42f-96ea589959c6",
+      "name": "SKYE_TERRIER",
+      "displayName": "Skye Terrier",
+      "altNames": [
+        "Skye",
+        "Skye Terrier Dog",
+        "West Highland Terrier",
+        "Clydesdale Terrier",
+        "Silky Terrier",
+        "Short-haired Skye Terrier",
+        "Long-haired Skye Terrier",
+        "Skye Terrier Dog Breed",
+        "Terrier of Skye"
+      ],
+      "searchText": "skye terrier skye skye terrier dog west highland terrier clydesdale terrier silky terrier short-haired skye terrier long-haired skye terrier skye terrier dog breed terrier of skye"
+    },
+    {
+      "id": "61abaa4b-d11c-49f0-a48b-7f8b6754d2d7",
+      "name": "SLOUGHI",
+      "displayName": "Sloughi",
+      "altNames": [
+        "Arabian Greyhound",
+        "North African Greyhound",
+        "Berber Greyhound",
+        "Libyan Greyhound",
+        "Moroccan Greyhound",
+        "Algerian Greyhound",
+        "Sloughi Dog",
+        "Sloughi Hound"
+      ],
+      "searchText": "sloughi arabian greyhound north african greyhound berber greyhound libyan greyhound moroccan greyhound algerian greyhound sloughi dog sloughi hound"
+    },
+    {
+      "id": "0b1c274c-3feb-45c3-b92a-ec3fcb623737",
+      "name": "SLOVENSKY_CUVAC",
+      "displayName": "Slovenský Cuvac",
+      "altNames": [
+        "Slovak Cuvac",
+        "Slovakian Cuvac",
+        "Tatra Shepherd Dog",
+        "Tatra Dog",
+        "Slovak Sheepdog",
+        "Cuvac",
+        "Slovenský Pastiersky Pes",
+        "Slovakian Shepherd Dog"
+      ],
+      "searchText": "slovenský cuvac slovak cuvac slovakian cuvac tatra shepherd dog tatra dog slovak sheepdog cuvac slovenský pastiersky pes slovakian shepherd dog"
+    },
+    {
+      "id": "983cabce-9f9f-4661-99f3-e9cb44284c3c",
+      "name": "SLOVENSKY_HRUBOSRSTY_STAVAC",
+      "displayName": "Slovak Rough-haired Pointer",
+      "altNames": [
+        "Slovenský hrubosrstý stavač",
+        "Slovak Wirehaired Pointer",
+        "Slovak Pointer",
+        "Stavac",
+        "Slovakian Rough-haired Pointer",
+        "Slovakian Wirehaired Pointer"
+      ],
+      "searchText": "slovak rough-haired pointer slovenský hrubosrstý stavač slovak wirehaired pointer slovak pointer stavac slovakian rough-haired pointer slovakian wirehaired pointer"
+    },
+    {
+      "id": "5e97accf-3b8f-44ff-9300-c29e142c3b6f",
+      "name": "SLOVENSKY_KOPOV",
+      "displayName": "Slovak Hound",
+      "altNames": [
+        "Slovenský Kopov",
+        "Slovakian Kopov",
+        "Slovakian Hound",
+        "Kopov",
+        "Slovak Hunting Dog",
+        "Slovakian Hunting Dog",
+        "Slovakian Bush Dog"
+      ],
+      "searchText": "slovak hound slovenský kopov slovakian kopov slovakian hound kopov slovak hunting dog slovakian hunting dog slovakian bush dog"
+    },
+    {
+      "id": "924ed0b9-efc4-43c9-aed6-f576f93ddf7d",
+      "name": "SMALANDSSTOVARE",
+      "displayName": "Smålandsstövare",
+      "altNames": [
+        "Småland Hound",
+        "Smoland Hound",
+        "Swedish Foxhound",
+        "Smålandsstövare dog",
+        "Smålandstövare",
+        "Smålandsstövare hound",
+        "Swedish Hound",
+        "Smolandstövare"
+      ],
+      "searchText": "smålandsstövare småland hound smoland hound swedish foxhound smålandsstövare dog smålandstövare smålandsstövare hound swedish hound smolandstövare"
+    },
+    {
+      "id": "d9873d79-524f-4279-a223-8c2f9d7a6afb",
+      "name": "SPINONE_ITALIANO",
+      "displayName": "Spinone",
+      "altNames": [
+        "Spinone Italiano",
+        "Italian Spinone",
+        "Spino",
+        "Italian Griffon",
+        "Spinone Hunter",
+        "Italian Pointer",
+        "Wirehaired Italian Pointer"
+      ],
+      "searchText": "spinone spinone italiano italian spinone spino italian griffon spinone hunter italian pointer wirehaired italian pointer"
+    },
+    {
+      "id": "674450dd-f74d-48f7-8c4e-ec6248617a55",
+      "name": "SREDNEASIATSKAYA_OVTCHARKA",
+      "displayName": "Central Asian Shepherd Dog",
+      "altNames": [
+        "Ovtcharka",
+        "CAOD",
+        "Alabai",
+        "Turkmen Wolfhound",
+        "Asian Shepherd",
+        "Sredneasiatskaya Ovcharka",
+        "CAO",
+        "Tazi"
+      ],
+      "searchText": "central asian shepherd dog ovtcharka caod alabai turkmen wolfhound asian shepherd sredneasiatskaya ovcharka cao tazi"
+    },
+    {
+      "id": "7c781967-16f8-442c-892a-b5d1cd58bf10",
+      "name": "SRPSKI_GONIC",
+      "displayName": "Serbian Hound",
+      "altNames": [
+        "Srpski Gonic",
+        "Serbian Tricolor Hound",
+        "Balkan Hound",
+        "Serbian Tricolor Pointer",
+        "Serbian Hunting Dog",
+        "Srpski Trobojni Gonic"
+      ],
+      "searchText": "serbian hound srpski gonic serbian tricolor hound balkan hound serbian tricolor pointer serbian hunting dog srpski trobojni gonic"
+    },
+    {
+      "id": "ae33bad8-47f9-4bbd-bf5e-1ea781551a5a",
+      "name": "SRPSKI_TROBOJNI_GONIC",
+      "displayName": "Serbian Hound",
+      "altNames": [
+        "Srpski Trobojni Gonič",
+        "Serbian Tricolor Hound",
+        "Balkan Hound",
+        "Yugoslav Tricolour Hound",
+        "Serbian Tricolor",
+        "Trobojni Gonič",
+        "Serbian Tricolour Hunting Dog"
+      ],
+      "searchText": "serbian hound srpski trobojni gonič serbian tricolor hound balkan hound yugoslav tricolour hound serbian tricolor trobojni gonič serbian tricolour hunting dog"
+    },
+    {
+      "id": "2c676085-62fd-4ee1-8997-1b672a5564c9",
+      "name": "STABIJHOUN",
+      "displayName": "Stabyhoun",
+      "altNames": [
+        "Staby",
+        "Stabyhouns",
+        "Frisian Pointer",
+        "Dutch Pointer",
+        "Friese Stabij",
+        "Stabyhoun",
+        "Friese Stabijhouns"
+      ],
+      "searchText": "stabyhoun staby stabyhouns frisian pointer dutch pointer friese stabij stabyhoun friese stabijhouns"
+    },
+    {
+      "id": "3bd7a7a4-2210-446d-9f0e-1d91c17b348d",
+      "name": "STAFFORDSHIRE_BULL_TERRIER",
+      "displayName": "Staffordshire Bull Terrier",
+      "altNames": [
+        "Staffy",
+        "Staffie",
+        "Stafford",
+        "Staffordshire Terrier",
+        "AmStaff"
+      ],
+      "searchText": "staffordshire bull terrier staffy staffie stafford staffordshire terrier amstaff"
+    },
+    {
+      "id": "bb22323c-8059-4e3e-96fc-d414744a3b82",
+      "name": "STBERNHARDSHUND_BERNHARDINER",
+      "displayName": "Saint Bernard",
+      "altNames": [
+        "St. Bernard",
+        "Bernhardiner",
+        "St Bernard Dog",
+        "St. Bernards",
+        "Bernese Mountain Dog",
+        "Alpine Mastiff",
+        "Barry Dog",
+        "St. Bernards Dog"
+      ],
+      "searchText": "saint bernard st. bernard bernhardiner st bernard dog st. bernards bernese mountain dog alpine mastiff barry dog st. bernards dog"
+    },
+    {
+      "id": "495e8407-aef0-43e2-a0df-453eddfcdc56",
+      "name": "STEIRISCHE_RAUHHAARBRACKE",
+      "displayName": "Styrian Coarse-haired Hound",
+      "altNames": [
+        "Styrian Rough-haired Hound",
+        "Steirische Rauhhaar Bracke",
+        "Styrian Hound",
+        "Rauhhaar Bracke",
+        "Steirer Bracke",
+        "Styrian Rough-haired Scent Hound",
+        "Styrian Scent Hound"
+      ],
+      "searchText": "styrian coarse-haired hound styrian rough-haired hound steirische rauhhaar bracke styrian hound rauhhaar bracke steirer bracke styrian rough-haired scent hound styrian scent hound"
+    },
+    {
+      "id": "b4d377fd-35af-493a-bf89-6444283d3287",
+      "name": "SUOMENAJOKOIRA",
+      "displayName": "Finnish Hound",
+      "altNames": [
+        "Suomenajokoira",
+        "Finnish Scent Hound",
+        "Finnish Harrier",
+        "Suomi Hound",
+        "Finnish Pointer"
+      ],
+      "searchText": "finnish hound suomenajokoira finnish scent hound finnish harrier suomi hound finnish pointer"
+    },
+    {
+      "id": "b361c4d1-b60e-4086-bd04-e792906ac5cd",
+      "name": "SUOMENLAPINKOIRA",
+      "displayName": "Finnish Lapphund",
+      "altNames": [
+        "Lapponian Herder",
+        "Lapinporokoira",
+        "Suomenlapinkoira",
+        "Finnish Lapponian Herder",
+        "Lapinkoira",
+        "Lappie",
+        "Finnish Herder"
+      ],
+      "searchText": "finnish lapphund lapponian herder lapinporokoira suomenlapinkoira finnish lapponian herder lapinkoira lappie finnish herder"
+    },
+    {
+      "id": "f67aa131-c524-43de-b69d-d5afa000d1bf",
+      "name": "SUOMENPYSTYKORVA",
+      "displayName": "Finnish Spitz",
+      "altNames": [
+        "Suomenpystykorva",
+        "Finsk Spets",
+        "Finnish Barking Dog",
+        "Lapponian Dog",
+        "Finsk Vorstehhund",
+        "Suomi",
+        "Pystykorva"
+      ],
+      "searchText": "finnish spitz suomenpystykorva finsk spets finnish barking dog lapponian dog finsk vorstehhund suomi pystykorva"
+    },
+    {
+      "id": "8a4317c1-ccc4-41a5-b825-43e3ca9d5f21",
+      "name": "SUSSEX_SPANIEL",
+      "displayName": "Sussex",
+      "altNames": [
+        "Sussex Spaniel",
+        "Sussex Spaniel Dog",
+        "Sussex Retriever",
+        "Old English Spaniel",
+        "Southern Spaniel",
+        "Sussex Gundog"
+      ],
+      "searchText": "sussex sussex spaniel sussex spaniel dog sussex retriever old english spaniel southern spaniel sussex gundog"
+    },
+    {
+      "id": "f03fdfa5-01ee-4eea-b6c3-184b6751d546",
+      "name": "SVENSK_LAPPHUND",
+      "displayName": "Lapphund",
+      "altNames": [
+        "Swedish Lapphund",
+        "Svensk Lapphund",
+        "Lapponian Herder",
+        "Lapland Herder",
+        "Finnish Lapphund",
+        "Lappie",
+        "Swedish Reindeer Dog",
+        "Lapphund Svensk"
+      ],
+      "searchText": "lapphund swedish lapphund svensk lapphund lapponian herder lapland herder finnish lapphund lappie swedish reindeer dog lapphund svensk"
+    },
+    {
+      "id": "fff73125-096f-4f5f-bf9d-47ad0a793cdd",
+      "name": "TAIWAN_DOG",
+      "displayName": "Taiwan Dog",
+      "altNames": [
+        "Formosan Mountain Dog",
+        "Taiwan Native Dog",
+        "Taiwanese Dog",
+        "Formosan",
+        "TWD"
+      ],
+      "searchText": "taiwan dog formosan mountain dog taiwan native dog taiwanese dog formosan twd"
+    },
+    {
+      "id": "850a8be9-38d2-46ab-ae03-f05e0e925bb3",
+      "name": "TERRIER_BRASILEIRO",
+      "displayName": "Terrier Brasileiro",
+      "altNames": [
+        "Brazilian Terrier",
+        "Fox Terrier Brasileiro",
+        "Teddy Terrier",
+        "Yap Terrier",
+        "Terrier Brasileiro de Pelo Curto",
+        "Fox Paulistinha"
+      ],
+      "searchText": "terrier brasileiro brazilian terrier fox terrier brasileiro teddy terrier yap terrier terrier brasileiro de pelo curto fox paulistinha"
+    },
+    {
+      "id": "07d6ef5f-b2e3-4e5c-8555-f2176d024689",
+      "name": "THAI_BANGKAEW_DOG",
+      "displayName": "Thai Bangkaew Dog",
+      "altNames": [
+        "Bangkaew Dog",
+        "Thai Bangkaew",
+        "Bangkaew",
+        "Thai Native Dog",
+        "Bangkaew Thai",
+        "Bang Kaeo Dog",
+        "Thai Bangkaew Shepherd"
+      ],
+      "searchText": "thai bangkaew dog bangkaew dog thai bangkaew bangkaew thai native dog bangkaew thai bang kaeo dog thai bangkaew shepherd"
+    },
+    {
+      "id": "9c117ffa-1ae3-4a02-bae4-cc9279abdb32",
+      "name": "THAI_RIDGEBACK_DOG",
+      "displayName": "Thai Ridgeback",
+      "altNames": [
+        "Maha Thai",
+        "Thai Ridgeback Dog",
+        "Ridgeback Thai",
+        "TRD",
+        "Thai Dog",
+        "Mah Thai"
+      ],
+      "searchText": "thai ridgeback maha thai thai ridgeback dog ridgeback thai trd thai dog mah thai"
+    },
+    {
+      "id": "31a346ea-37e2-43d5-8a81-4d1c2eabbd84",
+      "name": "TIBETAN_SPANIEL",
+      "displayName": "Tibetan Spaniel",
+      "altNames": [
+        "Tibbie",
+        "Tibetan Lion Dog",
+        "Tibetan Temple Dog",
+        "Little Lion Dog",
+        "Tsang Apso",
+        "Bhote Apso",
+        "Himalayan Apso"
+      ],
+      "searchText": "tibetan spaniel tibbie tibetan lion dog tibetan temple dog little lion dog tsang apso bhote apso himalayan apso"
+    },
+    {
+      "id": "7d1bcadf-bcfb-4d98-9475-57aa65721f58",
+      "name": "TIBETAN_TERRIER",
+      "displayName": "Tibetan Terrier",
+      "altNames": [
+        "Tibetan",
+        "TT",
+        "Tsang Apso",
+        "Apso",
+        "Tibetan Temple Dog",
+        "Himalayan Sheepdog",
+        "Dhokhi",
+        "Kham Apso"
+      ],
+      "searchText": "tibetan terrier tibetan tt tsang apso apso tibetan temple dog himalayan sheepdog dhokhi kham apso"
+    },
+    {
+      "id": "19db70bc-9636-4afa-956b-e34fcd7c953e",
+      "name": "TIROLER_BRACKE",
+      "displayName": "Tyrolean Hound",
+      "altNames": [
+        "Tiroler Bracke",
+        "Austrian Hound",
+        "Tyrolean Bracke",
+        "Alpine Dachsbracke",
+        "Dachsbracke",
+        "Tyrolean Scent Hound",
+        "Tyroler Bracke",
+        "Tyrolean Hunting Dog"
+      ],
+      "searchText": "tyrolean hound tiroler bracke austrian hound tyrolean bracke alpine dachsbracke dachsbracke tyrolean scent hound tyroler bracke tyrolean hunting dog"
+    },
+    {
+      "id": "4b81b548-f0a8-47ab-a4a1-16b9db557d38",
+      "name": "TORNJAK",
+      "displayName": "Tornjak",
+      "altNames": [
+        "Bosnian and Herzegovinian Shepherd Dog",
+        "Bosnian Shepherd",
+        "Herzegovinian Shepherd",
+        "Bosnian-Herzegovinian Tornjak",
+        "Tornjak Shepherd",
+        "Bosnian Mountain Dog",
+        "Herzegovinian Mountain Dog",
+        "Dinaric Shepherd Dog"
+      ],
+      "searchText": "tornjak bosnian and herzegovinian shepherd dog bosnian shepherd herzegovinian shepherd bosnian-herzegovinian tornjak tornjak shepherd bosnian mountain dog herzegovinian mountain dog dinaric shepherd dog"
+    },
+    {
+      "id": "0d14daac-78f2-47b5-a082-8474c1d725a8",
+      "name": "TOSA",
+      "displayName": "Tosa",
+      "altNames": [
+        "Tosa Inu",
+        "Japanese Mastiff",
+        "Great Japanese Dog",
+        "Japanese Fighting Dog",
+        "Tosa Ken",
+        "Nihon Tosa Inu",
+        "Tosa Token"
+      ],
+      "searchText": "tosa tosa inu japanese mastiff great japanese dog japanese fighting dog tosa ken nihon tosa inu tosa token"
+    },
+    {
+      "id": "cbc0d05e-fc04-4d2c-a24e-cae78fff7eda",
+      "name": "VASTGOTASPETS",
+      "displayName": "Västgötaspets",
+      "altNames": [
+        "Swedish Vallhund",
+        "Vastgotaspets",
+        "Vallhund",
+        "Swedish Cattle Dog",
+        "Vastgotaspets Swedish Vallhund",
+        "Swedish Spitz"
+      ],
+      "searchText": "västgötaspets swedish vallhund vastgotaspets vallhund swedish cattle dog vastgotaspets swedish vallhund swedish spitz"
+    },
+    {
+      "id": "f26be755-59b0-4986-aee0-26393cc3c67e",
+      "name": "VOLPINO_ITALIANO",
+      "displayName": "Volpino",
+      "altNames": [
+        "Italian Spitz",
+        "Italian Pomeranian",
+        "Volpino Italiano",
+        "Italian Spitz Dog",
+        "Dogo de Italia",
+        "Spitz Italiano",
+        "Italian Fox Dog"
+      ],
+      "searchText": "volpino italian spitz italian pomeranian volpino italiano italian spitz dog dogo de italia spitz italiano italian fox dog"
+    },
+    {
+      "id": "07e20982-15ed-43c3-b998-3a4adc34b597",
+      "name": "VOSTOTCHNO_SIBIRSKAIA_LAIKA",
+      "displayName": "East Siberian Laika",
+      "altNames": [
+        "Vostochno-Sibirskaya Laika",
+        "East Siberian Laika Dog",
+        "ESL",
+        "Siberian Laika",
+        "Laika",
+        "Vostochno Sibirskaya Laika",
+        "Vostochno Sibirsky Laika",
+        "Sibirskaya Laika"
+      ],
+      "searchText": "east siberian laika vostochno-sibirskaya laika east siberian laika dog esl siberian laika laika vostochno sibirskaya laika vostochno sibirsky laika sibirskaya laika"
+    },
+    {
+      "id": "1d7575c8-667d-4268-9e61-ba21e380c56f",
+      "name": "WEIMARANER",
+      "displayName": "Weimaraner",
+      "altNames": [
+        "Weimar Pointer",
+        "Grey Ghost",
+        "Weimar",
+        "Weim",
+        "Weimaraner Dog",
+        "Weimaraner Hound",
+        "Weimaraner Gun Dog"
+      ],
+      "searchText": "weimaraner weimar pointer grey ghost weimar weim weimaraner dog weimaraner hound weimaraner gun dog"
+    },
+    {
+      "id": "0575bb34-b1e9-4a62-b8c5-3d8fafd66aef",
+      "name": "WELSH_CORGI",
+      "displayName": "Cardigan Welsh Corgi",
+      "altNames": [
+        "Cardigan Corgi",
+        "Cardigan",
+        "Welsh Corgi Cardigan",
+        "Corgi Cardigan",
+        "Cardigan Welsh",
+        "Cardigan Welsh Sheepdog",
+        "Ci Corgi",
+        "Cardigan Welsh Cattle Dog"
+      ],
+      "searchText": "cardigan welsh corgi cardigan corgi cardigan welsh corgi cardigan corgi cardigan cardigan welsh cardigan welsh sheepdog ci corgi cardigan welsh cattle dog"
+    },
+    {
+      "id": "fc2bf60e-007b-4fbf-bc3a-69c937bf9d04",
+      "name": "WELSH_CORGI_PEMBROKE",
+      "displayName": "Corgi",
+      "altNames": [
+        "Pembroke Welsh Corgi",
+        "Welsh Corgi Pembroke",
+        "PWC",
+        "Pembroke",
+        "Welsh Corgi",
+        "Cardigan Corgi"
+      ],
+      "searchText": "corgi pembroke welsh corgi welsh corgi pembroke pwc pembroke welsh corgi cardigan corgi"
+    },
+    {
+      "id": "abbcb10a-b32c-49eb-bcba-32bafd19882b",
+      "name": "WELSH_SPRINGER_SPANIEL",
+      "displayName": "Welsh Springer",
+      "altNames": [
+        "Welsh Springer Spaniel",
+        "Welsh",
+        "Old Welsh",
+        "Welsh Red and White",
+        "Cymru",
+        "Welsh Red",
+        "Springer Spaniel Welsh"
+      ],
+      "searchText": "welsh springer welsh springer spaniel welsh old welsh welsh red and white cymru welsh red springer spaniel welsh"
+    },
+    {
+      "id": "b9e83966-e744-41f9-951b-1579582ccb09",
+      "name": "WELSH_TERRIER",
+      "displayName": "Welsh Terrier",
+      "altNames": [
+        "Welshie",
+        "Welsh",
+        "Black and Tan Terrier",
+        "Old English Black and Tan Terrier",
+        "Welsh Terrier Dog",
+        "Terrier (Welsh)",
+        "Welsh Terrier Puppy"
+      ],
+      "searchText": "welsh terrier welshie welsh black and tan terrier old english black and tan terrier welsh terrier dog terrier (welsh) welsh terrier puppy"
+    },
+    {
+      "id": "7cc435b9-ba39-4181-91a6-c5461b02a137",
+      "name": "WEST_HIGHLAND_WHITE_TERRIER",
+      "displayName": "Westie",
+      "altNames": [
+        "West Highland White Terrier",
+        "West Highland",
+        "West Highland Terrier",
+        "Westie Terrier",
+        "White Westie",
+        "Scottish Terrier",
+        "Scotty Terrier",
+        "Terrier Blanco"
+      ],
+      "searchText": "westie west highland white terrier west highland west highland terrier westie terrier white westie scottish terrier scotty terrier terrier blanco"
+    },
+    {
+      "id": "c8e19294-f151-4a63-bb6e-f599d1e7be92",
+      "name": "WESTFALISCHE_DACHSBRACKE",
+      "displayName": "Westphalian Dachsbracke",
+      "altNames": [
+        "Westphalian Hound",
+        "German Dachsbracke",
+        "Dachsbracke",
+        "Westfalian Dachshund Hound",
+        "Westphalian Badger Hound",
+        "Westphalian Scent Hound",
+        "Westfalian Scent Hound",
+        "Westphalian Tracking Hound"
+      ],
+      "searchText": "westphalian dachsbracke westphalian hound german dachsbracke dachsbracke westfalian dachshund hound westphalian badger hound westphalian scent hound westfalian scent hound westphalian tracking hound"
+    },
+    {
+      "id": "0f11e206-3c73-4973-a5ad-8bc0506cc9ac",
+      "name": "WETTERHOUN",
+      "displayName": "Wetterhoun",
+      "altNames": [
+        "Dutch Water Dog",
+        "Frisian Water Dog",
+        "Stabyhoun"
+      ],
+      "searchText": "wetterhoun dutch water dog frisian water dog stabyhoun"
+    },
+    {
+      "id": "27462b5f-d4dd-455f-a101-6d41f8a106c8",
+      "name": "WHIPPET",
+      "displayName": "Whippet",
+      "altNames": [
+        "Whippet Dog",
+        "Snap Dog",
+        "Whippet Hound",
+        "English Whippet",
+        "Whippet Racing Dog",
+        "Whippet Greyhound",
+        "Whippet Lurcher",
+        "Whippet Dog Breed",
+        "Whippet Puppy"
+      ],
+      "searchText": "whippet whippet dog snap dog whippet hound english whippet whippet racing dog whippet greyhound whippet lurcher whippet dog breed whippet puppy"
+    },
+    {
+      "id": "65a8762b-e667-403b-964a-0e3c2e1902fa",
+      "name": "XOLOITZCUINTLE",
+      "displayName": "Xolo",
+      "altNames": [
+        "Xoloitzcuintli",
+        "Mexican Hairless Dog",
+        "Mexican Dog",
+        "Itzcuintli",
+        "Xoloitzcuintle",
+        "Mexican Hairless",
+        "Xoloitzcuintli Dog",
+        "Perro sin pelo Mexicano",
+        "Xoloitzcuintli Mexican Hairless Dog"
+      ],
+      "searchText": "xolo xoloitzcuintli mexican hairless dog mexican dog itzcuintli xoloitzcuintle mexican hairless xoloitzcuintli dog perro sin pelo mexicano xoloitzcuintli mexican hairless dog"
+    },
+    {
+      "id": "337cb310-7fc6-4f91-b25f-a2da22c269f7",
+      "name": "YORKSHIRE_TERRIER",
+      "displayName": "Yorkie",
+      "altNames": [
+        "Yorkshire Terrier",
+        "Yorky",
+        "Yorkie Terrier",
+        "Silky Terrier",
+        "Toy Terrier",
+        "Broken-Haired Scotch Terrier",
+        "Scotch Terrier",
+        "Yorkshire Terrier Dog"
+      ],
+      "searchText": "yorkie yorkshire terrier yorky yorkie terrier silky terrier toy terrier broken-haired scotch terrier scotch terrier yorkshire terrier dog"
+    },
+    {
+      "id": "f5524d11-f261-4dd4-bef6-eac228eddfd0",
+      "name": "YUZHNORUSSKAYA_OVCHARKA",
+      "displayName": "South Russian Ovcharka",
+      "altNames": [
+        "South Russian Shepherd",
+        "Yuzhak",
+        "Russian Sheepdog",
+        "Caucasian Shepherd Dog (incorrect but sometimes used)",
+        "South Russian Sheepdog",
+        "Yuzhnorusskaya Ovcharka",
+        "Yuzhnorusskaya Ovtcharka",
+        "South Russian Shepherd Dog"
+      ],
+      "searchText": "south russian ovcharka south russian shepherd yuzhak russian sheepdog caucasian shepherd dog (incorrect but sometimes used) south russian sheepdog yuzhnorusskaya ovcharka yuzhnorusskaya ovtcharka south russian shepherd dog"
+    },
+    {
+      "id": "a5cc4937-9db1-43eb-88a9-32b97cf04938",
+      "name": "ZAPADNO_SIBIRSKAIA_LAIKA",
+      "displayName": "West Siberian Laika",
+      "altNames": [
+        "West Siberian Laika Dog",
+        "Zapadno-Sibirskaya Laika",
+        "WSL",
+        "Siberian Laika",
+        "West Siberian",
+        "Laika",
+        "Siberian Husky Laika"
+      ],
+      "searchText": "west siberian laika west siberian laika dog zapadno-sibirskaya laika wsl siberian laika west siberian laika siberian husky laika"
+    },
+    {
+      "id": "c7e83678-5940-4419-a41a-03cf5bef5dfe",
+      "name": "ZWERGPINSCHER",
+      "displayName": "Miniature Pinscher",
+      "altNames": [
+        "Zwergpinscher",
+        "Min Pin",
+        "Zwerg",
+        "Miniature Pinscher Dog",
+        "German Pinscher Miniature",
+        "Zwerg Pinscher",
+        "Toy Pinscher"
+      ],
+      "searchText": "miniature pinscher zwergpinscher min pin zwerg miniature pinscher dog german pinscher miniature zwerg pinscher toy pinscher"
+    },
+    {
+      "id": "dbcc75ba-39b3-4648-9d0f-560117071764",
+      "name": "ZWERGSCHNAUZER",
+      "displayName": "Miniature Schnauzer",
+      "altNames": [
+        "Zwerg",
+        "Zwergschnauzer",
+        "Mini Schnauzer",
+        "Dwarf Schnauzer",
+        "Schnauzer Miniature",
+        "Schnauzer Zwerg",
+        "Standard Schnauzer Dwarf",
+        "Miniature Schnauzer Dog"
+      ],
+      "searchText": "miniature schnauzer zwerg zwergschnauzer mini schnauzer dwarf schnauzer schnauzer miniature schnauzer zwerg standard schnauzer dwarf miniature schnauzer dog"
+    }
+  ]
+}

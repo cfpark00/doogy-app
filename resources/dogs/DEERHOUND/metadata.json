@@ -1,0 +1,24 @@
+{
+  "breed_id": "DEERHOUND",
+  "breed_name": "DEERHOUND (164)",
+  "breed_number": 164,
+  "group": "group10",
+  "group_number": 10,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/164g10-en.pdf",
+  "pdf_local_path": "data/pdfs/group10/DEERHOUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/DEERHOUND-164.html",
+  "fci_standard": "164g10",
+  "breed_name_clean": "DEERHOUND",
+  "pdf_language": "English",
+  "common_display_name": "Deerhound",
+  "alt_names": [
+    "Scottish Deerhound",
+    "Scot",
+    "Deerhound Scot",
+    "Scottish Hound",
+    "Great Scottish Deerhound",
+    "Deer Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:24:19"
+}

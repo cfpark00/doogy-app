@@ -1,0 +1,25 @@
+{
+  "breed_id": "AUSTRALIAN_SILKY_TERRIER",
+  "breed_name": "AUSTRALIAN SILKY TERRIER (236)",
+  "breed_number": 236,
+  "group": "group3",
+  "group_number": 3,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/236g03-en.pdf",
+  "pdf_local_path": "data/pdfs/group3/AUSTRALIAN_SILKY_TERRIER.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/AUSTRALIAN-SILKY-TERRIER-236.html",
+  "fci_standard": "236g03",
+  "breed_name_clean": "AUSTRALIAN SILKY TERRIER",
+  "pdf_language": "English",
+  "common_display_name": "Silky Terrier",
+  "alt_names": [
+    "Australian Silky Terrier",
+    "Silky",
+    "Sydney Silky",
+    "Silky Toy Terrier",
+    "Australian Toy Terrier",
+    "Silky Terrier Dog",
+    "Silky Pup"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:16:58"
+}

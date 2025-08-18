@@ -1,0 +1,24 @@
+{
+  "breed_id": "HANNOVERSCHER_SCHWEISSHUND",
+  "breed_name": "HANNOVERSCHER SCHWEISSHUND (213) (HANOVERIAN SCENT HOUND)",
+  "breed_number": 213,
+  "group": "group6",
+  "group_number": 6,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/213g06-en.pdf",
+  "pdf_local_path": "data/pdfs/group6/HANNOVERSCHER_SCHWEISSHUND.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/HANOVERIAN-SCENT-HOUND-213.html",
+  "fci_standard": "213g06",
+  "breed_name_alternative": "HANOVERIAN SCENT HOUND",
+  "pdf_language": "English",
+  "common_display_name": "Hannoverian Scenthound",
+  "alt_names": [
+    "Hannoveraner",
+    "Hannover",
+    "Hanoverian",
+    "Hannoverian Tracking Dog",
+    "Hannover Hounds",
+    "Hannover Schweisshund"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:30:05"
+}

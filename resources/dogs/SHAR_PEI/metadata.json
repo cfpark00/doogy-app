@@ -1,0 +1,24 @@
+{
+  "breed_id": "SHAR_PEI",
+  "breed_name": "SHAR PEI (309)",
+  "breed_number": 309,
+  "group": "group2",
+  "group_number": 2,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/309g02-en.pdf",
+  "pdf_local_path": "data/pdfs/group2/SHAR_PEI.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/SHAR-PEI-309.html",
+  "fci_standard": "309g02",
+  "breed_name_clean": "SHAR PEI",
+  "pdf_language": "English",
+  "common_display_name": "Shar Pei",
+  "alt_names": [
+    "Chinese Shar-Pei",
+    "Sharpei",
+    "Shar Pei Dog",
+    "Wrinkle Dog",
+    "Chinese Fighting Dog",
+    "Sand Dog"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:39:49"
+}

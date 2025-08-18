@@ -1,9 +1,10 @@
-import React, {useRef, useEffect} from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 import {NavigationContainer, NavigationContainerRef} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {HomeScreen} from './src/screens/HomeScreen';
 import {LoginScreen} from './src/screens/LoginScreen';
 import {OnboardingScreen} from './src/screens/OnboardingScreen';
+import {SplashScreen} from './src/screens/SplashScreen';
 import {AuthProvider, useAuth} from './src/contexts/AuthContext';
 import {View, ActivityIndicator} from 'react-native';
 import {theme} from './src/theme';
@@ -11,6 +12,7 @@ import Toast from 'react-native-toast-message';
 import {toastConfig} from './src/config/toastConfig';
 
 export type RootStackParamList = {
+  Splash: undefined;
   Login: undefined;
   Onboarding: undefined;
   MainPage: undefined;
@@ -19,43 +21,88 @@ export type RootStackParamList = {
 const Stack = createStackNavigator<RootStackParamList>();
 
 function AppNavigator() {
-  const {session, loading, isOnboarded} = useAuth();
+  const {session, loading, isOnboarded, onboardingLoading} = useAuth();
   const navigationRef = useRef<NavigationContainerRef<RootStackParamList>>(null);
-  const hasNavigatedToLogin = useRef(false);
+  const [showSplash, setShowSplash] = useState(true);
+  const [initialRoute, setInitialRoute] = useState<keyof RootStackParamList>('Splash');
+  const [isNavigationReady, setIsNavigationReady] = useState(false);
 
+  // Handle initial app load - splash screen only
   useEffect(() => {
-    if (!loading && navigationRef.current && navigationRef.current.isReady()) {
-      if (!session) {
-        // User not logged in - show login screen
-        if (!hasNavigatedToLogin.current) {
+    if (!loading) {
+      // Hide splash once we know the auth state
+      setShowSplash(false);
+    }
+  }, [loading]);
+
+  // Handle navigation after splash is hidden - BUT ONLY when we're certain about onboarding status
+  useEffect(() => {
+    if (!showSplash && isNavigationReady && navigationRef.current && navigationRef.current.isReady()) {
+      const currentRoute = navigationRef.current.getCurrentRoute()?.name;
+      
+      if (!session && currentRoute !== 'Login') {
+        // User not logged in - show login immediately
+        navigationRef.current.reset({
+          index: 0,
+          routes: [{ name: 'Login' }],
+        });
+      } else if (session && currentRoute === 'Login') {
+        // User just logged in - STAY ON LOGIN until we know onboarding status
+        // Don't navigate anywhere yet
+        return;
+      } else if (session && currentRoute !== 'Onboarding' && currentRoute !== 'MainPage') {
+        // User is logged in and we're on some other screen - determine where to go
+        if (isOnboarded) {
           navigationRef.current.reset({
-            index: 1,
-            routes: [
-              { name: 'MainPage' },
-              { name: 'Login' }
-            ],
+            index: 0,
+            routes: [{ name: 'MainPage' }],
           });
-          hasNavigatedToLogin.current = true;
         } else {
-          navigationRef.current.navigate('Login');
-        }
-      } else if (!isOnboarded) {
-        // User logged in but not onboarded - show onboarding
-        navigationRef.current.navigate('Onboarding');
-        hasNavigatedToLogin.current = false;
-      } else {
-        // User logged in and onboarded - go to main page
-        hasNavigatedToLogin.current = false;
-        if (navigationRef.current.canGoBack()) {
-          navigationRef.current.goBack();
-        } else {
-          navigationRef.current.navigate('MainPage');
+          navigationRef.current.reset({
+            index: 0,
+            routes: [{ name: 'Onboarding' }],
+          });
         }
       }
     }
-  }, [session, loading, isOnboarded]);
+  }, [session, isOnboarded, showSplash, isNavigationReady]);
 
-  if (loading) {
+  // Separate effect ONLY for navigating after login when onboarding status is known
+  useEffect(() => {
+    if (session && !showSplash && isNavigationReady && navigationRef.current && !onboardingLoading) {
+      const currentRoute = navigationRef.current.getCurrentRoute()?.name;
+      
+      console.log('Navigation effect - current route:', currentRoute, 'isOnboarded:', isOnboarded, 'onboardingLoading:', onboardingLoading);
+      
+      if (currentRoute === 'Login') {
+        // We're on login screen but user is logged in - navigate based on onboarding
+        // BUT ONLY if we're not still loading the onboarding status
+        console.log('Navigating from login - isOnboarded:', isOnboarded);
+        if (isOnboarded) {
+          console.log('Going to MainPage');
+          navigationRef.current.reset({
+            index: 0,
+            routes: [{ name: 'MainPage' }],
+          });
+        } else {
+          console.log('Going to Onboarding');
+          navigationRef.current.reset({
+            index: 0,
+            routes: [{ name: 'Onboarding' }],
+          });
+        }
+      } else if (currentRoute === 'Onboarding' && isOnboarded) {
+        // We're on onboarding but user is actually onboarded - go to main page
+        console.log('User is onboarded, switching from Onboarding to MainPage');
+        navigationRef.current.reset({
+          index: 0,
+          routes: [{ name: 'MainPage' }],
+        });
+      }
+    }
+  }, [session, isOnboarded, onboardingLoading, showSplash, isNavigationReady]);
+
+  if (loading && !showSplash) {
     return (
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: theme.colors.primary}}>
         <ActivityIndicator size="large" color={theme.colors.white} />
@@ -64,13 +111,39 @@ function AppNavigator() {
   }
 
   return (
-    <NavigationContainer ref={navigationRef}>
+    <NavigationContainer 
+      ref={navigationRef}
+      onReady={() => setIsNavigationReady(true)}
+    >
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
           gestureEnabled: false,
+          cardStyleInterpolator: ({current}: any) => ({
+            cardStyle: {
+              opacity: current.progress,
+            },
+          }),
+          transitionSpec: {
+            open: {
+              animation: 'timing',
+              config: {
+                duration: 200,
+              },
+            },
+            close: {
+              animation: 'timing',
+              config: {
+                duration: 200,
+              },
+            },
+          },
         }}
-        initialRouteName="MainPage">
+        initialRouteName="Splash">
+        <Stack.Screen 
+          name="Splash" 
+          component={SplashScreen}
+        />
         <Stack.Screen 
           name="MainPage" 
           component={HomeScreen}
@@ -78,72 +151,10 @@ function AppNavigator() {
         <Stack.Screen 
           name="Login" 
           component={LoginScreen}
-          options={{
-            presentation: 'modal',
-            cardStyleInterpolator: ({current, layouts}: any) => {
-              return {
-                cardStyle: {
-                  transform: [
-                    {
-                      translateY: current.progress.interpolate({
-                        inputRange: [0, 1],
-                        outputRange: [-layouts.screen.height, 0],
-                      }),
-                    },
-                  ],
-                },
-              };
-            },
-            transitionSpec: {
-              open: {
-                animation: 'timing',
-                config: {
-                  duration: 500,
-                },
-              },
-              close: {
-                animation: 'timing',
-                config: {
-                  duration: 500,
-                },
-              },
-            },
-          }}
         />
         <Stack.Screen 
           name="Onboarding" 
           component={OnboardingScreen}
-          options={{
-            presentation: 'modal',
-            cardStyleInterpolator: ({current, layouts}: any) => {
-              return {
-                cardStyle: {
-                  transform: [
-                    {
-                      translateX: current.progress.interpolate({
-                        inputRange: [0, 1],
-                        outputRange: [layouts.screen.width, 0],
-                      }),
-                    },
-                  ],
-                },
-              };
-            },
-            transitionSpec: {
-              open: {
-                animation: 'timing',
-                config: {
-                  duration: 400,
-                },
-              },
-              close: {
-                animation: 'timing',
-                config: {
-                  duration: 400,
-                },
-              },
-            },
-          }}
         />
       </Stack.Navigator>
     </NavigationContainer>

@@ -1,0 +1,24 @@
+{
+  "breed_id": "PERDIGUEIRO_PORTUGUES",
+  "breed_name": "PERDIGUEIRO PORTUGUÊS (187) (PORTUGUESE POINTING DOG)",
+  "breed_number": 187,
+  "group": "group7",
+  "group_number": 7,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/187g07-en.pdf",
+  "pdf_local_path": "data/pdfs/group7/PERDIGUEIRO_PORTUGUES.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DOG-187.html",
+  "fci_standard": "187g07",
+  "breed_name_alternative": "PORTUGUESE POINTING DOG",
+  "pdf_language": "English",
+  "common_display_name": "Portuguese Pointer",
+  "alt_names": [
+    "Perdigueiro Português",
+    "Portuguese Setting Dog",
+    "Portuguese Bird Dog",
+    "Perdigueiro",
+    "Portuguese Podengo",
+    "Portuguese Hound"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:35:51"
+}

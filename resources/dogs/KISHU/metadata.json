@@ -1,0 +1,25 @@
+{
+  "breed_id": "KISHU",
+  "breed_name": "KISHU (318)",
+  "breed_number": 318,
+  "group": "group5",
+  "group_number": 5,
+  "pdf_url": "https://www.fci.be/Nomenclature/Standards/318g05-en.pdf",
+  "pdf_local_path": "data/pdfs/group5/KISHU.pdf",
+  "breed_page_url": "https://www.fci.be/en/nomenclature/KISHU-318.html",
+  "fci_standard": "318g05",
+  "breed_name_clean": "KISHU",
+  "pdf_language": "English",
+  "common_display_name": "Kishu",
+  "alt_names": [
+    "Kishu Ken",
+    "Kishu Inu",
+    "Kishu Dog",
+    "Kishuken",
+    "Kishu Ken Inu",
+    "Nihon Ken",
+    "Japanese Kishu"
+  ],
+  "alt_names_generated_by": "gemini-2.5-flash-lite",
+  "alt_names_generated_at": "2025-08-17 23:32:24"
+}
